@@ -139,14 +139,14 @@ export function CommentsSection({
               text: customSubtitle || title,
               author: {
                 "@type": "Organization",
-                name: "Megadeth Fan Site",
-                url: "https://megadeth.com.ar",
+                name: "Ghost Fan Site",
+                url: "https://ghostband.com.ar",
               },
               datePublished:
                 items.length > 0
                   ? items[items.length - 1].created_at
                   : new Date().toISOString(),
-              image: "https://megadeth.com.ar/images/band.webp",
+              image: "https://ghostband.com.ar/images/band.webp",
               commentCount: items.length,
               comment: items.map((c) => ({
                 "@type": "Comment",
@@ -154,7 +154,7 @@ export function CommentsSection({
                 author: {
                   "@type": "Person",
                   name: c.name,
-                  url: "https://megadeth.com.ar",
+                  url: "https://ghostband.com.ar",
                 },
                 dateCreated: c.created_at,
               })),

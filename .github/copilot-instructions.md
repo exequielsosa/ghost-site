@@ -1,4 +1,4 @@
-# Megadeth Fan Site - AI Development Guide
+# Ghost Fan Site - AI Development Guide
 
 ## Architecture Overview
 

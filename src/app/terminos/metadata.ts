@@ -4,8 +4,8 @@ import { getLocale } from "next-intl/server";
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
   const title = locale === "es"
-    ? "Términos y condiciones | Megadeth Fan Site"
-    : "Terms and Conditions | Megadeth Fan Site";
+    ? "Términos y condiciones | Ghost Fan Site"
+    : "Terms and Conditions | Ghost Fan Site";
   const description = locale === "es"
     ? "Lee los términos y condiciones de uso del sitio de fans de Megadeth. Información legal y derechos."
     : "Read the terms and conditions for using the Megadeth fan site. Legal information and rights.";
@@ -19,7 +19,7 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       title,
       description,
-      siteName: "Megadeth Fan Site",
+      siteName: "Ghost Fan Site",
       type: "website",
       locale: locale === "es" ? "es_AR" : "en_US",
       images: [

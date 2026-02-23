@@ -3,6 +3,6 @@ import { MetadataRoute } from 'next';
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [{ userAgent: '*', allow: '/' }],
-    sitemap: 'https://megadeth.com.ar/sitemap.xml',
+    sitemap: 'https://ghostband.com.ar/sitemap.xml',
   };
 }

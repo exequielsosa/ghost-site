@@ -132,7 +132,7 @@ export async function generateMetadata(): Promise<Metadata> {
       "James Hetfield",
       "Dave Mustaine Metallica",
       "Ride The Lightning news",
-      "Megadeth Argentina tour",
+      "Ghost Argentina tour",
       "Megadeth in Argentina 2026",
       "Megadeth Lima",
       "Megadeth Bogotá",
@@ -175,7 +175,7 @@ export async function generateMetadata(): Promise<Metadata> {
       keywordsByLocale[locale as keyof typeof keywordsByLocale] ||
       keywordsByLocale.es,
     authors: [{ name: "Exequiel Sosa" }],
-    metadataBase: new URL("https://megadeth.com.ar"),
+    metadataBase: new URL("https://ghostband.com.ar"),
     openGraph: {
       title:
         titleByLocale[locale as keyof typeof titleByLocale] || titleByLocale.es,
@@ -192,7 +192,7 @@ export async function generateMetadata(): Promise<Metadata> {
           url: "/images/meg-argentina.jpg",
           width: 1200,
           height: 630,
-          alt: "Megadeth Argentina",
+          alt: "Ghost Argentina",
         },
       ],
     },
@@ -218,7 +218,7 @@ export default async function RootLayout({
     <html lang={locale} className={poppins.variable} suppressHydrationWarning>
       <head>
         <link rel="icon" type="image/webp" href="/icon.webp" />
-        <link rel="alternate" type="application/rss+xml" title="Megadeth Fan Site — Noticias" href="/feed.xml" />
+        <link rel="alternate" type="application/rss+xml" title="Ghost Fan Site — Noticias" href="/feed.xml" />
         {/* Schema.org MusicGroup */}
         <script
           type="application/ld+json"
@@ -226,7 +226,7 @@ export default async function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "MusicGroup",
-              name: "Megadeth",
+              name: "Ghost",
               genre: ["Heavy Metal", "Thrash Metal", "Speed Metal"],
               foundingDate: "1983",
               foundingLocation: {
@@ -260,7 +260,7 @@ export default async function RootLayout({
                   roleName: "Lead Guitar",
                 },
               ],
-              url: "https://megadeth.com.ar",
+              url: "https://ghostband.com.ar",
               sameAs: [
                 "https://www.facebook.com/Megadeth",
                 "https://twitter.com/Megadeth",

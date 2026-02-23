@@ -11,10 +11,10 @@
       "has": [
         {
           "type": "host",
-          "value": "www.megadeth.com.ar"
+          "value": "www.ghostband.com.ar"
         }
       ],
-      "destination": "https://megadeth.com.ar/songs",
+      "destination": "https://ghostband.com.ar/songs",
       "permanent": true
     },
     {
@@ -22,10 +22,10 @@
       "has": [
         {
           "type": "host",
-          "value": "www.megadeth.com.ar"
+          "value": "www.ghostband.com.ar"
         }
       ],
-      "destination": "https://megadeth.com.ar/songs/$1",
+      "destination": "https://ghostband.com.ar/songs/$1",
       "permanent": true
     },
     {
@@ -33,10 +33,10 @@
       "has": [
         {
           "type": "host",
-          "value": "www.megadeth.com.ar"
+          "value": "www.ghostband.com.ar"
         }
       ],
-      "destination": "https://megadeth.com.ar/$1",
+      "destination": "https://ghostband.com.ar/$1",
       "permanent": true
     }
   ]

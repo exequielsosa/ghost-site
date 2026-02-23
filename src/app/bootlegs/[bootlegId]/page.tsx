@@ -68,7 +68,7 @@ export async function generateMetadata({
       title: fullTitle,
       description,
       url: `/bootlegs/${bootlegId}`,
-      siteName: "Megadeth Fan Site",
+      siteName: "Ghost Fan Site",
       locale: locale === "es" ? "es_ES" : "en_US",
       type: "article",
       publishedTime: bootleg.date,

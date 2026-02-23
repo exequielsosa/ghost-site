@@ -68,12 +68,12 @@ export default function SongDetailPage({ songId }: SongDetailPageProps) {
       name: song.title,
       byArtist: {
         "@type": "MusicGroup",
-        name: "Megadeth",
+        name: "Ghost",
       },
       inAlbum: {
         "@type": "MusicAlbum",
         name: song.album.title,
-        image: `https://megadeth.com.ar${song.album.cover}`,
+        image: `https://ghostband.com.ar${song.album.cover}`,
       },
       ...(song.details?.duration && { duration: song.details.duration }),
       ...(song.album?.year && { datePublished: `${song.album.year}-01-01` }),

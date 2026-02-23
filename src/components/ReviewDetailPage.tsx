@@ -58,9 +58,9 @@ export default function ReviewDetailPage({
       name: review.title[localeKey],
       byArtist: {
         "@type": "MusicGroup",
-        name: "Megadeth",
+        name: "Ghost",
       },
-      image: `https://megadeth.com.ar${review.imageUrl}`,
+      image: `https://ghostband.com.ar${review.imageUrl}`,
     },
     reviewRating: {
       "@type": "Rating",
@@ -70,30 +70,30 @@ export default function ReviewDetailPage({
     },
     author: {
       "@type": "Organization",
-      name: review.author?.[localeKey] || "Megadeth Argentina",
-      url: "https://megadeth.com.ar",
+      name: review.author?.[localeKey] || "Ghost Argentina",
+      url: "https://ghostband.com.ar",
     },
     publisher: {
       "@type": "Organization",
-      name: "Megadeth Argentina",
-      url: "https://megadeth.com.ar",
+      name: "Ghost Argentina",
+      url: "https://ghostband.com.ar",
       logo: {
         "@type": "ImageObject",
-        url: "https://megadeth.com.ar/logo-megadeth.png",
+        url: "https://ghostband.com.ar/logo-megadeth.png",
       },
     },
     datePublished: review.publishedDate,
     dateModified: review.publishedDate,
     reviewBody: review.content[localeKey],
     inLanguage: locale,
-    url: `https://megadeth.com.ar/discography/reviews/${review.id}`,
+    url: `https://ghostband.com.ar/discography/reviews/${review.id}`,
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://megadeth.com.ar/discography/reviews/${review.id}`,
+      "@id": `https://ghostband.com.ar/discography/reviews/${review.id}`,
     },
     about: {
       "@type": "MusicGroup",
-      name: "Megadeth",
+      name: "Ghost",
     },
   };
 

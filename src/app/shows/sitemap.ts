@@ -6,7 +6,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const shows = showsData as Show[];
 
   const showEntries = shows.map((show) => ({
-    url: `https://megadeth.com.ar/shows/${generateShowSlug(show)}`,
+    url: `https://ghostband.com.ar/shows/${generateShowSlug(show)}`,
     lastModified: new Date(),
     changeFrequency: "monthly" as const,
     priority: 0.7,
@@ -14,7 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     {
-      url: "https://megadeth.com.ar/shows",
+      url: "https://ghostband.com.ar/shows",
       lastModified: new Date(),
       changeFrequency: "weekly" as const,
       priority: 0.8,

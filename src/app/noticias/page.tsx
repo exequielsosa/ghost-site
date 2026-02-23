@@ -88,14 +88,14 @@ export default function NoticiasPage() {
     "@type": "CollectionPage",
     name: t("title"),
     description: t("description"),
-    url: `https://megadeth.com.ar/${locale}/noticias`,
+    url: `https://ghostband.com.ar/${locale}/noticias`,
     inLanguage: locale,
     publisher: {
       "@type": "Organization",
-      name: "Megadeth Argentina",
+      name: "Ghost Argentina",
       logo: {
         "@type": "ImageObject",
-        url: "https://megadeth.com.ar/logo-megadeth.png",
+        url: "https://ghostband.com.ar/logo-megadeth.png",
       },
     },
     mainEntity: {
@@ -118,18 +118,18 @@ export default function NoticiasPage() {
               : "Description unavailable",
           ).substring(0, 200),
           datePublished: new Date(article.publishedDate).toISOString(),
-          url: `https://megadeth.com.ar/noticias/${article.id}`,
+          url: `https://ghostband.com.ar/noticias/${article.id}`,
           image: article.imageUrl
             ? article.imageUrl.startsWith("http")
               ? article.imageUrl
-              : `https://megadeth.com.ar${article.imageUrl}`
+              : `https://ghostband.com.ar${article.imageUrl}`
             : article.youtubeVideoId
               ? `https://img.youtube.com/vi/${article.youtubeVideoId}/hqdefault.jpg`
-              : "https://megadeth.com.ar/images/band.webp",
+              : "https://ghostband.com.ar/images/band.webp",
           author: {
             "@type": "Organization",
-            name: "Megadeth Argentina",
-            url: "https://megadeth.com.ar",
+            name: "Ghost Argentina",
+            url: "https://ghostband.com.ar",
           },
         },
       })),

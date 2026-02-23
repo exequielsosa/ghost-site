@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: "Entrevistas | Megadeth",
     description: "Colección completa de entrevistas a los miembros de Megadeth a lo largo de su historia.",
     url: "/entrevistas",
-    siteName: "Megadeth Fan Site",
+    siteName: "Ghost Fan Site",
     type: "website",
     images: [
       {

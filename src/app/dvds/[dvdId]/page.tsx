@@ -54,7 +54,7 @@ export async function generateMetadata({
 
   if (!dvd) {
     return {
-      title: "DVD no encontrado | Megadeth Fan Site",
+      title: "DVD no encontrado | Ghost Fan Site",
     };
   }
 
@@ -107,9 +107,9 @@ export async function generateMetadata({
     keywords:
       keywordsByLocale[locale as keyof typeof keywordsByLocale] ||
       keywordsByLocale.es,
-    authors: [{ name: "Megadeth Fan Site" }],
-    creator: "Megadeth Fan Site",
-    publisher: "Megadeth Fan Site",
+    authors: [{ name: "Ghost Fan Site" }],
+    creator: "Ghost Fan Site",
+    publisher: "Ghost Fan Site",
     category: "entertainment",
     classification: "Thrash Metal DVD",
     alternates: {
@@ -135,7 +135,7 @@ export async function generateMetadata({
         titleByLocale[locale as keyof typeof titleByLocale] || titleByLocale.es,
       description,
       url: `/dvds/${dvdId}`,
-      siteName: "Megadeth Fan Site",
+      siteName: "Ghost Fan Site",
       locale: locale === "es" ? "es_ES" : "en_US",
       type: "article",
       images: [
@@ -193,7 +193,7 @@ export default async function DVDPage({ params }: DVDPageProps) {
     },
     creator: {
       "@type": "MusicGroup",
-      name: "Megadeth",
+      name: "Ghost",
       member: {
         "@type": "Person",
         name: "Dave Mustaine",
@@ -202,9 +202,9 @@ export default async function DVDPage({ params }: DVDPageProps) {
     genre: ["Thrash Metal", "Heavy Metal"],
     inLanguage: locale === "es" ? "es-ES" : "en-US",
     image: dvd.cover_image
-      ? `https://megadeth.com.ar${dvd.cover_image}`
-      : `https://megadeth.com.ar/images/dvds/${generateDVDSlug(dvdTitle)}.jpg`,
-    url: `https://megadeth.com.ar/dvds/${generateDVDSlug(dvdTitle)}`,
+      ? `https://ghostband.com.ar${dvd.cover_image}`
+      : `https://ghostband.com.ar/images/dvds/${generateDVDSlug(dvdTitle)}.jpg`,
+    url: `https://ghostband.com.ar/dvds/${generateDVDSlug(dvdTitle)}`,
     ...(dvd.tracks &&
       dvd.tracks.length > 0 && {
         hasPart: dvd.tracks.map((track) => ({

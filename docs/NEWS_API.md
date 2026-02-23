@@ -20,7 +20,7 @@ La API Key se configura en la variable de entorno `NEWS_API_KEY`.
 
 Crea una nueva noticia en la base de datos.
 
-**URL:** `https://megadeth.com.ar/api/news/create` (producción)  
+**URL:** `https://ghostband.com.ar/api/news/create` (producción)  
 **URL:** `http://localhost:3000/api/news/create` (desarrollo)
 
 **Headers:**
@@ -240,7 +240,7 @@ npm run migrate:news
 
 2. La API estará disponible en:
    ```
-   https://megadeth.com.ar/api/news/create
+   https://ghostband.com.ar/api/news/create
    ```
 
 3. Para mayor seguridad, considera:

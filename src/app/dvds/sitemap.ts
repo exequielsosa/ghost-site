@@ -10,7 +10,7 @@ interface DVDDataItem {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://megadeth.com.ar'
+  const baseUrl = 'https://ghostband.com.ar'
   
   // Página principal de DVDs
   const dvdsPage = {

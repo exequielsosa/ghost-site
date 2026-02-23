@@ -20,8 +20,8 @@ export default function FeaturedReviewBanner() {
     "@type": "PromotionCard",
     name: bannerData.title[locale],
     description: bannerData.subtitle[locale],
-    url: `https://megadeth.com.ar${bannerData.link}`,
-    image: `https://megadeth.com.ar${bannerData.imageUrl}`,
+    url: `https://ghostband.com.ar${bannerData.link}`,
+    image: `https://ghostband.com.ar${bannerData.imageUrl}`,
     inLanguage: locale,
   };
 

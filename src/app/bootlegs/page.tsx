@@ -33,7 +33,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title,
       description,
       url: "/bootlegs",
-      siteName: "Megadeth Fan Site",
+      siteName: "Ghost Fan Site",
       locale: locale === "es" ? "es_ES" : "en_US",
       type: "website",
       images: [

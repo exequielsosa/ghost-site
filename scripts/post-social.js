@@ -27,7 +27,7 @@ const twitter = new TwitterApi({
   accessSecret: process.env.TWITTER_ACCESS_SECRET,
 });
 
-const SITE_URL = 'https://megadeth.com.ar';
+const SITE_URL = 'https://ghostband.com.ar';
 const FB_PAGE_ID = process.env.FACEBOOK_PAGE_ID;
 const FB_TOKEN = process.env.FACEBOOK_PAGE_ACCESS_TOKEN;
 const IG_USER_ID = process.env.INSTAGRAM_USER_ID;
@@ -46,11 +46,11 @@ function buildFacebookPost(article) {
 
   const descEs = rawEs.length > MAX
     ? `${rawEs.slice(0, MAX)}...\n\nVer nota completa: ${url}`
-    : `${rawEs}\n\nVer más noticias y novedades en https://megadeth.com.ar/noticias`;
+    : `${rawEs}\n\nVer más noticias y novedades en https://ghostband.com.ar/noticias`;
 
   const descEn = rawEn.length > MAX
     ? `${rawEn.slice(0, MAX)}...\n\nRead full article: ${url}`
-    : `${rawEn}\n\nMore news at https://megadeth.com.ar/noticias`;
+    : `${rawEn}\n\nMore news at https://ghostband.com.ar/noticias`;
 
   const message =
     `${article.title_es}\n\n${descEs}\n\n` +
@@ -69,11 +69,11 @@ function buildInstagramCaption(article) {
 
   const descEs = rawEs.length > MAX
     ? `${rawEs.slice(0, MAX)}...\n\nVer nota completa: ${url}`
-    : `${rawEs}\n\nVer más noticias: megadeth.com.ar/noticias`;
+    : `${rawEs}\n\nVer más noticias: ghostband.com.ar/noticias`;
 
   const descEn = rawEn.length > MAX
     ? `${rawEn.slice(0, MAX)}...\n\nRead full article: ${url}`
-    : `${rawEn}\n\nMore news: megadeth.com.ar/noticias`;
+    : `${rawEn}\n\nMore news: ghostband.com.ar/noticias`;
 
   return (
     `${article.title_es}\n\n${descEs}\n\n` +

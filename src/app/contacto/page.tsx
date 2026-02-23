@@ -10,19 +10,19 @@ export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("contact");
 
   const titleByLocale = {
-    es: `${t("title")} | Megadeth Argentina`,
-    en: `${t("title")} | Megadeth Argentina`,
+    es: `${t("title")} | Ghost Argentina`,
+    en: `${t("title")} | Ghost Argentina`,
   };
 
   const descriptionByLocale = {
-    es: "Ponte en contacto con Megadeth Argentina. Envíanos tus comentarios, sugerencias o consultas sobre el sitio web no oficial de fans de Megadeth.",
-    en: "Get in touch with Megadeth Argentina. Send us your comments, suggestions or questions about the unofficial Megadeth fan website.",
+    es: "Ponte en contacto con Ghost Argentina. Envíanos tus comentarios, sugerencias o consultas sobre el sitio web no oficial de fans de Megadeth.",
+    en: "Get in touch with Ghost Argentina. Send us your comments, suggestions or questions about the unofficial Megadeth fan website.",
   };
 
   const keywordsByLocale = {
     es: [
       "Megadeth contacto",
-      "contactar Megadeth Argentina",
+      "contactar Ghost Argentina",
       "email Megadeth",
       "sugerencias Megadeth",
       "comentarios sitio Megadeth",
@@ -30,7 +30,7 @@ export async function generateMetadata(): Promise<Metadata> {
     ],
     en: [
       "Megadeth contact",
-      "contact Megadeth Argentina",
+      "contact Ghost Argentina",
       "Megadeth email",
       "Megadeth suggestions",
       "Megadeth site comments",

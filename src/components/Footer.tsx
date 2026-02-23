@@ -13,20 +13,20 @@ export default function Footer() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Megadeth Fan Site",
+    name: "Ghost Fan Site",
     url: "https://megadeth-fan-site.com",
     description: t("seoDescription"),
     logo: "https://megadeth-fan-site.com/images/logo.png",
     sameAs: [
       "https://www.facebook.com/profile.php?id=939019079302919",
-      "https://www.instagram.com/megadeth_arg_fan/",
+      "https://www.instagram.com/ghost_arg_fan/",
     ],
   };
 
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Megadeth Fan Site",
+    name: "Ghost Fan Site",
     url: "https://megadeth-fan-site.com",
     description: t("seoDescription"),
     inLanguage: locale,
@@ -319,7 +319,7 @@ export default function Footer() {
             </IconButton>
             <IconButton
               component="a"
-              href="https://www.instagram.com/megadeth_arg_fan/"
+              href="https://www.instagram.com/ghost_arg_fan/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label={t("followInstagram")}

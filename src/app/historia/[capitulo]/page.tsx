@@ -134,7 +134,7 @@ export default async function CapituloPage({ params }: PageProps) {
       "/images/historia/megadeth-default-chapter.jpg",
     author: {
       "@type": "Organization",
-      name: "Megadeth",
+      name: "Ghost",
       url: "https://megadeth.com",
     },
     publisher: {
@@ -156,7 +156,7 @@ export default async function CapituloPage({ params }: PageProps) {
     ].join(", "),
     about: {
       "@type": "MusicGroup",
-      name: "Megadeth",
+      name: "Ghost",
       genre: "Thrash Metal",
       foundingDate: "1983",
       description:

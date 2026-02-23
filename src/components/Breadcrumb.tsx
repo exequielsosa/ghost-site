@@ -21,7 +21,7 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
 
   // Generar datos estructurados JSON-LD para SEO
   const generateSchemaMarkup = () => {
-    const baseUrl = "https://megadeth.com.ar";
+    const baseUrl = "https://ghostband.com.ar";
     const localePrefix = locale === "es" ? "" : `/${locale}`;
 
     const itemListElement = [

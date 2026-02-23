@@ -17,7 +17,7 @@ export const noticiasMetadata: Metadata = {
     "gira de despedida",
     "farewell tour",
   ].join(", "),
-  authors: [{ name: "Megadeth Argentina" }],
+  authors: [{ name: "Ghost Argentina" }],
   category: "Music",
   verification: {
     google: "google-site-verification-code", // Reemplazar con tu código real

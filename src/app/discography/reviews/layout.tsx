@@ -12,13 +12,13 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       title: t("pageTitle"),
       description: t("pageDescription"),
-      url: "https://megadeth.com.ar/discography/reviews",
-      siteName: "Megadeth Argentina",
+      url: "https://ghostband.com.ar/discography/reviews",
+      siteName: "Ghost Argentina",
       locale: "es_AR",
       type: "website",
       images: [
         {
-          url: "https://megadeth.com.ar/logo-megadeth.png",
+          url: "https://ghostband.com.ar/logo-megadeth.png",
           width: 1200,
           height: 630,
           alt: "Megadeth Reviews",
@@ -29,13 +29,13 @@ export async function generateMetadata(): Promise<Metadata> {
       card: "summary_large_image",
       title: t("pageTitle"),
       description: t("pageDescription"),
-      images: ["https://megadeth.com.ar/logo-megadeth.png"],
+      images: ["https://ghostband.com.ar/logo-megadeth.png"],
     },
     alternates: {
-      canonical: "https://megadeth.com.ar/discography/reviews",
+      canonical: "https://ghostband.com.ar/discography/reviews",
       languages: {
-        es: "https://megadeth.com.ar/discography/reviews",
-        en: "https://megadeth.com.ar/discography/reviews",
+        es: "https://ghostband.com.ar/discography/reviews",
+        en: "https://ghostband.com.ar/discography/reviews",
       },
     },
     robots: {

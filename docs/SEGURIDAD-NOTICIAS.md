@@ -104,7 +104,7 @@ export async function generateMetadata({ params }: NewsPageProps) {
   }
 
   // PERO no valida que title[locale] exista
-  title: `${article.title[locale]} | Megadeth Argentina`,
+  title: `${article.title[locale]} | Ghost Argentina`,
 ```
 
 **Riesgo:** Si faltan traducciones:

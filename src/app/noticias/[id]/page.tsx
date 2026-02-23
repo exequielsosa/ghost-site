@@ -52,7 +52,7 @@ export async function generateMetadata({ params }: NewsPageProps) {
   const imageAlt = getSafeTranslation(article.imageAlt, locale, title);
 
   return {
-    title: `${title} | Megadeth Argentina`,
+    title: `${title} | Ghost Argentina`,
     description: description,
     other: {
       "fb:app_id": "894918050009208",
@@ -61,14 +61,14 @@ export async function generateMetadata({ params }: NewsPageProps) {
       title: title,
       description: description,
       type: "article",
-      url: `https://megadeth.com.ar/noticias/${resolvedParams.id}`,
+      url: `https://ghostband.com.ar/noticias/${resolvedParams.id}`,
       publishedTime: article.publishedDate,
       images: article.imageUrl
         ? [
             {
               url: article.imageUrl.startsWith("http")
                 ? article.imageUrl
-                : `https://megadeth.com.ar${article.imageUrl}`,
+                : `https://ghostband.com.ar${article.imageUrl}`,
               alt: imageAlt,
             },
           ]
@@ -89,7 +89,7 @@ export async function generateMetadata({ params }: NewsPageProps) {
         ? [
             article.imageUrl.startsWith("http")
               ? article.imageUrl
-              : `https://megadeth.com.ar${article.imageUrl}`,
+              : `https://ghostband.com.ar${article.imageUrl}`,
           ]
         : article.youtubeVideoId
           ? [
@@ -98,7 +98,7 @@ export async function generateMetadata({ params }: NewsPageProps) {
           : [],
     },
     alternates: {
-      canonical: `https://megadeth.com.ar/noticias/${resolvedParams.id}`,
+      canonical: `https://ghostband.com.ar/noticias/${resolvedParams.id}`,
     },
   };
 }
@@ -145,16 +145,16 @@ export default async function NoticiaPage({ params }: NewsPageProps) {
     dateModified: article.publishedDate,
     author: {
       "@type": "Organization",
-      name: "Megadeth Argentina",
-      url: "https://megadeth.com.ar",
+      name: "Ghost Argentina",
+      url: "https://ghostband.com.ar",
     },
     publisher: {
       "@type": "Organization",
-      name: "Megadeth Argentina",
-      url: "https://megadeth.com.ar",
+      name: "Ghost Argentina",
+      url: "https://ghostband.com.ar",
       logo: {
         "@type": "ImageObject",
-        url: "https://megadeth.com.ar/images/meg-argentina.jpg",
+        url: "https://ghostband.com.ar/images/meg-argentina.jpg",
         width: 600,
         height: 60,
       },
@@ -164,7 +164,7 @@ export default async function NoticiaPage({ params }: NewsPageProps) {
           "@type": "ImageObject",
           url: article.imageUrl.startsWith("http")
             ? article.imageUrl
-            : `https://megadeth.com.ar${article.imageUrl}`,
+            : `https://ghostband.com.ar${article.imageUrl}`,
           ...(article.imageAlt && {
             caption: imageAlt,
           }),
@@ -176,19 +176,19 @@ export default async function NoticiaPage({ params }: NewsPageProps) {
           }
         : {
             "@type": "ImageObject",
-            url: "https://megadeth.com.ar/images/meg-argentina.jpg",
+            url: "https://ghostband.com.ar/images/meg-argentina.jpg",
           },
-    url: `https://megadeth.com.ar/noticias/${article.id}`,
+    url: `https://ghostband.com.ar/noticias/${article.id}`,
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://megadeth.com.ar${
+      "@id": `https://ghostband.com.ar${
         locale === "es" ? "" : `/${locale}`
       }/noticias/${article.id}`,
     },
     inLanguage: locale,
     about: {
       "@type": "MusicGroup",
-      name: "Megadeth",
+      name: "Ghost",
     },
   };
 

@@ -49,7 +49,7 @@ export default function MemberDetailPage({ params }: PageProps) {
       <head>
         <link
           rel="canonical"
-          href={`https://megadeth.com.ar/miembros/${memberId}`}
+          href={`https://ghostband.com.ar/miembros/${memberId}`}
         />
       </head>
       <ContainerGradientNoPadding>

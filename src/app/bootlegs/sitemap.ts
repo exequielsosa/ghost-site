@@ -6,7 +6,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const bootlegs = bootlegsData as Bootleg[];
 
   const bootlegEntries = bootlegs.map((bootleg) => ({
-    url: `https://megadeth.com.ar/bootlegs/${generateBootlegSlug(bootleg)}`,
+    url: `https://ghostband.com.ar/bootlegs/${generateBootlegSlug(bootleg)}`,
     lastModified: new Date(),
     changeFrequency: "monthly" as const,
     priority: 0.7,
@@ -14,7 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     {
-      url: "https://megadeth.com.ar/bootlegs",
+      url: "https://ghostband.com.ar/bootlegs",
       lastModified: new Date(),
       changeFrequency: "weekly" as const,
       priority: 0.8,

@@ -123,17 +123,17 @@ export default function ArticleCard({
               image: imageUrl
                 ? imageUrl.startsWith("http")
                   ? imageUrl
-                  : `https://megadeth.com.ar${imageUrl}`
+                  : `https://ghostband.com.ar${imageUrl}`
                 : undefined,
               author: {
                 "@type": "Organization",
-                name: "Megadeth Argentina",
-                url: "https://megadeth.com.ar",
+                name: "Ghost Argentina",
+                url: "https://ghostband.com.ar",
               },
               ...(linkUrl && {
                 url: linkUrl.startsWith("http")
                   ? linkUrl
-                  : `https://megadeth.com.ar${linkUrl}`,
+                  : `https://ghostband.com.ar${linkUrl}`,
               }),
             }),
           }}

@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: `${title} | Megadeth`,
       description,
       url: `/songs/${song.id}`,
-      siteName: "Megadeth Fan Site",
+      siteName: "Ghost Fan Site",
       locale: locale === "es" ? "es_ES" : "en_US",
       type: "article",
       images: [

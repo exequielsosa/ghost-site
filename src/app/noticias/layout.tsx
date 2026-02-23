@@ -12,13 +12,13 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       title: t("pageTitle"),
       description: t("pageDescription"),
-      url: "https://megadeth.com.ar/noticias",
-      siteName: "Megadeth Argentina",
+      url: "https://ghostband.com.ar/noticias",
+      siteName: "Ghost Argentina",
       locale: "es_AR",
       type: "website",
       images: [
         {
-          url: "https://megadeth.com.ar/images/band.webp",
+          url: "https://ghostband.com.ar/images/band.webp",
           width: 1200,
           height: 630,
           alt: "Megadeth",
@@ -29,13 +29,13 @@ export async function generateMetadata(): Promise<Metadata> {
       card: "summary_large_image",
       title: t("pageTitle"),
       description: t("pageDescription"),
-      images: ["https://megadeth.com.ar/images/band.webp"],
+      images: ["https://ghostband.com.ar/images/band.webp"],
     },
     alternates: {
-      canonical: "https://megadeth.com.ar/noticias",
+      canonical: "https://ghostband.com.ar/noticias",
       languages: {
-        es: "https://megadeth.com.ar/noticias",
-        en: "https://megadeth.com.ar/noticias",
+        es: "https://ghostband.com.ar/noticias",
+        en: "https://ghostband.com.ar/noticias",
       },
     },
     robots: {

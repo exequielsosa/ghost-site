@@ -31,7 +31,7 @@ export async function generateMetadata({
   const fullTitle = subtitle ? `${title} - ${subtitle}` : title;
 
   return {
-    title: `${fullTitle} | Megadeth Argentina`,
+    title: `${fullTitle} | Ghost Argentina`,
     description: review.content[locale as "es" | "en"].substring(0, 160),
     keywords: `Megadeth, review, crítica, reseña, ${title}, ${review.category}, Dave Mustaine, álbum, rating ${review.rating}`,
     openGraph: {
@@ -39,10 +39,10 @@ export async function generateMetadata({
       description: review.content[locale as "es" | "en"].substring(0, 200),
       type: "article",
       publishedTime: review.publishedDate,
-      url: `https://megadeth.com.ar/discography/reviews/${review.id}`,
+      url: `https://ghostband.com.ar/discography/reviews/${review.id}`,
       images: [
         {
-          url: `https://megadeth.com.ar${review.imageUrl}`,
+          url: `https://ghostband.com.ar${review.imageUrl}`,
           alt: review.imageAlt[locale as "es" | "en"],
           width: 1200,
           height: 630,
@@ -53,13 +53,13 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: fullTitle,
       description: review.content[locale as "es" | "en"].substring(0, 200),
-      images: [`https://megadeth.com.ar${review.imageUrl}`],
+      images: [`https://ghostband.com.ar${review.imageUrl}`],
     },
     alternates: {
-      canonical: `https://megadeth.com.ar/discography/reviews/${review.id}`,
+      canonical: `https://ghostband.com.ar/discography/reviews/${review.id}`,
       languages: {
-        es: `https://megadeth.com.ar/discography/reviews/${review.id}`,
-        en: `https://megadeth.com.ar/discography/reviews/${review.id}`,
+        es: `https://ghostband.com.ar/discography/reviews/${review.id}`,
+        en: `https://ghostband.com.ar/discography/reviews/${review.id}`,
       },
     },
     robots: {

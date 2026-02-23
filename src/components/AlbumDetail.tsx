@@ -94,11 +94,11 @@ export default function AlbumDetail({ album }: AlbumDetailProps) {
       name: album.title,
       byArtist: {
         "@type": "MusicGroup",
-        name: "Megadeth",
+        name: "Ghost",
       },
       datePublished: album.releaseDate || `${album.year}-01-01`,
       genre: ["Heavy Metal", "Thrash Metal"],
-      image: `https://megadeth.com.ar${album.cover}`,
+      image: `https://ghostband.com.ar${album.cover}`,
       ...(album.label && { recordLabel: album.label }),
       ...(album.producers &&
         album.producers.length > 0 && {

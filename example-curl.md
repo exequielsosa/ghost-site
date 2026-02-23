@@ -8,7 +8,7 @@ curl -X POST http://localhost:3000/api/news/create \
     "description_es": "La legendaria banda de thrash metal Megadeth ha confirmado su esperada gira mundial Dystopia 2026, que incluirá más de 60 fechas por Europa, América y Asia. Dave Mustaine confirmó que la banda interpretará el álbum Dystopia completo además de los clásicos. Las entradas saldrán a la venta el próximo lunes.",
     "description_en": "Legendary thrash metal band Megadeth has confirmed their highly anticipated Dystopia 2026 world tour, which will include over 60 dates across Europe, America and Asia. Dave Mustaine confirmed that the band will perform the entire Dystopia album plus all the classics. Tickets will go on sale next Monday.",
     "published_date": "2026-02-14",
-    "image_url": "https://megadeth.com.ar/images/news/dystopia-tour-2026.jpg",
+    "image_url": "https://ghostband.com.ar/images/news/dystopia-tour-2026.jpg",
     "image_alt_es": "Logo oficial de la gira Dystopia 2026",
     "image_alt_en": "Official Dystopia 2026 tour logo",
     "image_caption_es": "La gira más esperada del año",

@@ -2,7 +2,7 @@ import { getLatestNews } from "@/lib/supabase";
 
 export const revalidate = 3600; // Regenerar cada hora
 
-const BASE_URL = "https://megadeth.com.ar";
+const BASE_URL = "https://ghostband.com.ar";
 
 function escapeXml(str: string): string {
   return str
@@ -36,7 +36,7 @@ export async function GET() {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Megadeth Fan Site — Noticias</title>
+    <title>Ghost Fan Site — Noticias</title>
     <link>${BASE_URL}</link>
     <description>Últimas noticias sobre Megadeth: giras, álbumes, Dave Mustaine y más. Sitio de fans no oficial.</description>
     <language>es-AR</language>
@@ -44,7 +44,7 @@ export async function GET() {
     <atom:link href="${BASE_URL}/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>${BASE_URL}/images/band.webp</url>
-      <title>Megadeth Fan Site</title>
+      <title>Ghost Fan Site</title>
       <link>${BASE_URL}</link>
     </image>
 ${items}

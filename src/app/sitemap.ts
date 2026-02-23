@@ -13,7 +13,7 @@ import bootlegsData from '@/constants/bootlegs.json';
 import { getAllNews } from '@/lib/supabase';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const base = 'https://megadeth.com.ar';
+  const base = 'https://ghostband.com.ar';
   const pages = [
     { path: '/', priority: 1, changeFreq: 'daily' as const },
     { path: '/tour', priority: 0.8, changeFreq: 'weekly' as const },

@@ -66,9 +66,9 @@ export async function generateMetadata(): Promise<Metadata> {
     keywords:
       keywordsByLocale[locale as keyof typeof keywordsByLocale] ||
       keywordsByLocale.es,
-    authors: [{ name: "Megadeth Fan Site" }],
-    creator: "Megadeth Fan Site",
-    publisher: "Megadeth Fan Site",
+    authors: [{ name: "Ghost Fan Site" }],
+    creator: "Ghost Fan Site",
+    publisher: "Ghost Fan Site",
     formatDetection: {
       email: false,
       address: false,
@@ -88,7 +88,7 @@ export async function generateMetadata(): Promise<Metadata> {
         descriptionByLocale[locale as keyof typeof descriptionByLocale] ||
         descriptionByLocale.es,
       url: "/videos",
-      siteName: "Megadeth Fan Site",
+      siteName: "Ghost Fan Site",
       locale: locale === "es" ? "es_ES" : "en_US",
       type: "website",
       images: [
@@ -146,7 +146,7 @@ function generateStructuredData(locale: string) {
     }`,
     creator: {
       "@type": "MusicGroup",
-      name: "Megadeth",
+      name: "Ghost",
       genre: "Thrash Metal",
     },
   }));
@@ -174,7 +174,7 @@ function generateStructuredData(locale: string) {
     description:
       descriptionByLocale[locale as keyof typeof descriptionByLocale] ||
       descriptionByLocale.es,
-    url: "https://megadeth.com.ar/videos",
+    url: "https://ghostband.com.ar/videos",
     mainEntity: {
       "@type": "ItemList",
       numberOfItems: videosData.length,
@@ -186,7 +186,7 @@ function generateStructuredData(locale: string) {
     },
     about: {
       "@type": "MusicGroup",
-      name: "Megadeth",
+      name: "Ghost",
       genre: "Thrash Metal",
       foundingDate: "1983",
       description:

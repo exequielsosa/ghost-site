@@ -34,14 +34,14 @@ export default async function ReviewsPage() {
     "@type": "CollectionPage",
     name: t("title"),
     description: t("description"),
-    url: "https://megadeth.com.ar/discography/reviews",
+    url: "https://ghostband.com.ar/discography/reviews",
     inLanguage: locale,
     publisher: {
       "@type": "Organization",
-      name: "Megadeth Argentina",
+      name: "Ghost Argentina",
       logo: {
         "@type": "ImageObject",
-        url: "https://megadeth.com.ar/logo-megadeth.png",
+        url: "https://ghostband.com.ar/logo-megadeth.png",
       },
     },
     mainEntity: {
@@ -56,7 +56,7 @@ export default async function ReviewsPage() {
             name: review.title[locale as "es" | "en"],
             byArtist: {
               "@type": "MusicGroup",
-              name: "Megadeth",
+              name: "Ghost",
             },
           },
           reviewRating: {
@@ -67,12 +67,12 @@ export default async function ReviewsPage() {
           },
           author: {
             "@type": "Organization",
-            name: "Megadeth Argentina",
+            name: "Ghost Argentina",
           },
           datePublished: review.publishedDate,
           reviewBody: review.content[locale as "es" | "en"].substring(0, 300),
-          url: `https://megadeth.com.ar/discography/reviews/${review.id}`,
-          image: `https://megadeth.com.ar${review.imageUrl}`,
+          url: `https://ghostband.com.ar/discography/reviews/${review.id}`,
+          image: `https://ghostband.com.ar${review.imageUrl}`,
         },
       })),
     },
