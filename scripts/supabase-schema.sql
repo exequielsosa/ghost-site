@@ -1,6 +1,6 @@
 -- ============================================
--- MEGADETH SITE - NEWS SCHEMA
--- Base de datos para noticias con soporte multiidioma
+-- GHOST SITE - DATABASE SCHEMA
+-- Base de datos para noticias con soporte multiidioma y comentarios
 -- ============================================
 
 -- Crear la tabla de noticias
@@ -22,6 +22,7 @@ CREATE TABLE IF NOT EXISTS news_articles (
   youtube_video_id TEXT,
   is_automated BOOLEAN DEFAULT false,
   source_url TEXT,
+  social_posted_at TIMESTAMP WITH TIME ZONE DEFAULT NULL,
   created_at TIMESTAMP WITH TIME ZONE DEFAULT TIMEZONE('utc'::text, NOW()) NOT NULL,
   updated_at TIMESTAMP WITH TIME ZONE DEFAULT TIMEZONE('utc'::text, NOW()) NOT NULL
 );
@@ -37,11 +38,27 @@ CREATE TABLE IF NOT EXISTS news_external_links (
   created_at TIMESTAMP WITH TIME ZONE DEFAULT TIMEZONE('utc'::text, NOW()) NOT NULL
 );
 
+-- Crear tabla de comentarios
+CREATE TABLE IF NOT EXISTS comments (
+  id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
+  page_type TEXT NOT NULL,
+  page_id TEXT NOT NULL,
+  name TEXT NOT NULL,
+  email TEXT NOT NULL,
+  content TEXT NOT NULL,
+  status TEXT NOT NULL DEFAULT 'published' CHECK (status IN ('published', 'pending', 'spam')),
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT TIMEZONE('utc'::text, NOW()) NOT NULL
+);
+
 -- Índices para mejorar performance
 CREATE INDEX IF NOT EXISTS idx_news_published_date ON news_articles(published_date DESC);
 CREATE INDEX IF NOT EXISTS idx_news_created_at ON news_articles(created_at DESC);
 CREATE INDEX IF NOT EXISTS idx_news_automated ON news_articles(is_automated);
+CREATE INDEX IF NOT EXISTS idx_news_social_posted ON news_articles(social_posted_at);
 CREATE INDEX IF NOT EXISTS idx_external_links_news_id ON news_external_links(news_id);
+CREATE INDEX IF NOT EXISTS idx_comments_page ON comments(page_type, page_id);
+CREATE INDEX IF NOT EXISTS idx_comments_status ON comments(status);
+CREATE INDEX IF NOT EXISTS idx_comments_created_at ON comments(created_at DESC);
 
 -- Función para actualizar updated_at automáticamente
 CREATE OR REPLACE FUNCTION update_updated_at_column()
@@ -59,6 +76,7 @@ CREATE TRIGGER update_news_articles_updated_at BEFORE UPDATE ON news_articles
 -- Habilitar Row Level Security (RLS)
 ALTER TABLE news_articles ENABLE ROW LEVEL SECURITY;
 ALTER TABLE news_external_links ENABLE ROW LEVEL SECURITY;
+ALTER TABLE comments ENABLE ROW LEVEL SECURITY;
 
 -- Políticas de seguridad: Todos pueden leer, nadie puede escribir directamente
 -- (escritura se hará vía API con service key)
@@ -70,9 +88,17 @@ CREATE POLICY "Permitir lectura pública de enlaces externos"
   ON news_external_links FOR SELECT
   USING (true);
 
+CREATE POLICY "Permitir lectura de comentarios publicados"
+  ON comments FOR SELECT
+  USING (status = 'published');
+
+CREATE POLICY "Permitir inserción de comentarios"
+  ON comments FOR INSERT
+  WITH CHECK (status = 'published');
+
 -- Vista para obtener noticias con enlaces externos en formato JSON
 CREATE OR REPLACE VIEW news_articles_with_links AS
-SELECT 
+SELECT
   na.*,
   COALESCE(
     json_agg(
@@ -90,7 +116,12 @@ GROUP BY na.id
 ORDER BY na.published_date DESC;
 
 -- Comentarios para documentación
-COMMENT ON TABLE news_articles IS 'Tabla principal de noticias del sitio Megadeth';
+COMMENT ON TABLE news_articles IS 'Tabla principal de noticias del sitio Ghost';
 COMMENT ON TABLE news_external_links IS 'Enlaces externos relacionados a cada noticia';
+COMMENT ON TABLE comments IS 'Comentarios de usuarios con moderación via status';
 COMMENT ON COLUMN news_articles.is_automated IS 'TRUE si la noticia fue generada automáticamente por el scraper';
 COMMENT ON COLUMN news_articles.source_url IS 'URL de la noticia original (para noticias automatizadas)';
+COMMENT ON COLUMN news_articles.social_posted_at IS 'Timestamp de cuando se posteó en redes sociales (NULL = no posteado aún)';
+COMMENT ON COLUMN comments.page_type IS 'Tipo de página donde se hizo el comentario (ej: "noticia")';
+COMMENT ON COLUMN comments.page_id IS 'ID de la página donde se hizo el comentario';
+COMMENT ON COLUMN comments.status IS 'Estado del comentario: published, pending, spam';

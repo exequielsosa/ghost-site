@@ -74,7 +74,7 @@ export async function processNewsWithAI(
 ): Promise<ProcessedNewsContent> {
   const groq = getGroqClient();
 
-  const prompt = `Eres un periodista profesional especializado en rock y heavy metal, escribiendo para un sitio web dedicado a Megadeth.
+  const prompt = `Eres un periodista profesional especializado en rock y metal, escribiendo para un sitio web dedicado a Ghost (la banda sueca de rock ocultista liderada por Tobias Forge).
 
 Tu tarea es transformar esta noticia en contenido profesional y bien estructurado.
 
@@ -107,7 +107,7 @@ REGLAS ESTRICTAS:
 
 ✅ HACER:
 - Tono periodístico profesional, objetivo
-- Primera mención: nombres completos (Dave Mustaine, no "Dave")
+- Primera mención: nombres completos (Tobias Forge, no "Tobias")
 - Incluir TODAS las citas textuales del artículo original
 - Fechas completas (día, mes, año)
 - Números y estadísticas exactas
@@ -121,7 +121,7 @@ REGLAS ESTRICTAS:
 - Especulación sin fuente
 - Repetir información
 - Mencionar que alguien "dijo algo" sin incluir la cita exacta
-- Usar "Dave" sin apellido en primera mención
+- Usar "Tobias" sin apellido en primera mención
 
 TÍTULO:
 - Máximo 80 caracteres
@@ -209,34 +209,36 @@ Responde ÚNICAMENTE con un objeto JSON válido (sin markdown, sin \`\`\`json):
 }
 
 /**
- * Determina si una noticia es relevante para Megadeth
+ * Determina si una noticia es relevante para Ghost
  * Analiza el contenido para evitar falsos positivos
  */
-export async function isRelevantToMegadeth(
+export async function isRelevantToGhost(
   title: string,
   content: string
 ): Promise<boolean> {
   const groq = getGroqClient();
 
-  const prompt = `Eres un filtro de noticias especializado en Megadeth (la banda de thrash metal).
+  const prompt = `Eres un filtro de noticias especializado en Ghost (la banda sueca de rock ocultista).
 
-Analiza esta noticia y determina si es DIRECTAMENTE relevante para fans de Megadeth.
+Analiza esta noticia y determina si es DIRECTAMENTE relevante para fans de Ghost.
 
 CRITERIOS PARA SER RELEVANTE (debe cumplir AL MENOS UNO):
 
 ✅ ES RELEVANTE si habla de:
-- Megadeth directamente (banda, álbumes, canciones, giras)
-- Dave Mustaine (líder de Megadeth)
-- Miembros actuales: Kiko Loureiro, James LoMenzo, Dirk Verbeuren
-- Ex-miembros importantes: Marty Friedman, David Ellefson, Nick Menza, Chris Poland
-- Colaboraciones o proyectos relacionados con Megadeth
-- Metallica SI y SOLO SI menciona la conexión con Mustaine/Megadeth
+- Ghost directamente (banda, álbumes, canciones, giras, shows)
+- Tobias Forge (líder y compositor principal de Ghost)
+- Los personajes de Tobias: Papa Emeritus (I, II, III, IV), Cardinal Copia
+- Los Nameless Ghouls (músicos de Ghost)
+- Álbumes: Opus Eponymous, Infestissumam, Meliora, Prequelle, Impera
+- Canciones conocidas: Cirice, Square Hammer, Dance Macabre, Rats, Mary on a Cross
+- Proyectos o colaboraciones relacionadas con Tobias Forge/Ghost
+- Premios o reconocimientos recibidos por Ghost (Grammy, etc.)
 
 ❌ NO ES RELEVANTE si:
-- Solo menciona Megadeth de pasada en una lista
-- Es sobre otras bandas sin conexión directa
-- Es sobre el género thrash metal en general sin mencionar Megadeth
-- Metallica sin conexión con Mustaine
+- Solo menciona "Ghost" en otro contexto (videojuego, película, otra banda)
+- Es sobre otras bandas sin conexión directa con Ghost o Tobias Forge
+- Es sobre el género rock/metal en general sin mencionar Ghost específicamente
+- Menciona Ghost solo de pasada en una lista de bandas
 
 ---
 

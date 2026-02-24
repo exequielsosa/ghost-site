@@ -1,15 +1,15 @@
 /**
- * Script de scraping automático de noticias sobre Megadeth
+ * Script de scraping automático de noticias sobre Ghost
  * Ejecutado por GitHub Actions DIARIAMENTE con rotación de feeds
  *
  * Estrategia de rotación:
  * - 2 feeds por día (dentro del límite de 100K tokens/día de Groq)
- * - Feeds top (Blabbermouth, Loudwire, Metal Injection) se procesan 2 veces/semana
+ * - Feeds top (Blabbermouth, Loudwire, Kerrang) se procesan 2 veces/semana
  * - Feeds secundarios se procesan 1 vez/semana
  *
  * Flujo:
- * 1. Consume RSS feeds de sitios de metal (2 por día según rotación)
- * 2. Filtra noticias sobre Megadeth
+ * 1. Consume RSS feeds de sitios de rock/metal (2 por día según rotación)
+ * 2. Filtra noticias sobre Ghost
  * 3. Procesa con Groq AI (traducción + optimización)
  * 4. Crea noticias vía API
  */
@@ -18,7 +18,7 @@ import Parser from "rss-parser";
 import dotenv from "dotenv";
 import path from "path";
 import { fileURLToPath } from "url";
-import { processNewsWithAI, isRelevantToMegadeth } from "../src/lib/ai.ts";
+import { processNewsWithAI, isRelevantToGhost } from "../src/lib/ai.ts";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -36,28 +36,28 @@ const ALL_FEEDS = {
   blabbermouth: "https://www.blabbermouth.net/feed/",
   loudwire: "https://loudwire.com/feed/",
   metalinjection: "https://metalinjection.net/feed",
+  kerrang: "https://www.kerrang.com/feed",
   metalsucks: "https://www.metalsucks.net/feed/",
-  bravewords: "https://bravewords.com/rss",
   loudersound: "https://www.loudersound.com/metal-hammer/feed",
   revolver: "https://www.revolvermag.com/feed",
   consequence: "https://consequence.net/category/heavy-consequence/feed/",
-  theprp: "https://www.theprp.com/feed/",
+  bravewords: "https://bravewords.com/rss",
   mariskalrock: "https://mariskalrock.com/feed",
 };
 
 /**
  * Rotación semanal de feeds (2 por día)
- * Feeds top (blabbermouth, loudwire, metalinjection) aparecen 2 veces/semana
+ * Feeds top (blabbermouth, loudwire, kerrang) aparecen 2 veces/semana
  * El resto aparece 1 vez/semana
  */
 const FEED_ROTATION = {
-  0: ["blabbermouth", "metalinjection"], // Domingo
-  1: ["loudwire", "bravewords"], // Lunes
-  2: ["blabbermouth", "loudersound"], // Martes (repite blabbermouth)
-  3: ["metalinjection", "metalsucks"], // Miércoles (repite metalinjection)
-  4: ["loudwire", "consequence"], // Jueves (repite loudwire)
-  5: ["revolver", "theprp"], // Viernes
-  6: ["mariskalrock", "blabbermouth"], // Sábado (3ra vez blabbermouth)
+  0: ["blabbermouth", "kerrang"],       // Domingo
+  1: ["loudwire", "metalinjection"],    // Lunes
+  2: ["blabbermouth", "loudersound"],   // Martes (repite blabbermouth)
+  3: ["kerrang", "metalsucks"],         // Miércoles (repite kerrang)
+  4: ["loudwire", "consequence"],       // Jueves (repite loudwire)
+  5: ["revolver", "bravewords"],        // Viernes
+  6: ["mariskalrock", "blabbermouth"],  // Sábado (3ra vez blabbermouth)
 };
 
 /**
@@ -241,10 +241,10 @@ async function processFeed(feedUrl) {
       // Verificar relevancia
       console.log(`   🔍 Analizando: "${title.substring(0, 60)}..."`);
 
-      const isRelevant = await isRelevantToMegadeth(title, content);
+      const isRelevant = await isRelevantToGhost(title, content);
 
       if (isRelevant) {
-        console.log(`   ✅ Relevante para Megadeth`);
+        console.log(`   ✅ Relevante para Ghost`);
         relevantNews.push({
           title,
           content,
@@ -270,7 +270,7 @@ async function processFeed(feedUrl) {
  */
 async function main() {
   console.log("╔═══════════════════════════════════════════════╗");
-  console.log("║  Megadeth News Scraper - Automatización IA   ║");
+  console.log("║    Ghost News Scraper - Automatización IA    ║");
   console.log("╚═══════════════════════════════════════════════╝\n");
 
   // Validar configuración

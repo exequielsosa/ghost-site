@@ -370,10 +370,10 @@ export default function Header() {
           <Box sx={{ p: 2 }}>
             <Box width="100%" display="flex" justifyContent="center" mb={2}>
               <Image
-                src="/logo-megadeth.png"
-                alt="Megadeth"
+                src="/images/ghost-logo.png"
+                alt="Ghost"
                 width={150}
-                height={30}
+                height={50}
               />
             </Box>
 

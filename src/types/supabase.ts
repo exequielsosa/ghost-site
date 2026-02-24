@@ -28,6 +28,7 @@ export interface Database {
           youtube_video_id: string | null
           is_automated: boolean | null
           source_url: string | null
+          social_posted_at: string | null
           created_at: string
           updated_at: string
         }
@@ -49,6 +50,7 @@ export interface Database {
           youtube_video_id?: string | null
           is_automated?: boolean | null
           source_url?: string | null
+          social_posted_at?: string | null
           created_at?: string
           updated_at?: string
         }
@@ -70,6 +72,7 @@ export interface Database {
           youtube_video_id?: string | null
           is_automated?: boolean | null
           source_url?: string | null
+          social_posted_at?: string | null
           created_at?: string
           updated_at?: string
         }
@@ -103,6 +106,38 @@ export interface Database {
           created_at?: string
         }
       }
+      comments: {
+        Row: {
+          id: string
+          page_type: string
+          page_id: string
+          name: string
+          email: string
+          content: string
+          status: 'published' | 'pending' | 'spam'
+          created_at: string
+        }
+        Insert: {
+          id?: string
+          page_type: string
+          page_id: string
+          name: string
+          email: string
+          content: string
+          status?: 'published' | 'pending' | 'spam'
+          created_at?: string
+        }
+        Update: {
+          id?: string
+          page_type?: string
+          page_id?: string
+          name?: string
+          email?: string
+          content?: string
+          status?: 'published' | 'pending' | 'spam'
+          created_at?: string
+        }
+      }
     }
     Views: {
       news_articles_with_links: {
@@ -124,6 +159,7 @@ export interface Database {
           youtube_video_id: string | null
           is_automated: boolean | null
           source_url: string | null
+          social_posted_at: string | null
           created_at: string
           updated_at: string
           external_links: Json
