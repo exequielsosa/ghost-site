@@ -122,16 +122,39 @@ PRODUCTION_URL
 
 ## Estado actual
 
-### En progreso
-- Adaptación desde megadeth-site a ghost-site
-- Reemplazos estructurales completados (dominio, nombre del sitio, env vars)
-- **Pendiente**: reescribir contenido con datos reales de Ghost:
-  - `messages/en.json` y `messages/es.json`
-  - `src/constants/` — discography, members, history, shows
-  - `src/data/` — songs, shows raw
-  - `public/images/` — imágenes de la banda
+### Completado (Feb 2026)
+
+**Infraestructura base**
+- Supabase nuevo: `exozntnfmaeqikmjjgxz.supabase.co` — schema SQL ejecutado (news_articles, news_external_links, comments, social_posted_at)
+- Deployado en Vercel → `ghostband.com.ar`
+- GHOST_MBID: `2bcf2e02-5bc3-4c76-bf76-41126cb11444`
+- KV compartido con Megadeth (mismas creds, keys separados por MBID — no hay colisión)
+
+**setlist.fm / shows**
+- `last-show/route.ts` y `tour/route.ts`: MBID fallback usa `process.env.GHOST_MBID`
+- `yearsAgo` default cambiado de 20 → 5 (Ghost existe desde 2008)
+- Traducciones: "5 Years Ago..." / "Hace 5 Años..."
+- **Para activar en prod**: agregar en Vercel → `KV_REST_API_URL`, `KV_REST_API_TOKEN`, `KV_REST_API_READ_ONLY_TOKEN`, `SETLISTFM_API_KEY`, `GHOST_MBID`
+
+**Scraper de noticias**
+- `src/lib/ai.ts`: `isRelevantToGhost` + prompt `processNewsWithAI` actualizados para Ghost
+- `scripts/scrape-news.js`: feeds actualizados (theprp → kerrang)
+- `.github/workflows/scrape-news.yml`: renombrado "Scrape Ghost News", social media paso comentado con TODO
+- **Probado localmente**: funcionando correctamente
+- **Para activar Action diario**: configurar GitHub Secrets (NEWS_API_URL, NEWS_API_KEY, GROQ_API_KEY, NEXT_PUBLIC_SUPABASE_URL, NEXT_PUBLIC_SUPABASE_ANON_KEY, SUPABASE_SERVICE_KEY)
+
+**Fixes de producción**
+- `public/images/ghost-Logo.png` → `ghost-logo.png` (case-sensitivity Linux/Vercel)
+- `Header.tsx`: logo mobile corregido (era `/logo-megadeth.png`)
+
+### Pendiente
+- [ ] Configurar GitHub Secrets para el Action diario de scraping
+- [ ] Agregar env vars en Vercel: `KV_REST_API_URL`, `KV_REST_API_TOKEN`, `KV_REST_API_READ_ONLY_TOKEN`, `SETLISTFM_API_KEY`, `GHOST_MBID` (para que aparezcan las cards de shows)
+- [ ] Crear cuentas fan de Ghost en redes sociales → descomentar social media step en el Action
+- [ ] Reescribir contenido con datos reales de Ghost:
+  - `messages/en.json` y `messages/es.json` — textos de UI que todavía referencian Megadeth
+  - `src/constants/` — discography, members, history, shows, interviews, songs
+  - `src/data/` — songs.meta.json, shows raw
+  - `public/images/` — imágenes de la banda (band.webp, members/, albums/, etc.)
   - `src/theme/` — colores del tema (Ghost: negro, dorado, rojo)
-  - `scripts/scrape-news.js` — fuentes RSS para noticias de Ghost
-  - Crear cuentas fan en redes sociales y configurar tokens
-  - Crear nuevo proyecto Supabase
-  - Obtener GHOST_MBID de MusicBrainz
+- [ ] Configurar `NEXT_PUBLIC_GA_ID` propio para Ghost en Vercel
