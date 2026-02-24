@@ -100,7 +100,7 @@ export default function Header() {
   };
 
   const isMediaActive = mediaItems.some((item) =>
-    pathname.startsWith(item.href)
+    pathname.startsWith(item.href),
   );
 
   // Función para obtener el color de fondo basado en scroll y modo
@@ -139,12 +139,12 @@ export default function Header() {
                   sx={{
                     position: "relative",
                     width: { xs: "150px", sm: "200px" },
-                    height: { xs: "35px", sm: "47px" },
+                    height: { xs: "35px", sm: "112px" },
                   }}
                 >
                   <Image
-                    src="/logo-megadeth.png"
-                    alt="Megadeth"
+                    src="/images/ghost-logo.png"
+                    alt="Ghost Logo"
                     fill
                     style={{ objectFit: "contain" }}
                     priority
@@ -166,8 +166,8 @@ export default function Header() {
                   const isActive = item.hasSubmenu
                     ? isMediaActive
                     : item.href === "/"
-                    ? pathname === "/"
-                    : pathname.startsWith(item.href);
+                      ? pathname === "/"
+                      : pathname.startsWith(item.href);
 
                   if (item.hasSubmenu) {
                     return (
@@ -230,7 +230,7 @@ export default function Header() {
                               onClick={handleMediaMouseLeave}
                               sx={{
                                 backgroundColor: pathname.startsWith(
-                                  mediaItem.href
+                                  mediaItem.href,
                                 )
                                   ? "primary.main"
                                   : "transparent",
@@ -239,7 +239,7 @@ export default function Header() {
                                   : "text.primary",
                                 "&:hover": {
                                   backgroundColor: pathname.startsWith(
-                                    mediaItem.href
+                                    mediaItem.href,
                                   )
                                     ? "primary.dark"
                                     : "action.hover",

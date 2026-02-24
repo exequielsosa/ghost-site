@@ -250,8 +250,8 @@ async function kvSet<T>(key: string, value: T, freshForSeconds: number, keepSeco
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
 
-  const mbid = searchParams.get("mbid") || "a9044915-8be3-4c7e-b11f-9e2d2ea0a91e";
-  const yearsAgo = Number(searchParams.get("yearsAgo") || "20");
+  const mbid = searchParams.get("mbid") || process.env.GHOST_MBID || "2bcf2e02-5bc3-4c76-bf76-41126cb11444";
+  const yearsAgo = Number(searchParams.get("yearsAgo") || "5");
 
   // “warm” solo para forzar el segundo fetch si falta cache
   const warm = searchParams.get("warm") === "1";  

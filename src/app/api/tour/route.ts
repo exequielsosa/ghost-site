@@ -5,7 +5,7 @@ import { kv } from "@vercel/kv";
 export const runtime = "edge";
 
 const BASE_URL = "https://api.setlist.fm/rest/1.0";
-const DEFAULT_MBID = "a9044915-8be3-4c7e-b11f-9e2d2ea0a91e"; // Megadeth
+const DEFAULT_MBID = process.env.GHOST_MBID || "2bcf2e02-5bc3-4c76-bf76-41126cb11444"; // Ghost
 
 type TourCard = {
   id: string;
