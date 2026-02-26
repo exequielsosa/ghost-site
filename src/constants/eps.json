@@ -1,471 +1,363 @@
 [
   {
-    "id": "cryptic-sounds-no-voices-in-your-head",
-    "title": "Cryptic Sounds: No Voices in Your Head",
-    "year": 1998,
-    "release_date": "1997-12-08",
-    "cover": "/images/albums/ep-cs.webp",
-    "label": "Capitol",
-    "producers": ["Max Norman", "Dave Mustaine"],
+    "id": "phantomime",
+    "title": "Phantomime",
+    "year": 2023,
+    "release_date": "2023-05-19",
+    "cover": "/images/albums/phantomime.jpg",
+    "label": "Loma Vista Recordings",
+    "producers": ["Tobias Forge"],
     "description": {
       "short": {
-        "es": "EP de archivo y rareza lanzado solo en Japón, que contiene versiones instrumentales, alternativas y en vivo de temas de 'Cryptic Writings'.",
-        "en": "Japan-only archive and rarity EP containing instrumental, alternative, and live versions of tracks from 'Cryptic Writings'."
+        "es": "EP de versiones: Ghost reinterpreta a Television, Genesis, The Stranglers, Iron Maiden y Tina Turner.",
+        "en": "Covers EP: Ghost reinterprets Television, Genesis, The Stranglers, Iron Maiden and Tina Turner."
       },
       "extended": {
-        "es": "Este EP de rarezas fue lanzado exclusivamente en Japón para capitalizar el éxito de Cryptic Writings. Contiene versiones alternativas, la versión instrumental de 'Trust' y una grabación en vivo de 'A Tout Le Monde'. Aunque a menudo se confunde con un EP totalmente en vivo, es una colección de rarezas de estudio y una pista en directo.",
-        "en": "This rarities EP was released exclusively in Japan to capitalize on the success of Cryptic Writings. It features alternate versions, the instrumental version of 'Trust', and one live recording of 'A Tout Le Monde'. Although often mistaken for a fully live EP, it is a collection of studio outtakes and one live track."
+        "es": "Phantomime es el tercer EP de covers oficiales de Ghost, lanzado el 19 de mayo de 2023. La banda eligió cinco canciones icónicas de géneros y décadas muy diferentes, desde el post-punk de Television hasta el glam pop de Tina Turner, pasando por el clásico de Iron Maiden. La selección refleja el omnívoro gusto musical de Tobias Forge y la capacidad de Ghost de habitar géneros ajenos sin perder su identidad. El single adelantado 'Jesus He Knows Me', cover del hit de Genesis, se viralizó por su ironía sobre la televangelización y se convirtió en uno de los temas más comentados de la banda ese año.",
+        "en": "Phantomime is Ghost's third official covers EP, released on May 19, 2023. The band chose five iconic songs from very different genres and decades, from Television's post-punk to Tina Turner's glam pop, passing through the Iron Maiden classic. The selection reflects Tobias Forge's omnivorous musical taste and Ghost's ability to inhabit foreign genres without losing their identity. The lead single 'Jesus He Knows Me', a cover of the Genesis hit, went viral for its irony about televangelism and became one of the band's most discussed tracks that year."
       }
     },
     "musicians": [
       {
-        "name": "Dave Mustaine",
+        "name": "Tobias Forge",
         "instrument": {
-          "es": "Voz y guitarra rítmica",
-          "en": "Vocals and rhythm guitar"
+          "es": "Voz, guitarra, bajo, teclados",
+          "en": "Vocals, guitar, bass, keyboards"
         }
       },
       {
-        "name": "Marty Friedman",
+        "name": "Nameless Ghouls",
         "instrument": {
-          "es": "Guitarra líder",
-          "en": "Lead guitar"
-        }
-      },
-      {
-        "name": "David Ellefson",
-        "instrument": {
-          "es": "Bajo",
-          "en": "Bass"
-        }
-      },
-      {
-        "name": "Nick Menza",
-        "instrument": {
-          "es": "Batería",
-          "en": "Drums"
+          "es": "Guitarras, bajo, batería, teclados",
+          "en": "Guitars, bass, drums, keyboards"
         }
       }
     ],
-    "streaming": {
-      "youtube": "https://www.youtube.com/watch?v=6qKSOkzj2oo&list=RD6qKSOkzj2oo&start_radio=1"
-    },
+    "streaming": { "spotify": "" },
     "tracks": [
       {
         "n": 1,
-        "title": "Trust (Instrumental)",
-        "duration": "5:26",
-        "writers": ["Dave Mustaine", "Marty Friedman"]
+        "title": "See No Evil",
+        "duration": "3:14",
+        "writers": ["Tom Verlaine"],
+        "note": { "es": "Cover de Television", "en": "Television cover" },
+        "lyrics": "What I want, I want now\nAnd it's a whole lot more than \"anyhow\"\nI wanna fly, fly a fountain\nI wanna jump, jump, jump, jump on a mountain\n\nI understand all (I see no)\nDestructive urges (I see no)\nIt seems so perfect (I see no)\nI see, I see no evil\n\nI get ideas, I get a notion\nI want a nice little boat made out of ocean\nI get your point, you're so sharp\nGetting good reactions with your evil talk\n\nI understand all (I see no)\nDestructive urges (I see no)\nIt seems so perfect (I see no)\nI see, I see no evil\n\nDon't say unconscious, don't say doom\nBut if you got to say it, let me leave this room\n'Cause what I want, I want now\nAnd it's a whole lot more than \"anyhow\"\n\nI understand all (I see no)\nDestructive urges (I see no)\nIt seems so perfect (I see no)\nI see, I see no evil\n\nI'm runnin' wild with the one I love (I see no evil)\nI'm runnin' crazy with the one I love (I see no evil)\nI keep on dancin' with the one I love (I see no evil)\nControl the feelings of the one you love (I see no evil)\nYou feed the fires of the one you love (I see no evil)\nCombine the fusion with the one you love (I see no evil)\nPull down the future of the one you love (I see no evil)"
       },
       {
         "n": 2,
-        "title": "Evil That Will Remain (Almost Honest Demo)",
-        "duration": "4:19",
-        "writers": ["Dave Mustaine", "Marty Friedman"]
+        "title": "Jesus He Knows Me",
+        "duration": "4:22",
+        "writers": ["Mike Rutherford", "Tony Banks", "Phil Collins"],
+        "note": { "es": "Cover de Genesis", "en": "Genesis cover" },
+        "lyrics": "You see the face on the TV screen?\nComing at you every Sunday\nYou see the face on the billboard?\nThat man is me\n\nOn the cover of the magazine\nThere's no question why I'm smiling\nBuy a piece of paradise\nAnd you buy a piece of me\n\nI'll get you everything you wanted\nI'll get you everything you need\nYou don't need to believe in hereafter\nJust believe in me\n\n'Cause Jesus, he knows me\nAnd he knows I'm right\nI've been talking to Jesus all my life\nOh yes, he knows me\nAnd he knows I'm right\nAnd he's been telling me everything is alright\n\nI believe in the family\nWith my ever-loving wife beside me\nShe doesn't know about my girlfriend\nOr the man I met last night\n\nDo you believe in God?\n'Cause that is what I'm selling\nAnd if you wanna go to heaven\nWell, I'll see you right\n\nYou don't even have to leave your house\nOr get out of your chair\nYou don't even have to touch that dial\n'Cause I'm everywhere\n\n'Cause Jesus, he knows me\nAnd he knows I'm right\nI've been talking to Jesus all my life\nOh yes, he knows me\nAnd he knows I'm right\nAnd he's been telling me everything is alright\n\nWon't find me practicing what I'm preaching\nWon't find me making no sacrifice\nBut I can get you a pocketful of miracles\nIf you promise to be good, try to be nice\nGod will take good care of you\nJust do as I say, not as I do\n\nI'm counting my blessings\nAnd I've found true happiness\n'Cause I'm getting richer, day by day\nYou can find me in the phone book\nJust call my toll free number\nYou can do it any way you want\nJust do it right away\n\nThere will be no doubt in your mind\nYou'll believe in everything I'm saying\nIf you wanna get closer to him\nGet on your knees and start praying\n\n'Cause Jesus, he knows me\nAnd he knows I'm right\nI've been talking to Jesus all my life\nOh yes, he knows me\nAnd he knows I'm right\nAnd he's been telling me everything is alright\n\n'Cause Jesus he knows me\nJesus, he knows me\nJesus, he knows me\nJesus, he knows me\nJesus, he knows me\nJesus, he knows me\nJesus, he knows me"
       },
       {
         "n": 3,
-        "title": "Vortex (Instrumental)",
-        "duration": "4:24",
-        "writers": ["Dave Mustaine", "Marty Friedman"]
-      },
-      {
-        "n": 4,
-        "title": "FFF (Instrumental)",
-        "duration": "3:43",
-        "writers": ["Dave Mustaine", "Marty Friedman"]
-      },
-      {
-        "n": 5,
-        "title": "A Tout Le Monde (Live)",
-        "duration": "4:45",
-        "writers": ["Dave Mustaine"]
-      }
-    ]
-  },
-  {
-    "id": "live-trax-ii",
-    "title": "Live Trax II",
-    "year": 1998,
-    "cover": "/images/albums/ep-lt2.jpg",
-    "label": "Capitol",
-    "producers": ["Dave Mustaine"],
-    "description": {
-      "short": {
-        "es": "Segundo EP en vivo con material exclusivo de giras; continuación de Live Trax.",
-        "en": "Second live EP with exclusive tour material; continuation of Live Trax."
-      },
-      "extended": {
-        "es": "Segundo volumen de la serie Live Trax, con grabaciones en vivo exclusivas de las giras de mediados de los 90. Este EP captura a Megadeth en su período más experimental, con material de 'Youthanasia' y 'Cryptic Writings' interpretado en vivo, mostrando la versatilidad de la banda en diferentes contextos.",
-        "en": "Second volume of the Live Trax series, featuring exclusive live recordings from mid-90s tours. This EP captures Megadeth in their most experimental period, with material from 'Youthanasia' and 'Cryptic Writings' performed live, showcasing the band's versatility in different contexts."
-      }
-    },
-    "musicians": [
-      {
-        "name": "Dave Mustaine",
-        "instrument": {
-          "es": "Voz y guitarra rítmica",
-          "en": "Vocals and rhythm guitar"
-        }
-      },
-      {
-        "name": "Marty Friedman",
-        "instrument": {
-          "es": "Guitarra líder",
-          "en": "Lead guitar"
-        }
-      },
-      {
-        "name": "David Ellefson",
-        "instrument": {
-          "es": "Bajo",
-          "en": "Bass"
-        }
-      },
-      {
-        "name": "Nick Menza",
-        "instrument": {
-          "es": "Batería",
-          "en": "Drums"
-        }
-      }
-    ],
-    "streaming": {
-      "youtube": "https://music.youtube.com/playlist?list=placeholder-live-trax-ii"
-    },
-    "tracks": [
-      {
-        "n": 1,
-        "title": "Trust",
-        "duration": "5:26",
-        "writers": ["Dave Mustaine", "Marty Friedman"]
-      },
-      {
-        "n": 2,
-        "title": "Almost Honest",
-        "duration": "4:19",
-        "writers": ["Dave Mustaine", "Marty Friedman"]
-      },
-      {
-        "n": 3,
-        "title": "Use the Man",
-        "duration": "4:24",
-        "writers": ["Dave Mustaine", "Marty Friedman"]
-      },
-      {
-        "n": 4,
-        "title": "She-Wolf",
-        "duration": "3:43",
-        "writers": ["Dave Mustaine", "Marty Friedman"]
-      },
-      {
-        "n": 5,
-        "title": "A Tout Le Monde",
-        "duration": "4:45",
-        "writers": ["Dave Mustaine"]
-      }
-    ]
-  },
-  {
-    "id": "live-trax",
-    "title": "Live Trax",
-    "year": 1997,
-    "cover": "/images/albums/ep-lt.webp",
-    "label": "Capitol",
-    "producers": ["Dave Mustaine"],
-    "description": {
-      "short": {
-        "es": "EP en vivo con grabaciones exclusivas de giras; material raro para fanáticos.",
-        "en": "Live EP with exclusive tour recordings; rare material for fans."
-      },
-      "extended": {
-        "es": "EP especial con grabaciones en vivo exclusivas de las giras de Megadeth durante la era 'Youthanasia'. Incluye versiones en vivo de canciones que raramente aparecían en álbumes oficiales, ofreciendo a los fanáticos una perspectiva única de las actuaciones de la banda durante este período creativo.",
-        "en": "Special EP featuring exclusive live recordings from Megadeth's tours during the 'Youthanasia' era. Includes live versions of songs that rarely appeared on official albums, offering fans a unique perspective on the band's performances during this creative period."
-      }
-    },
-    "musicians": [
-      {
-        "name": "Dave Mustaine",
-        "instrument": {
-          "es": "Voz y guitarra rítmica",
-          "en": "Vocals and rhythm guitar"
-        }
-      },
-      {
-        "name": "Marty Friedman",
-        "instrument": {
-          "es": "Guitarra líder",
-          "en": "Lead guitar"
-        }
-      },
-      {
-        "name": "David Ellefson",
-        "instrument": {
-          "es": "Bajo",
-          "en": "Bass"
-        }
-      },
-      {
-        "name": "Nick Menza",
-        "instrument": {
-          "es": "Batería",
-          "en": "Drums"
-        }
-      }
-    ],
-    "streaming": {
-      "youtube": "https://music.youtube.com/playlist?list=placeholder-live-trax"
-    },
-    "tracks": [
-      {
-        "n": 1,
-        "title": "Youthanasia",
-        "duration": "4:47",
+        "title": "Hanging Around",
+        "duration": "3:48",
         "writers": [
-          "Dave Mustaine",
-          "Marty Friedman",
-          "David Ellefson",
-          "Nick Menza"
-        ]
-      },
-      {
-        "n": 2,
-        "title": "Reckoning Day",
-        "duration": "4:45",
-        "writers": [
-          "Dave Mustaine",
-          "Marty Friedman",
-          "David Ellefson",
-          "Nick Menza"
-        ]
-      },
-      {
-        "n": 3,
-        "title": "Train of Consequences",
-        "duration": "3:31",
-        "writers": [
-          "Dave Mustaine",
-          "Marty Friedman",
-          "David Ellefson",
-          "Nick Menza"
-        ]
-      },
-      {
-        "n": 4,
-        "title": "Addicted to Chaos",
-        "duration": "5:20",
-        "writers": [
-          "Dave Mustaine",
-          "Marty Friedman",
-          "David Ellefson",
-          "Nick Menza"
-        ]
-      },
-      {
-        "n": 5,
-        "title": "Symphony of Destruction",
-        "duration": "4:37",
-        "writers": ["Dave Mustaine"]
-      }
-    ]
-  },
-  {
-    "id": "hidden-treasures",
-    "title": "Hidden Treasures",
-    "year": 1995,
-    "cover": "/images/albums/ep-ht.jpg",
-    "label": "Capitol",
-    "producers": ["Dave Mustaine"],
-    "description": {
-      "short": {
-        "es": "EP de rarezas, B-sides y covers; tesoros ocultos para coleccionistas.",
-        "en": "EP of rarities, B-sides and covers; hidden treasures for collectors."
-      },
-      "extended": {
-        "es": "EP especial que reúne rarezas, B-sides, versiones alternativas y covers que Megadeth había grabado para bandas sonoras y sencillos especiales. Incluye la famosa versión de 'No More Mr. Nice Guy' de Alice Cooper y otras joyas ocultas que raramente aparecían en álbumes oficiales, siendo un tesoro para los coleccionistas.",
-        "en": "Special EP gathering rarities, B-sides, alternative versions and covers that Megadeth had recorded for soundtracks and special singles. Features the famous version of Alice Cooper's 'No More Mr. Nice Guy' and other hidden gems that rarely appeared on official albums, being a treasure for collectors."
-      }
-    },
-    "musicians": [
-      {
-        "name": "Dave Mustaine",
-        "instrument": {
-          "es": "Voz y guitarra rítmica",
-          "en": "Vocals and rhythm guitar"
-        }
-      },
-      {
-        "name": "Marty Friedman",
-        "instrument": {
-          "es": "Guitarra líder",
-          "en": "Lead guitar"
-        }
-      },
-      {
-        "name": "David Ellefson",
-        "instrument": {
-          "es": "Bajo",
-          "en": "Bass"
-        }
-      },
-      {
-        "name": "Nick Menza",
-        "instrument": {
-          "es": "Batería",
-          "en": "Drums"
-        }
-      }
-    ],
-    "streaming": {
-      "spotify": "https://open.spotify.com/album/placeholder-hidden-treasures"
-    },
-    "tracks": [
-      {
-        "n": 1,
-        "title": "No More Mr. Nice Guy",
-        "duration": "3:02",
-        "writers": ["Alice Cooper", "Michael Bruce"],
-        "lyrics": "**No more Mister nice guy**\n**Me? A nice guy? Yeah, right!**\nI used to be such a **sweet, sweet thing**\nTill they **got a hold of me**\nI **opened doors for little old ladies**\nI **helped the blind to see**\nI got **no friends 'cause they read the papers**\nThey **can't be seen with me**\nAnd I'm **gottin' real shot down**\nAnd I'm **feeling mean**\n**No more Mister nice guy**\n**No more Mister clean**\n**No more Mister nice guy**\nThey say **he's sick, he's obscene**\nI'm **not hard to get along with**\n**Ha, I'm impossible!**\nMy **dog bit me on the leg today**\nMy **cat clawed my eye**\nMy **mom's been thrown out of the society circle**\nMy **dad's had to hide**\nI **went to church incognito**\nAnd **everybody rose**, the **reverend Smith**\nHe **recognized me**\n**Punched me in the nose**\n**No more Mister nice guy**\n**No more Mister clean**\n**No more Mister nice guy**\nThey say **he's sick, he's obscene**\nNot to say I was **ever nice in the first place, ya know**"
-      },
-      {
-        "n": 2,
-        "title": "Breakpoint",
-        "duration": "3:29",
-        "writers": ["Dave Mustaine", "Marty Friedman", "David Ellefson"],
-        "lyrics": "Make up the **rules for me to live by**\n**Rules you break and just let it slide**\nYou try and **find you inside of me**\nBe **as great as you want me to be**\n**Hypocrite**, the word that fits\n**Do as you say not as you do**\nYou're **pushing me to a breakpoint**\nYou're **pushing me to a breakpoint**\nYou're **pushing me to a breakpoint**\nYou're **pushing me, push**\n**Push me to a breakpoint**\n**Self-esteem you seem to lack**\nYou **point your finger, three pointing back**\nSo's the **illusion of old golden dance**\n**Evil's contagious and life ain't that fair**\n**Criticisms**, the word that fits\n**Put me down to lift you up**\nYou're **pushing me to a breakpoint**\nYou're **pushing me to a breakpoint**\nYou're **pushing me to a breakpoint**\n**Pushing me, push**\n**Push me to a breakpoint**\n**Watching pain, your only pleasure**\n**Fascination for sick disaster**\n**Suffering since you were born**\n**Mess with the bull you'll get the horn**\n**Misery**, the word that fits\n**Times are good when times are bad**\nYou're **pushing me to a breakpoint**\nYou're **pushing me to a breakpoint**\nYou're **pushing me to a breakpoint**\nYou're **pushing me**\n**Pushing me**\nTo a **breakpoint**\nIn my opinion as a **professional**\nI recommend we **straight-jacket**\nIn the **son of a bitch**\n**Lock him in a rubber room**\n**Sedate him heavily**\nAnd when he wakes up, if he wakes up\nWe'll see if he can be a **nice boy**\n**Sedate me? Ha, cool!**\n**Straight jacket?**\n**Hey! Hey!**\n**Let go of me! Hey**\n**Breakpoint**\nYou push me to a **breakpoint**\n**Breakpoint**\nYou push me to a **breakpoint**\n**Breakpoint**\n**Don't push me**"
-      },
-      {
-        "n": 3,
-        "title": "Go to Hell",
-        "duration": "4:36",
-        "writers": ["Dave Mustaine"],
-        "lyrics": "You took my heart and tore it in two\nBetrayed my trust, I believed in you\nYou stabbed me in the back, left me for dead\nNow I'm coming back to mess with your head\n\n**Go to hell**\n**Go to hell**\n\nYou preach about morals, you talk about grace\nBut you're nothing but a demon in a pretty face\nYour lies and your deceit, they cut like a knife\nI'm taking back what's mine, I'm taking your life\n\n**Go to hell**\n**Go to hell**\n\nThere's no forgiveness, there's no turning back\nJust sweet revenge on this evil track\nYou made your bed, now sleep in the fire\nThe flames of my hatred are rising higher\n\n**Go to hell**\n**Go to hell**"
-      },
-      {
-        "n": 4,
-        "title": "Angry Again",
-        "duration": "3:47",
-        "writers": ["Dave Mustaine"],
-        "lyrics": "The more of you that I **inspect**\nThe more of me I **see reflect**\nThe more I try to **read your lips**\nThe more the **mask you're wearing rips**\nBut when I seek out your voice\nMy ears are **overcome with noise**\nYou **show and tell with greatest ease**\n**Raving impossibilities**\n**Engaged in crime I grasp my throat**\n**Enraged my mind starts to smoke**\n**Enforce a mental overload**\n**Angry again, angry again, angry ow**\nAnd when the **story takes a twist**\nIf folds like a **contortionist**\n**Slight of hand and quick exchange**\nThe **old tricks have been rearranged**\n**Engaged in crime I grasp my throat**\n**Enraged my mind starts to smoke**\n**Enforce a mental overload**\n**Angry again, angry again, angry**\nThe **searing of the sinew**\nMy **body fights for air**\nThe **ripping of the tissue**\nMy **lungs begin to tear**\n**Gravity's got my bones**\nIt pulls my **flesh away**\nThe **steam finally dissipates**\nI make out my **sweaty face**\n**Association that I choose**\nGame I **inevitably lose**\n**Governed by laws set up by me**\n**Fracture it's jaw to let me be**\nA **cut-out cardboard condo maze**\nFilled with an **insubordinate race**\n**Irrational youths stop to stare**\nAs **music rubber hosed the air**\n**Engaged in crime I grasp my throat**\n**Enraged my mind starts to smoke**\n**Enforce a mental overload**\n**Angry again, angry again, angry again**\nAnd again and again, again\n**Engaged in crime I grasp my throat**\n**Enraged my mind starts to smoke**\n**Enforce a mental overload**\n**Angry again, angry again, angry haow!**"
-      },
-      {
-        "n": 5,
-        "title": "99 Ways to Die",
-        "duration": "3:58",
-        "writers": ["Dave Mustaine"],
-        "lyrics": "If I see the **morning hours**\nI'll have **one more yesterday**\n**Take life from tomorrow**\n'Cause I've **burned out my today**\nIf I get up to the **top, I know**\nI'll just **go back downhill**\nGotta' **terminal future**\nAnd it's time to **write my will**\n**Down another glass of courage**\nAnd a shot of **Thorazine**\n**We're not ready to see you yet**\n**99 ways to die**\n**We're not ready to see you yet**\nGotta' **short between the earphones**\n**Wringing my hands in dismay**\nA **more efficient maniac**\nWith **two feet in the grave**\n**Ain't got no last words to say**\n**Yellow streak right up my spine**\nThe **gun in my mouth was real**\nAnd the **taste blew my mind**\nIn a **black tie and straight jacket**\nMan, I'm gonna **try again**\n**We're not ready to see you yet**\n**99 ways to die**\n**We're not ready to see you yet**\n**We're not ready to see you yet**\n**99 ways to die**\n**We're not ready to see you yet**\n**Demitasse of arsenic**\n**Try on this tie**\n**Never mind the tree**\nThere is only **death and danger**\nIn the **sockets of my eyes**\nA **playground of illusion**\n**No one plays, they only die**\nThere's a **prison in my mind**\nAnd the **bars are gonna break**\nI'm as **mad as a hatter**\nAnd **strung out just the same**\n**Taunting rigor mortis**\nI feel it **draw me in**\n**We're not ready to see you yet**\n**99 ways to die**\n**We're not ready to see you yet**\n**We're not ready to see you yet**\n**99 ways to die**\n**We're not ready to see you yet**\n**We're not ready**\n**We're not ready**\n**We're not ready**\n**99**"
-      },
-      {
-        "n": 6,
-        "title": "Paranoid",
-        "duration": "2:32",
-        "writers": [
-          "Tony Iommi",
-          "Ozzy Osbourne",
-          "Geezer Butler",
-          "Bill Ward"
+          "Jean-Jacques Burnel",
+          "Dave Greenfield",
+          "Hugh Cornwell",
+          "Jet Black"
         ],
-        "lyrics": "**Finished with my woman 'cause she couldn't help me**\n**With my mind**\nPeople **think I'm insane because I am frowning all the time**\nAll day long I **think of things but nothing seems to satisfy**\nThink I'll **lose my mind if I don't find something to pacify**\n**Can you help me occupy my brain?**\nOh, yeah\nI **need someone to show me the things in life that I can't find**\nI **can't see the things that make true happiness**\n**I must be blind**\n**Make a joke and I will sigh and you will laugh and I will cry**\n**Happiness I cannot feel and love to me us so unreal**\nAnd so as you hear these words **telling you now of my state**\nI tell you to **enjoy life I wish I could but it's too late**"
+        "note": {
+          "es": "Cover de The Stranglers",
+          "en": "The Stranglers cover"
+        },
+        "lyrics": "Big girl in the red dress\nShe's just trying to impress us\nShe's got the barley fever\nBut she doesn't make a sound\nShe's just hanging around\nShe's just hanging around\n\nDown the court road early\nWith the hustlers big and burly\nThere's a million of 'em selling\nAnd the buyers can be found\nThey're just hanging around\nThey're just hanging around\n\nChrist, he told his mother\nHe told her not to bother\n'Cause he's alright in the city\nHe's high above the ground\nHe's just hanging around (hanging around)\nHe's just hanging around (hanging around)\nHe's just hanging around (hanging around)\nHe's just hanging around (hanging around)\n\nOne of 'em comes over\nGot a monkey on his shoulder\nAnd the monkey's getting grinner\nBut his eyes are on the ground\nHe's just hanging around\nHe's just hanging around\n\nI'm moving to the Lenny\nWith the leather all around me\n\nAnd the sweat is getting steamy\nBut their eyes are on the ground\nThey're just hanging around\nThey're just hanging around\n\nChrist, he told his mother\nHe told her not to bother\n'Cause he's alright in the city\nHe's high above the ground\nHe's just hanging around (hanging around)\nHe's just hanging around (hanging around)\nHe's just hanging around (hanging around)\nHe's just hanging around (hanging around)\n\nChrist, he told his mother\nHe told her not to bother\n'Cause he's alright in the city\nHe's high above the ground\nHe's just hanging around (hanging around)\nHe's just hanging around (hanging around)\nHe's just hanging around (hanging around)\nHe's just hanging around (hanging around)\n\nHe's just hanging around (hanging around)\nHe's just hanging around (hanging around)\nHe's just hanging around (hanging around)\nHe's just hanging around (hanging around)\n(Hanging around)\n(Hanging around)"
       },
       {
-        "n": 7,
-        "title": "Diadems",
-        "duration": "3:56",
-        "writers": ["Dave Mustaine"],
-        "lyrics": "**Sacriledge and blasphemy**\n**Sets the stage today**\nThe **more insatiable the sex**\nThe more **swelled our tongues became**\nAs **pre-historic as it seems**\n**This is now, today**\nAs **pre-historic as it seems**\n**This is now**\nTalkin' 'bout **no vision**\nTalkin' 'bout **no dream**\nThe **harlot puddles for her lies**\nFrom where she speaks\nI look above and see\n**Entrails in the sky**\nThis song ain't over 'til the\n**Fat lady dies**\n**One man rules the earth**\nAnd rides the **seven-headed beast**\n**Ten diadems, to rule them all, to crown them all**\nThe **world, religion at his feet**\n**Dreams are told of dreams of old**\n**This day will surely come**\nSo, **run my child and hide your face**\nOnce you've been **marked it's finished, done**\n**You'll become one**\n**You're mine**\n**You're one**\n**I saw a new earth today**\n**I saw a former pass away**\n**I saw a new earth today**\n**I saw a former pass away**\n**Vengence is mine**\n**Vengence is mine**\nThe **netherworld and sheol**\nAre **never satisfied**\nSo the **eyes of man are**\n**Never sat-is-fied**\n**I saw a new earth today**\n**I saw a former pass away**"
+        "n": 4,
+        "title": "Phantom of the Opera",
+        "duration": "7:10",
+        "writers": ["Steve Harris"],
+        "note": { "es": "Cover de Iron Maiden", "en": "Iron Maiden cover" },
+        "lyrics": "I've been looking so long for you\nNow you won't get away from my grasp\nI've lived so long in hiding\nIn hiding behind that false mask\nAnd I know that you know\nThat I ain't got long now to last\nMy looks and my feelings\nAre just the remains of my past\n\nI'm standing in the wings there\nI wait for the curtain to fall\nIn knowing the terror and holding\nI have on you all\nYeah, you know that I'm going to scratch you\nAnd maim you and maul\nAnd you know you're helpless\nFrom my mesmerizing catcall\n\nKeep your distance, walk away\nDon't take his bait\nDon't you stray, don't fade away\nWatch your step, he's out to get you\nCome what may\nDon't you stray from the narrow way\n\nYou're running and hiding\nIn dreams, I'm always there\nI'm the phantom of the opera\nI'm the devil, I'm just out to scare\nI damaged your mind and your soul\nIt just floats through the air\nI haunt you, I taunt you\nI torture you back at my lair"
       },
       {
-        "n": 8,
-        "title": "Millenium of the Blind",
-        "duration": "2:15",
-        "writers": [
-          "Dave Mustaine",
-          "Marty Friedman",
-          "David Ellefson",
-          "Nick Menza"
-        ],
-        "lyrics": "**Line up all of you and turn in your eyes**\n**You just won't need them anymore**\nAnd your **mind is ours to do with what we please**\n**Everything you own and everything you need**\n**Sacrifice you leaders: like it or not**\nOr else you're going down with ship; **death on the rocks**\n**Blind follow; blind lead**\nAll our **hopes and dreams, washed out to sea**\nAll your **money's ours to bankroll corrupt wars**\nYou **can't see what you're fighting for**\n**Trust your leaders as they send you out to die**\nThe **true face of evil can't be seen without eyes**\nAt the start of time; **many centuries ago**\nCame the **spawning of christ and the antichrist**\nAnd **darkness fell upon our people**\nAnd the **children, they were born faceless**\n**Without eyes they could not see**\n**Born unto themselves: they lived and they died**\nIn the **millennium of the blind**"
+        "n": 5,
+        "title": "We Don't Need Another Hero (Thunderdome)",
+        "duration": "4:20",
+        "writers": ["Terry Britten", "Graham Lyle"],
+        "note": { "es": "Cover de Tina Turner", "en": "Tina Turner cover" },
+        "lyrics": "Out of the ruins\nOut from the wreckage\nCan't make the same mistake this time\n\nWe are the children\nThe last generation\nWe are the ones they left behind\n\nAnd I wonder when we are ever gonna change\nLiving under the fear 'til nothing else remains\nWe don't need another hero\nWe don't need to know the way home\nAll we want is life beyond the Thunderdome\n\nLooking for something\nWe can rely on\nThere's got to be something better out there\nLove and compassion\nTheir day is coming\nAll else are castles built in the air\n\nAnd I wonder when we are ever gonna change\nLiving under the fear 'til nothing else remains\nWe don't need another hero\nWe don't need to know the way home\nAll we want is life beyond the Thunderdome\n\nSo what do we do with our lives?\nWe leave only a mark\nWill our story shine like a light\nOr end in the dark?\nIs it all or nothing?\n\nWe don't need another hero\nWe don't need to know the way home\nAll we want is life beyond Thunderdome\n\nAll the children say\n\nWe don't need another hero\nWe don't need to know the way home\nAll we want is life beyond the Thunderdome"
       }
     ]
   },
   {
-    "id": "maximum-megadeth",
-    "title": "Maximum Megadeth",
-    "year": 1991,
-    "cover": "/images/albums/ep-mm.jpg",
-    "label": "Capitol",
-    "producers": ["Dave Mustaine"],
+    "id": "seven-inches-of-satanic-panic",
+    "title": "Seven Inches of Satanic Panic",
+    "year": 2019,
+    "release_date": "2019-09-06",
+    "cover": "/images/albums/seven-inches.jpg",
+    "label": "Loma Vista Recordings",
+    "producers": ["Tobias Forge"],
     "description": {
       "short": {
-        "es": "EP promocional de la era 'Rust In Peace'; un sampler del apogeo del thrash.",
-        "en": "Promotional EP from the 'Rust In Peace' era; a sampler of thrash metal's peak."
+        "es": "El vinilo de 7 pulgadas más famoso de Ghost: Kiss the Go-Goat y Mary on a Cross, la canción que conquistó TikTok.",
+        "en": "Ghost's most famous 7-inch: Kiss the Go-Goat and Mary on a Cross, the song that conquered TikTok."
       },
       "extended": {
-        "es": "Lanzado en 1991, este EP fue un sampler promocional de las canciones de su álbum seminal 'Rust In Peace'. Sirvió para destacar los riffs técnicos y la velocidad característica de esta era, capturando a la formación Mustaine/Friedman/Ellefson/Menza en su punto más álgido de destreza musical. No contiene material inédito, sino las versiones de estudio del álbum.",
-        "en": "Released in 1991, this EP was a promotional sampler of songs from their seminal album 'Rust In Peace'. It served to highlight the technical riffs and characteristic speed of this era, capturing the Mustaine/Friedman/Ellefson/Menza lineup at its peak of musical prowess. It contains the standard studio versions from the album."
+        "es": "Lanzado el 6 de septiembre de 2019 como single de 7 pulgadas para Halloween, este humilde vinilo contiene dos de las canciones más importantes de la carrera reciente de Ghost. 'Kiss the Go-Goat' es una celebración del sabbat pagano con un riff potente y un coro adictivo. 'Mary on a Cross' es una balada de devoción oscura que, tres años después de su lanzamiento, se viralizó masivamente en TikTok en 2022 gracias a su uso en la serie Wednesday de Netflix, acumulando más de mil millones de reproducciones y llevando a Ghost a una audiencia completamente nueva. En 2024, con el lanzamiento de la película Rite Here Rite Now, se agregó digitalmente 'The Future Is a Foreign Land' como tercer track.",
+        "en": "Released on September 6, 2019 as a Halloween 7-inch single, this humble vinyl contains two of the most important songs of Ghost's recent career. 'Kiss the Go-Goat' is a celebration of the pagan sabbath with a powerful riff and an addictive chorus. 'Mary on a Cross' is a dark devotion ballad that, three years after its release, went massively viral on TikTok in 2022 thanks to its use in Netflix's Wednesday series, accumulating over a billion streams and bringing Ghost to an entirely new audience. In 2024, with the release of the Rite Here Rite Now film, 'The Future Is a Foreign Land' was added digitally as a third track."
       }
     },
     "musicians": [
       {
-        "name": "Dave Mustaine",
+        "name": "Tobias Forge",
         "instrument": {
-          "es": "Voz y guitarra rítmica",
-          "en": "Vocals and rhythm guitar"
+          "es": "Voz, guitarra, bajo, teclados",
+          "en": "Vocals, guitar, bass, keyboards"
         }
       },
       {
-        "name": "Marty Friedman",
+        "name": "Nameless Ghouls",
         "instrument": {
-          "es": "Guitarra líder",
-          "en": "Lead guitar"
-        }
-      },
-      {
-        "name": "David Ellefson",
-        "instrument": {
-          "es": "Bajo",
-          "en": "Bass"
-        }
-      },
-      {
-        "name": "Nick Menza",
-        "instrument": {
-          "es": "Batería",
-          "en": "Drums"
+          "es": "Guitarras, bajo, batería, teclados",
+          "en": "Guitars, bass, drums, keyboards"
         }
       }
     ],
-    "streaming": {
-      "spotify": "https://open.spotify.com/album/placeholder-maximum-megadeth"
-    },
+    "streaming": { "spotify": "" },
     "tracks": [
       {
         "n": 1,
-        "title": "Holy Wars... The Punishment Due",
-        "duration": "6:32",
-        "writers": ["Dave Mustaine"],
-        "lyrics": "Brother will kill brother\nSpilling blood across the land\nKilling for religion\nSomething I don't understand\n\nFools like me who fly the flag\n**Holy wars** are never won\n(Instrumental: **The Punishment Due**)\n\nAn eye for an eye, a tooth for a tooth\nWe kill each other for the truth\nLying to yourselves, you're buying their lies\nNo one wins when the innocent dies\n\nI'm a soldier, I'm a freedom fighter\nI'm a believer, I'm a hellraiser\nMy enemy is yours, my friend is foe\nWe all follow where the madness goes"
+        "title": "Kiss the Go-Goat",
+        "duration": "3:21",
+        "writers": ["Tobias Forge"],
+        "lyrics": "Kiss the go-goat\nHey, baby\nKiss the goat\nOh-oh-oh\nKiss, kiss, kiss the go-goat\n\nYou've been playing\nAround with magic that is black\nBut all the powerful magical mysteries\nNever gave a single thing back\nYou've been daddied\nBy all the dudes that wanna dad\nAnd all those dads never gave you\nThe things that you should've had\n\nIt ain't always what it seems\nWhen you cling onto a dream\nIt ain't always there to please you (Please you)\nBut he's the guy you wanna do\nAnd you know that it takes two\nLuckily he wants to do you too\n\nSatan\nLucifer\nOsculum obscenum\n\nHey, baby!\nKiss the goat\nOh-oh-oh\nKiss, kiss, kiss the go-goat\nHey, baby!\nHey, hey, hey!\nKiss the goat\nOh-oh-oh\nKiss, kiss, kiss the go-goat\n\nIt ain't always what it seems\nThat glitter wasn't gold\nAs opposed to what they told you (Told you)\nBut he's the guy you wanna do\nAnd you know that it takes two\nLuckily he wants to do you too\n\nSatan\nLucifer\nOsculum obscenum\n\nIt ain't always what it seems\nWhen you cling onto a dream\nIt ain't always there to please you (Please you)\nBut he's the guy you wanna do\nAnd you know that it takes two\nLuckily he wants to do you too\n\nSatan\nLucifer\nOsculum obscenum"
       },
       {
         "n": 2,
-        "title": "Hangar 18",
-        "duration": "5:14",
-        "writers": ["Dave Mustaine"],
-        "lyrics": "Welcome to **Hangar 18**, the government's best kept secret\nInside these walls, the truth is hidden, for those who seek it\nAlien technology, bodies, and lies\nThey're waiting for us, with their glowing eyes\n\nThey're planning an invasion, a takeover of the Earth\nBut the knowledge we've gained will show them what we're worth\nWe'll use their own weapons, turn the tide of the fight\nAgainst the darkness, we bring the light\n\n(Instrumental break)\n\nI saw the lights, I heard the sound\nThey brought me here, buried underground\nIn **Hangar 18**, the secrets untold\nIt's a story of terror, a future cold"
+        "title": "Mary on a Cross",
+        "duration": "4:44",
+        "writers": ["Tobias Forge"],
+        "lyrics": "We were speeding together\nDown the dark avenues\nBut besides all the stardom\nAll we got was blues\nBut through all the sorrow\nWe've been riding high\nAnd the truth of the matter is\nI never let you go, let you go\n\nWe were scanning the cities\nRocking to pay their dues\nBut besides all the glamour\nAll we got was bruised\nBut through all the sorrow\nWe've been riding high\nAnd the truth of the matter is\nI never let you go, let you go\n\nYou go down just like Holy Mary\nMary on a Mary on a cross\nNot just another bloody Mary\nMary on a Mary on a cross\nIf you choose to run away with me\nI will tickle you internally\nAnd I see nothing wrong with that\n\nWe were searching for reasons\nTo play by the rules\nBut we quickly found out\nIt was just for fools\nNow through all the sorrow\nWe'll be riding high\nAnd the truth of the matter is\nI never let you go, let you go\n\nYou go down just like Holy Mary\nMary on a Mary on a cross\nNot just another bloody Mary\nMary on a Mary on a...\n\nYou go down just like Holy Mary\nMary on a Mary on a cross\nYour beauty never ever scared me\nMary on a Mary on a cross\nIf you choose to run away with me\nI will tickle you internally\nAnd I see nothing wrong with that\n\n(Mary on a Mary on a cross)\nNothing wrong with that\n(Mary on a Mary on a cross)\nNothing wrong with that\n(Mary on a Mary on a cross)\n(Mary on a) Mary on a cross"
+      }
+    ]
+  },
+  {
+    "id": "popestar",
+    "title": "Popestar",
+    "year": 2016,
+    "release_date": "2016-09-16",
+    "cover": "/images/albums/popestar.jpg",
+    "label": "Loma Vista / Spinefarm Records",
+    "producers": ["Tom Dalgety"],
+    "description": {
+      "short": {
+        "es": "Square Hammer llegó al #1 en la radio rock de EE.UU. — primer single de Ghost (y banda sueca) en lograrlo.",
+        "en": "Square Hammer hit #1 on US rock radio — Ghost's (and any Swedish band's) first single to do so."
+      },
+      "extended": {
+        "es": "Popestar, lanzado el 16 de septiembre de 2016, es el EP más influyente de Ghost. Producido por Tom Dalgety —quien luego haría Prequelle—, incluye una canción original, 'Square Hammer', y cuatro covers de artistas tan distintos como Eurythmics, Echo & The Bunnymen, Simian Mobile Disco e Imperiet. 'Square Hammer' fue el primer single de Ghost en alcanzar el #1 en el Mainstream Rock Chart de Billboard en EE.UU. y el primero de cualquier banda sueca en hacerlo. Popestar también fue el primer EP en llegar al #1 en Billboard Top Rock Albums desde que comenzó esa lista en 2006. El EP fue lanzado durante la gira de Meliora con Papa Emeritus III y se convirtió en el trampolín que catapultó a Ghost al mainstream norteamericano.",
+        "en": "Popestar, released on September 16, 2016, is Ghost's most influential EP. Produced by Tom Dalgety —who would later do Prequelle—, it includes one original song, 'Square Hammer', and four covers from such different artists as Eurythmics, Echo & The Bunnymen, Simian Mobile Disco and Imperiet. 'Square Hammer' was Ghost's first single to reach #1 on Billboard's Mainstream Rock Chart in the US and the first by any Swedish band to do so. Popestar was also the first EP to reach #1 on Billboard Top Rock Albums since that chart began in 2006. The EP was released during the Meliora tour with Papa Emeritus III and became the springboard that catapulted Ghost into the North American mainstream."
+      }
+    },
+    "musicians": [
+      {
+        "name": "Papa Emeritus III (Tobias Forge)",
+        "instrument": { "es": "Voz", "en": "Vocals" }
+      },
+      {
+        "name": "Nameless Ghouls",
+        "instrument": {
+          "es": "Guitarras, bajo, batería, teclados",
+          "en": "Guitars, bass, drums, keyboards"
+        }
+      }
+    ],
+    "streaming": { "spotify": "" },
+    "tracks": [
+      {
+        "n": 1,
+        "title": "Square Hammer",
+        "duration": "3:59",
+        "writers": ["Tobias Forge"],
+        "note": { "es": "Original de Ghost", "en": "Ghost original" },
+        "lyrics": "Living in the night\n'Neath devils torn asunder\nYou call on me to solve a crooked rhyme\nAs I'm closing in\nImposing on your slumber\nYou call on me as bells begin to chime\n\nAre you on the square?\nAre you on the level?\nAre you ready to swear right here, right now\nBefore the devil\nThat you're on the square\nThat you're on the level\nThat you're ready to stand right here, right now\nRight here, right now\n\nHiding from the light\nSacrificing nothing\nStill you call on me for entrance to the shrine\nHammering the nails\nInto a sacred coffin\nYou call on me for powers clandestine\n\nAre you on the square?\nAre you on the level?\nAre you ready to swear right here, right now\nBefore the devil\nThat you're on the square\nThat you're on the level\nThat you're ready to stand right here, right now\nRight here, right now\n\nRight here, right now\nRight here, right now\nRight here, right now\nRight here, right now"
+      },
+      {
+        "n": 2,
+        "title": "Nocturnal Me",
+        "duration": "5:13",
+        "writers": ["Ian McCulloch", "Will Sergeant", "Les Pattinson"],
+        "note": {
+          "es": "Cover de Echo & The Bunnymen",
+          "en": "Echo & The Bunnymen cover"
+        },
+        "lyrics": "In an ice-capped fire\nOf burning wood\nIn our world of wire\nIgnite our dreams of starry skies\nAnd you and me\nAs realised our bigger themes\n\nOh, take me internally\nForever yours\nNocturnal me\nTake me internally\nForever yours\nNocturnal me\n\nDo or die\nWhat's done is done\nTrue beauty lies\nOn the blue horizon\n\nWho or why\nWhat's one is one\nIn pure disguise\nOf vulgar sons\n\nOh, take me internally\nForever yours\nNocturnal me\nTake me internally\nForever yours\nNocturnal me\n\nWhatever burns burns eternally\nSo take me in turns internally\nWhen I'm on fire\nMy body will be\nForever yours\nNocturnal me\n\nIn an ice-capped fire\nOf burning wood\nIn our world of wire\nIgnite our dreams of starry skies\nAnd you and me\nAs realised our bigger themes\n\nOh, take me internally\nForever yours\nNocturnal me\nTake me internally\nForever yours\nNocturnal me"
       },
       {
         "n": 3,
-        "title": "Tornado of Souls",
-        "duration": "5:19",
-        "writers": ["Dave Mustaine"],
-        "lyrics": "The walls are closing in on me\nThe storm is brewing, I can't break free\nYou said forever, you said till the end\nBut your lies and betrayal, I can't comprehend\n\nI feel the wind and the freezing rain\nIt's a **tornado of souls**, and I'm caught in the pain\nMy heart is shattered, my love is dead\nI wish I could erase the words you said\n\n(Instrumental break)\n\nI walk alone on this path of despair\nBreathing the ashes, breathing the cold air\nI won't look back, I won't shed a tear\nI'll face the music, conquer my fear\n\nI feel the wind and the freezing rain\nIt's a **tornado of souls**, and I'm caught in the pain\nMy heart is shattered, my love is dead\nI wish I could erase the words you said"
+        "title": "I Believe",
+        "duration": "4:06",
+        "writers": ["James Ford", "Jas Shaw"],
+        "note": {
+          "es": "Cover de Simian Mobile Disco",
+          "en": "Simian Mobile Disco cover"
+        },
+        "lyrics": "I believe you could be\nWhat I need to believe\nI believe you could be\nWhat I need to believe\n\nI believe you could be\nWhat I need to believe\nI believe you could be\nWhat I need to believe\n\nIt's the same old song\nThat I always sing each year\nBut because it's perennial\nDon't make it less real\n\nAnd I believe that she could be\nWhat I need to believe\n\nI believe you could be\n(I believe)\nWhat I need to believe\nI believe you could be\nWhat I need to believe\n(Oh, it just keeps coming 'round again)\n\nI believe you could be\nWhat I need to believe\n(It just keeps coming 'round again)\nI believe you could be\nWhat I need to believe\n(It just keeps coming 'round again)\n\nThe conclusion I need\nIs easily reached with you\nYou have given me all\nAnd there's nothing left to do\n\nAnd I believe that she could be\nWhat I need to believe\nI believe\nIt just keeps coming 'round again\n\nI believe you could be\nWhat I need to believe\n(It just keeps coming 'round again)\nI believe you could be\nWhat I need to believe\n(It just keeps coming 'round again)\n\nI believe you could be\nWhat I need to believe\n(It just keeps coming 'round again)\nI believe you could be\nWhat I need to believe"
       },
       {
         "n": 4,
-        "title": "Five Magics",
-        "duration": "5:42",
-        "writers": ["Dave Mustaine"],
-        "lyrics": "I'm a wizard, I'm a king, I can do anything\nI wield the power, the might of the ring\nI command the elements, the earth and the sky\nWitness my strength, before you die\n\nI possess the **five magics**:\nThe alchemy of fire,\nThe sorcery of steel,\nThe conjuring of fear,\nThe wizardry of glass,\nAnd the illusion of man\n\nWith a flick of my wrist, your life fades to black\nThere's no turning back, there's no attack\nYou're caught in my spell, under my control\nI own your body, I own your soul\n\n(Instrumental break)\n\nI possess the **five magics**:\nThe alchemy of fire,\nThe sorcery of steel,\nThe conjuring of fear,\nThe wizardry of glass,\nAnd the illusion of man"
+        "title": "Missionary Man",
+        "duration": "3:42",
+        "writers": ["Annie Lennox", "Dave Stewart"],
+        "note": { "es": "Cover de Eurythmics", "en": "Eurythmics cover" },
+        "lyrics": "Well I was born an original sinner.\nI was borne from original sin.\nAnd if I had a dollar bill\nFor all the things I've done\nThere'd be a mountain of money\nPiled up to my chin...\n\nMy mother told me good\nMy mother told me strong.\nShe said \"be true to yourself\nAnd you can't go wrong.\"\n\"But there's just one thing\nThat you must understand.\"\n\"You can fool with your brother -\nBut don't mess with a missionary man.\"\n\nDon't mess with a missionary man.\nDon't mess with a missionary man.\n\nWell the missionary man\nHe's got God on his side.\nHe's got the saints and apostles\nBackin' up from behind.\nBlack eyed looks from those Bible books.\nHe's a man with a mission\nGot a serious mind.\nThere was a woman in the jungle\nAnd a monkey on a tree.\nThe missionary man he was followin' me.\nHe said \"stop what you're doing.\"\n\"Get down upon your knees.\"\n\"I've got a message for you that you better believe.\""
+      },
+      {
+        "n": 5,
+        "title": "Bible",
+        "duration": "6:34",
+        "writers": ["Robert Aschberg", "Joakim Thåström"],
+        "note": { "es": "Cover de Imperiet", "en": "Imperiet cover" },
+        "lyrics": "The earth was spinning all vacant and waste\nAnd there was silence over the ocean\nWhen a voice came thundering from above\nThe first day of light was in motion\n\nThen the voice said may fruits be created\nThe seeds take root as they may\nAnd no crimes were as yet committed\nLife was breathing its second day\n\nIn his image this voice made a man\nAnd a woman to love each another\nThey became the rulers of the world\nAnd the third day was their mother\n\nNow who will pray for Babylon\nSing a song to Babylon\nOn your knees before Babylon\nBeat the drum because Babylon is falling\n\nMan and woman learnt how to make fire\nAnd the kingdom's walls were extended\nOn the fourth day the walls were reaching so far\nNo-one knew where they ended\n\nNow no one heard that voice anymore\nAnd metal cities came to ascend\nOn the fifth day spring turned into fall\nAnd a rain fell over the land\n\nBut no walls can stop such a rain\nThat keeps on falling forever more\nI was told that by the sixth day\nThe earth was like an open sore\n\nNow who will pray for Babylon\nSing a song to Babylon\nOn your knees before Babylon\nBeat the drum because Babylon is falling\n\nThe earth was spinning all vacant and waste\nAnd there was silence over the ocean\nWhen a voice came thundering from above\nThe seventh day was in motion\n\nNow who will pray for Babylon\nSing a song to Babylon\nOn your knees before Babylon\nBeat the drum because Babylon is falling\n\nFalling\n\nI will wipe from the face of the earth the human race I have created, and with them the animals, the birds and the creatures that move among the ground, for I regret that I have made them"
+      }
+    ]
+  },
+  {
+    "id": "if-you-have-ghost",
+    "title": "If You Have Ghost",
+    "year": 2013,
+    "release_date": "2013-11-20",
+    "cover": "/images/albums/if-you-have-ghost.jpg",
+    "label": "Loma Vista / Republic Records",
+    "producers": ["Dave Grohl"],
+    "description": {
+      "short": {
+        "es": "Producido por Dave Grohl: Ghost versiona a Roky Erickson, ABBA, Army of Lovers y Depeche Mode.",
+        "en": "Produced by Dave Grohl: Ghost covers Roky Erickson, ABBA, Army of Lovers and Depeche Mode."
+      },
+      "extended": {
+        "es": "If You Have Ghost es el primer EP oficial de covers de Ghost, lanzado el 20 de noviembre de 2013 y producido íntegramente por Dave Grohl (Foo Fighters, Nirvana). La colaboración surgió del entusiasmo genuino de Grohl por la banda, a quien había seguido de cerca desde Opus Eponymous. El EP contiene cuatro covers de artistas que influyeron en la música de Ghost —desde el psicodélico texano Roky Erickson hasta el glam europeo de Army of Lovers y ABBA— más una versión en vivo de 'Secular Haze' grabada en el Music Hall of Williamsburg de Nueva York. El álbum alcanzó el puesto #87 en el Billboard 200, una hazaña para un EP de covers de una banda de metal.",
+        "en": "If You Have Ghost is Ghost's first official covers EP, released on November 20, 2013 and entirely produced by Dave Grohl (Foo Fighters, Nirvana). The collaboration arose from Grohl's genuine enthusiasm for the band, which he had closely followed since Opus Eponymous. The EP contains four covers of artists who influenced Ghost's music —from psychedelic Texan Roky Erickson to the European glam of Army of Lovers and ABBA— plus a live version of 'Secular Haze' recorded at the Music Hall of Williamsburg in New York. The album reached #87 on the Billboard 200, a feat for a metal band's covers EP."
+      }
+    },
+    "musicians": [
+      {
+        "name": "Papa Emeritus II (Tobias Forge)",
+        "instrument": { "es": "Voz", "en": "Vocals" }
+      },
+      {
+        "name": "Nameless Ghouls",
+        "instrument": {
+          "es": "Guitarras, bajo, batería, teclados",
+          "en": "Guitars, bass, drums, keyboards"
+        }
+      },
+      {
+        "name": "Dave Grohl",
+        "instrument": { "es": "Producción, batería", "en": "Production, drums" }
+      }
+    ],
+    "streaming": { "spotify": "" },
+    "tracks": [
+      {
+        "n": 1,
+        "title": "If You Have Ghosts",
+        "duration": "3:34",
+        "writers": ["Roky Erickson"],
+        "note": { "es": "Cover de Roky Erickson", "en": "Roky Erickson cover" },
+
+        "lyrics": "If you have ghosts then you have everything\nIf you have ghosts then you have everything\nYou can say anything you want\nAnd you can do anything you want to do\nIf you have ghosts then you have everything\n\nOne never does that\nOne never does that\nYou can call it surprise, there it is\nAnd a part of it is me\nOne never does that\n\nIn the night I am real\nIn the night I am real\nThe moon to the left is a part of my thoughts\nAnd a part of me is me\nForever is the wind\nIn the night I am real\n\nI don't want my fangs too long\nI don't want my fangs too long\nThe moon to the left is a part of my thoughts\nAnd a part of me is me\nForever is the wind\nI don't want my fangs too long\n\nIf you have ghosts then you have everything\nIf you have ghosts then you have everything\nIf you have ghosts then you have everything\nIf you have ghosts then you have everything"
+      },
+      {
+        "n": 2,
+        "title": "I'm a Marionette",
+        "duration": "4:52",
+        "writers": [
+          "Benny Andersson",
+          "Björn Ulvaeus",
+          "Agnetha Fältskog",
+          "Anni-Frid Lyngstad"
+        ],
+        "note": { "es": "Cover de ABBA", "en": "ABBA cover" },
+        "lyrics": "You’re so free\nThat’s what everybody’s telling me\nYet I feel I’m like an outward bound\nPushed around refugee\n\nSomething’s wrong\nGot a feeling that I don’t belong\nAs if I have come from out of space\nOut of place, like King-Kong\n\nI’m a marionette\nJust a marionette\nPull the string\nI’m a marionette\nEverybody’s pet\nJust as long as I sing\nI’m a marionette\nSee my pirouette\n’Round and ’round\nI’m a marionette\nI’m a marionette\nJust a silly old clown\n\nLike a doll\nLike a puppet with no will at all\nAnd somebody taught me how to talk\nHow to walk, how to fall\n\nCan’t complain\nI’ve got no one but myself to blame\nSomething’s happening\nI can’t control\nLost my hold, it’s insane\n\nI’m a marionette\nJust a marionette\nPull the string\nI’m a marionette\nEverybody’s pet\nJust as long as I sing\nI’m a marionette\nSee my pirouette\n’Round and ’round\nI’m a marionette\nI’m a marionette\nJust a silly old clown\n\nLook this way\nJust a little smile\nThat’s what they say\nYou’ll look better on the photograph\nIf you laugh, that’s OK!!\n\nI’m a marionette\nJust a marionette\nPull the string\nI’m a marionette\nEverybody’s pet\nJust as long as I sing\nI’m a marionette\nSee my pirouette\n’Round and ’round\nI’m a marionette\nI’m a marionette\nJust a silly old clown\n\nYou’re so free\nThat’s what everybody’s telling me\nYet I feel I’m like an outward bound\nPushed around refugee"
+      },
+      {
+        "n": 3,
+        "title": "Crucified",
+        "duration": "5:12",
+        "writers": ["Alexander Bard", "Jean-Pierre Barda"],
+        "note": {
+          "es": "Cover de Army of Lovers",
+          "en": "Army of Lovers cover"
+        },
+        "lyrics": "I'm crucified\nCrucified like my Saviour\nSaintlike behavior\nA lifetime I prayed\n\nI'm crucified\nFor the holy dimension\nGodlike ascension\nHeavens away\n\nI've seen the deepest darkness\nAnd wrestled with Gods\nRide the noble harness\nRaining cats and dogs\n\nI stand before my Maker\nLike Moses on the hill\nMy Guinness record baker\nI abide your will\n\nThe first of reciter\nI saw eternal light\nBest of vocal fighter\nBeyond human sight\n\nWhere thorns are a teaser\nI've played a double jeu\nYherushalaim at Easter\nI cry I pray mon Dieu\nI cry I pray mon Dieu\n\nI'm crucified\nCrucified like my Saviour\nSaintlike behavior\nA lifetime I prayed\n\nI'm crucified\nFor the holy dimension\nGodlike ascension\nHeavens away\n\nProphets I've been reading\nStories I've been told\nBefore I end my breathing\nI travel in the soul\n\nWhere thorns are a teaser\nI've played a double jeu\nYherushalaim at Easter\nI cry I pray mon Dieu\nI cry I pray mon Dieu\nI cry I pray mon Dieu\nAdieu mon Dieu\n\nI'm crucified\nCrucified like my Saviour\nSaintlike behavior\nA lifetime I prayed\n\nI'm crucified\nFor the holy dimension\nGodlike ascension\nHeavens away\n\nI'm crucified\nFor the holy dimension\nGodlike ascension\nHeavens away\n\nI'm crucified\nCrucified like my Saviour\nSaintlike behavior\nA lifetime I prayed\n\nI'm crucified\nFor the holy dimension\nGodlike ascension\nHeavens away"
+      },
+      {
+        "n": 4,
+        "title": "Waiting for the Night",
+        "duration": "5:37",
+        "writers": ["Martin Gore"],
+        "note": { "es": "Cover de Depeche Mode", "en": "Depeche Mode cover" },
+        "lyrics": "I am waiting for the night to fall\nI know that it will save us all\nWhen everything's dark\nKeeps us from the stark reality\n\nI'm waiting for the night to fall\nWhen everything is bearable\nAnd there in the still\nAll that you feel\nIs tranquility\n\nThere is a star in the sky\nGuiding my way with its light\nAnd in the glow of the moon\nKnow my deliverance will come soon\n\nI've been waiting for the night to fall\nI know that it will save us all\nWhen everything's dark\nKeeps us from the stark reality\n\nI've been waiting for the night to fall\nWhen everything is bearable\nAnd there in the still\nAll that you feel\nIs tranquility\n\nThere is a sound in the calm\nSomeone is coming to harm\nI press my hands to my ears\nIt's easier here just to forget fear\n\nAnd when I squinted\nThe world seemed rose-tinted\nAnd angels appeared to descend\nTo my surprise\nWith half-closed eyes\nThings looked even better\nThan when they were opened\n\nThere is a star in the sky\nGuiding my way with its light\nAnd in the glow of the moon\nKnow my deliverance will come soon"
+      },
+      {
+        "n": 5,
+        "title": "Secular Haze (Live)",
+        "duration": "4:45",
+        "writers": ["A Ghoul Writer"],
+        "note": {
+          "es": "En vivo en Music Hall of Williamsburg, NYC, 28 jul 2013",
+          "en": "Live at Music Hall of Williamsburg, NYC, Jul 28 2013"
+        }
+      }
+    ]
+  },
+  {
+    "id": "elizabeth",
+    "title": "Elizabeth",
+    "year": 2010,
+    "release_date": "2010-06-20",
+    "cover": "/images/albums/elizabeth-single.jpg",
+    "label": "Iron Pegasus Records",
+    "producers": ["Gene Walker"],
+    "description": {
+      "short": {
+        "es": "El primer lanzamiento oficial de Ghost: solo 500 copias en vinilo de 7 pulgadas que cambiaron todo.",
+        "en": "Ghost's first official release: just 500 copies on 7-inch vinyl that changed everything."
+      },
+      "extended": {
+        "es": "Elizabeth fue la primera publicación oficial de Ghost, un vinilo de 7 pulgadas lanzado en junio de 2010 con una tirada limitada de 500 copias a través de Iron Pegasus Records en Alemania. La cara A, 'Elizabeth', es un tributo a la condesa húngara del siglo XVI Elizabeth Báthory, con la melodía oscura y el groove pesado que definiría el sonido de la banda. La cara B contiene una primera versión de 'Death Knell'. Este vinilo fue el que llegó a manos de Lee Dorrian (Cathedral), quien quedó tan impresionado que ofreció a Ghost un contrato con su sello Rise Above Records, desencadenando todo lo que vendría después.",
+        "en": "Elizabeth was Ghost's first official release, a 7-inch vinyl launched in June 2010 with a limited run of 500 copies through Iron Pegasus Records in Germany. The A-side, 'Elizabeth', is a tribute to the 16th-century Hungarian countess Elizabeth Báthory, with the dark melody and heavy groove that would define the band's sound. The B-side contains an early version of 'Death Knell'. This vinyl was the one that reached Lee Dorrian (Cathedral), who was so impressed that he offered Ghost a deal with his Rise Above Records label, unleashing everything that would follow."
+      }
+    },
+    "musicians": [
+      {
+        "name": "Papa Emeritus I (Tobias Forge)",
+        "instrument": { "es": "Voz", "en": "Vocals" }
+      },
+      {
+        "name": "Nameless Ghouls",
+        "instrument": {
+          "es": "Guitarras, bajo, batería, teclados",
+          "en": "Guitars, bass, drums, keyboards"
+        }
+      }
+    ],
+    "streaming": { "spotify": "" },
+    "tracks": [
+      {
+        "n": 1,
+        "title": "Elizabeth",
+        "duration": "3:54",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "Underneath the moonlight of old Hungarian skies\nBuried in the blood-drenched earth\nThese barren lands of ice\nShe was an evil woman with an evil old soul\nPiercing eyes emotionless\nA heart so black and cold\n\nElizabeth, in the chasm where was my soul\nForever young, Elizabeth Báthory in the castle of your death\nYou're still alive, Elizabeth\n\nHer pact with Satan\nHer despise of mankind\nHer acts of cruelty and her lust for blood\nMakes her one of us\n\nOur ancient countess was refused her desires will\nTo bathe in pure fresh blood\nShe'd peasant virgins killed\n\nElizabeth, in the chasm where was my soul\nForever young, Elizabeth Báthory in the castle of your death\nYou're still alive, Elizabeth\n\nElizabeth, in the chasm where was my soul\nForever young, Elizabeth Báthory in the castle of your death\nYou're still alive, Elizabeth"
+      },
+      {
+        "n": 2,
+        "title": "Death Knell",
+        "duration": "4:35",
+        "writers": ["A Ghoul Writer"],
+        "note": {
+          "es": "Versión temprana, cara B",
+          "en": "Early version, B-side"
+        },
+        "lyrics": "Say, can you see the cross?\nInverted solemnly\nA symbol for the goat\nOf a thousand young\n\nSix, six, six\nEvoke the king of hell\nStrike the death knell, death knell\nDeath knell, death knell\n\nSay, can you hear the chimes?\nTolls now for the end\nBells call out our doom\nAs victor reaches womb\n\nSex, sex, sex\nReceive the beast of evil, of evil\n\nCan you say his name?\nCarrier of the light\nLegions of this seed\nA child you espouse will feed\n\nS-A-T-A-N\nUnder spell\nOf the death knell, death knell\nDeath knell, death knell"
       }
     ]
   }

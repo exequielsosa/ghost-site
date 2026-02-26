@@ -4,7 +4,7 @@
  *
  * Estrategia de rotación:
  * - 2 feeds por día (dentro del límite de 100K tokens/día de Groq)
- * - Feeds top (Blabbermouth, Loudwire, Kerrang) se procesan 2 veces/semana
+ * - Feeds top (Blabbermouth, Loudwire, NME) se procesan 2 veces/semana
  * - Feeds secundarios se procesan 1 vez/semana
  *
  * Flujo:
@@ -36,7 +36,7 @@ const ALL_FEEDS = {
   blabbermouth: "https://www.blabbermouth.net/feed/",
   loudwire: "https://loudwire.com/feed/",
   metalinjection: "https://metalinjection.net/feed",
-  kerrang: "https://www.kerrang.com/feed",
+  nme: "https://www.nme.com/feed",
   metalsucks: "https://www.metalsucks.net/feed/",
   loudersound: "https://www.loudersound.com/metal-hammer/feed",
   revolver: "https://www.revolvermag.com/feed",
@@ -47,14 +47,14 @@ const ALL_FEEDS = {
 
 /**
  * Rotación semanal de feeds (2 por día)
- * Feeds top (blabbermouth, loudwire, kerrang) aparecen 2 veces/semana
+ * Feeds top (blabbermouth, loudwire, nme) aparecen 2 veces/semana
  * El resto aparece 1 vez/semana
  */
 const FEED_ROTATION = {
-  0: ["blabbermouth", "kerrang"],       // Domingo
+  0: ["blabbermouth", "nme"],       // Domingo
   1: ["loudwire", "metalinjection"],    // Lunes
   2: ["blabbermouth", "loudersound"],   // Martes (repite blabbermouth)
-  3: ["kerrang", "metalsucks"],         // Miércoles (repite kerrang)
+  3: ["nme", "metalsucks"],         // Miércoles (repite nme)
   4: ["loudwire", "consequence"],       // Jueves (repite loudwire)
   5: ["revolver", "bravewords"],        // Viernes
   6: ["mariskalrock", "blabbermouth"],  // Sábado (3ra vez blabbermouth)

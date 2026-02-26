@@ -36,16 +36,76 @@
       "youtube": ""
     },
     "tracks": [
-      { "n": 1, "title": "Peacefield", "duration": "5:40", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 2, "title": "Lachryma", "duration": "4:36", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 3, "title": "Satanized", "duration": "3:56", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 4, "title": "Guiding Lights", "duration": "3:24", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 5, "title": "De Profundis Borealis", "duration": "4:32", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 6, "title": "Cenotaph", "duration": "4:17", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 7, "title": "Missilia Amori", "duration": "4:31", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 8, "title": "Marks Of The Evil One", "duration": "4:15", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 9, "title": "Umbra", "duration": "5:31", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 10, "title": "Excelsis", "duration": "6:01", "writers": ["Tobias Forge"], "lyrics": "" }
+      {
+        "n": 1,
+        "title": "Peacefield",
+        "duration": "5:40",
+        "writers": ["Tobias Forge"],
+        "lyrics": "Pieces of what we could have been\nPieces of a shattered dream\nChild, take your dark memories\nLike seeds, and plant them far from here\nSow them\nFeed them\nThrough shine and rain\nYour love will be born again\nThe dawn of prosperity\nA faded scar\nAn ended calamity\nA slaughtered tsar\nWe all need something to believe in until it's over\nAnything, anyone, anytime, but it's not over yet\nThis is what dreams are made of\nThis is what they're afraid of\nA rhyme with no reason\nWhen they finally reach you\nYou will have seen through\nThat dark is the season\nYour love, bright as the starlight\nOh, child, still we can see\nA black Moon over the peacefield\nOh, child, stay close to me\nThe end of a monarchy\nA state machine\nUnable to foresee\nThe widow queen\nWe all need something to believe in until it's over\nAnything, anyone, anytime, but it's not over yet\nEvery new generation\nHails a grand usurpation\nDevoid of treason\nFor a man in a mirror\nIt's all getting clearer\nThat dark is the season\nYour love, bright as the starlight\nOh, child, still we can see\nA black Moon over the peacefield\nOh, child, stay close to me\nWe are legion, join us\nOne day, fate will find a way through the marches of death\nAnd right back to the bearer of light\nYour love, bright as the starlight\nOh, child, still we can see\nA black Moon over the peacefield\nOh, child, stay close to me\nYour love, bright as the starlight\nOh, child, still we can see\nA black Moon over the peacefield\nOh, child, stay close to me\nOn the peacefield\nPeacefield\nOn the peacefield\nPeacefield\nOn the peacefield\nPeacefield\nOn the peacefield\nPeacefield"
+      },
+      {
+        "n": 2,
+        "title": "Lachryma",
+        "duration": "4:36",
+        "writers": ["Tobias Forge"],
+        "lyrics": "Ripping through every poem\nLike a vampire should\nAnd it takes one to know 'em\nLike I knew you would\nIn the middle of the night, it feeds\nIn the middle of the night, it eats you\nEverybody knows\nEverywhere I go\nI can never run and I cannot hide\nI'm done crying\nOver someone like you\nI'm done crying\nI hope you're feeling it too now\nI'm done\nCrying\nCrying\nNow that sweet's gone sour\nSeeping down the cracks\nMm, getting worse by the hour\nThe vile rot attacks, oh\nIn the middle of the night, it feeds\nIn the middle of the night, it eats you\nEverybody knows\nEverywhere I go\nI can never run and I cannot hide\nI'm done crying\nOver someone like you\nI'm done crying\nI hope you're feeling it too, now\nI'm done\nCrying\nCrying\nEverybody knows\nEverywhere I go\nAnd I cannot wait until the day when\nI'm done crying\nOver someone like you\nI'm done crying\nI hope you're feeling it too, now\nI'm done crying (crying)\nOver someone like you\nI'm done crying (crying)\nI need somebody new now\nI'm done"
+      },
+      {
+        "n": 3,
+        "title": "Satanized",
+        "duration": "3:56",
+        "writers": ["Tobias Forge"],
+        "lyrics": "There is something inside me\nAnd they don't know if there is a cure\nA demonic possession\nUnlike any before\nIt's a sickening heartache\nAnd it's slowly tormenting my soul\nI've invested my prayers\nInto making me whole\nI should have known not to give in\nI should have known not to give in\nBlasphemy, heresy\nSave me from the monster that is eating me\nI'm victimized\nBlasphemy, heresy\nSave me, from the bottom of my heart, I know\nI'm satanized\nI'm satanized\nI'm satanized\nAn nescitis quoniam membra vestra\nTemplum est Spiritus Sancti\nQui in vobis est\nQuem habetis a Deo et non estis vestri?\nThrough a life of devotion\nI've been quelling my urges to burst\nI've been fighting the notion\nTo, by love, be coerced\nI should have known not to give in\nI should have known not to give in\nBlasphemy, heresy\nSave me from the monster that is eating me\nI'm paralyzed\nBlasphemy, heresy\nSave me, from the bottom of my heart, I know\nI'm satanized\nI'm satanized\nI'm satanized\nLike a deadly affliction\nThat is twisting and bending my core\nI have begged God for the remedy\nBut I'm no longer sure\nI should have known not to give in\nI should have known not to give in\nBlasphemy, heresy\nSave me from the monster that is eating me\nI'm laicized\nBlasphemy, heresy\nSave me, from the bottom of my heart, I know\nI'm satanized\nFrom the bottom of my heart, I know\nI'm satanized\nFrom the bottom of my heart, I know\nI'm satanized\nI'm satanized\nI'm satanized"
+      },
+      {
+        "n": 4,
+        "title": "Guiding Lights",
+        "duration": "3:24",
+        "writers": ["Tobias Forge"],
+        "lyrics": "If I could pause right here\nI would open my heart\nAnd tell you with no fear\nThat the path we have walked\nLed us into the dark\nThere stood my god before me\nDo you know what they said?\nThat the road that leads to nowhere is long\nAnd that those that seek to go there are lost\nThe guiding lights (lights), they lead you on\nAnd the road that leads to nowhere is long\nIf I could turn around\nI would've told you the truth\nIt could've found its way\nThrough the powers that be\nI just want you to see\nThere stands our god before us\nCan't you hear them saying?\nThat the road that leads to nowhere is long\nAnd that those that seek to go there are lost\nThe guiding lights (lights), they lead you on\nAnd the road that leads to nowhere is long\nThat the road that leads to nowhere is long\nThat the road that leads to nowhere is long\nThat the road that leads to nowhere is long\nThat the road that leads to nowhere is long"
+      },
+      {
+        "n": 5,
+        "title": "De Profundis Borealis",
+        "duration": "4:32",
+        "writers": ["Tobias Forge"],
+        "lyrics": "All the things that never gave you peace\nThrowing those, but keeping these\nAll the rights that didn't undo wrongs\nPut it back where it belongs\nIn a palace built of frozen tears\nAll life is gone\nBut between the walls of whispering frost\nSecrets live on\nEvery time you feel the wind blow\nAnd a glow within you dies\nWhen tomorrow comes, you will know\nThat the morning thaws the ice\nAll the words that never came out right\nWithin reach, but out of sight\nAll the songs that couldn't mend your heart\nBut slit it up and tore apart\nSee, the palace built of frozen tears\nIs your own built prison\nAnd if only love could break these chains\nLife could go on\nEvery time you feel the wind blow\nAnd a glow within you dies\nWhen tomorrow comes, you will know\nThat the morning thaws the ice"
+      },
+      {
+        "n": 6,
+        "title": "Cenotaph",
+        "duration": "4:17",
+        "writers": ["Tobias Forge"],
+        "lyrics": "At the top of the mountain\nRight there, where it tips and connects with the night sky\nReach it with me\nIn the grave of the ocean\nRight there, where it dips and connects with the fire\nBurning with me\nThe ashes of memories buried are blowing\nBlowing in the wind\nThrough the sensations\nOn through the storms\nLike you used to be\nWherever I go\nYou're always there\nRiding next to me\nAyy\nAt the heart of the city\nRight there, where it glows and explodes into colour\nDevour with me\nIn the heat of the moment\nRight here, where it feels like I am actually living\n'Cause you are with me\nThe ashes of memories buried are blowing\nBlowing in the wind\nThrough the sensations\nOn through the storms\nLike you used to be\nWherever I go\nYou're always there\nRiding next to me\nYeah\nWherever I go\nYou're always there\nRiding next to me\nThrough the sensations\nOn through the storms\nLike you used to be\nWherever I go\nYou're always there\nRiding next to me\nTo me\nOh, next to me, next to me"
+      },
+      {
+        "n": 7,
+        "title": "Missilia Amori",
+        "duration": "4:31",
+        "writers": ["Tobias Forge"],
+        "lyrics": "So you want out now\nDon't you, love?\nWas I not all you were dreaming of?\n\nLove rockets, shot right in between your eyes\nLove rockets, excite me with your demise\n\nBefore my love has turned to hate\nBefore my love, it is too late\n\nLove rockets, shot right in between your eyes\nLove rockets, excite me with your demise\n\nMy missiles are aimed to launch at your heart\nGive in or the war is on\nLove rockets, shot right in between your eyes\n\nWherever you may hide away\nI'm gonna hunt you down\nWherever you may hide away\nI'm gonna hunt you down\n\nA man of faith is hard to find\nYou showed me yours, I'll show you my\n\nLove rockets, shot right in between your eyes\nLove rockets, excite me with your demise\n\nMy missiles are aimed to launch at your heart\nGive in or the war is on\nLove rockets, shot right in between your eyes\n\nLove rockets, shot right in between your eyes\nLove rockets, shot right in between your eyes"
+      },
+      {
+        "n": 8,
+        "title": "Marks Of The Evil One",
+        "duration": "4:15",
+        "writers": ["Tobias Forge"],
+        "lyrics": "One rider has a bow\nRides a steed, white, and wears a crown, conquering\nA second rider joins, on a steed\nRed, swinging a sword, mongering\n\nFall on us, and hide us\nFrom the tyrant who is satanically enthroned\n\nThere! There!\nThe marks are spreading everywhere\nThere! There!\nThe marks of the evil one\n\nThe third rider looks cool on his steed\nBlack, a pair of scales in his hand\nThe fourth rider is death, rides a steed\nPale, and Hades follows him\n\nFall on us, and hide us\nFrom the tyrant who is satanically enthroned\n\nThere! There!\nThe marks are spreading everywhere\nThere! There!\nDisciples of the evil one\nThere! There!\nWatch! They're crawling out the serpent's lair\nThere! There! There!\nThe marks of the evil one\n\nWe're plowing through the seals\nLike there is no tomorrow to be seen\nAs if the falling sky is nothing but an ancient dream\nAnd when the sun eclipses\nIt's just abracadabra\nSome hocus pocus sham\nHere they come, here they come, here they come\n\nThere! There!\nThe marks are spreading everywhere\nThere! There!\nDisciples of the evil one\nThere! There!\nWatch! They're crawling out the serpent's lair\nThere! There! There!\nThe marks of the evil one\n\nThere! There!\nThere! There!\nThere is a fucking there! There!\nThe marks of the evil one"
+      },
+      {
+        "n": 9,
+        "title": "Umbra",
+        "duration": "5:31",
+        "writers": ["Tobias Forge"],
+        "lyrics": "In the shadows, pale and cold\nIn the shadows, lay my soul\nIn the shadows, death becomes your lover\n\nThe altar is lit with black candles\nThe darker, the better, so thrilling\nIt's killing you\n\nIn the chapel of the Holy One\nIn the presence of the Chosen Son\nI see your light shine through\nIn the temple of the godly scene\nIn the shadow of the Nazarene\nI put my love in you\n\nIn the shadows, stripped of sin\nIn the shadows, deep within\nIn the shadows, I will make you my angel\n\nThe altar (altar) is lit with black candles\nThe darker (darker), the better, so killing\nIt's thrilling me\n\nIn the chapel of the Holy One\nIn the presence of the Chosen Son\nI see your light shine through\nIn the temple of the godly scene\nIn the shadow of the Nazarene\nI put my love in you\n\nIn the chapel of the Holy One\nIn the presence of the Chosen Son\nI see your light shine through\nIn the temple of the godly scene\nIn the shadow of the Nazarene\nI put my love in you"
+      },
+      {
+        "n": 10,
+        "title": "Excelsis",
+        "duration": "6:01",
+        "writers": ["Tobias Forge"],
+        "lyrics": "It is the end of your penitence\nIt is the end of your sadness and pain\nIt's the return to your innocence\nIt is the end of a life grieved in vain\n\nEverybody leaves one day\nI know it hurts\nEverybody goes away\nYou will, too, I will, too\n\nCome with me to the rainbow's end\nCome with me to the Holy Land\nCome with me\nYou will, too, I will, too\nExcel, excel\n\nThere is still time for deliverance\nThere is still time to make peace with your friend\nAnd to return to where there's a chance\nThere is still time to love once again\n\nEverybody leaves one day\nI know it hurts\nEverybody goes away\nYou will, too, I will, too\n\nCome with me to the rainbow's end\nCome with me to the Holy Land\nCome with me\nYou will, too, I will, too\nExcel, excel\n\nAs levees are breaking\nA flood comes\nWashes away all the rubble\nPast indiscretions and stalemates\nWe are all sailing to the gates\n\nEverybody leaves one day\nI know it hurts\nEverybody goes away\nYou will, too, I will, too\n\nCome with me to the rainbow's end\nCome with me to the Holy Land\nCome with me\nYou will, too, I will, too\nExcel, excel, excel, excel\n\nThis is the end of the avenue\nI am afraid of eternity, too"
+      }
     ]
   },
   {
@@ -85,17 +145,90 @@
       "youtube": ""
     },
     "tracks": [
-      { "n": 1, "title": "Imperium", "duration": "1:35", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 2, "title": "Kaisarion", "duration": "3:38", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 3, "title": "Spillways", "duration": "4:04", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 4, "title": "Call Me Little Sunshine", "duration": "4:50", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 5, "title": "Watcher in the Sky", "duration": "4:02", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 6, "title": "Twenties", "duration": "3:29", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 7, "title": "Darkness at the Heart of My Love", "duration": "4:39", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 8, "title": "Griftwood", "duration": "4:21", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 9, "title": "Hellhole", "duration": "3:47", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 10, "title": "Hunter's Moon", "duration": "3:41", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 11, "title": "Respite on the Spitalfields", "duration": "4:53", "writers": ["Tobias Forge"], "lyrics": "" }
+      {
+        "n": 1,
+        "title": "Imperium",
+        "duration": "1:40",
+        "writers": ["Tobias Forge"],
+        "lyrics": "[Instrumental]"
+      },
+      {
+        "n": 2,
+        "title": "Kaisarion",
+        "duration": "5:02",
+        "writers": ["Tobias Forge"],
+        "lyrics": "Kaisarion, a prophecy told\nWe're building our new empire from the ashes of an old\nKaisarion, the fruit of the womb\nOur brotherhood of good faith sealed an apostate witch's doom\n\nIt's the sound of another deadline whistling past your ears\nIt's the sight of a million regrets mounting over years\nIt's the words that were never spoken that echoes through the times\nIt's the smell of the burning temples swept away by rhymes\n\n(Hypatia)\nFar away from the stench of the heavens\n(Hypatia)\nLong ago, yet too close to forever\n(Hypatia)\nWhen a paradise is lost, go straight to...\n\nKaisarion, a matter of love\nWhen Mother Earth is calling for a father up above\nKaisarion, put up the smiles\nAnd throw your holy rocks right at her for her satanic wiles\n\nIt's the truth of the candor shown through a prism of deceit\nIt's the continence of bishops with their choir boys en-suite\nIt's the tongue soiled in adulation that licks to no avail\nIt's the noise of the righteous dogma that hides the handmaid's tail\n\n(Hypatia)\nFar away from the stench of the heavens\n(Hypatia)\nLong ago, yet too close to forever\n(Hypatia)\nWhen a paradise is lost, go straight to...\n\nIt's the sound of another deadline whistling past your ears\nIt's the sight of a million regrets mounting over years\nIt's the words that were never spoken that echoes through the times\nIt's the smell of the burning temples swept away by rhymes\n\nIt's the truth of the candor shown through a prism of deceit\nIt's the continence of bishops with their choir boys en-suite\nIt's the tongue soiled in adulation that licks to no avail\nIt's the noise of the righteous dogma that hides the handmaid's tail\n\n(Hypatia)\nFar away from the stench of the heavens\n(Hypatia)\nLong ago, yet too close to forever\n(Hypatia)\nWhen a paradise is lost, go straight to...\n\n(Hypatia)\nFar away from the stench of the heavens\n(Hypatia)\nLong ago, yet too close to forever\n(Hypatia)\nWhen a paradise is lost, go straight to..."
+      },
+      {
+        "n": 3,
+        "title": "Spillways",
+        "duration": "3:16",
+        "writers": ["Tobias Forge"],
+        "lyrics": "Through benediction\nYou tried to rid your mind\nOf malediction\nBut through all this time\nYou try to peel it off\nAnd it is such a ride\n\nYour desolation\nLed you into this\nVile incarnation\nOf consummated bliss\nI know you need it now\nTo make you feel alive\n\nAll your faith\nAll your rage\nAll your pain\nIt ain't over now\nAnd I ain't talking about forgiveness\nAll your faith\nAll your rage\nAll your pain\nIt ain't over now\nIt is the cruel beast that you feed\nIt is your burning, yearning need to bleed\nThrough the Spillways...\n\nYou keep a casket\nBuried deep within\nYou try to mask it\nBut fall back in sin\nYou want to shake it off\nBut you are stuck inside\n\nWhen stripped of rags\nOf skin and spine\nHuman decay\nCorpus Dei\nTerminally dispelled\nAnd it is such a ride\n\nAll your faith\nAll your rage\nAll your pain\nIt ain't over now\nAnd I ain't talking about forgiveness\nAll your faith\nAll your rage\nAll your pain\nIt ain't over now\nIt is the cruel beast that you feed\nIt is your burning, yearning need to bleed\nThrough the Spillways\nThrough the Spillways of your soul\nThrough the Spillways...\n\n[Guitar Solo]\n\nIt is the cruel beast that you feed\nIt is your burning, yearning need to bleed\n\nThrough the Spillways\nThrough the Spillways of your soul\nThrough the Spillways\nThrough the Spillways of your soul\nThrough the Spillways\nThrough the Spillways of your soul\nThrough the Spillways\nThrough the Spillways of your soul"
+      },
+      {
+        "n": 4,
+        "title": "Call Me Little Sunshine",
+        "duration": "4:44",
+        "writers": ["Tobias Forge"],
+        "lyrics": "Call out in the middle of the night\nFor when else would I hear you?\nFall out in the cold starlight\nI can save you if you do\n\nYou will never walk alone\nYou can always reach me\nYou will never ever walk alone\n\nCall me Little Sunshine\nCall me, call me Mephistopheles\nCall me when you feel all alone\nJust call me Little Sunshine\n\nLight up in the middle of the day\nFor how else could you see me?\nEase up to the hunter from the prey\nAnd transform indefinitely\n\nYou will never walk alone\nYou can always reach me\nYou will never ever walk alone\n\nCall me Little Sunshine\nCall me, call me Mephistopheles\nCall me when you feel all alone\nJust call me Little Sunshine\n\nYou will never walk alone\nYou can always reach me\nYou will never ever walk alone\nYou will never walk alone\nYou can always reach me\nYou will never ever walk alone\nYou will never walk alone\nYou can always reach me\nYou will never ever walk alone\nEven when you're dead and gone\nYou can always reach me\nAll you gotta do is call me, call me\n\nCall me Little Sunshine\nCall me, call me Mephistopheles\nCall me when you feel all alone\nJust call me Little Sunshine"
+      },
+      {
+        "n": 5,
+        "title": "Hunter's Moon",
+        "duration": "3:16",
+        "writers": ["Tobias Forge"],
+        "lyrics": "It's been a long time coming\nI'm coming back for you, my friend\nTo where we'd hide as children\nI'm coming back for you, my friend\n\n[Chorus]\nThough my memories have faded\nThey come back to haunt me once again\nAnd though my mind is somewhat jaded\nNow, it's time for me to strike again\nTonight, it's a Hunter's Moon\n\n[Verse 2]\nUnder a headstone, sister\nI'm dying to see you, my friend (Ah)\nBack in the old cemetery\nI'm dying to see you, my friend\n\n[Chorus]\nThough my memories have faded\nThey come back to haunt me once again\nAnd though my mind is somewhat jaded\nNow, it's time for me to strike again\nTonight, it's a Hunter's Moon\n\n[Bridge]\nOoh, I'm coming, I'm dying\nTo see you one last time, together\n\n[Chorus]\nThough my memories have faded\nThey come back to haunt me once again\nAnd though my mind is somewhat jaded\nNow, it's time for me to strike again\nI'm coming back for you, my friend\nTonight, it's a Hunter's Moon\n\n[Outro]\n(Hunt, hunt, Hunter's Moon)\n(Hunt, hunt, hunter)\n(Hunt, hunt, hunt)"
+      },
+      {
+        "n": 6,
+        "title": "Watcher in the Sky",
+        "duration": "5:48",
+        "writers": ["Tobias Forge"],
+        "lyrics": "Searchlights\nSearchlights\nLooking for the watcher in the sky\n\nEvilutionary the optics for us\nTo get answers as to why\nWe signal to another dimension\nThat we stand here ready for reply\n\nCommunication is key\nWhen you unlock to believe\nCan you see what I see?\n\nSearchlights\nLooking for the watcher in the sky\nSearchlights\nLooking for the watcher in the sky\n\nThe caleidoscopian visions we have seen\nTell of bloodlines of top notch\nThe predestinated will dispatch\nWhile your realm has rotted on our watch\n\nCommunication is key\nWhen you unlock to believe\nCan you see what I see?\n\nSearchlights\nLooking for the watcher in the sky\nSearchlights\nLooking for the watcher in the sky\n\nSearchlights\nLooking for the watcher in the sky\nSearchlights\nLooking for the watcher in the sky\n\nFor the light of our savior\nHis Machiavellian grace\nAnd in the sheene of his splendour\nThere is a better place\n\nLet us go\n\nSearchlights\nLooking for the watcher in the sky\nSearchlights\nLooking for the watcher in the sky\n\nSearchlights\nLooking for the watcher in the sky\nSearchlights\nLooking for the watcher in the sky\n\nSearchlights\nLooking for the watcher in the sky\nSearchlights\nLooking for the watcher in the sky\n\nSearchlights\nLooking for the watcher in the sky\nSearchlights\nLooking for the watcher in the sky\n\nSearchlights\nLooking for the watcher in the sky\nSearchlights\nLooking for the watcher in the sky\n\nSearchlights\nLooking for the watcher in the sky\nSearchlights\nLooking for the watcher in the sky"
+      },
+      {
+        "n": 7,
+        "title": "Dominion",
+        "duration": "1:22",
+        "writers": ["Tobias Forge"],
+        "lyrics": "[Instrumental]"
+      },
+      {
+        "n": 8,
+        "title": "Twenties",
+        "duration": "3:46",
+        "writers": ["Tobias Forge"],
+        "lyrics": "Listen up, hatchet man\nSet controls for the heart of the land\nTell 'em all it is time\nYou're the next in the chain of command (As my)\n\nApparition (Apparition)\nDirect the course for collision\n(Grow)\nSuspicion (Suspicion)\nFor the Reich to come to fruition\n\nIn the Twenties (Twenties)\nWe'll be singing in a reign of pennies\nIn the Twenties (Twenties)\nWe'll be soaring in disguise of Bevies\n\nIn the Twenties (Twеnties)\nWe'll be smooching at thе feet of Da Rulah\nIn the Twenties (Twenties)\nWe'll be grinding in a pile of moolah\n\nListen up, you motherf*ckers\nThose Ivy League dopes, they wanna mock us\nTell 'em all this is war\nAnd not fighting a war is for suckers\n(Kiss my)\nAssassinate (Assassinate)\n\nGather the tools to disintegrate\n(Feed)\nHate (Hate)\nReaping the seeds as a reprobate\nI'm number one, you're number two\nYou've got a lot of god's work to do\n\nIn the Twenties (Twenties)\nWe'll be singing in a reign of pennies\nIn the Twenties (Twenties)\nWe'll be soaring in disguise of Bevies\nIn the Twenties (Twenties)\nWe'll be taking no shit from no chulas\nWe'll be grabbing 'em all by the hoo-has\n\nIn the Twenties (Twenties)\nWe'll be dancing in the fields of freedom\nIn the Twenties (Twenties)\nWe'll be crushing them laws 'cause we don't need 'em\nIn the Twenties\nIn the Twenties (Twenties)\nAll the way to the thirties\n\nIn the Twenties (Twenties)\nWe'll be singing in a reign of pennies\nIn the Twenties (Twenties)\nWe'll be soaring in disguise of Bevies\nWe'll be smooching at the feet of Da Rulah\nIn the Twenties (Twenties)\nWe'll be grinding in a pile of moolah"
+      },
+      {
+        "n": 9,
+        "title": "Darkness at the Heart of My Love",
+        "duration": "4:58",
+        "writers": ["Tobias Forge"],
+        "lyrics": "When the summer dies\nSevering the ties\nI'm with you always\n...Always\n\nWill you walk the line?\nMy path serpentine\nRemember always\nThat love is all you need\n\nTell me who you want to be\nAnd I will set you free\n\nThere is a darkness at the heart of my love\nThat runs cold, that runs deep\nThe darkness at the heart of my love for you\n\nWill you spill the wine?\nTo summon the divine\nI'm with you always\n...Always\n\nNow paint a pair of eyes\nAnd let us watch as it dries\nRemember always\nThat love is all you need\nTell me who you want to be\nAnd I will set you free\n\nThere's a darkness at the heart of my love\nThat runs cold, runs deep\nThe darkness at the heart of my love so bold, so sweet\nThere's a darkness at the heart of my love\nThat runs cold, runs deep\nThe darkness at the heart of my love for you\n\nRemember always\nThat love is all you need\n\nTell me who you want to be\nAnd I will set you free\n\nThere's a darkness at the heart of my love\nThat runs cold, runs deep\nThe darkness at the heart of my love so bold, so sweet\n\nThere's a darkness at the heart of my love\nThat runs cold, runs deep\nThe darkness at the heart of my love so bold, so sweet\n\nAnd all this time you knew\nThat I would put you through\nThe darkness at the heart of my love for you\n\nWhen the summer dies\nSevering the ties\nI'm with you always, always\nPaint a pair of eyes\nLet's watch as it dries\nI'm with you always, always"
+      },
+      {
+        "n": 10,
+        "title": "Griftwood",
+        "duration": "5:16",
+        "writers": ["Tobias Forge"],
+        "lyrics": "Suffering for the Lord\nIs not an easy thing\nBe it a conjuring\nSo ordained and adored\nSo immaculate\nSo worth the debt\n\nI am your rock, baby\nI will not back down\nI am your rock, baby\nAsk yourself\nAre you righteous?\n\nYes\n\nYou want to play with the sire?\n(Yes)\nYou want a view from the spire?\n(Yes)\nYou want a seat by the pyre?\n...And never ever suffer again\n\nYes\n\nSacrifice for the horde\nLeads the way from shame\nBe it a loser's game\nThe disdain and abhored\nLash of the senate whip\nIt is a power trip\n\nI am your rock, baby\nI will not back down\nI am your rock, baby\nAsk yourself\nAre you righteous?\n\nYes\n\nYou want to play with the sire?\n(Yes)\nYou want a view from the spire?\n(Yes)\nYou want a seat by the pyre?\n...And never ever suffer again\n\nYes\nYou want to console the griever?\n(Yes)\nYou want to guide the believer?\n\n(Yes)\nYou and the greatest deceiver?\n(Yes)\n...And never ever suffer again\n\nHoly Mother\nYou washeth the sin from my feet\nHoly Mother\nYou shine like the sun and the moon and the stars in the sky\n\nHoly Mother\nYou washeth the sin from my feet\nHoly Mother\nYou shine like the sun and the moon and the stars in the sky\n\nThe world weighs heavy on your shoulders\nHoly Mother\nYou shine like the sun and the moon and the stars in the sky\n\nI am your rock, baby\nI will not back down\nI am your rock, baby\nAsk yourself\nAre you righteous?\nYes\n\nYou want to play with the sire?\n(Yes)\nYou want a view from the spire?\n(Yes)\nYou want a seat by the pyre?\n...And never ever suffer again\n\nYou want to play with the sire?\n(Yes)\nYou want a view from the spire?\n(Yes)\nYou want a seat by the pyre?\n...And never ever suffer again\n\nYou want to console the griever?\nYou want to guide the believer?\nYou and the greatest deceiver?\n...And never ever suffer again"
+      },
+      {
+        "n": 11,
+        "title": "Bite of Passage",
+        "duration": "0:31",
+        "writers": ["Tobias Forge"],
+        "lyrics": "[Instrumental]"
+      },
+      {
+        "n": 12,
+        "title": "Respite on the Spitalfields",
+        "duration": "6:42",
+        "writers": ["Tobias Forge"],
+        "lyrics": "We are here in the after\nOf a murderous crafter\nThe past...\nIs spun like a yarn and mangled\nWith flesh and blood and bones\nI wonder\nDid no one hear the distant thunder?\n\nThe autumnal reaper\nThe stains of this creeper\n...Will last\nThe shine and the sham entangled\nLike salting earth with tears of Jesus\nHe sliced and diced our dreams to pieces\n\nFor the dreams that you dread\nCan becomе just as real\nAs the blood that was shed\nWith thе slash of his steel\n\nNow the street walking dead\nWas quite a scene, wasn't it?\nFor the lost and mislead\nWere promised seats by the pit\n\nWe will break away together\nI will be the shadow\nYou will be the light\nNothing ever lasts forever\nWe will go softly into the night\n\nWe are leaving this city\nSo this is farewell\nGoodbye Seven Sisters\nAnd Saint Jezebel\n\nThe moon in the gutter\nHas a story to tell\nOne day he will come back\nFrom the bowels of hell\n\nHe appeared to ascend\nSo we all stood there in awe\nNow we have to pretend\nWe did not see what we saw\n\nWhen the curtain unveiled\nTo the sound of applause\nFor the king that we hailed\nWas the Wizard of Oz\n\nWe will break away together\nI will be the shadow\nYou will be the light\nNothing ever lasts forever\nWe will go softly into the night\n\nNothing ever lasts forever\nWe will go softly into the night"
+      }
     ]
   },
   {
@@ -135,16 +268,76 @@
       "youtube": ""
     },
     "tracks": [
-      { "n": 1, "title": "Ashes", "duration": "2:41", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 2, "title": "Rats", "duration": "3:58", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 3, "title": "Faith", "duration": "3:32", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 4, "title": "See the Light", "duration": "3:14", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 5, "title": "Miasma", "duration": "5:04", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 6, "title": "Dance Macabre", "duration": "3:45", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 7, "title": "Pro Memoria", "duration": "4:20", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 8, "title": "Witch Image", "duration": "5:22", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 9, "title": "Helvetesfonster", "duration": "2:02", "writers": ["Tobias Forge"], "lyrics": "" },
-      { "n": 10, "title": "Life Eternal", "duration": "4:40", "writers": ["Tobias Forge"], "lyrics": "" }
+      {
+        "n": 1,
+        "title": "Ashes",
+        "duration": "1:21",
+        "writers": ["Tobias Forge"],
+        "lyrics": "Ring a ring of roses,\na pocket full of posies.\nAtishoo, atishoo,\nwe all fall down.\n\nAshes on the water,\nashes in the sea,\nashes on the riverside.\n\nOne, two, three..."
+      },
+      {
+        "n": 2,
+        "title": "Rats",
+        "duration": "4:28",
+        "writers": ["Tobias Forge"],
+        "lyrics": "In times of turmoil,\nin times like these.\nBelief is contagious,\nspreading disease.\n\nThis wretched mischief is now\ncoursing through your souls.\nNever to let go,\nnever to let go.\n\nRats!\n\nInto your sanctum\nyou let them in.\nNow all your loved ones\nand all your kin.\n\nWill suffer punishments\nbeneath the wrath of God.\nNever to forgive,\nnever to forget.\n\nRats...\n\nThis devastation left\nyour cities to be burnt.\nNever to return,\nnever to return.\n\nAnd filthy rodents are\nstill coming for your souls.\nNever to let go,\nnever to let go.\n\nRats...\n\nThey're still coming after you,\nand there's nothing you can do.\nThey're still coming after you,\nand there's nothing you can do.\n\nRats..."
+      },
+      {
+        "n": 3,
+        "title": "Faith",
+        "duration": "4:29",
+        "writers": ["Tobias Forge"],
+        "lyrics": "There is a scourge\nin the guise of sanctity,\na perpetrator with a quill.\n\nAlthough it's often\nsteeped in well spun mystery,\nthe accuser sends the bill.\n\nI am all eyes,\nI am all ears,\nI am the wall,\nand I'm watching you fall!.\n\nBecause faith is mine!\n\nThe Luddites\nshun the diabolical,\na fecal trail across the land.\n\nAlthough it stinks,\nfeels, and looks identical,\na pack of fools can take the stand.\n\nI am all eyes,\nI am all ears,\nI am the wall,\nand I'm watching you fall!.\n\nBecause faith is mine!"
+      },
+      {
+        "n": 4,
+        "title": "See the Light",
+        "duration": "4:05",
+        "writers": ["Tobias Forge"],
+        "lyrics": "Many a sin I have witnessed,\nand in many indeed I have been\nMany a rat I've befriended,\nand so many a thorn stood between.\n\nBut of all the demons I've known\nnone could compare to you.\n\nEvery day that you\nfeed me with hate\nI grow stronger!\n\nEvery day that you\nfeed me with hate\nI grow stronger!\n\nDrink me, eat me,\nthen you'll see the light.\nDrink me, eat me,\nthen you'll see the light.\n\nMany a mind I have haunted,\nand in many a way I have been.\nOften the one to have flaunted,\nan image grotesque and obscene.\n\nBut of all these\ndark roads that I roam,\nnone could compare to you.\n\nEvery day that you\nfeed me with hate\nI grow stronger!\n\nEvery day that you\nfeed me with hate\nI grow stronger!\n\nDrink me, eat me,\nthen you'll see the light.\nDrink me, eat me,\nthen you'll see the light.\n\nEvery day that you\nfeed me with hate\nI grow stronger!\n\nEvery day that you\nfeed me with hate\nI grow stronger!"
+      },
+      {
+        "n": 5,
+        "title": "Miasma",
+        "duration": "5:17",
+        "writers": ["Tobias Forge"],
+        "lyrics": "[Instrumental]"
+      },
+      {
+        "n": 6,
+        "title": "Dance Macabre",
+        "duration": "3:39",
+        "writers": ["Tobias Forge"],
+        "lyrics": "You'll soon be hearing\nthe chime close to midnight.\nIf I could turn back the time\nI'd make all right.\n\nHow could it end like this?\nThere's a sting in the way you kiss me.\nSomething within your eyes\nsaid it could be the last time.\n\nBefore it's over!\n\nJust wanna be,\nwanna bewitch you\nin the moonlight\n\nJust wanna be,\nI wanna bewitch you\nall night.\n\nIt keeps on giving\nme chills, but I know now.\nI feel the closer we\nget to the last bow.\n\nI don't wanna end like this,\nbut there's sting in\nthe way you kiss me.\nI'm loving it!\n\nSomething within your eyes\nsaid it could be the last time,\nbefore it's over!\n\nJust wanna be,\nwanna bewitch you\nin the moonlight\n\nJust wanna be,\nI wanna bewitch you\nall night.\n\nJust wanna be,\nI wanna bewitch you\none last time in\nthe ancient rite.\n\nJust wanna be,\nI wanna bewitch you\nall night.\n\nJust wanna be,\nwanna bewitch you\nin the moonlight\n\nJust wanna be,\nI wanna bewitch you\nall night."
+      },
+      {
+        "n": 7,
+        "title": "Pro Memoria",
+        "duration": "5:39",
+        "writers": ["Tobias Forge"],
+        "lyrics": "Lucifer whispering\nsilently into your mind.\nWho walks behind,\nwho walks behind?\n\nStanding tall, invincible,\nbut do not forget your knives\nto save your lives,\nto save your lives.\n\nDon't you forget about dying!\nDon't you forget about your friend, Death!\nDon't you forget that you will die!\n\nDon't you vomit savage slurs\nspewed up wickedly\nto hide from me,\nto hide from me.\n\nNavigate all alone\non this tempestuous sea\nto ride with me,\nto ride with me.\n\nDon't you forget about dying!\nDon't you forget about your friend, Death!\nDon't you forget that you will die!\n\nDon't you forget about dying!\nDon't you forget about your friend, Death!\nDon't you forget that you will die!\n\nLucifer whispering\nsilently into your mind.\nWho walks behind,\nwho walks behind?\n\nHad you had the chance today\nyou could've sold out too.\nAin't that right,\nSwede Saint Peter?\n\nDon't you forget about dying!\nDon't you forget about your friend, Death!\nDon't you forget that you will die!\n\nDon't you forget about dying!\nDon't you forget about your friend, Death!\nDon't you forget that you will die!"
+      },
+      {
+        "n": 8,
+        "title": "Witch Image",
+        "duration": "3:30",
+        "writers": ["Tobias Forge"],
+        "lyrics": "You Have never stood this\nclose to where you want to be.\nYou have always waded in the shallows\nbetween me and the deep blue sea.\n\nYou'd never want me to appear,\nyou never want this to be over.\nYou never want it to reach out\nto the edge of time.\n\nWhile you sleep in earthly delight\nsomeone's flesh is rotting tonight.\nLike no other to you,\nwhat you've done you cannot undo.\n\nI have always kept you\ncloser than you've known.\nI am riding in the shadows\nbehind you on a pale white horse.\n\nYou'd never want me to appear,\nyou never want this to be over.\n\nSomeone's flesh is rotting tonight.\nLike no other to you,\nwhat you've done you cannot undo.\n\nWhile you sleep in earthly delight,\nstill your soul will suffer this plight.\nLike your father in Hell,\nwhat you've sold you cannot unsell.\n\nWhile you sleep in earthly delight\nsomeone's flesh is rotting tonight.\nLike no other to you,\nwhat you've done you cannot undo.\n\nWhile you sleep in earthly delight,\nstill your soul will suffer this plight.\nBut like a mother would save\nher own child from digging a grave."
+      },
+      {
+        "n": 9,
+        "title": "Helvetesfonster",
+        "duration": "5:55",
+        "writers": ["Tobias Forge"],
+        "lyrics": "[Instrumental]"
+      },
+      {
+        "n": 10,
+        "title": "Life Eternal",
+        "duration": "3:27",
+        "writers": ["Tobias Forge"],
+        "lyrics": "Can you hear me\nsay your name, forever?\nCan you see me longing\nfor you, forever?\n\nWould you let me touch\nyour soul, forever?\nCan you feel me longing\nfor you, forever, forever?\n\nI know the light\ngrows darker down below.\nBut in your eyes\nit's gone before you know.\n\nThis is the moment\nof just letting go.\nShe said,\n\"if you had life eternal\".\n\nCan you hear me\nsay your name, forever?\nCan you see me longing\nfor you, forever?\n\nWould you let me touch\nyour soul, forever?\nCan you feel me longing\nfor you, forever, forever?\n\nWe dance once more,\nI feel your hands are cold.\nWithin your heart,\na story to be told.\n\nThis is the moment\nof just letting go,\nthis is the moment\nof just letting go...\n\nCan you hear me\nsay your name, forever?\nCan you see me longing\nfor you, forever?\n\nWould you let me touch\nyour soul, forever?\nCan you feel me longing\nfor you, forever and ever?\n\nForever..."
+      }
     ]
   },
   {
@@ -184,16 +377,83 @@
       "youtube": ""
     },
     "tracks": [
-      { "n": 1, "title": "Spirit", "duration": "4:09", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 2, "title": "From the Pinnacle to the Pit", "duration": "3:35", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 3, "title": "Cirice", "duration": "6:00", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 4, "title": "Spöksonat", "duration": "1:39", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 5, "title": "He Is", "duration": "4:33", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 6, "title": "Absolution", "duration": "3:58", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 7, "title": "Deus in Absentia", "duration": "5:28", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 8, "title": "Majesty", "duration": "4:00", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 9, "title": "Devil Church", "duration": "2:05", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 10, "title": "Zenith", "duration": "5:20", "writers": ["A Ghoul Writer"], "lyrics": "" }
+      {
+        "n": 1,
+        "title": "Spirit",
+        "duration": "5:15",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "Throw yourself\nInto the vessel of possibilities\nYour green muse\nThe apparatus for soul mobility\nA gateway to secrecy\n\nSpirit Absinthe\nSpirit Absinthe\n\nSeven seals\nDevilish creatures trumpets the end of time\nCloven Hooves\nEnticing wormwood catapulting your mind\nInto the jaws of death\n\nSpirit Absinthe\nSpirit Absinthe\n\nThere is no return\nFrom this excursion of possibilities\nYou are at the seventh gate\n\nSpirit Absinthe\nSpirit Absinthe\n\n\"Let none of this Earth inherit\nThis vision of my spirit\"\n[Edgar Allan Poe]"
+      },
+      {
+        "n": 2,
+        "title": "From the Pinnacle to the Pit",
+        "duration": "4:02",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "You have the power\nYou wear the crown\nFrom the pinnacle to the pit\nIt is a long way down\nYou wield the scepter\nYou wear the gown\nFrom the pinnacle to the pit\nIt is a long way down\nIn your empire\nThey stare in frown\nFrom the pinnacle to the pit\nIt is a long way down\nYou are cast out from the heavens to the ground\nBlackened feathers falling down\nYou are cast out from the heavens to the ground\nBlackened feathers falling down\nYou will wear your independence like a crown\nCruciger globus\nYou stand your ground\nThe orb disfigured\nWhat is flat looks round\n\nFrom the pinnacle to the pit\nIt is a long way down\n\nYou are cast out from the heavens to the ground\nBlackened feathers falling down\nYou are cast out from the heavens to the ground\nBlackened feathers falling down\nYou will wear your independence like a crown"
+      },
+      {
+        "n": 3,
+        "title": "Cirice",
+        "duration": "6:02",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "I feel your presence amongst us\nYou cannot hide in the darkness\nCan you hear the rumble?\nCan you hear the rumble that's calling?\n\nI know your soul is not tainted\nEven though you've been told so\nCan you hear the rumble?\nCan you hear the rumble that's calling?\n\nI can feel the thunder that's breaking in your heart\nI can see through the scars inside you\n[2x]\n\nA candle casting a faint glow\nYou and I see eye to eye\nCan you hear the thunder?\nHow can you hear the thunder that's breaking?\nNow there is nothing between us\nFrom now our merge is eternal\n\nCan't you see that you're lost?\nCan't you see that you're lost without me?\n\nI can feel the thunder that's breaking in your heart\nI can see through the scars inside you\n[2x]\n\n[Solo]\n\nCan't you see that you're lost without me?\n\nI can feel the thunder that's breaking in your heart\nI can see through the scars inside you\n[4x]"
+      },
+      {
+        "n": 4,
+        "title": "Spöksonat",
+        "duration": "0:56",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "[Instrumental]"
+      },
+      {
+        "n": 5,
+        "title": "He Is",
+        "duration": "4:13",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "We're standing here by the abyss\nAnd the world\nIs in flames\n\nTwo star-crossed lovers reaching out\nTo the beast\nWith many names\n\n[Chorus]\nHe is\nHe’s the shining in the light\nWithout whom I cannot see\nAnd he is\nInsurrection, he is spite\nHe’s the force that made me be\nHe is\nNostro Dispater\nNostr'Alma Mater\nHe is\n\nWe’re hiding here inside a dream\nAnd all our doubts\nAre now destroyed\n\nThe guidance of the morning star\nWill lead the way\nInto the void\n\n[Chorus]\nHe is\nHe’s the shining in the light\nWithout whom I cannot see\nAnd he is\nInsurrection, he is spite\nHe’s the force that made me be\nHe is\nNostro Dispater\nNostr'Alma Mater\nHe is\n\n[Chorus]\nHe is\nHe’s the shining in the light\nWithout whom I cannot see\nAnd he is\nInsurrection, he is spite\nHe’s the force that made me be\nHe is\nHe’s the shining in the light\nWithout whom I cannot see\nAnd he is\nThe disobedience that holds us together\nHe is\nNostro Dispater\nNostr'Alma Mater\nAnd we are falling\nOver the precipice"
+      },
+      {
+        "n": 6,
+        "title": "Mummy Dust",
+        "duration": "4:07",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "I was carried on a wolf’s back\nHere to corrupt humanity\nI will pummel it with opulence\nWith corpulence and greed\nIn god you trust\n\nMy mummy dust\nMy mummy dust\n\nYour cavalier of crapulence\nTo this feast of rapacity\nI will bury you in treasures\nJust to feed your incapacity\nIn god you trust\n\nMy mummy dust\nMy mummy dust\n\nYou are the possessée of avarice\nI am the ruler of the earth\nI will smother you in riches\nUntil you choke on sordid mirth\n\nYou are summoned in cupidity\nPurulence and lust\nI am the magnet for stupidity\nDivine you feel my thrust\nIn god you trust\n\nMy mummy dust\nMy mummy dust\n\n[The Collective sings]\nIn god you trust"
+      },
+      {
+        "n": 7,
+        "title": "Majesty",
+        "duration": "5:24",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "A higher power underground\nFrom seraph skies and now to chaos bound\nHe is sitting sacred and profound\nIn midst of sinners licking up to kiss his crown\n\nPathetic humans in despair\nDefaced, deflowered, now to death devout\nA fallen angel in his glare\nIn midst of sinners kneeling down before His clout\n\n[Chorus:]\nOld One, Master\nAll beauty lies within\nOld One, Master\nAll beauty lies within you\n\nThis oasis is a poisoned well\nOf rotting carcasses that clog the deep\nA prince in exile here in Hell\nIn midst of sinners flocking up like soulless sheep\n\n[Chorus]\n\n[Chorus 2x]\n\nYour Infernal Majesty"
+      },
+      {
+        "n": 8,
+        "title": "Devil Church",
+        "duration": "1:06",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "[Instrumental]"
+      },
+      {
+        "n": 9,
+        "title": "Absolution",
+        "duration": "4:50",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "Ever since you were born you've been dying\nEvery day a little more you've been dying\nDying to reach the setting sun\n\nAs a child, with your mind on the horizon\nOver corpses, to the prize you kept your eyes on\n\nTrying to be the chosen one\n\nAll those things that you desire\nYou will find there in the fire\n\nPut your hands up and reach for the sky\nCry for absolution\nYou'll be down on your knees and you'll cry\nCry for absolution\n\nEven now when you're here you are moving\nHysterically seeking out what needs improving\nAnd you're still asking for the sun\n\nAll those things that you desire\nYou will find there in the fire\n\nPut your hands up and reach for the sky\nCry for absolution\nYou'll be down on your knees and you'll cry\nCry for absolution\n\nYou'll cry\nYou'll cry\nYou'll cry\nYou'll cry\nYou'll cry\nYou'll cry\n\nPut your hands up and reach for the sky\nCry for absolution\nYou'll be down on your knees and you'll cry\nCry for absolution\n\nPut your hands up and reach for the sky\nCry for absolution\nYou'll be down on your knees and you'll cry\nCry for absolution"
+      },
+      {
+        "n": 10,
+        "title": "Deus in Absentia",
+        "duration": "5:37",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "Ain't this your time of need?\nYou're turning to the light\nYou have just begun to explore the dark\nIn the urban night\n\nThe world is on fire\nAnd you are here to stay and burn with me\nA funeral pyre\nAnd we are here to revel forevermore\n\nYou're so goddamn frail\nFailing for a change\nYou just had to know all about the world\nBut you will never know\n'Cause no one ever told you how\n\nThe world is on fire\nAnd you are here to stay and burn with me\nA funeral pyre\nAnd we are here to revel forever\n\nThe world is on fire\nAnd we are tied as one eternally\nA funeral pyre\nAnd we are here to revel forevermore\n\nDeus, Deus\n\nAll of your imaginations\nAre now running down your face\nAll of your imaginations\nAre now running down your face\n\nOh you are looking good\nPayback in disgrace\nAnd you're doing fine worshipping your lord\nStanding in his grave\n'Cause no one ever told you how\n\nThe world is on fire\nAnd you are here to stay and burn with me\nA funeral pyre\nAnd we are here to revel forever\n\nThe world is on fire\nAnd we are tied as one eternally\nA funeral pyre\nAnd we are here to revel forevermore\n\nDeus, Deus"
+      },
+      {
+        "n": 11,
+        "title": "Zenith",
+        "duration": "6:05",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "We conquered the magic\nWe counted the stars\nDeciphered the clockwork\nEnacted this farce\n\nDevoured by shadows\nWe cling to the light\nDeluded by wisdom\nThe bringer of night\n\nNow and for always\nA perpetual rise\nA fall of illusion\nYour Zenith fades into eternity\n\nTime will soon be gone\nNight will turn to dawn\nWinds come on strong\nSo help you god\nCome unleashed\nYou're set free\n\nA genesis captured\nIgnited by truth\nA martyr disraptured\nA vision too soon\n\nDevoured by shadows\nWe cling to the light\nDeluded by wisdom\nThe bringer of night\n\nNow and for always\nA perpetual rise\nA fall of illusion\nYour Zenith fades into eternity\n\nTime will soon be gone\nNight will turn to dawn\nWinds come on strong\nSo help you god\nCome unleashed\nYou're set free\n\nSaecula Saeculorum [8x]\n\nTime will soon be gone\nNight will turn to dawn\nWinds come on strong\nSo help you god\nCome unleashed\nYou're set free"
+      }
     ]
   },
   {
@@ -233,16 +493,97 @@
       "youtube": ""
     },
     "tracks": [
-      { "n": 1, "title": "Infestissumam", "duration": "1:50", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 2, "title": "Per Aspera ad Inferi", "duration": "5:40", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 3, "title": "Secular Haze", "duration": "4:09", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 4, "title": "Jigolo Har Megiddo", "duration": "4:08", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 5, "title": "Ghuleh / Zombie Queen", "duration": "6:53", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 6, "title": "Year Zero", "duration": "6:26", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 7, "title": "Body and Blood", "duration": "2:46", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 8, "title": "Idolatrine", "duration": "4:03", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 9, "title": "Depth of Satan's Eyes", "duration": "3:51", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 10, "title": "Monstrance Clock", "duration": "6:00", "writers": ["A Ghoul Writer"], "lyrics": "" }
+      {
+        "n": 1,
+        "title": "Infestissumam",
+        "duration": "1:42",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "Il Padre\nIl Filio\nEt Lo Spiritus Malum\nOmnis Caelestis\nDelenda Est\n\nAnti Cristus\nIl Filio De Sathanas\nINFESTISSUMAM"
+      },
+      {
+        "n": 2,
+        "title": "Per Aspera ad Inferi",
+        "duration": "4:09",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "Unholy\nIs the lust in your eyes\n\"Blasphemous\"\nWould not suffice\n\nPerverted\nAre your wishes and dreams\nTanning in Lucifer's beams\n\nPer Aspera Ad Inferi\nPer Aspera Ad Inferi\nPer Aspera Ad Inferi\nPer Aspera Ad Inferi\n\nAll your dreams will come true\nAll your dreams will come true\n\nOh Satan\nDevour us all\nHear our desperate call\n\nPer Aspera Ad Inferi\nPer Aspera Ad Inferi\nPer Aspera Ad Inferi\nPer Aspera Ad Inferi\n\nPer Aspera Ad Inferi\nPer Aspera Ad Inferi\nPer Aspera Ad Inferi\nPer Aspera Ad Inferi"
+      },
+      {
+        "n": 3,
+        "title": "Secular Haze",
+        "duration": "5:11",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "You know that the fog is here, omnipresent\nWhen the diseases sees no cure\nYou know that the fog is here, omnipresent\nWhen the intents remain obscure\nForevermore\n\nWeave us a mist\nFog weaver, ooh-ooh\nHide us in shadows\nUnfathomable wall-less maze\nA secular haze\n\nYou know that his son is near, omnipotent\nWhen she sees eye to eye with spear\nYou know that his son is near, omnipotent\nWhen youth and innocence disappear\nForever lost\n\nWeave us a mist\nFog weaver, ooh-ooh\nHide us in shadows\nUnfathomable, wall-less maze\nA secular haze\n\nHe is divinity omniscient\nSeeing the world revolve with spite\nThe surge of humanity oblivious\nTo the divine whom bringeth light\nLet there be night\n\nWeave us a mist\nFog weaver\nHide us in shadows\nFog weaver\n\nCome mist eternal, ooh-ooh\nCome mist eternal, ooh-ooh\nCome secular haze."
+      },
+      {
+        "n": 4,
+        "title": "Jigolo Har Megiddo",
+        "duration": "3:58",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "I am the one who preys on weak\nI offer everything they seek\nAnd I am the one who comes richly endowed\nHarvesting crops of fields that others have plowed\n\nI am the one, lascivious\n\nI am the son of one below\nThe progeny of beast of woe\nAnd I am the son who comes into the daughters of men\nDestroying all and make them want it again\n\nI am the son, lascivious\n\nHe is the one desacralizer\nHe is the son of the enticer\nThe all seeing subterranean kaiser\nHe is the way, he is the way\n\nI am the way...\nAnd you invited me to stay\nHowever fair and pure, you crave the wand\nYou see through me what lies beyond\n\nI am the one lascivious\nI am the one lascivious\nI am the one lascivious\nWith magic potion niveous"
+      },
+      {
+        "n": 5,
+        "title": "Ghuleh / Zombie Queen",
+        "duration": "7:29",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "Ghuleh\nGhuleh\n\nGhuleh\nGhuleh\n\nPutrefaction\nA scent that cursed be\nUnder coat of dust\nFrom the darkness\nRise a succubus\nFrom the earthen rust\n\nHaresis dea\nOnce a majesty\nNow exposing bone\nFrom the darkness\nRise a succubus\nAnd usurp the throne\n\nThe moon is full and shines\nAn evil blinding light\nUnder a monolith, her likeness\nMarble white\n\nZombie Queen\nZombie Queen\nBlack light guides you!\nGhuleh… Ghuleh…\n\nZombie Queen\nZombie Queen\nBlack light guides you!\nGhuleh… Ghuleh…\n\nUp from the stinking dirt\nShe rises ghastly pale\nShapeshifting soon...\nBut now she's rigid, stiff and stale\n\nZombie Queen\nZombie Queen\nBlack light guides you!\nGhuleh… Ghuleh…\n\nZombie Queen\nZombie Queen\nBlack light guides you!\nGhuleh… Ghuleh…"
+      },
+      {
+        "n": 6,
+        "title": "Year Zero",
+        "duration": "5:50",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "Belial, Behemoth, Beelzebub, Asmodeus, Satanas, Lucifer\nBelial, Behemoth, Beelzebub, Asmodeus, Satanas, Lucifer\n\nSince dawn of time the fate of man is that of lice\nEqual as parasites and moving without eyes\nA day of reckoning when penance is to burn\nCount down together now and say the words that you will learn\n\nHell Satan — archangelo\nHell Satan — welcome year zero\nHell Satan — archangelo\nHell Satan — welcome year zero\n\nBelial, Behemoth, Beelzebub, Asmodeus, Satanas, Lucifer\n\nCrestfallen kings and queens comforting in their faith\nUnbeknownst to them is the presence of the wraith\nSince fate of man is equal to the fate of lice\nAs new dawn rises you shalt recognize now behold the Lord Of Flies\n\nHell Satan — archangelo\nHell Satan — welcome year zero\nHell Satan — archangelo\nHell Satan — welcome year zero\nHell Satan\n\n[Guitar solo]\n\nHe will tremble the nations.\nKingdoms to fall one by one\nVictim to fall for temptations\nA daughter to fall for a son\nThe ancient serpent deceiver\nTo masses standing in awe\nHe will ascend to the heavens\nAbove the stars of god.\n\nHell Satan — archangelo\nHell Satan — welcome year zero\nHell Satan — archangelo\nHell Satan — welcome year zero."
+      },
+      {
+        "n": 7,
+        "title": "Body and Blood",
+        "duration": "3:43",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "This grave hill stinks of death\nA reek from the ground\nCatches whiff of the hound\nA dead ones breath\nThe casket lid is cold\nWaiting inside\nIs someone petrified\nThat odours old\n\nHis body and blood\nSharing in common\nHis body and blood\nHis body and blood\nServing Messiah\n\nSon of God\nThe bitter taste is sweet\nSo eat Nazarene\nAnd you kiss the obscene\nAnointed feet\n\nHis body and blood\nSharing in common\nHis body and blood\nHis body and blood\nServing Messiah\n\nHis body and blood\nSharing in common\nHis body and blood\nHis body and blood\nServing Messiah\n\nSon of God\nReceive, consume\nReceive, consume\nDigest\nDefecate\n\nHis body and blood\nSharing in common\nHis body and blood\nHis body and blood\nServing Messiah\nSon of God"
+      },
+      {
+        "n": 8,
+        "title": "Idolatrine",
+        "duration": "4:23",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "Profaner of the vices, a simple charlatan\nInflaming puerile minds with the guilt of sin\nImaginations fed to children, it has served me well\nThat the bowels of the earth hides the pits of hell\n\nIdolatrine for the imbeciles\nIdolatrine\nIdolatrine for the debiles and the simpletons\nDisciples of the watch awaits at my command\n\nLord of silence\nDesolated one\nVengeance is his\n\nAn existence as a human\nIs leaden monotony\nWith all desires drowned\nImpure sanctimony\n\nIdolatrine for the imbeciles\nIdolatrine\nIdolatrine for the debiles and the simpletons\nDisciples of the watch awaits at my command\n\nSuffer little children to come unto me\nSuffer little children to come unto me\nSuffer little children grant me sovereignty\nSuffer little, little, princes and princesses\n\nIdolatrine for the imbeciles\nIdolatrine\nIdolatrine for the debiles and the simpletons\nDisciples of the watch awaits at my command\n\nSuffer little children to come unto me\nSuffer little children to come unto me\nSuffer little children grant me sovereignty\nSuffer little, little, princes and princesses"
+      },
+      {
+        "n": 9,
+        "title": "Depth of Satan's Eyes",
+        "duration": "5:25",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "Through scapes of murmur\nNoisy walls of sound\nWithout a starlit night\nShores are nowhere to be found\nOn seas of wonder\nYe confused strays\nWithout a guiding light\nYou see no ways\n\nInto the eyes of fire\nInto the gaze ablaze\nInto the burning light\nOf Satan's rays\nInto the source of wisdom\nBeyond the Bible lies\nInto the endless depth\nOf Satan's eyes\n\nSpiral and Pulsating\nHis eyes are enthralling\nHis eyes like a vortex\nA well in which you're falling\n\nThe swamp of feces\nThat is the world\nFlatuates a whirlwind storm\nin which you swirl\n\nIn disarray you ponder\nYour soul malaise\nAbandon the long lost man\nYour child portrays\n\nInto the eyes of fire\nInto the gaze ablaze\nInto the burning light\nOf Satan's rays\nInto the source of wisdom\nBeyond the Bible lies\nInto the endless depth\nOf Satan's eyes\n\nInto the eyes of fire\nInto the gaze ablaze\nInto the burning light\nOf Satan's rays\nInto the source of wisdom\nBeyond the Bible lies\nLook into the endless depth\nOf Satan's eyes"
+      },
+      {
+        "n": 10,
+        "title": "Monstrance Clock",
+        "duration": "5:53",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "To the sound of the monstrance clock\nAir is cleansed, assembled flock\nBlack candles burn, all minds aligned\n\nTo the sound of the monstrance clock\nAir is cleansed, assembled flock\nBlack candles burn, all minds aligned\n\nAs the parish sighs in smoke\nEnters the lady revealed of cloak\nTo the haunting sound of the monstrance clock\nSinging:\n\n[Chorus:]\nCome together, together as a one\nCome together for Lucifer’s son\n\nTo the sound of the end of day\nMesmerized, the assembled sway\nBlack candles burn, all minds aligned\n\nHypnotizing horns of ram\nParalyzing pentagram\nAnd the eerie sound of the monstrance clock\nSinging\n\n[Chorus:]\nCome together, together as a one\nCome together for Lucifer’s son\nCome together, together as a one\nCome together for Lucifer’s son\nCome together, together as a one\nCome together for Lucifer’s son\nCome together, together as a one\nCome together for Lucifer’s son\nCome together, together as a one\nCome together for Lucifer’s son\nCome together, together as a one\nCome together for Lucifer’s son\nCome together, together as a one\nCome together for Lucifer’s son\nCome together, together as a one\nCome together, forever as one"
+      },
+      {
+        "n": 11,
+        "title": "La Mantra Mori",
+        "duration": "5:15",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "We Focus On Your Death\nWe Focus On Your Death\nYou Share Not The Blood of Our-our-ours\nThus We Focus On Your Death"
+      },
+      {
+        "n": 12,
+        "title": "I'm A Marionette",
+        "duration": "4:53",
+        "writers": ["ABBA"],
+        "lyrics": "“You're so free,” that's what everybody's telling me\nYet I feel I'm like an outward-bound, pushed around, refugee\nSomething's wrong, got a feeling that I don't belong\nAs if I had come from outer space, out of place, like King Kong\n\nI'm a marionette, just a marionette, pull the string\nI'm a marionette, everybody's pet, just as long as I sing\nI'm a marionette, see my pirouette, round and round\nI'm a marionette, I'm a marionette, just a silly old clown\n\nLike a doll, like a puppet with no will at all\nAnd somebody told me how to talk, how to walk, how to fall\n\nCan't complain, I've got no-one but myself to blame\nSomething's happening I can't control, lost my hold, is it safe?\n\nI'm a marionette, just a marionette, pull the string\nI'm a marionette, everybody's pet, just as long as I sing\nI'm a marionette, see my pirouette, round and round\nI'm a marionette, I'm a marionette, just a silly old clown\n\n“Look this way, just a little smile,” is what they say\n“You look better on the photograph if you laugh, that's okay”\n“You're so free,” that's what everybody's telling me\nYet I feel I'm like an outward-bound, pushed around, refugee\n\nI'm a marionette, just a marionette, pull the string\nI'm a marionette, everybody's pet, just as long as I sing\nI'm a marionette, see my pirouette, round and round\nI'm a marionette, I'm a marionette, just a silly old clown"
+      },
+      {
+        "n": 13,
+        "title": "Waiting For The Night",
+        "duration": "5:38",
+        "writers": ["Depeche Mode"],
+        "lyrics": "I'm waiting for the night to fall\nI know that it will save us all\nWhen everything's dark\nKeeps us from the stark reality\n\nI'm waiting for the night to fall\nWhen everything is bearable\nAnd there in the still\nAll that you feel is tranquillity\n\nThere is a star in the sky\nGuiding my way with its light\nAnd in the glow of the moon\nKnow my deliverance will come soon\n\nI've been waiting for the night to fall\nI know that it would save us all\nNow everything's dark\nKeeps us from the stark reality\n\nI've been waiting for the night to fall\nNow everything is bearable\nAnd here in the still\nAll that you feel is tranquillity\n\nThere is a sound in the calm\nSomeone is coming to harm\nI press my hands to my ears\nIt's easier here just to forget fear\n\nAnd when I squinted\nThe world seemed rose-tinted\nAnd angels appeared to descend\nTo my surprise\nWith half-closed eyes\nThings looked even better\nThan when they were opened\n\nThere is a star in the sky\nGuiding my way with its light\nAnd in the glow of the moon\nKnow my deliverance will come soon\n\nThere is a star in the sky\nGuiding my way with its light\nAnd in the glow of the moon\nKnow my deliverance will come soon"
+      }
     ]
   },
   {
@@ -282,14 +623,76 @@
       "youtube": ""
     },
     "tracks": [
-      { "n": 1, "title": "Deus Culpa", "duration": "1:45", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 2, "title": "Con Clavi Con Dio", "duration": "3:40", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 3, "title": "Ritual", "duration": "4:49", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 4, "title": "Elizabeth", "duration": "4:33", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 5, "title": "Stand by Him", "duration": "4:29", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 6, "title": "Satan Prayer", "duration": "3:56", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 7, "title": "Death Knell", "duration": "4:59", "writers": ["A Ghoul Writer"], "lyrics": "" },
-      { "n": 8, "title": "Prime Mover", "duration": "5:17", "writers": ["A Ghoul Writer"], "lyrics": "" }
+      {
+        "n": 1,
+        "title": "Deus Culpa",
+        "duration": "1:33",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "[Instrumental]"
+      },
+      {
+        "n": 2,
+        "title": "Con Clavi Con Dio",
+        "duration": "3:33",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "Lucifer\nWe Are Here\nFor Your Praise\nEvil One\n\nOur Conjuration Sings Infernal Psalms\nAnd Smear The Smudge In Bleeding Palms\n\nSiamo Con Clavi\nSiamo Con Dio\nSiamo Con Il Nostro Dio Scuro\n\nDemigod\nOur Task\nBehind Mask\nChosen Son\n\nOh, You Rebel Chief, Destroyer Of The Earth\nRise From Precipice Through Birth\n\nSathanas\nWe Are One\nOut Of Three\nTrinity\n\nSiamo Con Clavi\nSiamo Con Dio\nSiamo Con Il Nostro Dio Scuro"
+      },
+      {
+        "n": 3,
+        "title": "Ritual",
+        "duration": "4:28",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "Tonight we´re summoned for a divine cause\nRemembrance - No\nBut for their future loss\n\nThis chapel of ritual\nSmells of dead human sacrifices\nFrom the altar...\n\nBeduins and nomads\nCarried through the times\nThrough pestilences and famines\nThese ancient scrolls of rhymes\n\n\"Our fallen angel vexed\nWas banished from the sky\nRecite now from the text\nPray for ALL to die\"\n\nThis chapel of ritual\nSmells of dead human sacrifices\nFrom the altar bed\nOn this night of ritual\nInvoking our master\nTo procreate the unholy bastard\n\n\"Our father\nWho art in hell\nUnhallowed be thy name\nCursed be the sons and daughters\nOf thine Nemesis\nWhom are to blame\nThy kingdom come\nnemA\"\n\nTonight we summoned for His unholy fiend\nNow celebrate\nThe End\n\nThis chapel of ritual\nSmells of dead human sacrifices\nFrom the altar bed\nOn this night of ritual\nInvoking our master\nTo procreate the unholy bastard"
+      },
+      {
+        "n": 4,
+        "title": "Elizabeth",
+        "duration": "4:01",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "Underneath the moonlight of old Hungarian skies\nBuried in the blood-drenched earth\nThese barren lands of ice\nShe was an evil woman with an evil old soul\nPiercing eyes emotionless\nA heart so black and cold\n\nElizabeth, in the chasm where was my soul\nForever young, Elizabeth Báthory in the castle of your death\nYou're still alive, Elizabeth\n\nHer pact with Satan\nHer dispisal of mankind\nHer acts of cruelty and her lust for blood\nMakes her one of us\n\nOur ancient countess was refused her desires will\nTo bathe in pure fresh blood\nShe'd peasant virgins killed\n\nElizabeth, in the chasm where was my soul\nForever young, Elizabeth Báthory in the castle of your death\nYou're still alive, Elizabeth\n\nElizabeth, in the chasm where was my soul\nForever young, Elizabeth Báthory in the castle of your death\nYou're still alive, Elizabeth"
+      },
+      {
+        "n": 5,
+        "title": "Stand by Him",
+        "duration": "3:56",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "Devil's power is the greatest one\nWhen his and hers holiest shuns the sun\nA temptress smitten by the blackest force\nA vicar bitten blind in intercourse\n\nThe witch hammer\nStruck her down\nOn our sabbath\nShe is unbound\n\n'Tis the night of the witch\n'Tis the night of the witch tonight\nAnd the vengeance is hers for as long as she stands by him\n'Tis the night of the witch\n'Tis the night of the witch tonight\nAnd the vengeance is hers for as long as she stands by him\n\n\"All witchcraft comes from carnal lust which is in women insatiable\"\n\nA moon shone bright above her trial\nAs flames ate through her body defiled\n\nThe witch hammer\nStruck her down\nThrough our sabbath\nShe is unbound\n\n'Tis the night of the witch\n'Tis the night of the witch tonight\nAnd the vengeance is hers for as long as she stands"
+      },
+      {
+        "n": 6,
+        "title": "Satan Prayer",
+        "duration": "4:38",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "Believe in one god do we\nSatan almighty\nThe uncreator of heaven and soil\nAnd the unvisable and the visable\n\nAnd in his son\nBegotten of father\nBy whom all things will be unmade\n\nWho for man and his damnation\nIncarnated\nRise up from hell\nFrom sitteth on the left hand of his father\nFrom thense he shall come to judge\n\nOut of one substance\nWith Satan\nWhose kingdom shall haveth no end\n\nHear our Satan prayer\nOur anti nicene creed\nHear our Satan prayer\nFor the cuming of seed\nHear our Satan prayer\nOur anti nicene creed\nHear our Satan prayer\nFor the cuming of seed\n\nUnholy ghost\nOverlord and taker of life\n\nHear our Satan prayer\nOur anti nicene creed\nHear our Satan prayer\nFor the cuming of seed\nHear our Satan prayer\nOur anti nicene creed\nHear our Satan prayer\nFor the cuming of seed"
+      },
+      {
+        "n": 7,
+        "title": "Death Knell",
+        "duration": "4:36",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "Say, can you see the cross?\nInverted solemnly\nSymbol for the goat\nOf a thousand young\n\nSix six six\nEvoke the king of hell\nStrike the death knell\nDeath knell\n\nSay, can you hear the chimes?\nTolls now for the end\nBells call out their doom\nAs victor reaches womb\n\nSex sex sex\nReceive the beast of evil\nOf evil...\n\nCan you say his name?\nCarrier of the light\nLegions of this seed\nA child you as a spouse will feed\n\nS-A-T-A-N\nUnder spell\nOf death knell\nDeath knell"
+      },
+      {
+        "n": 8,
+        "title": "Prime Mover",
+        "duration": "3:53",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "Clad in cloak\nA secretive nun\nBearing the old ones´ bastard son\nVarucose phallos\nObsessed and poised her\nCast a veil of dusk upon the cloister\n\nPrime mover\nMaternal slave\nWith child of her grave\n\nMother\nFilth in her womb\nFather\nWaiting in tomb\n\nSelected heir\nMachinary insect\nBloodline of the dark architect\nToxic blood\nOf not known birth\nAntichrist will walk the earth\n\nPrime mover\nMaternal slave\nWith child of her grave"
+      },
+      {
+        "n": 9,
+        "title": "Genesis",
+        "duration": "4:03",
+        "writers": ["A Ghoul Writer"],
+        "lyrics": "[Instrumental]"
+      },
+      {
+        "n": 10,
+        "title": "Here Comes The Sun",
+        "duration": "3:26",
+        "writers": ["The Beatles"],
+        "lyrics": "Little darling, it's been a long cold lonely winter\nLittle darling, it feels like years since it's been here\nHere comes the sun, here comes the sun\nAnd I say it's all right\n\nLittle darling, the smiles returning to the faces\nLittle darling, it feels like years since it's been here\nHere comes the sun, here comes the sun\nAnd I say it's all right\n\nSun, sun, sun, here it comes\nSun, sun, sun, here it comes\nSun, sun, sun, here it comes\nSun, sun, sun, here it comes\nSun, sun, sun, here it comes\n\nLittle darling, I feel that ice is slowly melting\nLittle darling, it feels like years since it's been clear\nHere comes the sun, here comes the sun\nAnd I say it's all right\n\nHere comes the sun, here comes the sun\nAnd I say it's all right"
+      }
     ]
   }
 ]
