@@ -251,7 +251,7 @@ export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
 
   const mbid = searchParams.get("mbid") || process.env.GHOST_MBID || "2bcf2e02-5bc3-4c76-bf76-41126cb11444";
-  const yearsAgo = Number(searchParams.get("yearsAgo") || "5");
+  const yearsAgo = Number(searchParams.get("yearsAgo") || "7");
 
   // “warm” solo para forzar el segundo fetch si falta cache
   const warm = searchParams.get("warm") === "1";  

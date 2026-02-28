@@ -123,6 +123,23 @@ PRODUCTION_URL
 
 ## Estado actual
 
+### Completado (28 Feb 2026)
+
+**Sincronización de setlist.fm — Ghost (28 Feb)**
+- ✅ Adaptado `src/scripts/setlist-sync.mjs`: MBID Taylor Swift → Ghost (`2bcf2e02-5bc3-4c76-bf76-41126cb11444`)
+- ✅ Ejecutado `backfill` completo: **971 shows procesados, 88 canciones únicas**
+- ✅ Generados archivos:
+  - `src/data/songs.counts.json` (raw counts)
+  - `src/data/songs.meta.json` (metadata)
+  - `src/data/processed-ids.json` (IDs procesados)
+- ✅ Corregidos paths en `src/scripts/fix-song-counts.mjs` para automatizar normalización
+  - Input: `src/data/songs.counts.json`
+  - Output: `src/constants/songs.counts.fixed.json` + reporte
+- ✅ Ejecutado `fix-song-counts.mjs` → normalización completada
+  - Generado `src/constants/songs.counts.fixed.json` (usado en SongDetailPage)
+  - Generado reporte `src/constants/songs.counts.report.json`
+- ✅ `src/app/api/last-show/route.ts`: cambiado default de 5 → 7 años atrás
+
 ### Completado (Feb 2026)
 
 **Infraestructura base**
