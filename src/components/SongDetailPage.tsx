@@ -20,6 +20,7 @@ import songsCountData from "@/constants/songs.counts.fixed.json";
 import Link from "next/link";
 import Image from "next/image";
 import membersData from "@/constants/members.json";
+import ghoulsData from "@/constants/ghouls.json";
 import Breadcrumb from "./Breadcrumb";
 import ContainerGradientNoPadding from "./atoms/ContainerGradientNoPadding";
 import RandomSectionBanner from "./NewsBanner";
@@ -29,6 +30,37 @@ import { renderLyricsWithBold } from "@/utils/renderLyrics";
 
 interface SongDetailPageProps {
   songId: string;
+}
+
+interface MemberDataType {
+  id: string;
+  name: string;
+  image?: string;
+  [key: string]: unknown;
+}
+
+// Helper para buscar miembro en members o ghouls
+function getMemberData(memberId: string): MemberDataType | null {
+  // Buscar en members actual
+  const memberObj = (
+    membersData.members as Record<string, MemberDataType>
+  )[memberId];
+
+  if (memberObj) return memberObj;
+
+  // Buscar en ghouls (todas las eras)
+  const ghoulsRecord = ghoulsData as Record<
+    string,
+    Record<string, MemberDataType>
+  >;
+
+  for (const era of Object.values(ghoulsRecord)) {
+    if (era[memberId]) {
+      return era[memberId];
+    }
+  }
+
+  return null;
 }
 
 export default function SongDetailPage({ songId }: SongDetailPageProps) {
@@ -392,15 +424,10 @@ export default function SongDetailPage({ songId }: SongDetailPageProps) {
             </Typography>
             <Grid container spacing={2} sx={{ mt: 1 }}>
               {song.credits.musicians.map((m) => {
-                const memberId = slugify(m.name);
-                const memberObj = (
-                  membersData.members as Record<
-                    string,
-                    (typeof membersData.members)[keyof typeof membersData.members]
-                  >
-                )[memberId];
+                const memberId = m.id;
+                const memberObj = getMemberData(memberId);
                 return (
-                  <Grid size={{ xs: 12, sm: 6, md: 4 }} key={m.name}>
+                  <Grid size={{ xs: 12, sm: 6, md: 4 }} key={m.id}>
                     <Link
                       href={`/miembros/${memberId}`}
                       passHref

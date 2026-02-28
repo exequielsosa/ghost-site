@@ -118,6 +118,7 @@ PRODUCTION_URL
 ---
 
 ## Instrucciones para Claude
+- **IMPORTANTE:** Siempre preguntar/confirmar antes de hacer cambios en el código, especialmente si no está 100% claro cuál es el problema exacto.
 - Al final de cada sesión de trabajo, actualiza la sección "Estado actual" de este archivo.
 
 ## Estado actual
@@ -163,10 +164,37 @@ PRODUCTION_URL
 - Patrones: "Megadeth" → "Ghost", "megadeth" → "ghost", "MEGADETH" → "GHOST"
 - Build verificado: ✅ Sin errores TypeScript
 
+**songs.json — Creación completa (26 Feb)**
+- ✅ **Tarea completada**: 84 canciones de Ghost integradas en `src/constants/songs.json`
+- Archivos de temas creados (10 archivos):
+  - `themes-skeleta.json` (10 canciones)
+  - `themes-impera.json` (12 canciones)
+  - `themes-meliora.json` (11 canciones)
+  - `themes-infestissumam.json` (13 canciones)
+  - `themes-popestar.json` (5 canciones)
+  - `themes-prequelle.json` (10 canciones)
+  - `themes-seven-inches.json` (2 canciones)
+  - `themes-phantomime.json` (5 canciones — covers)
+  - `themes-if-you-have-ghost.json` (5 canciones — covers EP)
+  - `themes-opus-eponymous.json` (10 canciones — debut album)
+- Estructura JSON completa: id, title, album, credits, details, theme (en/es), lyrics placeholder
+- Todos los temas en bilingual (EN/ES) con contexto histórico y significado musical
+- Scripts creados: `generate-songs.js`, `integrate-themes.js`
+- Elizabeth EP (2010): canciones incluidas en Opus Eponymous, no hay duplicados
+
 ### Pendiente
+
+**Fase 2: Lyrics en Español para songs.json**
+- [ ] Traducir y agregar letras en español a todas las 84 canciones en `src/constants/songs.json`
+- [ ] Actualmente: `lyrics.es` vacío para todas las canciones
+- [ ] Prioridad: canciones originales de Ghost (temas propios antes que covers)
+
+**Configuración de servicios**
 - [ ] Configurar GitHub Secrets para el Action diario de scraping
 - [ ] Agregar env vars en Vercel: `KV_REST_API_URL`, `KV_REST_API_TOKEN`, `KV_REST_API_READ_ONLY_TOKEN`, `SETLISTFM_API_KEY`, `GHOST_MBID` (para que aparezcan las cards de shows)
 - [ ] Crear cuentas fan de Ghost en redes sociales → descomentar social media step en el Action
+
+**Contenido y multimedia**
 - [ ] Reescribir/actualizar contenido con datos reales de Ghost:
   - `src/constants/members.json` — agregar perfiles completos de miembros actuales y ghouls
   - `src/constants/discography.json` — discografía y datos de álbumes
