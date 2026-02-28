@@ -46,7 +46,7 @@ export default function TopSongsWidget() {
           }}
         >
           <Image
-            src="/images/cards-home/topsongs.png"
+            src="/images/cards-home/topsongs.jpg"
             alt={t("title")}
             fill
             style={{ objectFit: "cover" }}

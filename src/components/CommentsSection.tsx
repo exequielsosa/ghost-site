@@ -172,7 +172,7 @@ export function CommentsSection({
         {/* Banner Header */}
         <Box sx={{ position: "relative", height: { xs: 180, md: 300 } }}>
           <Image
-            src="/images/banners/comentarios.jpg"
+            src="/images/banners/comentarios2.jpg"
             alt={t("title")}
             fill
             style={{ objectFit: "cover", objectPosition: "center 35%" }}
@@ -384,10 +384,7 @@ export function CommentsSection({
                         flexWrap: "wrap",
                       }}
                     >
-                      <Typography
-                        variant="subtitle2"
-                        sx={{ fontWeight: 700 }}
-                      >
+                      <Typography variant="subtitle2" sx={{ fontWeight: 700 }}>
                         {c.name}
                       </Typography>
                       <Typography

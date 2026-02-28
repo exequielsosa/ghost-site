@@ -53,7 +53,7 @@ export function CommentsSection({
     content: "",
   });
   const [submitStatus, setSubmitStatus] = useState<"success" | "error" | null>(
-    null
+    null,
   );
 
   const key = useMemo(() => `${pageType}:${pageId}`, [pageType, pageId]);
@@ -64,9 +64,9 @@ export function CommentsSection({
     try {
       const res = await fetch(
         `/api/comments?pageType=${encodeURIComponent(
-          pageType
+          pageType,
         )}&pageId=${encodeURIComponent(pageId)}&limit=50`,
-        { cache: "no-store" }
+        { cache: "no-store" },
       );
       const json = await res.json();
       setItems(Array.isArray(json.items) ? json.items : []);
@@ -198,7 +198,7 @@ export function CommentsSection({
       <Box sx={{ position: "relative", height: { xs: 200, md: 250 } }}>
         <CardMedia
           component="img"
-          image="/images/banners/comentarios.jpg"
+          image="/images/banners/comentarios2.jpg"
           alt="Comentarios"
           sx={{
             height: "100%",

@@ -360,7 +360,7 @@ export default function LastShowsCards() {
             <ShowCard
               show={data.latest}
               title={t("latestShow")}
-              imageSrc="/images/site-updates/now.jpg"
+              imageSrc="/images/site-updates/now2.jpg"
             />
           </Grid>
         )}
@@ -369,7 +369,7 @@ export default function LastShowsCards() {
             <ShowCard
               show={data.yearsAgoPrev}
               title={t("yearsAgo")}
-              imageSrc="/images/site-updates/20.png"
+              imageSrc="/images/site-updates/20.jpg"
             />
           </Grid>
         )}

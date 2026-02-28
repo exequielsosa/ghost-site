@@ -176,7 +176,7 @@ function ShowDetailModal({
               }}
             >
               <Image
-                src="/images/site-updates/20.png"
+                src="/images/site-updates/20.jpg"
                 alt="Show"
                 fill
                 style={{ objectFit: "cover" }}
@@ -397,7 +397,7 @@ export default function PastShowsGrid() {
 
   const handlePageChange = (
     event: React.ChangeEvent<unknown>,
-    value: number
+    value: number,
   ) => {
     setPage(value);
     window.scrollTo({ top: 0, behavior: "smooth" });
