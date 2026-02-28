@@ -1,0 +1,37 @@
+[
+  {
+    "id": "square-hammer",
+    "theme": {
+      "en": "The sole original track on Popestar, 'Square Hammer' presents an enigmatic call to profess faith to the Devil rather than God. The song encapsulates the album's exploration of inverted spirituality and Anti-Christ theology, suggesting a world where traditional divine hierarchy is reversed. It became Ghost's first US #1 hit on the Billboard Mainstream Rock chart, proving that Tobias Forge's provocative vision of theological subversion had genuine mass appeal.",
+      "es": "La única pista original en Popestar, 'Square Hammer' presenta un llamado enigmático a profesar fe al Diablo en lugar de Dios. La canción encapsula la exploración del álbum de espiritualidad invertida y teología Anti-Cristo, sugiriendo un mundo donde la jerarquía divina tradicional está invertida. Se convirtió en el primer éxito #1 de Ghost en EE.UU. en la carta Billboard Mainstream Rock, probando que la visión provocativa de Tobias Forge de subversión teológica tenía un atractivo genuino de masas."
+    }
+  },
+  {
+    "id": "nocturnal-me",
+    "theme": {
+      "en": "A loyal cover of Echo & The Bunnymen's post-punk classic, Ghost maintains the original's solemn and introspective textures while introducing darker guitar lines to align with their theatrical aesthetic. The song's melancholic exploration of solitude and inner darkness resonates with Ghost's overall sonic identity, transforming a gothic post-punk gem into a seamless part of their own mythology.",
+      "es": "Un cover leal del clásico post-punk de Echo & The Bunnymen, Ghost mantiene las texturas solemnes e introspectivas del original mientras introduce líneas de guitarra más oscuras para alinearse con su estética teatral. La exploración melancólica de la soledad y la oscuridad interior de la canción resuena con la identidad sonora general de Ghost, transformando una gema post-punk gótica en una parte sin fisuras de su propia mitología."
+    }
+  },
+  {
+    "id": "i-believe",
+    "theme": {
+      "en": "A cover of Simian Mobile Disco's synth-pop track, reimagined as a showcase for Papa Emeritus III's crooning vocals. The haunting, minimal arrangement—with just light synth chorus and brushed drums—transforms the original electronic pop into an intimate, almost ecclesiastical meditation on faith and conviction, complete with papal reverence.",
+      "es": "Un cover de la pista synth-pop de Simian Mobile Disco, reimaginada como escaparate de los vocales melismaticos de Papa Emeritus III. El arreglo minimalista y inquietante—con solo sintetizadores leves y batería suave—transforma el pop electrónico original en una meditación íntima, casi eclesiástica sobre la fe y la convicción, completa con reverencia papal."
+    }
+  },
+  {
+    "id": "missionary-man",
+    "theme": {
+      "en": "Ghost's wackiest cover transforms Eurythmics' new wave classic into a swaggering, guitar-heavy reimagining. With stacked guitars, Papa Emeritus III's nasal snark, a female backup vocalist, raucous harmonica, and retained swing, the track becomes a theatrical sermon on missionary zeal and evangelical fervor—Ghost turning corporate pop into a provocative statement on religious zealotry.",
+      "es": "El cover más extravagante de Ghost transforma el clásico new wave de Eurythmics en una reimaginación fanfarrona y pesada en guitarras. Con guitarras acumuladas, la nasal burla de Papa Emeritus III, una vocalista de apoyo femenina, armónica ruidosa y swing retenido, la pista se convierte en un sermón teatral sobre el celo misionero y el fervor evangélico—Ghost convirtiendo pop corporativo en una declaración provocativa sobre el celo religioso."
+    }
+  },
+  {
+    "id": "bible",
+    "theme": {
+      "en": "A cover of Imperiet's Christian hymn, Ghost rescues an obscure Swedish post-punk band's spiritual composition from obscurity. By incorporating this earnest religious song into their irreverent repertoire, Ghost performs an act of theological subversion—taking sincere devotional music and contextualizing it within their inverted spiritual universe, challenging listeners to reconsider the relationship between faith and theater.",
+      "es": "Un cover del himno cristiano de Imperiet, Ghost rescata la composición espiritual de una banda post-punk sueca oscura de la obscuridad. Al incorporar esta canción religiosa sincera en su repertorio irreverente, Ghost realiza un acto de subversión teológica—tomando música devocional sincera y contextualizándola dentro de su universo espiritual invertido, desafiando a los oyentes a reconsiderar la relación entre la fe y el teatro."
+    }
+  }
+]
