@@ -424,10 +424,10 @@ export default function SongDetailPage({ songId }: SongDetailPageProps) {
             </Typography>
             <Grid container spacing={2} sx={{ mt: 1 }}>
               {song.credits.musicians.map((m) => {
-                const memberId = m.id;
+                const memberId = m.name === "Nameless Ghoul" ? m.id : slugify(m.name);
                 const memberObj = getMemberData(memberId);
                 return (
-                  <Grid size={{ xs: 12, sm: 6, md: 4 }} key={m.id}>
+                  <Grid size={{ xs: 12, sm: 6, md: 4 }} key={m.name}>
                     <Link
                       href={`/miembros/${memberId}`}
                       passHref
