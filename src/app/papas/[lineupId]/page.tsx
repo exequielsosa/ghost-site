@@ -13,6 +13,7 @@ import { useTranslations, useLocale } from "next-intl";
 import { LineupFormation, BilingualText } from "@/types";
 import lineupsData from "@/constants/lineups.json";
 import membersData from "@/constants/members.json";
+import ghoulsData from "@/constants/ghouls.json";
 import { use } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -25,6 +26,13 @@ interface PageProps {
   params: Promise<{
     lineupId: string;
   }>;
+}
+
+interface MemberDataType {
+  id: string;
+  name: string;
+  image: string;
+  [key: string]: unknown;
 }
 
 export default function LineupDetailPage({ params }: PageProps) {
@@ -45,8 +53,20 @@ export default function LineupDetailPage({ params }: PageProps) {
     return text[currentLocale] || text.es;
   };
 
-  const getMemberData = (memberId: string) => {
-    return membersData.members[memberId as keyof typeof membersData.members];
+  const getMemberData = (memberId: string): MemberDataType | null => {
+    // Buscar primero en members actual
+    const memberObj = membersData.members[memberId as keyof typeof membersData.members];
+    if (memberObj) return memberObj as MemberDataType;
+
+    // Buscar en ghouls (todas las eras)
+    const ghoulsRecord = ghoulsData as Record<string, Record<string, MemberDataType>>;
+    for (const era of Object.values(ghoulsRecord)) {
+      if (era[memberId]) {
+        return era[memberId];
+      }
+    }
+
+    return null;
   };
 
   return (
