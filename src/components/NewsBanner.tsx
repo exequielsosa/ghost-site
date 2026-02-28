@@ -97,8 +97,8 @@ const sections: Section[] = [
   },
   {
     id: "lineups",
-    name: { es: "Formaciones", en: "Lineups" },
-    route: "/formaciones",
+    name: { es: "Papas", en: "Popes" },
+    route: "/papas",
     image: "/images/banners/lineup.png",
     adText: {
       es: "Descubre todas las formaciones a lo largo de los años",

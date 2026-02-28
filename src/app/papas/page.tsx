@@ -40,13 +40,13 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "/images/popes/og-popes.jpg",
+          url: "/images/lineups/og-lineups.jpg",
           width: 1200,
           height: 630,
           alt:
             locale === "es"
-              ? "Papas de Ghost - Evolución histórica de la banda"
-              : "Ghost Popes - Historical evolution of the band",
+              ? "Formaciones de Ghost - Evolución histórica de la banda"
+              : "Ghost Lineups - Historical evolution of the band",
         },
       ],
     },
@@ -54,7 +54,7 @@ export async function generateMetadata(): Promise<Metadata> {
       card: "summary_large_image",
       title,
       description,
-      images: ["/images/popes/og-popes.jpg"],
+      images: ["/images/lineups/og-lineups.jpg"],
       creator: "@GhostFanSite",
     },
     alternates: {

@@ -51,7 +51,7 @@ export default function Footer() {
     band: [
       { href: "/historia", label: t("history") },
       { href: "/miembros", label: t("members") },
-      { href: "/formaciones", label: t("lineups") },
+      { href: "/papas", label: t("lineups") },
       { href: "/entrevistas", label: t("interviews") },
     ],
     live: [

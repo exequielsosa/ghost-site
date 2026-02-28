@@ -125,7 +125,7 @@ function BootlegMetadata({ bootleg }: { bootleg: Bootleg }) {
               {t("era")}
             </Typography>
             <Link
-              href={`/formaciones/${bootleg.linkEra}`}
+              href={`/papas/${bootleg.linkEra}`}
               style={{ textDecoration: "none" }}
             >
               <Chip

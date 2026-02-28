@@ -54,7 +54,7 @@ export default function LineupDetailPage({ params }: PageProps) {
       <Box pt={{ xs: 2, md: 4 }} px={{ xs: 2, md: 0 }} pb={{ xs: 0, md: 0 }}>
         <Breadcrumb
           items={[
-            { label: tb("lineups"), href: "/formaciones" },
+            { label: tb("lineups"), href: "/papas" },
             { label: getLocalizedText(lineup.title) },
           ]}
         />

@@ -124,7 +124,7 @@
     "bootlegs": "Bootlegs",
     "interviews": "Interviews",
     "history": "History",
-    "lineups": "Lineups",
+    "lineups": "Popes",
     "members": "Members",
     "songs": "Songs",
     "news": "News"
@@ -485,7 +485,7 @@
     "band": "The Band",
     "history": "History",
     "members": "Members",
-    "lineups": "Lineups",
+    "lineups": "Popes",
     "interviews": "Interviews",
     "live": "Live",
     "tour": "Tour",
@@ -517,7 +517,7 @@
     "eps": "EPs"
   },
   "lineups": {
-    "title": "Lineups",
+    "title": "Popes",
     "subtitle": "Evolution of Ghost's lineup through 40 years",
     "timeline": "Timeline",
     "members": "Members",
@@ -605,7 +605,7 @@
     "news": "News",
     "interviews": "Interviews",
     "history": "History",
-    "lineups": "Lineups",
+    "lineups": "Popes",
     "members": "Members",
     "songs": "Songs",
     "faq": "FAQ",

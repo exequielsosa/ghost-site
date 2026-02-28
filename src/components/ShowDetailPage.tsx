@@ -126,7 +126,7 @@ function ShowMetadata({ show }: { show: Show }) {
               {t("era")}
             </Typography>
             <Link
-              href={`/formaciones/${show.linkEra}`}
+              href={`/papas/${show.linkEra}`}
               style={{ textDecoration: "none" }}
             >
               <Chip

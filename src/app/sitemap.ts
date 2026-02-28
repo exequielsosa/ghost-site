@@ -22,7 +22,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: '/videos', priority: 0.9, changeFreq: 'weekly' as const },
     { path: '/dvds', priority: 0.9, changeFreq: 'monthly' as const },
     { path: '/historia', priority: 0.9, changeFreq: 'monthly' as const },
-    { path: '/formaciones', priority: 0.8, changeFreq: 'monthly' as const },
+    { path: '/papas', priority: 0.8, changeFreq: 'monthly' as const },
     { path: '/miembros', priority: 0.8, changeFreq: 'monthly' as const },
     { path: '/entrevistas', priority: 0.9, changeFreq: 'monthly' as const },
     { path: '/faq', priority: 0.7, changeFreq: 'monthly' as const },
@@ -65,7 +65,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const lineups = lineupsData.lineups;
   lineups.forEach(lineup => {
     sitemap.push({
-      url: `${base}/formaciones/${lineup.id}`,
+      url: `${base}/papas/${lineup.id}`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,

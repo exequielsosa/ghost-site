@@ -72,7 +72,7 @@ export default function Header() {
     { label: t("news"), href: "/noticias" },
     { label: t("interviews"), href: "/entrevistas" },
     { label: t("history"), href: "/historia" },
-    { label: t("lineups"), href: "/formaciones" },
+    { label: t("lineups"), href: "/papas" },
     { label: t("members"), href: "/miembros" },
     { label: t("songs"), href: "/songs" },
   ];

@@ -44,7 +44,7 @@ export async function generateMetadata({
       images: [lineup.image],
     },
     alternates: {
-      canonical: `/formaciones/${lineupId}`,
+      canonical: `/papas/${lineupId}`,
     },
   };
 }

@@ -124,7 +124,7 @@
     "bootlegs": "Bootlegs",
     "interviews": "Entrevistas",
     "history": "Historia",
-    "lineups": "Formaciones",
+    "lineups": "Papas",
     "members": "Miembros",
     "songs": "Canciones",
     "news": "Noticias"
@@ -485,7 +485,7 @@
     "band": "La Banda",
     "history": "Historia",
     "members": "Miembros",
-    "lineups": "Formaciones",
+    "lineups": "Papas",
     "interviews": "Entrevistas",
     "live": "En Vivo",
     "tour": "Gira",
@@ -517,7 +517,7 @@
     "eps": "EPs"
   },
   "lineups": {
-    "title": "Formaciones",
+    "title": "Papas",
     "subtitle": "Evolución de la alineación de Ghost a través de 40 años",
     "timeline": "Línea de Tiempo",
     "members": "Miembros",
@@ -605,7 +605,7 @@
     "news": "Noticias",
     "interviews": "Entrevistas",
     "history": "Historia",
-    "lineups": "Formaciones",
+    "lineups": "Papas",
     "members": "Miembros",
     "songs": "Canciones",
     "faq": "Preguntas frecuentes",
