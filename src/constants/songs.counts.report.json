@@ -1,0 +1,86 @@
+{
+  "inputPath": "src/data/songs.counts.json",
+  "outputPath": "src/constants/songs.counts.fixed.json",
+  "reportPath": "src/constants/songs.counts.report.json",
+  "medleysExpanded": [],
+  "merges": [
+    {
+      "canonicalKey": "klara stjärnor",
+      "chosenDisplay": "Klara stjärnor",
+      "variants": [
+        {
+          "name": "Klara stjärnor",
+          "count": 249
+        },
+        {
+          "name": "Klara Stjärnor",
+          "count": 9
+        }
+      ],
+      "uniqueNames": [
+        "Klara stjärnor",
+        "Klara Stjärnor"
+      ]
+    },
+    {
+      "canonicalKey": "miserere mei, deus",
+      "chosenDisplay": "Miserere Mei, Deus",
+      "variants": [
+        {
+          "name": "Miserere Mei, Deus",
+          "count": 272
+        },
+        {
+          "name": "Miserere mei, Deus",
+          "count": 194
+        }
+      ],
+      "uniqueNames": [
+        "Miserere Mei, Deus",
+        "Miserere mei, Deus"
+      ]
+    },
+    {
+      "canonicalKey": "sorrow in the wind",
+      "chosenDisplay": "Sorrow in the Wind",
+      "variants": [
+        {
+          "name": "Sorrow in the Wind",
+          "count": 189
+        },
+        {
+          "name": "Sorrow in the wind",
+          "count": 6
+        },
+        {
+          "name": "Sorrow In The Wind",
+          "count": 1
+        }
+      ],
+      "uniqueNames": [
+        "Sorrow in the Wind",
+        "Sorrow in the wind",
+        "Sorrow In The Wind"
+      ]
+    },
+    {
+      "canonicalKey": "så länge skutan kan gå",
+      "chosenDisplay": "Så länge skutan kan gå",
+      "variants": [
+        {
+          "name": "Så länge skutan kan gå",
+          "count": 80
+        },
+        {
+          "name": "Så Länge Skutan Kan Gå",
+          "count": 2
+        }
+      ],
+      "uniqueNames": [
+        "Så länge skutan kan gå",
+        "Så Länge Skutan Kan Gå"
+      ]
+    }
+  ],
+  "notes": []
+}
