@@ -25,13 +25,59 @@
         }
       },
       {
-        "name": "Nameless Ghouls",
+        "name": "Chris Catalyst",
         "instrument": {
-          "es": "Guitarras, bajo, batería, teclados",
-          "en": "Guitars, bass, drums, keyboards"
+          "es": "Guitarra rítmica",
+          "en": "Rhythm guitar"
+        }
+      },
+      {
+        "name": "Per Eriksson",
+        "instrument": {
+          "es": "Guitarra principal",
+          "en": "Lead guitar"
+        }
+      },
+      {
+        "name": "Cos Sylvan",
+        "instrument": {
+          "es": "Bajo",
+          "en": "Bass"
+        }
+      },
+      {
+        "name": "Hayden Scott",
+        "instrument": {
+          "es": "Batería",
+          "en": "Drums"
+        }
+      },
+      {
+        "name": "Jutty Taylor",
+        "instrument": {
+          "es": "Guitar, Saxofón, Papa Nihil",
+          "en": "Guitar, Saxophone, Papa Nihil"
+        }
+      },
+      {
+        "name": "Laura Scarborough",
+        "instrument": {
+          "es": "Teclados",
+          "en": "Keyboards"
+        }
+      },
+      {
+        "name": "Mad Gallica",
+        "instrument": {
+          "es": "Teclados",
+          "en": "Keyboards"
         }
       }
     ],
+    "pope": {
+      "name": "Papa Emeritus IV",
+      "image": "/images/popes/papa-emeritus-iv.jpg"
+    },
     "streaming": {
       "spotify": ""
     },
@@ -172,13 +218,59 @@
         }
       },
       {
-        "name": "Nameless Ghouls",
+        "name": "Chris Catalyst",
         "instrument": {
-          "es": "Guitarras, bajo, batería, teclados",
-          "en": "Guitars, bass, drums, keyboards"
+          "es": "Guitarra rítmica",
+          "en": "Rhythm guitar"
+        }
+      },
+      {
+        "name": "Per Eriksson",
+        "instrument": {
+          "es": "Guitarra principal",
+          "en": "Lead guitar"
+        }
+      },
+      {
+        "name": "Cos Sylvan",
+        "instrument": {
+          "es": "Bajo",
+          "en": "Bass"
+        }
+      },
+      {
+        "name": "Hayden Scott",
+        "instrument": {
+          "es": "Batería",
+          "en": "Drums"
+        }
+      },
+      {
+        "name": "Jutty Taylor",
+        "instrument": {
+          "es": "Guitar, Saxofón, Papa Nihil",
+          "en": "Guitar, Saxophone, Papa Nihil"
+        }
+      },
+      {
+        "name": "Laura Scarborough",
+        "instrument": {
+          "es": "Teclados",
+          "en": "Keyboards"
+        }
+      },
+      {
+        "name": "Mad Gallica",
+        "instrument": {
+          "es": "Teclados",
+          "en": "Keyboards"
         }
       }
     ],
+    "pope": {
+      "name": "Papa Emeritus III",
+      "image": "/images/popes/papa-emeritus-iii.jpg"
+    },
     "streaming": {
       "spotify": ""
     },

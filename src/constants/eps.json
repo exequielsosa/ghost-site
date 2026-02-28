@@ -26,13 +26,59 @@
         }
       },
       {
-        "name": "Nameless Ghouls",
+        "name": "Chris Catalyst",
         "instrument": {
-          "es": "Guitarras, bajo, batería, teclados",
-          "en": "Guitars, bass, drums, keyboards"
+          "es": "Guitarra rítmica",
+          "en": "Rhythm guitar"
+        }
+      },
+      {
+        "name": "Per Eriksson",
+        "instrument": {
+          "es": "Guitarra principal",
+          "en": "Lead guitar"
+        }
+      },
+      {
+        "name": "Cos Sylvan",
+        "instrument": {
+          "es": "Bajo",
+          "en": "Bass"
+        }
+      },
+      {
+        "name": "Hayden Scott",
+        "instrument": {
+          "es": "Batería",
+          "en": "Drums"
+        }
+      },
+      {
+        "name": "Jutty Taylor",
+        "instrument": {
+          "es": "Guitar, Saxofón, Papa Nihil",
+          "en": "Guitar, Saxophone, Papa Nihil"
+        }
+      },
+      {
+        "name": "Laura Scarborough",
+        "instrument": {
+          "es": "Teclados",
+          "en": "Keyboards"
+        }
+      },
+      {
+        "name": "Mad Gallica",
+        "instrument": {
+          "es": "Teclados",
+          "en": "Keyboards"
         }
       }
     ],
+    "pope": {
+      "name": "Papa Emeritus IV",
+      "image": "/images/popes/papa-emeritus-iv.jpg"
+    },
     "streaming": { "spotify": "" },
     "tracks": [
       {
@@ -112,13 +158,66 @@
         }
       },
       {
-        "name": "Nameless Ghouls",
+        "name": "Chris Catalyst",
         "instrument": {
-          "es": "Guitarras, bajo, batería, teclados",
-          "en": "Guitars, bass, drums, keyboards"
+          "es": "Guitarra rítmica",
+          "en": "Rhythm guitar"
+        }
+      },
+      {
+        "name": "Per Eriksson",
+        "instrument": {
+          "es": "Guitarra principal",
+          "en": "Lead guitar"
+        }
+      },
+      {
+        "name": "Cos Sylvan",
+        "instrument": {
+          "es": "Bajo",
+          "en": "Bass"
+        }
+      },
+      {
+        "name": "Hayden Scott",
+        "instrument": {
+          "es": "Batería",
+          "en": "Drums"
+        }
+      },
+      {
+        "name": "Jutty Taylor",
+        "instrument": {
+          "es": "Guitar, Saxofón, Papa Nihil",
+          "en": "Guitar, Saxophone, Papa Nihil"
+        }
+      },
+      {
+        "name": "Laura Scarborough",
+        "instrument": {
+          "es": "Teclados",
+          "en": "Keyboards"
+        }
+      },
+      {
+        "name": "Mad Gallica",
+        "instrument": {
+          "es": "Teclados",
+          "en": "Keyboards"
+        }
+      },
+      {
+        "name": "Sophie Amelkin",
+        "instrument": {
+          "es": "Multi instrumentista - Coros",
+          "en": "Multi-instrumentalist - Backing vocals"
         }
       }
     ],
+    "pope": {
+      "name": "Cardinal Copia",
+      "image": "/images/popes/cardinal-copia.jpg"
+    },
     "streaming": { "spotify": "" },
     "tracks": [
       {
@@ -161,13 +260,52 @@
         "instrument": { "es": "Voz", "en": "Vocals" }
       },
       {
-        "name": "Nameless Ghouls",
+        "name": "Simon Söderberg",
         "instrument": {
-          "es": "Guitarras, bajo, batería, teclados",
-          "en": "Guitars, bass, drums, keyboards"
+          "es": "Guitarra principal",
+          "en": "Lead guitar"
+        }
+      },
+      {
+        "name": "Martin Persner",
+        "instrument": {
+          "es": "Guitarra rítmica",
+          "en": "Rhythm guitar"
+        }
+      },
+      {
+        "name": "Mauro Rubino",
+        "instrument": {
+          "es": "Teclados",
+          "en": "Keyboards"
+        }
+      },
+      {
+        "name": "Martin Hjertstedt",
+        "instrument": {
+          "es": "Batería",
+          "en": "Drums"
+        }
+      },
+      {
+        "name": "Henrik Palm",
+        "instrument": {
+          "es": "Guitarra rítmica, Bajo",
+          "en": "Rhythm guitar, Bass"
+        }
+      },
+      {
+        "name": "Nameless Ghoul",
+        "instrument": {
+          "es": "Bajo",
+          "en": "Bass"
         }
       }
     ],
+    "pope": {
+      "name": "Papa Emeritus III",
+      "image": "/images/popes/papa-emeritus-iii.jpg"
+    },
     "streaming": { "spotify": "" },
     "tracks": [
       {
@@ -242,17 +380,45 @@
         "instrument": { "es": "Voz", "en": "Vocals" }
       },
       {
-        "name": "Nameless Ghouls",
+        "name": "Simon Söderberg",
         "instrument": {
-          "es": "Guitarras, bajo, batería, teclados",
-          "en": "Guitars, bass, drums, keyboards"
+          "es": "Guitarra principal",
+          "en": "Lead guitar"
         }
       },
       {
-        "name": "Dave Grohl",
-        "instrument": { "es": "Producción, batería", "en": "Production, drums" }
+        "name": "Martin Persner",
+        "instrument": {
+          "es": "Guitarra rítmica",
+          "en": "Rhythm guitar"
+        }
+      },
+      {
+        "name": "Mauro Rubino",
+        "instrument": {
+          "es": "Teclados",
+          "en": "Keyboards"
+        }
+      },
+      {
+        "name": "Linton Rubino",
+        "instrument": {
+          "es": "Bajo",
+          "en": "Bass"
+        }
+      },
+      {
+        "name": "Nameless Ghoul",
+        "instrument": {
+          "es": "Batería",
+          "en": "Drums"
+        }
       }
     ],
+    "pope": {
+      "name": "Papa Emeritus II",
+      "image": "/images/popes/papa-emeritus-ii.jpg"
+    },
     "streaming": { "spotify": "" },
     "tracks": [
       {
@@ -332,13 +498,38 @@
         "instrument": { "es": "Voz", "en": "Vocals" }
       },
       {
-        "name": "Nameless Ghouls",
+        "name": "Gustaf Lindström",
         "instrument": {
-          "es": "Guitarras, bajo, batería, teclados",
-          "en": "Guitars, bass, drums, keyboards"
+          "es": "Bajo",
+          "en": "Bass"
+        }
+      },
+      {
+        "name": "Simon Söderberg",
+        "instrument": {
+          "es": "Guitarra principal",
+          "en": "Lead guitar"
+        }
+      },
+      {
+        "name": "Martin Persner",
+        "instrument": {
+          "es": "Guitarra rítmica",
+          "en": "Rhythm guitar"
+        }
+      },
+      {
+        "name": "Nameless Ghoul",
+        "instrument": {
+          "es": "Batería",
+          "en": "Drums"
         }
       }
     ],
+    "pope": {
+      "name": "Papa Emeritus I",
+      "image": "/images/popes/papa-emeritus-i.jpg"
+    },
     "streaming": { "spotify": "" },
     "tracks": [
       {
