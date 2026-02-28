@@ -47,7 +47,7 @@ export default function NotFound() {
           }}
         >
           <Image
-            src="/images/404DOS.jpg"
+            src="/images/404.jpg"
             alt="404 - Página no encontrada"
             fill
             style={{

@@ -199,12 +199,27 @@ PRODUCTION_URL
 - Scripts creados: `generate-songs.js`, `integrate-themes.js`
 - Elizabeth EP (2010): canciones incluidas en Opus Eponymous, no hay duplicados
 
-### Pendiente
+**Fase 2: Lyrics en Español para songs.json (28 Feb)**
+- ✅ Creado `src/scripts/translate-lyrics-v2.mjs` (MyMemory API, sin auth)
+  - Versión mejorada: manejo de errores, pausas de 200ms
+- 🔄 En proceso: traducción automática de las 84 canciones
+  - Estado: ejecutando en background
+  - API: MyMemory (gratuita, sin configuración)
+  - ETA: 15-20 minutos
+  - Nota: v1 tuvo issues, usando v2 con mejoras
 
-**Fase 2: Lyrics en Español para songs.json**
-- [ ] Traducir y agregar letras en español a todas las 84 canciones en `src/constants/songs.json`
-- [ ] Actualmente: `lyrics.es` vacío para todas las canciones
-- [ ] Prioridad: canciones originales de Ghost (temas propios antes que covers)
+**Tipografía: Cormorant + Crimson Text (28 Feb)**
+- ✅ Reemplazada Poppins por combinación gótica pero legible
+- `src/app/layout.tsx`: importadas Cormorant + Crimson Text desde Google Fonts
+  - `--font-cormorant`: weight 300-700 (headings)
+  - `--font-crimson-text`: weight 400, 600 (body)
+- `src/theme/createTheme.ts`:
+  - h1-h6 → Cormorant + fontWeight 600 (presencia gótica)
+  - fontFamily default → Crimson Text (texto elegante, legible)
+- ✅ Build verificado: compila sin errores
+- Resultado: página con estética gótica pero manteniendo claridad de lectura
+
+### Pendiente
 
 **Configuración de servicios**
 - [ ] Configurar GitHub Secrets para el Action diario de scraping

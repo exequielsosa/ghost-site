@@ -19,28 +19,101 @@
     "musicians": [
       {
         "name": "Tobias Forge",
-        "instrument": { "es": "Voz, guitarra, bajo, teclados", "en": "Vocals, guitar, bass, keyboards" }
+        "instrument": {
+          "es": "Voz, guitarra, bajo, teclados",
+          "en": "Vocals, guitar, bass, keyboards"
+        }
       },
       {
         "name": "Varios Nameless Ghouls",
-        "instrument": { "es": "Instrumentos varios (2010–2022)", "en": "Various instruments (2010–2022)" }
+        "instrument": {
+          "es": "Instrumentos varios (2010–2022)",
+          "en": "Various instruments (2010–2022)"
+        }
       }
     ],
-    "streaming": { "spotify": "" },
+    "streaming": {
+      "spotify": "https://open.spotify.com/intl-es/album/1jIpMY1agd8Uvd9cc9woTH"
+    },
     "tracks": [
-      { "n": 1, "title": "Ritual", "duration": "4:49", "writers": ["A Ghoul Writer"] },
-      { "n": 2, "title": "Elizabeth", "duration": "4:33", "writers": ["A Ghoul Writer"] },
-      { "n": 3, "title": "Con Clavi Con Dio", "duration": "3:40", "writers": ["A Ghoul Writer"] },
-      { "n": 4, "title": "Year Zero", "duration": "6:26", "writers": ["A Ghoul Writer"] },
-      { "n": 5, "title": "Secular Haze", "duration": "4:09", "writers": ["A Ghoul Writer"] },
-      { "n": 6, "title": "Cirice", "duration": "6:00", "writers": ["A Ghoul Writer"] },
-      { "n": 7, "title": "He Is", "duration": "4:33", "writers": ["A Ghoul Writer"] },
-      { "n": 8, "title": "Square Hammer", "duration": "3:59", "writers": ["A Ghoul Writer"] },
-      { "n": 9, "title": "Rats", "duration": "3:58", "writers": ["Tobias Forge"] },
-      { "n": 10, "title": "Dance Macabre", "duration": "3:45", "writers": ["Tobias Forge"] },
-      { "n": 11, "title": "Mary on a Cross", "duration": "4:44", "writers": ["Tobias Forge"] },
-      { "n": 12, "title": "Kaisarion", "duration": "3:38", "writers": ["Tobias Forge"] },
-      { "n": 13, "title": "Zenith", "duration": "5:20", "writers": ["Tobias Forge"] }
+      {
+        "n": 1,
+        "title": "Ritual",
+        "duration": "4:49",
+        "writers": ["A Ghoul Writer"]
+      },
+      {
+        "n": 2,
+        "title": "Elizabeth",
+        "duration": "4:33",
+        "writers": ["A Ghoul Writer"]
+      },
+      {
+        "n": 3,
+        "title": "Con Clavi Con Dio",
+        "duration": "3:40",
+        "writers": ["A Ghoul Writer"]
+      },
+      {
+        "n": 4,
+        "title": "Year Zero",
+        "duration": "6:26",
+        "writers": ["A Ghoul Writer"]
+      },
+      {
+        "n": 5,
+        "title": "Secular Haze",
+        "duration": "4:09",
+        "writers": ["A Ghoul Writer"]
+      },
+      {
+        "n": 6,
+        "title": "Cirice",
+        "duration": "6:00",
+        "writers": ["A Ghoul Writer"]
+      },
+      {
+        "n": 7,
+        "title": "He Is",
+        "duration": "4:33",
+        "writers": ["A Ghoul Writer"]
+      },
+      {
+        "n": 8,
+        "title": "Square Hammer",
+        "duration": "3:59",
+        "writers": ["A Ghoul Writer"]
+      },
+      {
+        "n": 9,
+        "title": "Rats",
+        "duration": "3:58",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 10,
+        "title": "Dance Macabre",
+        "duration": "3:45",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 11,
+        "title": "Mary on a Cross",
+        "duration": "4:44",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 12,
+        "title": "Kaisarion",
+        "duration": "3:38",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 13,
+        "title": "Zenith",
+        "duration": "5:20",
+        "writers": ["Tobias Forge"]
+      }
     ]
   }
 ]

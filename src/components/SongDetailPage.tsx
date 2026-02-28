@@ -42,9 +42,9 @@ interface MemberDataType {
 // Helper para buscar miembro en members o ghouls
 function getMemberData(memberId: string): MemberDataType | null {
   // Buscar en members actual
-  const memberObj = (
-    membersData.members as Record<string, MemberDataType>
-  )[memberId];
+  const memberObj = (membersData.members as Record<string, MemberDataType>)[
+    memberId
+  ];
 
   if (memberObj) return memberObj;
 
@@ -150,17 +150,18 @@ export default function SongDetailPage({ songId }: SongDetailPageProps) {
           <Box
             sx={{
               position: "relative",
-              width: { xs: 300, md: 600 },
+              width: { xs: 300, md: 700 },
               height: { xs: 200, md: 400 },
               mx: "auto",
               mb: 0,
+              borderRadius: 4,
             }}
           >
             <Image
-              src="/images/404.png"
+              src="/images/404_songs.jpg"
               alt="404"
               fill
-              style={{ objectFit: "contain" }}
+              style={{ objectFit: "contain", borderRadius: "16px" }}
               priority
             />
           </Box>
@@ -424,7 +425,8 @@ export default function SongDetailPage({ songId }: SongDetailPageProps) {
             </Typography>
             <Grid container spacing={2} sx={{ mt: 1 }}>
               {song.credits.musicians.map((m) => {
-                const memberId = m.name === "Nameless Ghoul" ? m.id : slugify(m.name);
+                const memberId =
+                  m.name === "Nameless Ghoul" ? m.id : slugify(m.name);
                 const memberObj = getMemberData(memberId);
                 return (
                   <Grid size={{ xs: 12, sm: 6, md: 4 }} key={m.name}>

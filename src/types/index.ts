@@ -34,7 +34,7 @@ export interface LineupFormation {
   id: string;
   period: string;
   yearStart: number;
-  yearEnd: number;
+  yearEnd: number | null;
   title: BilingualText;
   description: BilingualText;
   longDescription?: BilingualText; // Optional for backward compatibility

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Cormorant, Playfair_Display } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getLocale } from "next-intl/server";
 import { cookies } from "next/headers";
@@ -9,11 +9,18 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
-const poppins = Poppins({
+const cormorant = Cormorant({
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-poppins",
-  weight: ["300", "400", "500", "600", "700", "800"],
+  variable: "--font-cormorant",
+  weight: ["300", "400", "500", "600", "700"],
+});
+
+const playfairDisplay = Playfair_Display({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-playfair-display",
+  weight: ["400", "500", "600", "700"],
 });
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -215,7 +222,7 @@ export default async function RootLayout({
     (cookieStore.get("color-mode")?.value as "light" | "dark") || "dark";
 
   return (
-    <html lang={locale} className={poppins.variable} suppressHydrationWarning>
+    <html lang={locale} className={`${cormorant.variable} ${playfairDisplay.variable}`} suppressHydrationWarning>
       <head>
         <link rel="icon" type="image/webp" href="/icon.webp" />
         <link rel="alternate" type="application/rss+xml" title="Ghost Fan Site — Noticias" href="/feed.xml" />
