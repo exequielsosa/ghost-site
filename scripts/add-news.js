@@ -26,9 +26,9 @@ if (!API_KEY) {
 // Ejemplo de noticia completa con TODOS los campos
 const exampleNews = {
   // --- CAMPOS REQUERIDOS ---
-  id: "megadeth-tour-2026",
-  title_es: "Megadeth anuncia gira mundial 2026",
-  title_en: "Megadeth announces 2026 world tour",
+  id: "ghost-tour-2026",
+  title_es: "Ghost anuncia gira mundial 2026",
+  title_en: "Ghost announces 2026 world tour",
   description_es:
     "La banda legendaria ha confirmado su gira mundial que incluirá más de 50 fechas...",
   description_en:
@@ -36,14 +36,14 @@ const exampleNews = {
   published_date: "2026-02-14", // Formato: YYYY-MM-DD
 
   // --- CAMPOS OPCIONALES DE IMAGEN ---
-  image_url: "https://example.com/images/megadeth-tour-2026.jpg",
-  image_alt_es: "Logo de la gira Megadeth 2026",
-  image_alt_en: "Megadeth 2026 tour logo",
+  image_url: "https://example.com/images/ghost-tour-2026.jpg",
+  image_alt_es: "Logo de la gira Ghost 2026",
+  image_alt_en: "Ghost 2026 tour logo",
   image_caption_es: "La nueva gira promete ser épica",
   image_caption_en: "The new tour promises to be epic",
 
   // --- CAMPOS OPCIONALES DE ENLACE ---
-  link_url: "https://megadeth.com/tour",
+  link_url: "https://ghost.com/tour",
   link_target: "_blank", // '_blank' o '_self'
 
   // --- CONFIGURACIÓN ---
@@ -52,18 +52,18 @@ const exampleNews = {
 
   // --- AUTOMATIZACIÓN ---
   is_automated: false, // default: false
-  source_url: "https://blabbermouth.net/news/megadeth-2026",
+  source_url: "https://blabbermouth.net/news/ghost-2026",
 
   // --- ENLACES EXTERNOS (array opcional) ---
   external_links: [
     {
-      url: "https://ticketmaster.com/megadeth",
+      url: "https://ticketmaster.com/ghost",
       text_es: "Comprar entradas",
       text_en: "Buy tickets",
       order_index: 0,
     },
     {
-      url: "https://megadeth.com/vip",
+      url: "https://ghost.com/vip",
       text_es: "Paquetes VIP",
       text_en: "VIP packages",
       order_index: 1,
@@ -138,7 +138,7 @@ async function createMinimalNews() {
  */
 async function main() {
   console.log("╔════════════════════════════════════════════╗");
-  console.log("║  Megadeth Site - Agregar Noticia Manual   ║");
+  console.log("║  Ghost Site - Agregar Noticia Manual   ║");
   console.log("╚════════════════════════════════════════════╝\n");
 
   const rl = readline.createInterface({

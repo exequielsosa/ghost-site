@@ -39,9 +39,9 @@ export async function generateMetadata({
   const date = new Date(show.date);
   const year = date.getFullYear();
 
-  const fullTitle = `${title} (${year}) | Megadeth Shows`;
+  const fullTitle = `${title} (${year}) | Ghost Shows`;
   const keywords = [
-    "Megadeth",
+    "Ghost",
     show.venue,
     show.city,
     show.country,
@@ -81,7 +81,7 @@ export async function generateMetadata({
       title: fullTitle,
       description,
       images: [show.image || "/images/shows/1994.jpg"],
-      creator: "@MegadethFanSite",
+      creator: "@GhostFanSite",
     },
     alternates: {
       canonical: `/shows/${showId}`,

@@ -7,11 +7,11 @@ export async function generateMetadata(): Promise<Metadata> {
     ? "Preguntas frecuentes | Ghost Fan Site"
     : "Frequently Asked Questions | Ghost Fan Site";
   const description = locale === "es"
-    ? "Respuestas a las preguntas más comunes sobre el fan site de Megadeth, legalidad, contacto y uso."
-    : "Answers to the most common questions about the Megadeth fan site, legality, contact and usage.";
+    ? "Respuestas a las preguntas más comunes sobre el fan site de Ghost, legalidad, contacto y uso."
+    : "Answers to the most common questions about the Ghost fan site, legality, contact and usage.";
   const keywords = locale === "es"
-    ? ["Megadeth", "FAQ", "preguntas frecuentes", "fan site", "contacto", "legal", "privacidad", "términos"]
-    : ["Megadeth", "FAQ", "frequently asked questions", "fan site", "contact", "legal", "privacy", "terms"];
+    ? ["Ghost", "FAQ", "preguntas frecuentes", "fan site", "contacto", "legal", "privacidad", "términos"]
+    : ["Ghost", "FAQ", "frequently asked questions", "fan site", "contact", "legal", "privacy", "terms"];
   return {
     title,
     description,
@@ -24,10 +24,10 @@ export async function generateMetadata(): Promise<Metadata> {
       locale: locale === "es" ? "es_AR" : "en_US",
       images: [
         {
-          url: "/images/megadeth-megadeth.jpg",
+          url: "/images/ghost-ghost.jpg",
           width: 1200,
           height: 630,
-          alt: "Megadeth FAQ",
+          alt: "Ghost FAQ",
         },
       ],
     },

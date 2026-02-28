@@ -82,9 +82,9 @@ export async function processNewsWithAI(
   const genAI = getGenAI();
   const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
-  const prompt = `Sos un fan de Megadeth que escribe noticias para otros fans. Conocés la historia de la banda, seguís las novedades, pero escribís con naturalidad, sin exagerar.
+  const prompt = `Sos un fan de Ghost que escribe noticias para otros fans. Conocés la historia de la banda, seguís las novedades, pero escribís con naturalidad, sin exagerar.
 
-Se te proporciona una noticia sobre Megadeth. Procesala así:
+Se te proporciona una noticia sobre Ghost. Procesala así:
 
 1. Título optimizado en inglés (máx 80 caracteres, directo y claro)
 2. Traducción al español (máx 80 caracteres, manteniendo el sentido)
@@ -94,7 +94,7 @@ Se te proporciona una noticia sobre Megadeth. Procesala así:
 6. Caption en español (máx 60 caracteres)
 
 TONO DE ESCRITURA:
-- Conversacional, como hablar con un amigo que también le gusta Megadeth
+- Conversacional, como hablar con un amigo que también le gusta Ghost
 - Podés usar "Dave", "Ellefson", "la banda" de forma natural
 - Si es una buena noticia, mostrá entusiasmo genuino pero sin gritar
 - Si es noticia triste o seria, sé respetuoso
@@ -171,17 +171,17 @@ Responde ÚNICAMENTE con un objeto JSON válido (sin markdown, sin \`\`\`json):
 }
 
 /**
- * Valida si una noticia es relevante para Megadeth usando Gemini AI
+ * Valida si una noticia es relevante para Ghost usando Gemini AI
  */
-export async function isRelevantToMegadeth(
+export async function isRelevantToGhost(
   title: string,
   content: string
 ): Promise<boolean> {
   // Filtro rápido local primero
   const keywords = [
     // Banda
-    "megadeth",
-    "megadeth's",
+    "ghost",
+    "ghost's",
     
     // Miembros actuales
     "dave mustaine",
@@ -242,28 +242,28 @@ export async function isRelevantToMegadeth(
   const genAI = getGenAI();
   const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
-  const prompt = `Eres un filtro ESTRICTO de noticias sobre la banda Megadeth.
+  const prompt = `Eres un filtro ESTRICTO de noticias sobre la banda Ghost.
 
-Analiza si esta noticia es DIRECTAMENTE sobre Megadeth:
+Analiza si esta noticia es DIRECTAMENTE sobre Ghost:
 
 TÍTULO: ${title}
 CONTENIDO: ${content.substring(0, 500)}
 
 Criterios ESTRICTOS:
 ✅ SÍ es relevante si:
-   - La noticia es principalmente sobre Megadeth, Dave Mustaine, o miembros actuales/ex-miembros
-   - Anuncia álbumes, giras, conciertos de Megadeth
-   - Entrevistas donde Megadeth es el tema principal
-   - Ex-miembros hablan específicamente sobre su tiempo en Megadeth
+   - La noticia es principalmente sobre Ghost, Dave Mustaine, o miembros actuales/ex-miembros
+   - Anuncia álbumes, giras, conciertos de Ghost
+   - Entrevistas donde Ghost es el tema principal
+   - Ex-miembros hablan específicamente sobre su tiempo en Ghost
 
 ❌ NO es relevante si:
-   - Megadeth solo se menciona de pasada o en una lista
+   - Ghost solo se menciona de pasada o en una lista
    - La noticia es principalmente sobre OTRA banda (Metallica, Slayer, Anthrax, Testament, Nevermore, etc.)
-   - Solo se menciona a Megadeth como comparación o contexto
+   - Solo se menciona a Ghost como comparación o contexto
    - Es sobre el género thrash metal en general
-   - Menciona a Megadeth en una lista de "bandas similares" o "bandas de la escena"
+   - Menciona a Ghost en una lista de "bandas similares" o "bandas de la escena"
 
-PREGUNTA CLAVE: ¿Un fan de Megadeth ESPECÍFICAMENTE querría leer esto, o es sobre otra banda/tema?
+PREGUNTA CLAVE: ¿Un fan de Ghost ESPECÍFICAMENTE querría leer esto, o es sobre otra banda/tema?
 
 Responde ÚNICAMENTE con "true" o "false" (sin comillas, sin explicación):`;
 

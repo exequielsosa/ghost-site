@@ -41,7 +41,7 @@ export default async function ReviewsPage() {
       name: "Ghost Argentina",
       logo: {
         "@type": "ImageObject",
-        url: "https://ghostband.com.ar/logo-megadeth.png",
+        url: "https://ghostband.com.ar/logo-ghost.png",
       },
     },
     mainEntity: {

@@ -25,11 +25,11 @@ export async function generateMetadata({
 
   return {
     title: `${title} (${fullName}) - ${
-      locale === "en" ? "Megadeth Member" : "Miembro de Megadeth"
+      locale === "en" ? "Ghost Member" : "Miembro de Ghost"
     }`,
     description,
     openGraph: {
-      title: `${title} - Megadeth`,
+      title: `${title} - Ghost`,
       description,
       images: [member.image],
     },

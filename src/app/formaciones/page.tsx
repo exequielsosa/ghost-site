@@ -6,19 +6,19 @@ export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
   const t = await getTranslations("lineups");
 
-  const title = `${t("title")} | Megadeth`;
+  const title = `${t("title")} | Ghost`;
   const description = t("subtitle");
   const keywords = [
-    "Megadeth",
+    "Ghost",
     "formaciones",
     "alineaciones",
     "lineups",
-    "miembros Megadeth",
+    "miembros Ghost",
     "Dave Mustaine",
     "thrash metal",
     "bandas metal",
-    "historia Megadeth",
-    "músicos Megadeth",
+    "historia Ghost",
+    "músicos Ghost",
     "Nick Menza",
     "Marty Friedman",
     "David Ellefson",
@@ -45,8 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
           height: 630,
           alt:
             locale === "es"
-              ? "Formaciones de Megadeth - Evolución histórica de la banda"
-              : "Megadeth Lineups - Historical evolution of the band",
+              ? "Formaciones de Ghost - Evolución histórica de la banda"
+              : "Ghost Lineups - Historical evolution of the band",
         },
       ],
     },
@@ -55,7 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title,
       description,
       images: ["/images/lineups/og-lineups.jpg"],
-      creator: "@MegadethFanSite",
+      creator: "@GhostFanSite",
     },
     alternates: {
       canonical: "/formaciones",

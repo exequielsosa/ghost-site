@@ -7,7 +7,7 @@ interface VicLoaderProps {
 }
 
 /**
- * Loader animado de Vic Rattlehead (mascota de Megadeth)
+ * Loader animado de Vic Rattlehead (mascota de Ghost)
  * Animación en 3 fases: dibujado (outline) → relleno → fade out
  */
 export default function VicLoader({ size = 150 }: VicLoaderProps) {

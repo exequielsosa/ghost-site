@@ -12,6 +12,7 @@ import {
 import { useTranslations, useLocale } from "next-intl";
 import { BilingualText } from "@/types";
 import membersData from "@/constants/members.json";
+import ghoulsData from "@/constants/ghouls.json";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { use } from "react";
@@ -33,8 +34,19 @@ export default function MemberDetailPage({ params }: PageProps) {
   const tb = useTranslations("breadcrumb");
   const currentLocale = locale as "es" | "en";
 
-  const member =
+  // Search in current members first, then in ghouls
+  let member: any =
     membersData.members[memberId as keyof typeof membersData.members];
+
+  if (!member) {
+    // Search in all ghouls eras
+    const allGhouls = [
+      ...Object.values(ghoulsData.ghouls_era1 || {}),
+      ...Object.values(ghoulsData.ghouls_era2 || {}),
+      ...Object.values(ghoulsData.ghouls_era3 || {}),
+    ];
+    member = allGhouls.find((g: any) => g.id === memberId);
+  }
 
   if (!member) {
     notFound();
@@ -133,6 +145,19 @@ export default function MemberDetailPage({ params }: PageProps) {
                       label={getLocalizedText(member.country)}
                       variant="outlined"
                     />
+                    {member.ghouls_era && (
+                      <Chip
+                        label={
+                          "Ghoul's Era " +
+                          (member.ghouls_era === 1
+                            ? "I"
+                            : member.ghouls_era === 2
+                              ? "II"
+                              : "III")
+                        }
+                        variant="outlined"
+                      />
+                    )}
                   </Box>
 
                   <Typography variant="body1" sx={{ mb: 3, lineHeight: 1.7 }}>
@@ -157,7 +182,7 @@ export default function MemberDetailPage({ params }: PageProps) {
                       sx={{ display: "flex", flexWrap: "wrap", gap: 1, mb: 3 }}
                     >
                       {member.instruments[currentLocale]?.map(
-                        (instrument, index) => (
+                        (instrument: string, index: number) => (
                           <Chip
                             key={index}
                             label={instrument}
@@ -166,14 +191,16 @@ export default function MemberDetailPage({ params }: PageProps) {
                           />
                         ),
                       ) ||
-                        member.instruments.es?.map((instrument, index) => (
-                          <Chip
-                            key={index}
-                            label={instrument}
-                            color="primary"
-                            variant="outlined"
-                          />
-                        ))}
+                        member.instruments.es?.map(
+                          (instrument: string, index: number) => (
+                            <Chip
+                              key={index}
+                              label={instrument}
+                              color="primary"
+                              variant="outlined"
+                            />
+                          ),
+                        )}
                     </Box>
 
                     <Divider sx={{ my: 2 }} />
@@ -240,7 +267,7 @@ export default function MemberDetailPage({ params }: PageProps) {
                     <Box
                       sx={{ display: "flex", flexDirection: "column", gap: 1 }}
                     >
-                      {member.albums.map((album, index) => (
+                      {member.albums?.map((album: string, index: number) => (
                         <Link
                           key={index}
                           style={{ textDecoration: "none", color: "inherit" }}
@@ -280,7 +307,7 @@ export default function MemberDetailPage({ params }: PageProps) {
                       sx={{ display: "flex", flexDirection: "column", gap: 1 }}
                     >
                       {member.otherProjects[currentLocale]?.map(
-                        (project, index) => (
+                        (project: string, index: number) => (
                           <Typography
                             key={index}
                             variant="body2"
@@ -290,15 +317,17 @@ export default function MemberDetailPage({ params }: PageProps) {
                           </Typography>
                         ),
                       ) ||
-                        member.otherProjects.es?.map((project, index) => (
-                          <Typography
-                            key={index}
-                            variant="body2"
-                            color="text.secondary"
-                          >
-                            • {project}
-                          </Typography>
-                        ))}
+                        member.otherProjects.es?.map(
+                          (project: string, index: number) => (
+                            <Typography
+                              key={index}
+                              variant="body2"
+                              color="text.secondary"
+                            >
+                              • {project}
+                            </Typography>
+                          ),
+                        )}
                     </Box>
                   </CardContent>
                 </Card>

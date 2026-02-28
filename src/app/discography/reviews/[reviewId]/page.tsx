@@ -33,7 +33,7 @@ export async function generateMetadata({
   return {
     title: `${fullTitle} | Ghost Argentina`,
     description: review.content[locale as "es" | "en"].substring(0, 160),
-    keywords: `Megadeth, review, crítica, reseña, ${title}, ${review.category}, Dave Mustaine, álbum, rating ${review.rating}`,
+    keywords: `Ghost, review, crítica, reseña, ${title}, ${review.category}, Dave Mustaine, álbum, rating ${review.rating}`,
     openGraph: {
       title: fullTitle,
       description: review.content[locale as "es" | "en"].substring(0, 200),

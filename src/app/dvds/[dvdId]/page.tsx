@@ -62,8 +62,8 @@ export async function generateMetadata({
   const dvdYear = dvd.year || dvd.release_year || 2000;
 
   const titleByLocale = {
-    es: `${dvdTitle} (${dvdYear}) | DVD de Megadeth`,
-    en: `${dvdTitle} (${dvdYear}) | Megadeth DVD`,
+    es: `${dvdTitle} (${dvdYear}) | DVD de Ghost`,
+    en: `${dvdTitle} (${dvdYear}) | Ghost DVD`,
   };
 
   const description = getDVDExtendedDescription(dvd.description || {}, locale);
@@ -72,7 +72,7 @@ export async function generateMetadata({
   const keywordsByLocale = {
     es: [
       dvdTitle,
-      `Megadeth ${dvdYear}`,
+      `Ghost ${dvdYear}`,
       `DVD ${dvdTitle}`,
       dvd.label || "Unknown Label",
       dvd.format || "DVD",
@@ -82,11 +82,11 @@ export async function generateMetadata({
       "documentales metal",
       "conciertos en vivo",
       `${dvdTitle} completo`,
-      `Megadeth ${dvdYear} DVD`,
+      `Ghost ${dvdYear} DVD`,
     ],
     en: [
       dvdTitle,
-      `Megadeth ${dvdYear}`,
+      `Ghost ${dvdYear}`,
       `${dvdTitle} DVD`,
       dvd.label || "Unknown Label",
       dvd.format || "DVD",
@@ -96,7 +96,7 @@ export async function generateMetadata({
       "metal documentaries",
       "live concerts",
       `${dvdTitle} full`,
-      `Megadeth ${dvdYear} DVD`,
+      `Ghost ${dvdYear} DVD`,
     ],
   };
 

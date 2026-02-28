@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 export const noticiasMetadata: Metadata = {
   keywords: [
-    "Megadeth",
+    "Ghost",
     "noticias",
     "news",
     "metal",

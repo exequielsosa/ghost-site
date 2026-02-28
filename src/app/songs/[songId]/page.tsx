@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     album,
     year.toString(),
-    "Megadeth",
+    "Ghost",
     "lyrics",
     "letra",
     ...song.credits.musicians.map((m) => m.name),
@@ -37,11 +37,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const canonicalUrl = `/songs/${song.id}`;
 
   return {
-    title: `${title} | Megadeth`,
+    title: `${title} | Ghost`,
     description,
     keywords,
     openGraph: {
-      title: `${title} | Megadeth`,
+      title: `${title} | Ghost`,
       description,
       url: `/songs/${song.id}`,
       siteName: "Ghost Fan Site",
@@ -58,10 +58,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${title} | Megadeth`,
+      title: `${title} | Ghost`,
       description,
       images: [song.album.cover],
-      creator: "@MegadethFanSite",
+      creator: "@GhostFanSite",
     },
     alternates: {
       canonical: canonicalUrl,

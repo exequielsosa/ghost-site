@@ -47,7 +47,7 @@ export async function generateMetadata({
   const chapterSummary = getText(chapter.summary, locale);
 
   const keywords = [
-    `Megadeth ${chapterTitle}`,
+    `Ghost ${chapterTitle}`,
     `Historia ${chapter.period}`,
     "Dave Mustaine",
     "thrash metal",
@@ -58,11 +58,11 @@ export async function generateMetadata({
   ];
 
   return {
-    title: `${chapterTitle} (${chapter.period}) | ${t("historyMegadeth")}`,
+    title: `${chapterTitle} (${chapter.period}) | ${t("historyGhost")}`,
     description: chapterSummary,
     keywords: keywords.join(", "),
     openGraph: {
-      title: `${chapterTitle} | ${t("historyMegadeth")}`,
+      title: `${chapterTitle} | ${t("historyGhost")}`,
       description: chapterSummary,
       type: "article",
       images: chapter.coverImage
@@ -76,20 +76,20 @@ export async function generateMetadata({
           ]
         : [
             {
-              url: "/images/historia/megadeth-default-chapter.jpg",
+              url: "/images/historia/ghost-default-chapter.jpg",
               width: 1200,
               height: 630,
-              alt: `${chapterTitle} - ${t("megadethHistory")}`,
+              alt: `${chapterTitle} - ${t("ghostHistory")}`,
             },
           ],
     },
     twitter: {
       card: "summary_large_image",
-      title: `${chapterTitle} | ${t("historyMegadeth")}`,
+      title: `${chapterTitle} | ${t("historyGhost")}`,
       description: chapterSummary,
       images: chapter.coverImage
         ? [chapter.coverImage.src]
-        : ["/images/historia/megadeth-default-chapter.jpg"],
+        : ["/images/historia/ghost-default-chapter.jpg"],
     },
     alternates: {
       canonical: `/historia/${chapter.slug}`,
@@ -131,25 +131,25 @@ export default async function CapituloPage({ params }: PageProps) {
     description: chapterSummary,
     image:
       chapter.coverImage?.src ||
-      "/images/historia/megadeth-default-chapter.jpg",
+      "/images/historia/ghost-default-chapter.jpg",
     author: {
       "@type": "Organization",
       name: "Ghost",
-      url: "https://megadeth.com",
+      url: "https://ghost.com",
     },
     publisher: {
       "@type": "Organization",
-      name: "Megadeth Official",
+      name: "Ghost Official",
       logo: {
         "@type": "ImageObject",
-        url: "/images/megadeth-logo.png",
+        url: "/images/ghost-logo.png",
       },
     },
     datePublished: "2025-01-01T00:00:00.000Z",
     dateModified: "2025-01-01T00:00:00.000Z",
     articleSection: "Historia",
     keywords: [
-      `Megadeth ${chapter.title}`,
+      `Ghost ${chapter.title}`,
       `Historia ${chapter.period}`,
       "thrash metal",
       "Dave Mustaine",
@@ -169,7 +169,7 @@ export default async function CapituloPage({ params }: PageProps) {
       creator: {
         "@type": "Person",
         name: "Dave Mustaine",
-        jobTitle: "Fundador y líder de Megadeth",
+        jobTitle: "Fundador y líder de Ghost",
       },
     },
   };

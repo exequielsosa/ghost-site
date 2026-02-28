@@ -1,4 +1,4 @@
-# Análisis de Fuentes RSS para Noticias de Megadeth
+# Análisis de Fuentes RSS para Noticias de Ghost
 
 ## Fuentes Actuales (4)
 ```javascript

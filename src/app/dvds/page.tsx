@@ -12,44 +12,44 @@ export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
 
   const titleByLocale = {
-    es: "DVDs de Megadeth | Videos Musicales, Documentales y Conciertos en Vivo",
-    en: "Megadeth DVDs | Music Videos, Documentaries and Live Concerts",
+    es: "DVDs de Ghost | Videos Musicales, Documentales y Conciertos en Vivo",
+    en: "Ghost DVDs | Music Videos, Documentaries and Live Concerts",
   };
 
   const descriptionByLocale = {
-    es: "Colección completa de DVDs de Megadeth: videos musicales, documentales, conciertos en vivo y material exclusivo. Desde Rusted Pieces hasta sus últimos lanzamientos en formato audiovisual.",
-    en: "Complete collection of Megadeth DVDs: music videos, documentaries, live concerts and exclusive material. From Rusted Pieces to their latest audiovisual releases.",
+    es: "Colección completa de DVDs de Ghost: videos musicales, documentales, conciertos en vivo y material exclusivo. Desde Rusted Pieces hasta sus últimos lanzamientos en formato audiovisual.",
+    en: "Complete collection of Ghost DVDs: music videos, documentaries, live concerts and exclusive material. From Rusted Pieces to their latest audiovisual releases.",
   };
 
   const keywordsByLocale = {
     es: [
-      "Megadeth DVDs",
-      "videos Megadeth",
+      "Ghost DVDs",
+      "videos Ghost",
       "Rusted Pieces",
       "Exposure of a Dream",
-      "conciertos Megadeth",
+      "conciertos Ghost",
       "documentales metal",
       "Dave Mustaine",
       "thrash metal DVDs",
       "videos musicales",
       "Capitol Records",
-      "VHS Megadeth",
+      "VHS Ghost",
       "formato audiovisual",
       "colección DVDs",
       "material exclusivo",
     ],
     en: [
-      "Megadeth DVDs",
-      "Megadeth videos",
+      "Ghost DVDs",
+      "Ghost videos",
       "Rusted Pieces",
       "Exposure of a Dream",
-      "Megadeth concerts",
+      "Ghost concerts",
       "metal documentaries",
       "Dave Mustaine",
       "thrash metal DVDs",
       "music videos",
       "Capitol Records",
-      "Megadeth VHS",
+      "Ghost VHS",
       "audiovisual format",
       "DVD collection",
       "exclusive material",
@@ -112,8 +112,8 @@ export async function generateMetadata(): Promise<Metadata> {
           height: 630,
           alt:
             locale === "es"
-              ? "DVDs de Megadeth - Colección de videos musicales y documentales"
-              : "Megadeth DVDs - Music Video and Documentary Collection",
+              ? "DVDs de Ghost - Colección de videos musicales y documentales"
+              : "Ghost DVDs - Music Video and Documentary Collection",
         },
       ],
     },
@@ -125,7 +125,7 @@ export async function generateMetadata(): Promise<Metadata> {
         descriptionByLocale[locale as keyof typeof descriptionByLocale] ||
         descriptionByLocale.es,
       images: ["/og-dvds.jpg"],
-      creator: "@MegadethFanSite",
+      creator: "@GhostFanSite",
     },
   };
 }
@@ -175,13 +175,13 @@ function generateStructuredData(locale: string) {
     }));
 
   const titleByLocale = {
-    es: "DVDs de Megadeth",
-    en: "Megadeth DVDs",
+    es: "DVDs de Ghost",
+    en: "Ghost DVDs",
   };
 
   const descriptionByLocale = {
-    es: "Colección completa de DVDs de Megadeth con videos musicales y documentales",
-    en: "Complete collection of Megadeth DVDs with music videos and documentaries",
+    es: "Colección completa de DVDs de Ghost con videos musicales y documentales",
+    en: "Complete collection of Ghost DVDs with music videos and documentaries",
   };
 
   const aboutDescriptionByLocale = {

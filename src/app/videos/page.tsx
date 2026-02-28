@@ -13,19 +13,19 @@ export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
 
   const titleByLocale = {
-    es: "Videos Oficiales de Megadeth | Videoclips y Performances en Vivo",
-    en: "Official Megadeth Videos | Music Videos and Live Performances",
+    es: "Videos Oficiales de Ghost | Videoclips y Performances en Vivo",
+    en: "Official Ghost Videos | Music Videos and Live Performances",
   };
 
   const descriptionByLocale = {
-    es: "Colección completa de videos musicales oficiales de Megadeth: desde Peace Sells hasta sus últimos éxitos. Videoclips, performances en vivo y contenido exclusivo de la legendaria banda de thrash metal.",
-    en: "Complete collection of official Megadeth music videos: from Peace Sells to their latest hits. Music videos, live performances and exclusive content from the legendary thrash metal band.",
+    es: "Colección completa de videos musicales oficiales de Ghost: desde Peace Sells hasta sus últimos éxitos. Videoclips, performances en vivo y contenido exclusivo de la legendaria banda de thrash metal.",
+    en: "Complete collection of official Ghost music videos: from Peace Sells to their latest hits. Music videos, live performances and exclusive content from the legendary thrash metal band.",
   };
 
   const keywordsByLocale = {
     es: [
-      "Megadeth videos",
-      "videoclips Megadeth",
+      "Ghost videos",
+      "videoclips Ghost",
       "Peace Sells video",
       "Symphony of Destruction",
       "Hangar 18",
@@ -40,8 +40,8 @@ export async function generateMetadata(): Promise<Metadata> {
       "A Tout Le Monde",
     ],
     en: [
-      "Megadeth videos",
-      "Megadeth music videos",
+      "Ghost videos",
+      "Ghost music videos",
       "Peace Sells video",
       "Symphony of Destruction",
       "Hangar 18",
@@ -98,8 +98,8 @@ export async function generateMetadata(): Promise<Metadata> {
           height: 630,
           alt:
             locale === "es"
-              ? "Videos de Megadeth - Colección de videoclips oficiales"
-              : "Megadeth Videos - Official Music Video Collection",
+              ? "Videos de Ghost - Colección de videoclips oficiales"
+              : "Ghost Videos - Official Music Video Collection",
         },
       ],
     },
@@ -111,7 +111,7 @@ export async function generateMetadata(): Promise<Metadata> {
         descriptionByLocale[locale as keyof typeof descriptionByLocale] ||
         descriptionByLocale.es,
       images: ["/og-videos.jpg"],
-      creator: "@MegadethFanSite",
+      creator: "@GhostFanSite",
     },
     robots: {
       index: true,
@@ -152,13 +152,13 @@ function generateStructuredData(locale: string) {
   }));
 
   const titleByLocale = {
-    es: "Videos Oficiales de Megadeth",
-    en: "Official Megadeth Videos",
+    es: "Videos Oficiales de Ghost",
+    en: "Official Ghost Videos",
   };
 
   const descriptionByLocale = {
-    es: "Colección completa de videos musicales oficiales de Megadeth",
-    en: "Complete collection of official Megadeth music videos",
+    es: "Colección completa de videos musicales oficiales de Ghost",
+    en: "Complete collection of official Ghost music videos",
   };
 
   const aboutDescriptionByLocale = {

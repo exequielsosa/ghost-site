@@ -58,7 +58,7 @@ export default function DVDGrid({ dvds }: DVDGridProps) {
       {/* DVDs Grid */}
       <Box
         component="section"
-        aria-label="Colección de DVDs de Megadeth"
+        aria-label="Colección de DVDs de Ghost"
         sx={{
           display: "grid",
           gridTemplateColumns: {

@@ -1,479 +1,173 @@
 [
   {
-    "title": "Wake Up Dead",
-    "year": 1986,
-    "youtube": "https://www.youtube.com/watch?v=4kSvN1dQjxc&list=RD4kSvN1dQjxc&start_radio=1",
-    "description": {
-      "es": "Primer video de la banda, con una estética sencilla que muestra a los miembros tocando en un escenario, capturando la energía de su debut en el thrash metal.",
-      "en": "The band's first music video, featuring a simple aesthetic that shows the members performing on a stage, capturing the energy of their thrash metal debut."
-    }
-  },
-  {
-    "title": "Peace Sells",
-    "year": 1986,
-    "youtube": "https://www.youtube.com/watch?v=rdEupVsL07E",
-    "description": {
-      "es": "El video que popularizó a la banda en MTV. Muestra a Dave Mustaine discutiendo con su padre frente a un televisor que interrumpe la programación con imágenes de Megadeth, satirizando los noticieros.",
-      "en": "The video that popularized the band on MTV. It shows Dave Mustaine arguing with his father in front of a TV that interrupts programming with Megadeth footage, satirizing news broadcasts."
-    }
-  },
-  {
-    "title": "In My Darkest Hour",
-    "year": 1988,
-    "youtube": "https://www.youtube.com/watch?v=mW0Ao9r2zkY&list=RDmW0Ao9r2zkY&start_radio=1",
-    "description": {
-      "es": "Un video más oscuro y conceptual, que refleja el tono introspectivo y emotivo de la canción. Presenta tomas de los miembros en blanco y negro y secuencias de la banda tocando en un entorno tenue.",
-      "en": "A darker, more conceptual video, reflecting the song's introspective and emotional tone. It features black and white shots of the members and sequences of the band performing in a dimly lit setting."
-    }
-  },
-  {
-    "title": "Anarchy in the U.K.",
-    "year": 1988,
-    "youtube": "https://www.youtube.com/watch?v=OzsdoUKS3D0&list=RDOzsdoUKS3D0&start_radio=1",
-    "description": {
-      "es": "Versión del clásico de Sex Pistols. El video intercala imágenes de la banda tocando con clips de noticias de disturbios y conflictos históricos para reflejar el sentimiento anarquista.",
-      "en": "A cover of the Sex Pistols classic. The video intercuts footage of the band playing with news clips of riots and historical conflicts to reflect the anarchist sentiment."
-    }
-  },
-  {
-    "title": "No More Mr. Nice Guy",
-    "year": 1989,
-    "youtube": "https://www.youtube.com/watch?v=RI9NKHwj7o0&list=RDRI9NKHwj7o0&start_radio=1",
-    "description": {
-      "es": "Grabado para la banda sonora de la película 'Shocker' de Wes Craven. Muestra a la banda tocando mientras se intercalan escenas de la película con contenido de terror.",
-      "en": "Recorded for the soundtrack of the Wes Craven film 'Shocker'. It shows the band playing while intercut with terrifying scenes from the movie."
-    }
-  },
-  {
-    "title": "Holy Wars... The Punishment Due",
-    "year": 1990,
-    "youtube": "https://www.youtube.com/watch?v=9d4ui9q7eDM",
-    "description": {
-      "es": "Video filmado en Irlanda del Norte, utilizando imágenes de guerra y conflictos, reflejando el comentario social y político de la canción sobre las guerras religiosas y 'Los Problemas'.",
-      "en": "Video filmed in Northern Ireland, using footage of war and conflict, reflecting the song's social and political commentary on religious wars and 'The Troubles'."
-    }
-  },
-  {
-    "title": "Hangar 18",
-    "year": 1991,
-    "youtube": "https://www.youtube.com/watch?v=rUGIocJK9Tc",
-    "description": {
-      "es": "Un video narrativo centrado en la teoría de la conspiración del Área 51. Muestra a la banda tocando junto a alienígenas y experimentos de laboratorio, con un giro al final.",
-      "en": "A narrative video centered on the Area 51 conspiracy theory. It shows the band performing alongside aliens and laboratory experiments, with a twist ending."
-    }
-  },
-  {
-    "title": "Symphony of Destruction",
-    "year": 1992,
-    "youtube": "https://www.youtube.com/watch?v=vfpgpf6QVnI&list=RDvfpgpf6QVnI&start_radio=1",
-    "description": {
-      "es": "Video controversial que simboliza la manipulación del público por los líderes políticos, presentando un asesinato y un disturbio masivo. Fue censurado en MTV.",
-      "en": "A controversial video symbolizing public manipulation by political leaders, featuring an assassination and a mass riot. It was censored by MTV."
-    }
-  },
-  {
-    "title": "Foreclosure of a Dream",
-    "year": 1992,
-    "youtube": "https://www.youtube.com/watch?v=RgikGBh6pbI&list=RDRgikGBh6pbI&start_radio=1",
-    "description": {
-      "es": "Video de temática social sobre la crisis de las hipotecas y la pérdida de la granja familiar de Dave Mustaine. Es uno de sus videos más directamente políticos.",
-      "en": "A social-themed video about the mortgage crisis and the loss of Dave Mustaine's family farm. It is one of their most directly political videos."
-    }
-  },
-  {
-    "title": "High Speed Dirt",
-    "year": 1992,
-    "youtube": "https://www.youtube.com/watch?v=nNI0lIthWt4&list=RDnNI0lIthWt4&start_radio=1",
-    "description": {
-      "es": "Un video sencillo que consiste principalmente en tomas de la banda tocando en directo, capturando la energía de la era 'Countdown to Extinction'.",
-      "en": "A straightforward video consisting mainly of live performance shots, capturing the energy of the 'Countdown to Extinction' era."
-    }
-  },
-  {
-    "title": "Skin o' My Teeth",
-    "year": 1992,
-    "youtube": "https://www.youtube.com/watch?v=psotUUPGG_E",
-    "description": {
-      "es": "Video que utiliza imágenes psicodélicas y aceleradas con escenas de la banda tocando, reflejando la frenética temática de la canción sobre la supervivencia.",
-      "en": "A video using psychedelic and fast-paced imagery with scenes of the band playing, reflecting the song's frantic theme of survival."
-    }
-  },
-  {
-    "title": "Sweating Bullets",
-    "year": 1993,
-    "youtube": "https://www.youtube.com/watch?v=aOnKCcjP8Qs&list=RDaOnKCcjP8Qs&start_radio=1",
-    "description": {
-      "es": "Un video conceptual que explora la esquizofrenia y la paranoia, con múltiples versiones de Dave Mustaine interactuando en una habitación de hospital psiquiátrico.",
-      "en": "A conceptual video exploring schizophrenia and paranoia, featuring multiple versions of Dave Mustaine interacting in a psychiatric hospital room."
-    }
-  },
-  {
-    "title": "99 Ways to Die",
-    "year": 1993,
-    "youtube": "https://www.youtube.com/watch?v=KzeXBaCJcJI&list=RDKzeXBaCJcJI&start_radio=1",
-    "description": {
-      "es": "Grabado como un montaje de imágenes en blanco y negro y un estilo de video más crudo, centrado en la banda tocando en un escenario con fuertes efectos de luz y sombra, reflejando el tono nihilista de la canción.",
-      "en": "Filmed as a black-and-white montage and a cruder video style, focused on the band playing on a stage with heavy light and shadow effects, reflecting the song's nihilistic tone."
-    }
-  },
-  {
-    "title": "Angry Again",
-    "year": 1993,
-    "youtube": "https://www.youtube.com/watch?v=tzyW37gEw5c",
-    "description": {
-      "es": "Grabado para la película 'Last Action Hero' de Arnold Schwarzenegger. Es un video sencillo que mezcla imágenes de la película con la banda tocando.",
-      "en": "Recorded for the Arnold Schwarzenegger film 'Last Action Hero'. It is a simple video that blends clips from the movie with the band performing."
-    }
-  },
-  {
-    "title": "Reckoning Day",
-    "year": 1994,
-    "youtube": "https://www.youtube.com/watch?v=QiMb08L2-cg&list=RDQiMb08L2-cg&start_radio=1",
-    "description": {
-      "es": "Video promocional de la gira de 'Youthanasia', que consiste en un montaje de imágenes en vivo y detrás de escena, capturando la energía de la banda en el escenario.",
-      "en": "A promotional video for the 'Youthanasia' tour, consisting of a montage of live and behind-the-scenes footage, capturing the band's energy on stage."
-    }
-  },
-  {
-    "title": "Train of Consequences",
-    "year": 1994,
-    "youtube": "https://www.youtube.com/watch?v=3W4TZo2eiIY&list=RD3W4TZo2eiIY&start_radio=1",
-    "description": {
-      "es": "Un video visualmente oscuro, donde la banda toca en una estación de tren mientras se proyectan imágenes temáticas de adicción, caos y consecuencias.",
-      "en": "A visually dark video, where the band plays in a train station while thematic images of addiction, chaos, and consequences are projected."
-    }
-  },
-  {
-    "title": "À Tout le Monde",
-    "year": 1994,
-    "youtube": "https://www.youtube.com/watch?v=aU-dKoFZT0A",
-    "description": {
-      "es": "Un video artístico en blanco y negro, con un fuerte simbolismo sobre la muerte y la despedida. Presenta a Mustaine en un ataúd, un concepto suavizado para MTV.",
-      "en": "An artistic black and white video, with strong symbolism about death and farewell. It features Mustaine in a coffin, a concept that was softened for MTV."
-    }
-  },
-  {
-    "title": "Go to Hell",
-    "year": 1995,
-    "youtube": "https://www.youtube.com/watch?v=a7pqj8Be8kU",
-    "description": {
-      "es": "Un video más narrativo creado para la banda sonora de la película 'Bill & Ted's Bogus Journey'. Muestra a la banda tocando en el infierno con efectos especiales temáticos, mezclando escenas de la película.",
-      "en": "A more narrative video created for the 'Bill & Ted's Bogus Journey' soundtrack. It shows the band playing in hell with thematic special effects, mixed with scenes from the movie."
-    }
-  },
-  {
-    "title": "Trust",
-    "year": 1997,
-    "youtube": "https://www.youtube.com/watch?v=FDbG-Vt1PYs&list=RDFDbG-Vt1PYs&start_radio=1",
-    "description": {
-      "es": "Filmado en una mansión abandonada, presenta una narrativa oscura sobre el deterioro de la confianza y las relaciones fallidas, con un estilo visual más pulido.",
-      "en": "Filmed in an abandoned mansion, it presents a dark narrative about the deterioration of trust and failed relationships, with a more polished visual style."
-    }
-  },
-  {
-    "title": "Almost Honest",
-    "year": 1997,
-    "youtube": "https://www.youtube.com/watch?v=Fh9Ixvfyzf0&list=RDFh9Ixvfyzf0&start_radio=1",
-    "description": {
-      "es": "Video que utiliza efectos de morphing y edición rápida para reflejar la doble cara de una relación. Muestra a la banda en un entorno distorsionado.",
-      "en": "A video that uses morphing effects and quick editing to reflect the two-sided nature of a relationship. It shows the band in a distorted environment."
-    }
-  },
-  {
-    "title": "A Secret Place",
-    "year": 1998,
-    "youtube": "https://www.youtube.com/watch?v=BXSufW8lz9I&list=RDBXSufW8lz9I&start_radio=1",
-    "description": {
-      "es": "Ultimo video de la era 'Cryptic Writings'.",
-      "en": "Last video of the 'Cryptic Writings' era."
-    }
-  },
-  {
-    "title": "Crush 'Em",
-    "year": 1999,
-    "youtube": "https://www.youtube.com/watch?v=3mEsV8ZlCNg&list=RD3mEsV8ZlCNg&start_radio=1",
-    "description": {
-      "es": "Video grabado para la banda sonora de la película 'Universal Soldier: The Return'. Muestra imágenes de la película mezcladas con la banda tocando en un estilo más industrial y comercial.",
-      "en": "Video recorded for the 'Universal Soldier: The Return' soundtrack. It shows clips from the movie mixed with the band playing in a more industrial and commercial style."
-    }
-  },
-  {
-    "title": "Insomnia",
-    "year": 1999,
-    "youtube": "https://www.youtube.com/watch?v=w45pn7CMsbA&list=RDw45pn7CMsbA&start_radio=1",
-    "description": {
-      "es": "El video del gato feo....",
-      "en": "The ugly cat...."
-    }
-  },
-  {
-    "title": "Breadline",
-    "year": 1999,
-    "youtube": "https://www.youtube.com/watch?v=IRXdBPNlSqY",
-    "description": {
-      "es": "Un video conceptual sobre la codicia, el dinero y la desigualdad social. La banda toca en un escenario que recuerda un entorno bancario o corporativo.",
-      "en": "A conceptual video about greed, money, and social inequality. The band performs on a stage reminiscent of a banking or corporate environment."
-    }
-  },
-  {
-    "title": "Moto Psycho",
-    "year": 2001,
-    "youtube": "https://www.youtube.com/watch?v=8KVj2SF5CxU&list=RD8KVj2SF5CxU&start_radio=1",
-    "description": {
-      "es": "Video animado con una estética de cómic que presenta a la mascota Vic Rattlehead y a la banda en una persecución de motocicletas a través de la ciudad.",
-      "en": "An animated video with a comic book aesthetic featuring mascot Vic Rattlehead and the band in a motorcycle chase through the city."
-    }
-  },
-  {
-    "title": "Die Dead Enough",
-    "year": 2004,
-    "youtube": "https://www.youtube.com/watch?v=Bq_07UTPOqw&list=RDBq_07UTPOqw&start_radio=1",
-    "description": {
-      "es": "Video grabado como parte de la banda sonora de 'Saw', pero no fue incluido. Muestra a la banda tocando en un escenario con grandes efectos visuales de alta intensidad.",
-      "en": "Video recorded for the 'Saw' soundtrack, but ultimately not included. It shows the band performing on a stage with heavy, high-intensity visual effects."
-    }
-  },
-  {
-    "title": "Of Mice and Men",
-    "year": 2004,
-    "youtube": "https://www.youtube.com/watch?v=vZfssG9xSHA&list=RDvZfssG9xSHA&start_radio=1",
-    "description": {
-      "es": "Un video de actuación en vivo que captura la reunión de la banda en la gira 'Blackmail the Universe', destacando la energía del regreso de Mustaine.",
-      "en": "A live performance video capturing the band's reunion on the 'Blackmail the Universe' tour, highlighting the energy of Mustaine's return."
-    }
-  },
-  {
-    "title": "Kill the King",
-    "year": 2005,
-    "youtube": "https://www.youtube.com/watch?v=klMeNaaVEhE&list=RDklMeNaaVEhE&start_radio=1",
-    "description": {
-      "es": "Del álbum de thrash Capitol Punishment: The Megadeth Years, video musical de John Wilkes Booth, sobre el asesinato del presidente Lincoln.",
-      "en": "From the thrash album Capitol Punishment: The Megadeth Years Music video by John Wilkes Booth, concerning the Assassinaton of President Lincoln."
-    }
-  },
-  {
-    "title": "Coming Home (Live)",
-    "year": 2006,
-    "youtube": "https://www.youtube.com/watch?v=Fk3E5lsmsJU",
-    "description": {
-      "es": "Un monstruoso espectáculo de conciertos de las leyendas del metal Megadeth, actuando en Argentina en 2005 ante miles de fans adoradores.",
-      "en": "A monster concert extravaganza from metal legends Megadeth performing in Argentina 2005 before a thousands of adoring fans!"
-    }
-  },
-  {
-    "title": "Blackmail the Universe",
-    "year": 2006,
-    "youtube": "https://www.youtube.com/watch?v=PtANx6aL6uc&list=RDPtANx6aL6uc&start_radio=1",
-    "description": {
-      "es": "Un monstruoso espectáculo de conciertos de las leyendas del metal Megadeth, actuando en Argentina en 2005 ante miles de fans adoradores.",
-      "en": "A monster concert extravaganza from metal legends Megadeth performing in Argentina 2005 before a thousands of adoring fans!"
-    }
-  },
-  {
-    "title": "À Tout le Monde (Set Me Free) [feat. Cristina Scabbia]",
-    "year": 2007,
-    "youtube": "https://www.youtube.com/watch?v=iEyOwLY3rV4&list=RDiEyOwLY3rV4&start_radio=1",
-    "description": {
-      "es": "Nueva versión del video de 1994, pero con la inclusión de Cristina Scabbia de Lacuna Coil. Utiliza una atmósfera oscura y tomas dramáticas en un cementerio.",
-      "en": "A new version of the 1994 video, but featuring Cristina Scabbia of Lacuna Coil. It uses a dark atmosphere and dramatic shots in a cemetery."
-    }
-  },
-  {
-    "title": "Never Walk Alone... A Call to Arms",
-    "year": 2007,
-    "youtube": "https://www.youtube.com/watch?v=qWMQ9FwjL2A&list=RDqWMQ9FwjL2A&start_radio=1",
-    "description": {
-      "es": "Un video con una fuerte temática de guerra y conflicto, intercalando imágenes de tanques y acción con la banda tocando.",
-      "en": "A video with a strong theme of war and conflict, intercutting images of tanks and action with the band performing."
-    }
-  },
-  {
-    "title": "Head Crusher",
-    "year": 2009,
-    "youtube": "https://www.youtube.com/watch?v=XurU3TPHjzY&list=RDXurU3TPHjzY&start_radio=1",
-    "description": {
-      "es": "Un video con una fuerte temática de guerra y conflicto, intercalando imágenes de tanques y acción con la banda tocando.",
-      "en": "A video with a strong theme of war and conflict, intercutting images of tanks and action with the band performing."
-    }
-  },
-  {
-    "title": "The Right to Go Insane",
-    "year": 2010,
-    "youtube": "https://www.youtube.com/watch?v=m20sJNgZ17U&list=RDm20sJNgZ17U&start_radio=1",
-    "description": {
-      "es": "Video narrativo que cuenta la historia de un hombre (interpretado por Mustaine) que, harto de la crisis económica, se 'vuelve loco' y roba un banco.",
-      "en": "A narrative video telling the story of a man (played by Mustaine) who, fed up with the economic crisis, 'goes insane' and robs a bank."
-    }
-  },
-  {
-    "title": "Public Enemy No. 1",
-    "year": 2011,
-    "youtube": "https://www.youtube.com/watch?v=fLN1OB3_wG8&list=RDfLN1OB3_wG8&start_radio=1",
-    "description": {
-      "es": "Un video conceptual que sigue a Vic Rattlehead y a la banda en una persecución de estilo de película de gánsteres de los años 30, con toques de humor.",
-      "en": "A conceptual video that follows Vic Rattlehead and the band in a 1930s gangster movie-style chase, with touches of humor."
-    }
-  },
-  {
-    "title": "Whose Life (Is It Anyways?)",
-    "year": 2011,
-    "youtube": "https://www.youtube.com/watch?v=rnuFDczAkyM&list=RDrnuFDczAkyM&start_radio=1",
-    "description": {
-      "es": "Video musical que se centra en las imágenes de la banda tocando en una sala oscura y enérgica, mostrando su química en el escenario.",
-      "en": "A music video focusing on images of the band performing in a dark, energetic room, showcasing their chemistry on stage."
-    }
-  },
-  {
-    "title": "Super Collider",
+    "title": "Secular Haze",
     "year": 2013,
-    "youtube": "https://www.youtube.com/watch?v=PZhqZAVGTqw&list=RDPZhqZAVGTqw&start_radio=1",
+    "youtube": "https://www.youtube.com/watch?v=vyQZ13jobIY&list=RDvyQZ13jobIY&start_radio=1",
     "description": {
-      "es": "El profesor Mustaine.",
-      "en": "Professor Mustaine..."
+      "es": "El primer videoclip oficial de Ghost, con una estética retro oscura que acompaña su segundo álbum Infestissumam. Dirigido por Amir Chamdin, presenta una atmósfera vintage y psicodélica que define la identidad visual temprana de la banda.",
+      "en": "Ghost's first official music video, featuring a dark retro aesthetic accompanying their second album Infestissumam. Directed by Amir Chamdin, it presents a vintage and psychedelic atmosphere that defines the band's early visual identity."
     }
   },
   {
-    "title": "Back in the Day (Live)",
-    "year": 2014,
-    "youtube": "https://www.youtube.com/watch?v=9566zbyDezo&list=RD9566zbyDezo&start_radio=1",
+    "title": "Year Zero",
+    "year": 2013,
+    "youtube": "https://www.youtube.com/watch?v=gkBt7yLXyDk&list=RDgkBt7yLXyDk&start_radio=1",
     "description": {
-      "es": "Duck Dodgers - \"In Space No One Can Hear You Rock\"",
-      "en": "Duck Dodgers - \"In Space No One Can Hear You Rock\""
+      "es": "El primer video explícito de Ghost, una grandiosa y oscura celebración satánica con un coro masivo que refuerza el carácter ceremonial y teatral de la banda.",
+      "en": "Ghost's first explicit music video, a grand and dark Satanic celebration featuring a massive choir that reinforces the band's ceremonial and theatrical character."
     }
   },
   {
-    "title": "The Threat Is Real",
+    "title": "Cirice",
     "year": 2015,
-    "youtube": "https://www.youtube.com/watch?v=3-d6LFLpBvw",
+    "youtube": "https://www.youtube.com/watch?v=-0Ao4t_fe0I&list=RD-0Ao4t_fe0I&start_radio=1",
     "description": {
-      "es": "Un video animado y violento con temática de terror, siguiendo a Vic Rattlehead en una sangrienta batalla contra demonios.",
-      "en": "A violent, animated video with a horror theme, following Vic Rattlehead in a bloody battle against demons."
+      "es": "El videoclip que catapultó a Ghost a la fama mundial. La canción ganó el Grammy a Mejor Actuación de Metal en 2016. El video presenta a Papa Emeritus III en una historia oscura y atmosférica que combina terror gótico con una poderosa narrativa visual.",
+      "en": "The music video that catapulted Ghost to worldwide fame. The song won the Grammy Award for Best Metal Performance in 2016. The video features Papa Emeritus III in a dark and atmospheric story combining Gothic horror with a powerful visual narrative."
     }
   },
   {
-    "title": "Dystopia",
+    "title": "From the Pinnacle to the Pit",
+    "year": 2015,
+    "youtube": "https://www.youtube.com/watch?v=6A-IoOEPbUs&list=RD6A-IoOEPbUs&start_radio=1",
+    "description": {
+      "es": "Video del álbum Meliora con Papa Emeritus III, con una estética oscura y ceremoniosa que complementa el sonido más pulido y épico de la banda en este período.",
+      "en": "Music video from the album Meliora featuring Papa Emeritus III, with a dark and ceremonious aesthetic that complements the band's more polished and epic sound during this period."
+    }
+  },
+  {
+    "title": "Square Hammer",
     "year": 2016,
-    "youtube": "https://www.youtube.com/watch?v=bK95lWHl7js&list=RDbK95lWHl7js&start_radio=1",
+    "youtube": "https://www.youtube.com/watch?v=VqoyKzgkqR4&list=RDVqoyKzgkqR4&start_radio=1",
     "description": {
-      "es": "Por restricciones de edad este video solo se puede ver en youtube. Un video animado y violento con temática de terror, siguiendo a Vic Rattlehead en una sangrienta batalla contra demonios.",
-      "en": "Due to age restrictions this video can only be seen on youtube. A violent, animated video with a horror theme, following Vic Rattlehead in a bloody battle against demons."
+      "es": "Uno de los videos más icónicos de Ghost, perteneciente al EP Popestar. La canción llegó al número 1 del Billboard Mainstream Rock, siendo la primera banda sueca en lograrlo. El video es teatral, oscuro y enormemente pegadizo.",
+      "en": "One of Ghost's most iconic music videos, from the Popestar EP. The song reached number 1 on the Billboard Mainstream Rock chart, making them the first Swedish band to achieve this. The video is theatrical, dark, and enormously catchy."
     }
   },
   {
-    "title": "Poisonous Shadows",
-    "year": 2016,
-    "youtube": "https://www.youtube.com/watch?v=unQZvhQ9Giw",
-    "description": {
-      "es": "Video 360 en vivo",
-      "en": "Live 360 video"
-    }
-  },
-  {
-    "title": "Conquer or Die!",
-    "year": 2016,
-    "youtube": "https://www.youtube.com/watch?v=dQ_-tUKT-nY",
-    "description": {
-      "es": "Video instrumental que acompaña la pieza de guitarra de Kiko Loureiro. Muestra a la banda tocando en un escenario oscuro y atmosférico, destacando la maestría del músico.",
-      "en": "An instrumental video accompanying Kiko Loureiro's guitar piece. It shows the band playing in a dark, atmospheric setting, highlighting the musician's mastery."
-    }
-  },
-  {
-    "title": "Post American World",
-    "year": 2016,
-    "youtube": "https://www.youtube.com/watch?v=mEkXyEIu3OU",
-    "description": {
-      "es": "Video conceptual sobre la desintegración de la sociedad estadounidense y el caos posterior, con una estética futurista y distópica.",
-      "en": "A conceptual video about the disintegration of American society and the subsequent chaos, featuring a futuristic, dystopian aesthetic."
-    }
-  },
-  {
-    "title": "Lying in State",
+    "title": "Rats",
     "year": 2018,
-    "youtube": "https://www.youtube.com/watch?v=yFxsnOm2kLg&list=RDyFxsnOm2kLg&start_radio=1",
+    "youtube": "https://www.youtube.com/watch?v=C_ijc7A5oAc&list=RDC_ijc7A5oAc&start_radio=1",
     "description": {
-      "es": "Video oficial de Megadeth para 'Lying In State', dirigido por Leo Liberti. Tema extraído del álbum Dystopia.",
-      "en": "Megadeth’s official video for ‘Lying In State’, directed by Leo Liberti. Track taken from the album Dystopia."
+      "es": "El debut oficial de Cardinal Copia como nuevo frontman. El video presenta una estética medieval sobre la peste bubónica, con la banda actuando entre ratas y cadáveres en una producción oscura y visualmente impactante.",
+      "en": "The official debut of Cardinal Copia as the new frontman. The video presents a medieval aesthetic about the bubonic plague, featuring the band performing among rats and corpses in a dark and visually striking production."
     }
   },
   {
-    "title": "We'll Be Back (Chapter I)",
+    "title": "Dance Macabre",
+    "year": 2018,
+    "youtube": "https://www.youtube.com/watch?v=7Gr63DiEUxw&list=RD7Gr63DiEUxw&start_radio=1",
+    "description": {
+      "es": "Un video lleno de energía y humor oscuro del álbum Prequelle, célebre por los icónicos movimientos de baile de Cardinal Copia. Mezcla referencias a los años 80 con la estética única de Ghost en una propuesta visualmente divertida y memorable.",
+      "en": "An energetic and darkly humorous video from the album Prequelle, famous for Cardinal Copia's iconic dance moves. It blends 80s references with Ghost's unique aesthetic in a visually fun and memorable production."
+    }
+  },
+  {
+    "title": "Faith",
+    "year": 2018,
+    "youtube": "https://www.youtube.com/watch?v=k72ytAFMCI0&list=RDk72ytAFMCI0&start_radio=1",
+    "description": {
+      "es": "Video del álbum Prequelle lanzado tras la primera gira norteamericana de la banda. Presenta un montaje de imágenes que combina actuaciones en vivo con la atmósfera característica de Ghost.",
+      "en": "Music video from the album Prequelle released after the band's first North American tour leg. It features a montage of images combining live performances with Ghost's characteristic atmosphere."
+    }
+  },
+  {
+    "title": "Kiss the Go-Goat",
+    "year": 2019,
+    "youtube": "https://www.youtube.com/watch?v=qyxrzUe_TDM&list=RDqyxrzUe_TDM&start_radio=1",
+    "description": {
+      "es": "Parte del EP Seven Inches of Satanic Panic, este video forma parte de la webserie de Ghost y está ambientado en los años 70. Cuenta la historia del origen ficticio de la banda a través de Papa Nihil como frontman original.",
+      "en": "Part of the Seven Inches of Satanic Panic EP, this video is part of Ghost's web series and is set in the 1970s. It tells the story of the band's fictional origin through Papa Nihil as the original frontman."
+    }
+  },
+  {
+    "title": "Life Eternal",
+    "year": 2021,
+    "youtube": "https://www.youtube.com/watch?v=xUSf1bjd4I8&list=RDxUSf1bjd4I8&start_radio=1",
+    "description": {
+      "es": "Video del álbum Prequelle que utiliza footage del último show de la gira en Ciudad de México en marzo de 2020, instantes antes de que Papa Emeritus IV fuera presentado como el nuevo frontman de la banda.",
+      "en": "Video from the album Prequelle using footage from the last tour show in Mexico City in March 2020, moments before Papa Emeritus IV was introduced as the band's new frontman."
+    }
+  },
+  {
+    "title": "Hunter's Moon",
+    "year": 2021,
+    "youtube": "https://www.youtube.com/watch?v=rtkaUZvMaG8&list=RDrtkaUZvMaG8&start_radio=1",
+    "description": {
+      "es": "Creado originalmente para los créditos finales de la película de terror Halloween Kills (2021), este video presenta a Papa Emeritus IV en una producción oscura y cinematográfica. Posteriormente fue incluido en el álbum Impera.",
+      "en": "Originally created for the end credits of the horror film Halloween Kills (2021), this video features Papa Emeritus IV in a dark and cinematic production. It was later included on the album Impera."
+    }
+  },
+  {
+    "title": "Call Me Little Sunshine",
     "year": 2022,
-    "youtube": "https://www.youtube.com/watch?v=LkJ5jJuraLQ&list=RDLkJ5jJuraLQ&start_radio=1",
+    "youtube": "https://www.youtube.com/watch?v=DD2m_iqD7dI&list=RDDD2m_iqD7dI&start_radio=1",
     "description": {
-      "es": "Primer capítulo de una trilogía de cortometrajes animados que narra la historia del origen de Vic Rattlehead como un soldado en batalla.",
-      "en": "The first chapter of an animated short-film trilogy chronicling the origin story of Vic Rattlehead as a soldier in battle."
+      "es": "El single más popular del álbum Impera, con más de 28 millones de reproducciones en YouTube. El video dirigido por Matt Mahurin sigue una narrativa misteriosa protagonizada por Ruby Modine, con la atmósfera oscura y seductora característica de la era de Papa Emeritus IV.",
+      "en": "The most popular single from the album Impera, with over 28 million YouTube views. The video directed by Matt Mahurin follows a mysterious narrative starring Ruby Modine, with the dark and seductive atmosphere characteristic of the Papa Emeritus IV era."
     }
   },
   {
-    "title": "Night Stalkers (Chapter II) [feat. Ice-T]",
+    "title": "Twenties",
     "year": 2022,
-    "youtube": "https://www.youtube.com/watch?v=wAqc_zfmML0&list=RDwAqc_zfmML0&start_radio=1",
+    "youtube": "https://www.youtube.com/watch?v=nQ-pxlKgiTI&list=RDnQ-pxlKgiTI&start_radio=1",
     "description": {
-      "es": "Segundo capítulo de la serie de cortometrajes animados de Vic Rattlehead, continuando la intensa narrativa de acción militar en el helicóptero.",
-      "en": "The second chapter in the Vic Rattlehead animated short-film series, continuing the intense military action narrative in the helicopter."
+      "es": "Video del álbum Impera con una energía más directa y rockera, explorando temáticas de poder y decadencia social desde la perspectiva oscura y teatral que define a Ghost.",
+      "en": "Music video from the album Impera with a more direct and rock-driven energy, exploring themes of power and social decay from Ghost's dark and theatrical perspective."
     }
   },
   {
-    "title": "The Sick, The Dying... And The Dead! (Chapter III)",
+    "title": "Spillways",
     "year": 2022,
-    "youtube": "https://www.youtube.com/watch?v=xc_mfqPS2LY&list=RDxc_mfqPS2LY&start_radio=1",
+    "youtube": "https://www.youtube.com/watch?v=u9DV1eHQpcA&list=RDu9DV1eHQpcA&start_radio=1",
     "description": {
-      "es": "Tercer capítulo animado que concluye la historia inicial de Vic Rattlehead, con una temática de pandemia y guerra. Es la culminación de la primera parte de la saga.",
-      "en": "The third animated chapter that concludes Vic Rattlehead's initial story, featuring a theme of pandemic and warfare. It's the culmination of the first part of the saga."
+      "es": "Considerado uno de los mejores temas del álbum Impera, el video acompaña una de las canciones más épicas del catálogo de Ghost, con poderosas melodías vocales y una producción visualmente intensa.",
+      "en": "Considered one of the best tracks from the album Impera, the video accompanies one of the most epic songs in Ghost's catalog, featuring powerful vocal melodies and an intense visual production."
     }
   },
   {
-    "title": "Life In Hell (Chapter IV)",
+    "title": "Mary on a Cross",
     "year": 2022,
-    "youtube": "https://www.youtube.com/watch?v=lW_Xyj1sIBQ&list=RDlW_Xyj1sIBQ&start_radio=1",
+    "youtube": "https://www.youtube.com/watch?v=bpY6gGjjy5I&list=RDbpY6gGjjy5I&start_radio=1",
     "description": {
-      "es": "Cuarto capítulo que continúa la saga de cortometrajes animados, ambientado en un escenario post-apocalíptico y de alta tecnología con Vic Rattlehead.",
-      "en": "The fourth chapter continuing the animated short-film saga, set in a high-tech, post-apocalyptic scenario featuring Vic Rattlehead."
+      "es": "Video animado con estética similar a Scooby-Doo que se volvió viral en TikTok gracias a edits de fans de Stranger Things, aunque la canción nunca apareció en la serie. Uno de los temas más populares de Ghost en plataformas digitales.",
+      "en": "Animated video with a Scooby-Doo-like aesthetic that went viral on TikTok through Stranger Things fan edits, even though the song never appeared in the show. One of Ghost's most popular tracks on digital platforms."
     }
   },
   {
-    "title": "Killing Time (Chapter V)",
+    "title": "The Future Is a Foreign Land",
     "year": 2022,
-    "youtube": "https://www.youtube.com/watch?v=pvVJH3dKQBU&list=RDpvVJH3dKQBU&start_radio=1",
+    "youtube": "https://www.youtube.com/watch?v=lz24W6CQ0HI&list=RDlz24W6CQ0HI&start_radio=1",
     "description": {
-      "es": "Video musical enfocado en el performance de la banda, que intercala tomas de los músicos con gráficos y un entorno de luces estroboscópicas.",
-      "en": "A music video focused on the band's performance, intercutting shots of the musicians with graphics and a strobe-lit environment."
+      "es": "Video animado con el mismo estilo visual que Mary on a Cross, continuando la historia del universo ficticio de Ghost. Ofrece una primera vista de los nuevos Nameless Ghouls y el devenir del Imperio de la banda.",
+      "en": "Animated video in the same visual style as Mary on a Cross, continuing the story of Ghost's fictional universe. It offers a first look at the new Nameless Ghouls and the unfolding of the band's Empire."
     }
   },
   {
-    "title": "Soldier On! (Visualizer)",
-    "year": 2022,
-    "youtube": "https://www.youtube.com/watch?v=q5M8K2Jm2bE&list=RDq5M8K2Jm2bE&start_radio=1",
-    "description": {
-      "es": "Un visualizador temático que emplea símbolos militares y gráficos de guerra, manteniendo la línea narrativa de la era 'The Sick, The Dying... And The Dead!'.",
-      "en": "A thematic visualizer employing military symbols and war graphics, maintaining the narrative line of the 'The Sick, The Dying... And The Dead!' era."
-    }
-  },
-  {
-    "title": "Tipping Point",
+    "title": "Satanized",
     "year": 2025,
-    "youtube": "https://www.youtube.com/watch?v=ECXg-a7XZQI&t=3s",
+    "youtube": "https://www.youtube.com/watch?v=mGR2M2mBJXU&list=RDmGR2M2mBJXU&start_radio=1",
     "description": {
-      "es": "Video conceptual de su material más reciente, con una estética de alta producción que se enfoca en un evento apocalíptico y el 'punto de inflexión' social.",
-      "en": "A conceptual video for their most recent material, featuring a high-production aesthetic that focuses on an apocalyptic event and the societal 'tipping point'."
+      "es": "El primer single del álbum Skeletá y el debut oficial de Papa V Perpetua como nuevo frontman. El video en blanco y negro muestra a un monje siendo poseído mientras el clérigo de Ghost toca a su alrededor, revelando al final la nueva imagen de la banda.",
+      "en": "The first single from the album Skeletá and the official debut of Papa V Perpetua as the new frontman. The black and white video shows a monk being possessed while Ghost's clergy plays around him, finally revealing the band's new look."
     }
   },
   {
-    "title": "I Don't Care",
+    "title": "Lachryma",
     "year": 2025,
-    "youtube": "https://www.youtube.com/watch?v=-E4O5VlRYOY",
+    "youtube": "https://www.youtube.com/watch?v=DLG9oTH-ZbQ&list=RDDLG9oTH-ZbQ&start_radio=1",
     "description": {
-      "es": "Segundo single de su album omonimo, un video con skaters, y estetica punk rock.",
-      "en": "Second single from their self-titled album, a video featuring skaters and a punk rock aesthetic."
+      "es": "El segundo single de Skeletá y el primer video completo con Papa V Perpetua como protagonista. Descrito como un himno moderno del rock sobre el llanto, combina oscuridad lírica con melodías irresistibles.",
+      "en": "The second single from Skeletá and the first full video featuring Papa V Perpetua as the lead. Described as a modern rock anthem about weeping, it combines lyrical darkness with irresistible melodies."
     }
   },
   {
-    "title": "Let There Be Shred",
+    "title": "Peacefield",
     "year": 2025,
-    "youtube": "https://www.youtube.com/watch?v=4IL67t825cA",
+    "youtube": "https://www.youtube.com/watch?v=5w-XjMGfR_I&list=RD5w-XjMGfR_I&start_radio=1",
     "description": {
-      "es": "Tercer adelanto del disco 'Megadeth', un video al mejor estilo Mortal Kombat.",
-      "en": "Third single from their self-titled album, a video in the style of Mortal Kombat."
+      "es": "El tercer single de Skeletá, dirigido por Amir Chamdin. El video mezcla visuales estilizados con footage en vivo de la gira mundial Skeletour. Tobias Forge la describió como una canción de esperanza que abre el álbum antes de adentrarse en territorios más oscuros.",
+      "en": "The third single from Skeletá, directed by Amir Chamdin. The video blends stylized visuals with live footage from the Skeletour world tour. Tobias Forge described it as a song of hope that opens the album before venturing into darker territories."
     }
   }
 ]

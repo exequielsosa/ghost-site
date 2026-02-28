@@ -31,8 +31,8 @@ const sections: Section[] = [
     route: "/noticias",
     image: "/images/banners/news.png",
     adText: {
-      es: "Mantente al día con las últimas novedades sobre Megadeth",
-      en: "Stay up to date with the latest news about Megadeth",
+      es: "Mantente al día con las últimas novedades sobre Ghost",
+      en: "Stay up to date with the latest news about Ghost",
     },
   },
   {
@@ -51,8 +51,8 @@ const sections: Section[] = [
     route: "/songs",
     image: "/images/banners/songs.png",
     adText: {
-      es: "Descubre todas las canciones de Megadeth, letras, analisis, veces tocadas en vivo y mas!",
-      en: "Discover all Megadeth songs, lyrics, analysis, live play counts and more!",
+      es: "Descubre todas las canciones de Ghost, letras, analisis, veces tocadas en vivo y mas!",
+      en: "Discover all Ghost songs, lyrics, analysis, live play counts and more!",
     },
   },
   {
@@ -91,8 +91,8 @@ const sections: Section[] = [
     route: "/miembros",
     image: "/images/banners/members.png",
     adText: {
-      es: "Profile a todos los miembros de Megadeth, conoce a los musicos detras de la leyenda",
-      en: "Profile all Megadeth members, meet the musicians behind the legend",
+      es: "Profile a todos los miembros de Ghost, conoce a los musicos detras de la leyenda",
+      en: "Profile all Ghost members, meet the musicians behind the legend",
     },
   },
   {

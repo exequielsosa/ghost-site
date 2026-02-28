@@ -8,7 +8,7 @@ export async function generateMetadata(): Promise<Metadata> {
     title: t("pageTitle"),
     description: t("pageDescription"),
     keywords:
-      "Megadeth, reviews, críticas, reseñas, análisis, álbumes, discos, metal, thrash metal, Dave Mustaine, opinión, valoración",
+      "Ghost, reviews, críticas, reseñas, análisis, álbumes, discos, metal, thrash metal, Dave Mustaine, opinión, valoración",
     openGraph: {
       title: t("pageTitle"),
       description: t("pageDescription"),
@@ -18,10 +18,10 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://ghostband.com.ar/logo-megadeth.png",
+          url: "https://ghostband.com.ar/logo-ghost.png",
           width: 1200,
           height: 630,
-          alt: "Megadeth Reviews",
+          alt: "Ghost Reviews",
         },
       ],
     },
@@ -29,7 +29,7 @@ export async function generateMetadata(): Promise<Metadata> {
       card: "summary_large_image",
       title: t("pageTitle"),
       description: t("pageDescription"),
-      images: ["https://ghostband.com.ar/logo-megadeth.png"],
+      images: ["https://ghostband.com.ar/logo-ghost.png"],
     },
     alternates: {
       canonical: "https://ghostband.com.ar/discography/reviews",

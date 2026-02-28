@@ -44,9 +44,9 @@ export async function generateMetadata({
     locale === "es" ? bootleg.description.es : bootleg.description.en;
   const year = getBootlegYear(bootleg);
 
-  const fullTitle = `${title} (${year}) | Megadeth Bootlegs`;
+  const fullTitle = `${title} (${year}) | Ghost Bootlegs`;
   const keywords = [
-    "Megadeth",
+    "Ghost",
     "bootleg",
     bootleg.title,
     bootleg.venue,
@@ -86,7 +86,7 @@ export async function generateMetadata({
       title: fullTitle,
       description,
       images: [bootleg.image || "/images/bootlegs/default-bootleg.jpg"],
-      creator: "@MegadethFanSite",
+      creator: "@GhostFanSite",
     },
     alternates: {
       canonical: `/bootlegs/${bootlegId}`,

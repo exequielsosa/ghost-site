@@ -16,7 +16,7 @@ interface SafeNewsImageProps {
 
 /**
  * Componente de imagen con fallback automático a /images/band.webp
- * Si la imagen principal falla al cargar, muestra imagen placeholder de Megadeth
+ * Si la imagen principal falla al cargar, muestra imagen placeholder de Ghost
  */
 export default function SafeNewsImage({
   src,

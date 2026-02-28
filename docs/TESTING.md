@@ -62,14 +62,14 @@ npm run scrape:news
 ### Salida Esperada del Scraper:
 
 ```
-🤖 Scraper de Noticias de Megadeth - Inicio
+🤖 Scraper de Noticias de Ghost - Inicio
 ================================================
 🎯 Feeds a procesar: 4
 
 📡 Procesando feed: https://www.blabbermouth.net/feed/
    Encontrados 20 items
    🔍 Analizando: "Dave Mustaine talks about new album..."
-   ✅ Relevante para Megadeth
+   ✅ Relevante para Ghost
    🔍 Analizando: "Metallica announces tour dates..."
    ⏭️  No es relevante
    
@@ -150,11 +150,11 @@ npm run scrape:news
 ```
 
 **Causas posibles:**
-1. Los feeds RSS no tienen noticias recientes sobre Megadeth
+1. Los feeds RSS no tienen noticias recientes sobre Ghost
 2. Las keywords son demasiado estrictas (poco probable con 55+ keywords)
 3. Gemini AI está siendo muy conservador
 
-**Solución:** Ejecuta de nuevo en unos días o cuando haya noticias frescas de Megadeth.
+**Solución:** Ejecuta de nuevo en unos días o cuando haya noticias frescas de Ghost.
 
 ---
 
@@ -206,7 +206,7 @@ Agregar:
 - SUPABASE_SERVICE_KEY
 
 # 3. Activar workflow
-Actions → Scrape Megadeth News → Run workflow
+Actions → Scrape Ghost News → Run workflow
 ```
 
 ---

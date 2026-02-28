@@ -14,9 +14,9 @@ export default function Footer() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Ghost Fan Site",
-    url: "https://megadeth-fan-site.com",
+    url: "https://ghost-fan-site.com",
     description: t("seoDescription"),
-    logo: "https://megadeth-fan-site.com/images/logo.png",
+    logo: "https://ghost-fan-site.com/images/logo.png",
     sameAs: [
       "https://www.facebook.com/profile.php?id=939019079302919",
       "https://www.instagram.com/ghost_arg_fan/",
@@ -27,7 +27,7 @@ export default function Footer() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "Ghost Fan Site",
-    url: "https://megadeth-fan-site.com",
+    url: "https://ghost-fan-site.com",
     description: t("seoDescription"),
     inLanguage: locale,
     potentialAction: {
@@ -35,7 +35,7 @@ export default function Footer() {
       target: {
         "@type": "EntryPoint",
         urlTemplate:
-          "https://megadeth-fan-site.com/search?q={search_term_string}",
+          "https://ghost-fan-site.com/search?q={search_term_string}",
       },
       "query-input": "required name=search_term_string",
     },

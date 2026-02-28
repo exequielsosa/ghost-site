@@ -2,7 +2,7 @@
 
 ## Architecture Overview
 
-This is a Next.js 15 App Router project with Material-UI theming and international routing. The site is a Megadeth fan hub featuring discography, tour dates, videos, and DVDs.
+This is a Next.js 15 App Router project with Material-UI theming and international routing. The site is a Ghost fan hub featuring discography, tour dates, videos, and DVDs.
 
 **Key Tech Stack:**
 

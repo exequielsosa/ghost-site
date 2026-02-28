@@ -61,8 +61,8 @@ npm run migrate:news
 Verás algo como:
 ```
 📰 Encontradas XX noticias en news.json
-✅ Migrado: megadeth-play-ride-the-lightning-2026
-✅ Migrado: megadeth-billboard-200-number-one
+✅ Migrado: ghost-play-ride-the-lightning-2026
+✅ Migrado: ghost-billboard-200-number-one
 ...
 📊 Resumen de migración:
 ✅ Exitosas: XX

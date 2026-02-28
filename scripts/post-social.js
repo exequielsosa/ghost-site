@@ -62,7 +62,7 @@ function buildFacebookPost(article) {
 function buildInstagramCaption(article) {
   const url = articleUrl(article.id);
   const MAX = 900;
-  const hashtags = '#Megadeth #MegadethArgentina #metal #heavymetal #thrashmetal #DaveMustaine';
+  const hashtags = '#Ghost #GhostArgentina #metal #heavymetal #thrashmetal #DaveMustaine';
 
   const rawEs = article.description_es || '';
   const rawEn = article.description_en || '';

@@ -15,25 +15,25 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 
   const descriptionByLocale = {
-    es: "Ponte en contacto con Ghost Argentina. Envíanos tus comentarios, sugerencias o consultas sobre el sitio web no oficial de fans de Megadeth.",
-    en: "Get in touch with Ghost Argentina. Send us your comments, suggestions or questions about the unofficial Megadeth fan website.",
+    es: "Ponte en contacto con Ghost Argentina. Envíanos tus comentarios, sugerencias o consultas sobre el sitio web no oficial de fans de Ghost.",
+    en: "Get in touch with Ghost Argentina. Send us your comments, suggestions or questions about the unofficial Ghost fan website.",
   };
 
   const keywordsByLocale = {
     es: [
-      "Megadeth contacto",
+      "Ghost contacto",
       "contactar Ghost Argentina",
-      "email Megadeth",
-      "sugerencias Megadeth",
-      "comentarios sitio Megadeth",
+      "email Ghost",
+      "sugerencias Ghost",
+      "comentarios sitio Ghost",
       "fan site contacto",
     ],
     en: [
-      "Megadeth contact",
+      "Ghost contact",
       "contact Ghost Argentina",
-      "Megadeth email",
-      "Megadeth suggestions",
-      "Megadeth site comments",
+      "Ghost email",
+      "Ghost suggestions",
+      "Ghost site comments",
       "fan site contact",
     ],
   };
@@ -80,7 +80,7 @@ export default function ContactPage() {
           <Button
             variant="contained"
             color="primary"
-            href="mailto:megadethargentina77@gmail.com"
+            href="mailto:ghostargentina77@gmail.com"
             sx={{ fontWeight: 600 }}
           >
             {t("emailButton")}

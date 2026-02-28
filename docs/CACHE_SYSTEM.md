@@ -3,7 +3,7 @@
 ## 🎯 Problema Resuelto
 
 El endpoint `/api/last-show` necesita hacer 2 llamadas a setlist.fm:
-1. **latest**: Último show de Megadeth
+1. **latest**: Último show de Ghost
 2. **yearsAgoPrev**: Show de hace 20 años
 
 Para evitar rate limits y mejorar UX, implementamos un sistema de cache con warming automático.

@@ -45,12 +45,12 @@ export async function generateMetadata({
   const date = new Date(interview.date);
   const year = date.getFullYear();
 
-  const fullTitle = `${title} | ${mediaName} ${year} | Megadeth`;
+  const fullTitle = `${title} | ${mediaName} ${year} | Ghost`;
   const keywords = [
     title,
     mediaName,
     year.toString(),
-    "Megadeth",
+    "Ghost",
     "entrevista",
     "interview",
     ...interview.interviewees.map((i) => i.name),
@@ -86,7 +86,7 @@ export async function generateMetadata({
       images: interview.content?.cover_image
         ? [interview.content.cover_image]
         : ["/images/entrevistas/rp1992.jpg"],
-      creator: "@MegadethFanSite",
+      creator: "@GhostFanSite",
     },
     alternates: {
       canonical: `/entrevistas/${interviewId}`,

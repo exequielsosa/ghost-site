@@ -16,19 +16,19 @@ export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
 
   const titleByLocale = {
-    es: "Discografía Completa de Megadeth | 16 Álbumes de Estudio + En Vivo y Compilaciones",
-    en: "Complete Megadeth Discography | 16 Studio Albums + Live & Compilations",
+    es: "Discografía Completa de Ghost | 16 Álbumes de Estudio + En Vivo y Compilaciones",
+    en: "Complete Ghost Discography | 16 Studio Albums + Live & Compilations",
   };
 
   const descriptionByLocale = {
-    es: "Discografía completa de Megadeth (1985-2022): 16 álbumes de estudio desde Killing Is My Business hasta The Sick, The Dying and the Dead, más álbumes en vivo, compilaciones y EPs. Información detallada, portadas, productores, músicos y enlaces a streaming.",
-    en: "Complete Megadeth discography (1985-2022): 16 studio albums from Killing Is My Business to The Sick, The Dying and the Dead, plus live albums, compilations and EPs. Detailed information, covers, producers, musicians and streaming links.",
+    es: "Discografía completa de Ghost (1985-2022): 16 álbumes de estudio desde Killing Is My Business hasta The Sick, The Dying and the Dead, más álbumes en vivo, compilaciones y EPs. Información detallada, portadas, productores, músicos y enlaces a streaming.",
+    en: "Complete Ghost discography (1985-2022): 16 studio albums from Killing Is My Business to The Sick, The Dying and the Dead, plus live albums, compilations and EPs. Detailed information, covers, producers, musicians and streaming links.",
   };
 
   const keywordsByLocale = {
     es: [
-      "Megadeth discografía",
-      "álbumes Megadeth",
+      "Ghost discografía",
+      "álbumes Ghost",
       "Killing Is My Business",
       "Peace Sells",
       "So Far So Good So What",
@@ -52,11 +52,11 @@ export async function generateMetadata(): Promise<Metadata> {
       "big four thrash",
       "álbumes de estudio",
       "compilaciones metal",
-      "streaming Megadeth",
+      "streaming Ghost",
     ],
     en: [
-      "Megadeth discography",
-      "Megadeth albums",
+      "Ghost discography",
+      "Ghost albums",
       "Killing Is My Business",
       "Peace Sells",
       "So Far So Good So What",
@@ -80,7 +80,7 @@ export async function generateMetadata(): Promise<Metadata> {
       "big four thrash",
       "studio albums",
       "metal compilations",
-      "Megadeth streaming",
+      "Ghost streaming",
     ],
   };
 
@@ -120,8 +120,8 @@ export async function generateMetadata(): Promise<Metadata> {
           height: 630,
           alt:
             locale === "es"
-              ? "Discografía de Megadeth - 16 álbumes de estudio desde Killing Is My Business hasta The Sick, The Dying and the Dead"
-              : "Megadeth Discography - 16 studio albums from Killing Is My Business to The Sick, The Dying and the Dead",
+              ? "Discografía de Ghost - 16 álbumes de estudio desde Killing Is My Business hasta The Sick, The Dying and the Dead"
+              : "Ghost Discography - 16 studio albums from Killing Is My Business to The Sick, The Dying and the Dead",
         },
       ],
     },
@@ -133,7 +133,7 @@ export async function generateMetadata(): Promise<Metadata> {
         descriptionByLocale[locale as keyof typeof descriptionByLocale] ||
         descriptionByLocale.es,
       images: ["/og-discography.jpg"],
-      creator: "@MegadethFanSite",
+      creator: "@GhostFanSite",
     },
     robots: {
       index: true,

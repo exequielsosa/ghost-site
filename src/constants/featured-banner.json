@@ -1,9 +1,9 @@
 {
-  "id": "megadeth-final-album-review",
+  "id": "ghost-final-album-review",
   "isActive": true,
   "title": {
-    "es": "Megadeth: el último acorde",
-    "en": "Megadeth: The Final Chord"
+    "es": "Ghost: el último acorde",
+    "en": "Ghost: The Final Chord"
   },
   "subtitle": {
     "es": "Ya escuché el nuevo album y te traigo una reseña personal y sin maquillaje sobre el disco final de la banda que marcó mi adolescencia y me acompañó toda la vida. Un cierre digno, honesto e inevitable.",
@@ -13,6 +13,6 @@
     "es": "Leer la reseña completa",
     "en": "Read the full review"
   },
-  "imageUrl": "/images/albums/17-megadeth.jpg",
-  "link": "/discography/reviews/megadeth-final-album-review-2026"
+  "imageUrl": "/images/albums/17-ghost.jpg",
+  "link": "/discography/reviews/ghost-final-album-review-2026"
 }

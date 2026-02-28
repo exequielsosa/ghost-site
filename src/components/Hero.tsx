@@ -73,13 +73,13 @@ export default function Hero({ latestNews }: { latestNews: NewsArticle[] }) {
               }}
             >
               <Link
-                href="/discography/megadeth"
+                href="/discography/ghost"
                 passHref
                 style={{ textDecoration: "none", color: "inherit" }}
               >
                 <Image
-                  src="/images/megadeth-megadeth.jpg"
-                  alt="Megadeth"
+                  src="/images/ghost-ghost.jpg"
+                  alt="Ghost"
                   fill
                   style={{
                     objectFit: "cover",
@@ -137,7 +137,7 @@ export default function Hero({ latestNews }: { latestNews: NewsArticle[] }) {
                     <strong>{tAlbum("preOrder")}:</strong>{" "}
                     <Typography
                       component="a"
-                      href="https://shop.megadeth.com/collections/megadeth"
+                      href="https://shop.ghost.com/collections/ghost"
                       target="_blank"
                       rel="noopener noreferrer"
                       sx={{

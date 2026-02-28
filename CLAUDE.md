@@ -128,7 +128,7 @@ PRODUCTION_URL
 - Supabase nuevo: `exozntnfmaeqikmjjgxz.supabase.co` — schema SQL ejecutado (news_articles, news_external_links, comments, social_posted_at)
 - Deployado en Vercel → `ghostband.com.ar`
 - GHOST_MBID: `2bcf2e02-5bc3-4c76-bf76-41126cb11444`
-- KV compartido con Megadeth (mismas creds, keys separados por MBID — no hay colisión)
+- KV compartido con Ghost (mismas creds, keys separados por MBID — no hay colisión)
 
 **setlist.fm / shows**
 - `last-show/route.ts` y `tour/route.ts`: MBID fallback usa `process.env.GHOST_MBID`
@@ -147,14 +147,31 @@ PRODUCTION_URL
 - `public/images/ghost-Logo.png` → `ghost-logo.png` (case-sensitivity Linux/Vercel)
 - `Header.tsx`: logo mobile corregido (era `/logo-megadeth.png`)
 
+**Página de miembros reestructurada (26 Feb)**
+- Reemplazó "Miembros Anteriores" con tres secciones: **Ghouls Era I, II, III**
+- `src/app/miembros/page.tsx`: importa `ghoulsData` de `@/constants/ghouls.json`
+- Actualizado Member type: agregó `ghouls_era?: number` y cambió `birthYear?: number | null`
+- Changed member highlight: "dave-mustaine" → "tobias-forge"
+- `src/app/miembros/[memberId]/page.tsx`: búsqueda extendida a todos los ghouls (3 eras)
+
+**Reemplazo global Megadeth → Ghost (26 Feb)**
+- Reemplazadas **todas** las referencias en todo el codebase:
+  - `messages/*.json` — UI strings
+  - `src/constants/*.json` — datos JSON
+  - `src/app/**/*.ts(x)` — componentes y rutas
+  - `src/lib/`, `src/scripts/`, archivos raíz
+- Patrones: "Megadeth" → "Ghost", "megadeth" → "ghost", "MEGADETH" → "GHOST"
+- Build verificado: ✅ Sin errores TypeScript
+
 ### Pendiente
 - [ ] Configurar GitHub Secrets para el Action diario de scraping
 - [ ] Agregar env vars en Vercel: `KV_REST_API_URL`, `KV_REST_API_TOKEN`, `KV_REST_API_READ_ONLY_TOKEN`, `SETLISTFM_API_KEY`, `GHOST_MBID` (para que aparezcan las cards de shows)
 - [ ] Crear cuentas fan de Ghost en redes sociales → descomentar social media step en el Action
-- [ ] Reescribir contenido con datos reales de Ghost:
-  - `messages/en.json` y `messages/es.json` — textos de UI que todavía referencian Megadeth
-  - `src/constants/` — discography, members, history, shows, interviews, songs
-  - `src/data/` — songs.meta.json, shows raw
+- [ ] Reescribir/actualizar contenido con datos reales de Ghost:
+  - `src/constants/members.json` — agregar perfiles completos de miembros actuales y ghouls
+  - `src/constants/discography.json` — discografía y datos de álbumes
+  - `src/constants/` — history, interviews, songs data
+  - `src/data/` — songs.meta.json, shows raw data
   - `public/images/` — imágenes de la banda (band.webp, members/, albums/, etc.)
   - `src/theme/` — colores del tema (Ghost: negro, dorado, rojo)
 - [ ] Configurar `NEXT_PUBLIC_GA_ID` propio para Ghost en Vercel

@@ -35,11 +35,11 @@ export async function generateMetadata({
 
   return {
     title: `${title} - ${
-      locale === "en" ? "Megadeth Lineups" : "Formaciones Megadeth"
+      locale === "en" ? "Ghost Lineups" : "Formaciones Ghost"
     }`,
     description,
     openGraph: {
-      title: `${title} - Megadeth`,
+      title: `${title} - Ghost`,
       description,
       images: [lineup.image],
     },

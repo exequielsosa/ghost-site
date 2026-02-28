@@ -6,10 +6,10 @@ export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
   const t = await getTranslations("shows");
 
-  const title = `${t("listTitle")} | Megadeth`;
+  const title = `${t("listTitle")} | Ghost`;
   const description = t("listDescription");
   const keywords = [
-    "Megadeth",
+    "Ghost",
     "shows",
     "conciertos",
     "concerts",
@@ -43,8 +43,8 @@ export async function generateMetadata(): Promise<Metadata> {
           height: 630,
           alt:
             locale === "es"
-              ? "Shows Históricos de Megadeth"
-              : "Megadeth Historic Shows",
+              ? "Shows Históricos de Ghost"
+              : "Ghost Historic Shows",
         },
       ],
     },
@@ -53,7 +53,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title,
       description,
       images: ["/images/shows/og-shows.jpg"],
-      creator: "@MegadethFanSite",
+      creator: "@GhostFanSite",
     },
     alternates: {
       canonical: "/shows",

@@ -48,20 +48,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (!album) {
     return {
-      title: "Álbum no encontrado - Megadeth Fan",
+      title: "Álbum no encontrado - Ghost Fan",
       description: "El álbum que buscas no existe.",
     };
   }
 
   const albumDescription =
     getAlbumDescription(album, "es", "short") ||
-    `Álbum de Megadeth lanzado en ${album.year}.`;
+    `Álbum de Ghost lanzado en ${album.year}.`;
 
   return {
-    title: `${album.title} (${album.year}) - Megadeth Fan`,
+    title: `${album.title} (${album.year}) - Ghost Fan`,
     description: `${album.title} - ${albumDescription}`,
     keywords: [
-      "Megadeth",
+      "Ghost",
       album.title,
       album.year.toString(),
       "album",

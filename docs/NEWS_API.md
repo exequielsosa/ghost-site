@@ -2,7 +2,7 @@
 
 ## 📌 Descripción
 
-API REST para crear noticias manualmente en el sitio de Megadeth. Requiere autenticación mediante API Key y valida todos los campos según el esquema de la base de datos.
+API REST para crear noticias manualmente en el sitio de Ghost. Requiere autenticación mediante API Key y valida todos los campos según el esquema de la base de datos.
 
 ## 🔐 Autenticación
 
@@ -87,9 +87,9 @@ curl -X POST http://localhost:3000/api/news/create \
   -H "Content-Type: application/json" \
   -H "X-API-Key: tu_clave_secreta" \
   -d '{
-    "id": "megadeth-news-2026",
-    "title_es": "Nueva noticia de Megadeth",
-    "title_en": "New Megadeth news",
+    "id": "ghost-news-2026",
+    "title_es": "Nueva noticia de Ghost",
+    "title_en": "New Ghost news",
     "description_es": "Descripción completa de la noticia...",
     "description_en": "Full description of the news...",
     "published_date": "2026-02-14"
@@ -103,25 +103,25 @@ curl -X POST http://localhost:3000/api/news/create \
   -H "Content-Type: application/json" \
   -H "X-API-Key: tu_clave_secreta" \
   -d '{
-    "id": "megadeth-tour-2026",
-    "title_es": "Megadeth anuncia gira mundial 2026",
-    "title_en": "Megadeth announces 2026 world tour",
+    "id": "ghost-tour-2026",
+    "title_es": "Ghost anuncia gira mundial 2026",
+    "title_en": "Ghost announces 2026 world tour",
     "description_es": "La banda legendaria ha confirmado su gira mundial...",
     "description_en": "The legendary band has confirmed their world tour...",
     "published_date": "2026-02-14",
-    "image_url": "https://example.com/images/megadeth-tour.jpg",
+    "image_url": "https://example.com/images/ghost-tour.jpg",
     "image_alt_es": "Logo de la gira",
     "image_alt_en": "Tour logo",
     "image_caption_es": "La nueva gira promete ser épica",
     "image_caption_en": "The new tour promises to be epic",
-    "link_url": "https://megadeth.com/tour",
+    "link_url": "https://ghost.com/tour",
     "link_target": "_blank",
     "comments_active": true,
     "youtube_video_id": "dQw4w9WgXcQ",
-    "source_url": "https://blabbermouth.net/news/megadeth-2026",
+    "source_url": "https://blabbermouth.net/news/ghost-2026",
     "external_links": [
       {
-        "url": "https://ticketmaster.com/megadeth",
+        "url": "https://ticketmaster.com/ghost",
         "text_es": "Comprar entradas",
         "text_en": "Buy tickets",
         "order_index": 0
@@ -153,9 +153,9 @@ npm run add:news
   "message": "Noticia creada exitosamente",
   "data": {
     "article": {
-      "id": "megadeth-tour-2026",
-      "title_es": "Megadeth anuncia gira mundial 2026",
-      "title_en": "Megadeth announces 2026 world tour",
+      "id": "ghost-tour-2026",
+      "title_es": "Ghost anuncia gira mundial 2026",
+      "title_en": "Ghost announces 2026 world tour",
       "published_date": "2026-02-14",
       "created_at": "2026-02-14T10:30:00.000Z",
       ...
@@ -163,8 +163,8 @@ npm run add:news
     "external_links": [
       {
         "id": "uuid-aqui",
-        "news_id": "megadeth-tour-2026",
-        "url": "https://ticketmaster.com/megadeth",
+        "news_id": "ghost-tour-2026",
+        "url": "https://ticketmaster.com/ghost",
         "text_es": "Comprar entradas",
         "text_en": "Buy tickets"
       }
@@ -205,7 +205,7 @@ npm run add:news
 
 ```json
 {
-  "error": "Ya existe una noticia con el ID: megadeth-tour-2026"
+  "error": "Ya existe una noticia con el ID: ghost-tour-2026"
 }
 ```
 

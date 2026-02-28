@@ -68,7 +68,7 @@ export default function VideoCard({ video }: VideoCardProps) {
             <Box
               component="img"
               src={`https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`}
-              alt={`Miniatura del video ${video.title} de Megadeth (${video.year})`}
+              alt={`Miniatura del video ${video.title} de Ghost (${video.year})`}
               itemProp="thumbnailUrl"
               loading="lazy"
               sx={{
@@ -124,7 +124,7 @@ export default function VideoCard({ video }: VideoCardProps) {
           <Box
             component="iframe"
             src={`https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`}
-            title={`Video: ${video.title} - Megadeth (${video.year})`}
+            title={`Video: ${video.title} - Ghost (${video.year})`}
             itemProp="embedUrl"
             sx={{
               position: "absolute",
@@ -192,7 +192,7 @@ export default function VideoCard({ video }: VideoCardProps) {
           itemType="https://schema.org/MusicGroup"
           style={{ display: "none" }}
         >
-          <meta itemProp="name" content="Megadeth" />
+          <meta itemProp="name" content="Ghost" />
         </div>
       </CardContent>
     </Card>

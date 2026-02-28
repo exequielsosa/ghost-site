@@ -6,10 +6,10 @@ export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
   const t = await getTranslations("songs");
 
-  const title = `${t("songsListTitle")} | Megadeth`;
+  const title = `${t("songsListTitle")} | Ghost`;
   const description = t("songsListDescription");
   const keywords = [
-    "Megadeth",
+    "Ghost",
     "songs",
     "canciones",
     "thrash metal",
@@ -21,8 +21,8 @@ export async function generateMetadata(): Promise<Metadata> {
     "James LoMenzo",
     "Dirk Verbeuren",
     "Teemu Mäntysaari",
-    "discografía Megadeth",
-    "álbumes Megadeth",
+    "discografía Ghost",
+    "álbumes Ghost",
     "lyrics",
     "letras",
   ];
@@ -45,8 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
           height: 630,
           alt:
             locale === "es"
-              ? "Listado de canciones de Megadeth"
-              : "Megadeth Songs List",
+              ? "Listado de canciones de Ghost"
+              : "Ghost Songs List",
         },
       ],
     },
@@ -55,7 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title,
       description,
       images: ["/images/discography/og-songs.jpg"],
-      creator: "@MegadethFanSite",
+      creator: "@GhostFanSite",
     },
     alternates: {
       canonical: "/songs",

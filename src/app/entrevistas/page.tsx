@@ -6,10 +6,10 @@ export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
   const t = await getTranslations("interviews");
 
-  const title = `${t("listTitle")} | Megadeth`;
+  const title = `${t("listTitle")} | Ghost`;
   const description = t("listDescription");
   const keywords = [
-    "Megadeth",
+    "Ghost",
     "entrevistas",
     "interviews",
     "thrash metal",
@@ -46,8 +46,8 @@ export async function generateMetadata(): Promise<Metadata> {
           height: 630,
           alt:
             locale === "es"
-              ? "Entrevistas de Megadeth - Colección completa"
-              : "Megadeth Interviews - Complete Collection",
+              ? "Entrevistas de Ghost - Colección completa"
+              : "Ghost Interviews - Complete Collection",
         },
       ],
     },
@@ -56,7 +56,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title,
       description,
       images: ["/images/entrevistas/og-interviews.jpg"],
-      creator: "@MegadethFanSite",
+      creator: "@GhostFanSite",
     },
     alternates: {
       canonical: "/entrevistas",

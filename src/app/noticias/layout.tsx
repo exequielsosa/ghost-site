@@ -8,7 +8,7 @@ export async function generateMetadata(): Promise<Metadata> {
     title: t("pageTitle"),
     description: t("pageDescription"),
     keywords:
-      "Megadeth, noticias, news, metal, thrash metal, Dave Mustaine, actualidad, últimas noticias, tour, conciertos",
+      "Ghost, noticias, news, metal, thrash metal, Dave Mustaine, actualidad, últimas noticias, tour, conciertos",
     openGraph: {
       title: t("pageTitle"),
       description: t("pageDescription"),
@@ -21,7 +21,7 @@ export async function generateMetadata(): Promise<Metadata> {
           url: "https://ghostband.com.ar/images/band.webp",
           width: 1200,
           height: 630,
-          alt: "Megadeth",
+          alt: "Ghost",
         },
       ],
     },

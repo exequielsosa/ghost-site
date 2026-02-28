@@ -157,7 +157,7 @@
     },
     "musicians": [
       {
-        "name": "Papa Emeritus III (Tobias Forge)",
+        "name": "Tobias Forge",
         "instrument": { "es": "Voz", "en": "Vocals" }
       },
       {
@@ -238,7 +238,7 @@
     },
     "musicians": [
       {
-        "name": "Papa Emeritus II (Tobias Forge)",
+        "name": "Tobias Forge",
         "instrument": { "es": "Voz", "en": "Vocals" }
       },
       {
@@ -300,7 +300,7 @@
         "n": 5,
         "title": "Secular Haze (Live)",
         "duration": "4:45",
-        "writers": ["A Ghoul Writer"],
+        "writers": ["Tobias Forge"],
         "note": {
           "es": "En vivo en Music Hall of Williamsburg, NYC, 28 jul 2013",
           "en": "Live at Music Hall of Williamsburg, NYC, Jul 28 2013"
@@ -328,7 +328,7 @@
     },
     "musicians": [
       {
-        "name": "Papa Emeritus I (Tobias Forge)",
+        "name": "Tobias Forge",
         "instrument": { "es": "Voz", "en": "Vocals" }
       },
       {
@@ -345,14 +345,14 @@
         "n": 1,
         "title": "Elizabeth",
         "duration": "3:54",
-        "writers": ["A Ghoul Writer"],
+        "writers": ["Tobias Forge"],
         "lyrics": "Underneath the moonlight of old Hungarian skies\nBuried in the blood-drenched earth\nThese barren lands of ice\nShe was an evil woman with an evil old soul\nPiercing eyes emotionless\nA heart so black and cold\n\nElizabeth, in the chasm where was my soul\nForever young, Elizabeth Báthory in the castle of your death\nYou're still alive, Elizabeth\n\nHer pact with Satan\nHer despise of mankind\nHer acts of cruelty and her lust for blood\nMakes her one of us\n\nOur ancient countess was refused her desires will\nTo bathe in pure fresh blood\nShe'd peasant virgins killed\n\nElizabeth, in the chasm where was my soul\nForever young, Elizabeth Báthory in the castle of your death\nYou're still alive, Elizabeth\n\nElizabeth, in the chasm where was my soul\nForever young, Elizabeth Báthory in the castle of your death\nYou're still alive, Elizabeth"
       },
       {
         "n": 2,
         "title": "Death Knell",
         "duration": "4:35",
-        "writers": ["A Ghoul Writer"],
+        "writers": ["Tobias Forge"],
         "note": {
           "es": "Versión temprana, cara B",
           "en": "Early version, B-side"

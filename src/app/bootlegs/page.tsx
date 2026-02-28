@@ -6,10 +6,10 @@ export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
   const t = await getTranslations("bootlegs");
 
-  const title = `${t("listTitle")} | Megadeth`;
+  const title = `${t("listTitle")} | Ghost`;
   const description = t("listDescription");
   const keywords = [
-    "Megadeth",
+    "Ghost",
     "bootlegs",
     "conciertos",
     "concerts",
@@ -41,7 +41,7 @@ export async function generateMetadata(): Promise<Metadata> {
           url: "/images/bootlegs/og-bootlegs.jpg",
           width: 1200,
           height: 630,
-          alt: locale === "es" ? "Bootlegs de Megadeth" : "Megadeth Bootlegs",
+          alt: locale === "es" ? "Bootlegs de Ghost" : "Ghost Bootlegs",
         },
       ],
     },

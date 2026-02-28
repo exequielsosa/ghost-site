@@ -95,7 +95,7 @@ export default function NoticiasPage() {
       name: "Ghost Argentina",
       logo: {
         "@type": "ImageObject",
-        url: "https://ghostband.com.ar/logo-megadeth.png",
+        url: "https://ghostband.com.ar/logo-ghost.png",
       },
     },
     mainEntity: {
@@ -211,8 +211,8 @@ export default function NoticiasPage() {
               </Typography>
               <Typography variant="body1" color="text.secondary">
                 {locale === "es"
-                  ? "Vuelve pronto para ver las últimas novedades sobre Megadeth."
-                  : "Check back soon for the latest Megadeth news."}
+                  ? "Vuelve pronto para ver las últimas novedades sobre Ghost."
+                  : "Check back soon for the latest Ghost news."}
               </Typography>
             </Box>
 

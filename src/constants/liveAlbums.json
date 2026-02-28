@@ -18,7 +18,7 @@
     },
     "musicians": [
       {
-        "name": "Tobias Forge (Papa Emeritus IV)",
+        "name": "Tobias Forge",
         "instrument": {
           "es": "Voz",
           "en": "Vocals"
@@ -36,24 +36,114 @@
       "spotify": ""
     },
     "tracks": [
-      { "n": 1, "title": "Imperium (Live at the Forum / 2023)", "duration": "1:41", "writers": ["Tobias Forge"] },
-      { "n": 2, "title": "Kaisarion (Live at the Forum / 2023)", "duration": "4:58", "writers": ["Tobias Forge"] },
-      { "n": 3, "title": "Rats (Live at the Forum / 2023)", "duration": "4:29", "writers": ["Tobias Forge"] },
-      { "n": 4, "title": "Faith (Live at the Forum / 2023)", "duration": "5:10", "writers": ["Tobias Forge"] },
-      { "n": 5, "title": "Spillways (Live at the Forum / 2023)", "duration": "4:40", "writers": ["Tobias Forge"] },
-      { "n": 6, "title": "Cirice (Live at the Forum / 2023)", "duration": "5:55", "writers": ["A Ghoul Writer"] },
-      { "n": 7, "title": "Absolution (Live at the Forum / 2023)", "duration": "5:09", "writers": ["A Ghoul Writer"] },
-      { "n": 8, "title": "Call Me Little Sunshine (Live at the Forum / 2023)", "duration": "4:49", "writers": ["Tobias Forge"] },
-      { "n": 9, "title": "Watcher in the Sky (Live at the Forum / 2023)", "duration": "6:24", "writers": ["Tobias Forge"] },
-      { "n": 10, "title": "If You Have Ghosts (Chamber Version / Live at the Forum / 2023)", "duration": "3:32", "writers": ["Roky Erickson"] },
-      { "n": 11, "title": "Twenties (Live at the Forum / 2023)", "duration": "5:35", "writers": ["Tobias Forge"] },
-      { "n": 12, "title": "Miasma (Live at the Forum / 2023)", "duration": "6:19", "writers": ["Tobias Forge"] },
-      { "n": 13, "title": "Mary on a Cross (Live at the Forum / 2023)", "duration": "4:59", "writers": ["Tobias Forge"] },
-      { "n": 14, "title": "Respite on the Spitalfields (Live at the Forum / 2023)", "duration": "7:12", "writers": ["Tobias Forge"] },
-      { "n": 15, "title": "Kiss the Go-Goat (Live at the Forum / 2023)", "duration": "3:21", "writers": ["Tobias Forge"] },
-      { "n": 16, "title": "Dance Macabre (Live at the Forum / 2023)", "duration": "4:38", "writers": ["Tobias Forge"] },
-      { "n": 17, "title": "Square Hammer (Live at the Forum / 2023)", "duration": "5:10", "writers": ["Tobias Forge"] },
-      { "n": 18, "title": "The Future Is a Foreign Land", "duration": "3:46", "writers": ["Tobias Forge"] }
+      {
+        "n": 1,
+        "title": "Imperium (Live at the Forum / 2023)",
+        "duration": "1:41",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 2,
+        "title": "Kaisarion (Live at the Forum / 2023)",
+        "duration": "4:58",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 3,
+        "title": "Rats (Live at the Forum / 2023)",
+        "duration": "4:29",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 4,
+        "title": "Faith (Live at the Forum / 2023)",
+        "duration": "5:10",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 5,
+        "title": "Spillways (Live at the Forum / 2023)",
+        "duration": "4:40",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 6,
+        "title": "Cirice (Live at the Forum / 2023)",
+        "duration": "5:55",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 7,
+        "title": "Absolution (Live at the Forum / 2023)",
+        "duration": "5:09",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 8,
+        "title": "Call Me Little Sunshine (Live at the Forum / 2023)",
+        "duration": "4:49",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 9,
+        "title": "Watcher in the Sky (Live at the Forum / 2023)",
+        "duration": "6:24",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 10,
+        "title": "If You Have Ghosts (Chamber Version / Live at the Forum / 2023)",
+        "duration": "3:32",
+        "writers": ["Roky Erickson"]
+      },
+      {
+        "n": 11,
+        "title": "Twenties (Live at the Forum / 2023)",
+        "duration": "5:35",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 12,
+        "title": "Miasma (Live at the Forum / 2023)",
+        "duration": "6:19",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 13,
+        "title": "Mary on a Cross (Live at the Forum / 2023)",
+        "duration": "4:59",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 14,
+        "title": "Respite on the Spitalfields (Live at the Forum / 2023)",
+        "duration": "7:12",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 15,
+        "title": "Kiss the Go-Goat (Live at the Forum / 2023)",
+        "duration": "3:21",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 16,
+        "title": "Dance Macabre (Live at the Forum / 2023)",
+        "duration": "4:38",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 17,
+        "title": "Square Hammer (Live at the Forum / 2023)",
+        "duration": "5:10",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 18,
+        "title": "The Future Is a Foreign Land",
+        "duration": "3:46",
+        "writers": ["Tobias Forge"]
+      }
     ]
   },
   {
@@ -75,7 +165,7 @@
     },
     "musicians": [
       {
-        "name": "Papa Emeritus III (Tobias Forge)",
+        "name": "Tobias Forge",
         "instrument": {
           "es": "Voz",
           "en": "Vocals"
@@ -93,23 +183,108 @@
       "spotify": ""
     },
     "tracks": [
-      { "n": 1, "title": "Year Zero", "duration": "5:42", "writers": ["A Ghoul Writer"] },
-      { "n": 2, "title": "Square Hammer", "duration": "4:23", "writers": ["A Ghoul Writer"] },
-      { "n": 3, "title": "From the Pinnacle to the Pit", "duration": "4:16", "writers": ["A Ghoul Writer"] },
-      { "n": 4, "title": "Spöksonat", "duration": "0:52", "writers": ["A Ghoul Writer"] },
-      { "n": 5, "title": "Con Clavi Con Dio", "duration": "3:53", "writers": ["A Ghoul Writer"] },
-      { "n": 6, "title": "He Is", "duration": "4:44", "writers": ["A Ghoul Writer"] },
-      { "n": 7, "title": "Mummy Dust", "duration": "4:15", "writers": ["A Ghoul Writer"] },
-      { "n": 8, "title": "Per Aspera ad Inferi", "duration": "4:13", "writers": ["A Ghoul Writer"] },
-      { "n": 9, "title": "Secular Haze", "duration": "5:13", "writers": ["A Ghoul Writer"] },
-      { "n": 10, "title": "Elizabeth", "duration": "4:48", "writers": ["A Ghoul Writer"] },
-      { "n": 11, "title": "Body and Blood", "duration": "3:53", "writers": ["A Ghoul Writer"] },
-      { "n": 12, "title": "Absolution", "duration": "5:22", "writers": ["A Ghoul Writer"] },
-      { "n": 13, "title": "Devil Church", "duration": "2:17", "writers": ["A Ghoul Writer"] },
-      { "n": 14, "title": "Ritual", "duration": "7:41", "writers": ["A Ghoul Writer"] },
-      { "n": 15, "title": "Cirice", "duration": "5:59", "writers": ["A Ghoul Writer"] },
-      { "n": 16, "title": "Monstrance Clock", "duration": "6:11", "writers": ["A Ghoul Writer"] },
-      { "n": 17, "title": "Ghuleh / Zombie Queen", "duration": "7:39", "writers": ["A Ghoul Writer"] }
+      {
+        "n": 1,
+        "title": "Year Zero",
+        "duration": "5:42",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 2,
+        "title": "Square Hammer",
+        "duration": "4:23",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 3,
+        "title": "From the Pinnacle to the Pit",
+        "duration": "4:16",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 4,
+        "title": "Spöksonat",
+        "duration": "0:52",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 5,
+        "title": "Con Clavi Con Dio",
+        "duration": "3:53",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 6,
+        "title": "He Is",
+        "duration": "4:44",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 7,
+        "title": "Mummy Dust",
+        "duration": "4:15",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 8,
+        "title": "Per Aspera ad Inferi",
+        "duration": "4:13",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 9,
+        "title": "Secular Haze",
+        "duration": "5:13",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 10,
+        "title": "Elizabeth",
+        "duration": "4:48",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 11,
+        "title": "Body and Blood",
+        "duration": "3:53",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 12,
+        "title": "Absolution",
+        "duration": "5:22",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 13,
+        "title": "Devil Church",
+        "duration": "2:17",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 14,
+        "title": "Ritual",
+        "duration": "7:41",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 15,
+        "title": "Cirice",
+        "duration": "5:59",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 16,
+        "title": "Monstrance Clock",
+        "duration": "6:11",
+        "writers": ["Tobias Forge"]
+      },
+      {
+        "n": 17,
+        "title": "Ghuleh / Zombie Queen",
+        "duration": "7:39",
+        "writers": ["Tobias Forge"]
+      }
     ]
   }
 ]

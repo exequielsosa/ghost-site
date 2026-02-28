@@ -10,24 +10,20 @@ export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
   const t = await getTranslations("lineups");
 
-  const title = `${t("members")} | Megadeth`;
+  const title = `${t("members")} | Ghost`;
   const description = t("membersSubtitle");
   const keywords = [
-    "Megadeth",
+    "Ghost",
     "miembros",
     "members",
-    "músicos Megadeth",
-    "Dave Mustaine",
-    "Nick Menza",
-    "Marty Friedman",
-    "David Ellefson",
-    "James LoMenzo",
-    "Dirk Verbeuren",
-    "Teemu Mäntysaari",
-    "alineaciones Megadeth",
-    "thrash metal",
+    "músicos Ghost",
+    "Tobias Forge",
+    "Ghouls",
+    "nameless ghouls",
+    "banda Ghost",
+    "metal",
     "bandas metal",
-    "historia Megadeth",
+    "historia Ghost",
   ];
 
   return {
@@ -48,8 +44,8 @@ export async function generateMetadata(): Promise<Metadata> {
           height: 630,
           alt:
             locale === "es"
-              ? "Miembros de Megadeth - Todos los músicos de la banda"
-              : "Megadeth Members - All musicians in the band",
+              ? "Miembros de Ghost - Todos los músicos de la banda"
+              : "Ghost Members - All musicians in the band",
         },
       ],
     },
@@ -58,7 +54,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title,
       description,
       images: ["/images/lineups/og-members.jpg"],
-      creator: "@MegadethFanSite",
+      creator: "@GhostFanSite",
     },
     alternates: {
       canonical: "/miembros",
@@ -84,6 +80,7 @@ import { Typography, Box, Grid, Card, CardContent, Chip } from "@mui/material";
 import { useTranslations, useLocale } from "next-intl";
 import { BilingualText } from "@/types";
 import membersData from "@/constants/members.json";
+import ghoulsData from "@/constants/ghouls.json";
 import Breadcrumb from "@/components/Breadcrumb";
 
 type Member = {
@@ -98,9 +95,10 @@ type Member = {
   otherProjects?: { es: string[]; en: string[] };
   biography?: { es: string; en: string };
   image?: string;
-  birthYear?: number;
+  birthYear?: number | null;
   deathYear?: number;
   country: { es: string; en: string };
+  ghouls_era?: number;
 };
 import Image from "next/image";
 import Link from "next/link";
@@ -111,37 +109,18 @@ export default function MembersPage() {
   const tb = useTranslations("breadcrumb");
   const locale = useLocale() as "es" | "en";
 
-  const members = Object.values(membersData.members) as Member[];
+  const currentMembers = Object.values(membersData.members) as Member[];
+
+  const ghoulsEra1 = Object.values(ghoulsData.ghouls_era1 || {}) as Member[];
+  const ghoulsEra2 = Object.values(ghoulsData.ghouls_era2 || {}) as Member[];
+  const ghoulsEra3 = Object.values(ghoulsData.ghouls_era3 || {}) as Member[];
 
   const getLocalizedText = (text: BilingualText): string => {
     if (!text || typeof text !== "object") return "";
     return text[locale] || text.es || "";
   };
 
-  // Sort members by importance (Dave first, then by start year)
-  const sortedMembers = [...members].sort((a, b) => {
-    if (a.id === "dave-mustaine") return -1;
-    if (b.id === "dave-mustaine") return 1;
-    const aYear = typeof a.birthYear === "number" ? a.birthYear : 9999;
-    const bYear = typeof b.birthYear === "number" ? b.birthYear : 9999;
-    return aYear - bYear;
-  });
-
-  const currentMembers = sortedMembers.filter(
-    (member) =>
-      member.period[locale]?.includes("presente") ||
-      member.period[locale]?.includes("present"),
-  );
-
-  const formerMembers = sortedMembers.filter(
-    (member) =>
-      !(
-        member.period[locale]?.includes("presente") ||
-        member.period[locale]?.includes("present")
-      ),
-  );
-
-  const MemberCard = ({ member }: { member: (typeof members)[0] }) => (
+  const MemberCard = ({ member }: { member: Member }) => (
     <Card
       component={Link}
       href={`/miembros/${member.id}`}
@@ -179,7 +158,7 @@ export default function MembersPage() {
 
         <Chip
           label={getLocalizedText(member.period)}
-          color={member.id === "dave-mustaine" ? "primary" : "default"}
+          color={member.id === "tobias-forge" ? "primary" : "default"}
           size="small"
           sx={{ mb: 1 }}
         />
@@ -245,7 +224,47 @@ export default function MembersPage() {
             </Grid>
           </Box>
 
-          {/* Former Members */}
+          {/* Ghouls Era I */}
+          <Box mb={8}>
+            <Typography
+              variant="h3"
+              component="h2"
+              gutterBottom
+              sx={{ fontSize: { xs: 20, md: 30 } }}
+            >
+              {locale === "es" ? "Ghouls Era I" : "Ghouls Era I"}
+            </Typography>
+
+            <Grid container spacing={3}>
+              {ghoulsEra1.map((member) => (
+                <Grid key={member.id} size={{ xs: 12, sm: 6, md: 3 }}>
+                  <MemberCard member={member} />
+                </Grid>
+              ))}
+            </Grid>
+          </Box>
+
+          {/* Ghouls Era II */}
+          <Box mb={8}>
+            <Typography
+              variant="h3"
+              component="h2"
+              gutterBottom
+              sx={{ fontSize: { xs: 20, md: 30 } }}
+            >
+              {locale === "es" ? "Ghouls Era II" : "Ghouls Era II"}
+            </Typography>
+
+            <Grid container spacing={3}>
+              {ghoulsEra2.map((member) => (
+                <Grid key={member.id} size={{ xs: 12, sm: 6, md: 3 }}>
+                  <MemberCard member={member} />
+                </Grid>
+              ))}
+            </Grid>
+          </Box>
+
+          {/* Ghouls Era III */}
           <Box>
             <Typography
               variant="h3"
@@ -253,11 +272,11 @@ export default function MembersPage() {
               gutterBottom
               sx={{ fontSize: { xs: 20, md: 30 } }}
             >
-              Miembros Anteriores
+              {locale === "es" ? "Ghouls Era III" : "Ghouls Era III"}
             </Typography>
 
             <Grid container spacing={3}>
-              {formerMembers.map((member) => (
+              {ghoulsEra3.map((member) => (
                 <Grid key={member.id} size={{ xs: 12, sm: 6, md: 3 }}>
                   <MemberCard member={member} />
                 </Grid>

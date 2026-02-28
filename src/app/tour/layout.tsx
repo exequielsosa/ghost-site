@@ -6,9 +6,9 @@ export async function generateMetadata(): Promise<Metadata> {
 
   const keywordsByLocale = {
     es: [
-      "Megadeth tour",
-      "conciertos Megadeth",
-      "entradas Megadeth",
+      "Ghost tour",
+      "conciertos Ghost",
+      "entradas Ghost",
       "gira 2025",
       "Dave Mustaine concierto",
       "tour fechas",
@@ -16,9 +16,9 @@ export async function generateMetadata(): Promise<Metadata> {
       "thrash metal tour",
     ],
     en: [
-      "Megadeth tour",
-      "Megadeth concerts",
-      "Megadeth tickets",
+      "Ghost tour",
+      "Ghost concerts",
+      "Ghost tickets",
       "tour 2025",
       "Dave Mustaine concert",
       "tour dates",
@@ -28,13 +28,13 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 
   const titleByLocale = {
-    es: "Megadeth Tour 2025 - Fechas y Entradas",
-    en: "Megadeth Tour 2025 - Dates and Tickets",
+    es: "Ghost Tour 2025 - Fechas y Entradas",
+    en: "Ghost Tour 2025 - Dates and Tickets",
   };
 
   const descriptionByLocale = {
-    es: "Fechas oficiales del tour de Megadeth 2025. Encuentra entradas para los conciertos en Europa y América.",
-    en: "Official Megadeth 2025 tour dates. Find tickets for concerts in Europe and America.",
+    es: "Fechas oficiales del tour de Ghost 2025. Encuentra entradas para los conciertos en Europa y América.",
+    en: "Official Ghost 2025 tour dates. Find tickets for concerts in Europe and America.",
   };
 
   return {
@@ -53,15 +53,15 @@ export async function generateMetadata(): Promise<Metadata> {
       description:
         descriptionByLocale[locale as keyof typeof descriptionByLocale] ||
         descriptionByLocale.es,
-      siteName: "Megadeth Fan",
+      siteName: "Ghost Fan",
       type: "website",
       locale: locale === "es" ? "es_AR" : "en_US",
       images: [
         {
-          url: "/images/megadeth-megadeth.jpg",
+          url: "/images/ghost-ghost.jpg",
           width: 1200,
           height: 630,
-          alt: "Megadeth Tour 2025",
+          alt: "Ghost Tour 2025",
         },
       ],
     },

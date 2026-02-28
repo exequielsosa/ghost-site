@@ -79,7 +79,7 @@ export default function ReviewDetailPage({
       url: "https://ghostband.com.ar",
       logo: {
         "@type": "ImageObject",
-        url: "https://ghostband.com.ar/logo-megadeth.png",
+        url: "https://ghostband.com.ar/logo-ghost.png",
       },
     },
     datePublished: review.publishedDate,

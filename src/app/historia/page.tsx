@@ -7,16 +7,16 @@ export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("historyPage");
 
   return {
-    title: `${t("title")} | Megadeth`,
+    title: `${t("title")} | Ghost`,
     description: t("description"),
     keywords: t("keywords"),
     openGraph: {
-      title: `${t("title")} | Megadeth`,
+      title: `${t("title")} | Ghost`,
       description: t("description"),
       type: "article",
       images: [
         {
-          url: "/images/historia/megadeth-timeline-hero.jpg",
+          url: "/images/historia/ghost-timeline-hero.jpg",
           width: 1200,
           height: 630,
           alt: t("imageAlt"),
@@ -25,9 +25,9 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${t("title")} | Megadeth`,
+      title: `${t("title")} | Ghost`,
       description: t("description"),
-      images: ["/images/historia/megadeth-timeline-hero.jpg"],
+      images: ["/images/historia/ghost-timeline-hero.jpg"],
     },
     alternates: {
       canonical: "/historia",
