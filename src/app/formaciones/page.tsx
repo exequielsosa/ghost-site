@@ -332,7 +332,7 @@ export default function LineupsPage() {
         </Box>
 
         {/* Current and Classic Lineups Highlight */}
-        <Grid container spacing={4} sx={{ mt: 4 }}>
+        {/* <Grid container spacing={4} sx={{ mt: 4 }}>
           <Grid size={{ xs: 12, md: 6 }}>
             <Card
               sx={{
@@ -376,7 +376,7 @@ export default function LineupsPage() {
               </CardContent>
             </Card>
           </Grid>
-        </Grid>
+        </Grid> */}
         <Box mt={4}>
           <RandomSectionBanner currentSection="lineups" />
         </Box>
