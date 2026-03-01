@@ -1,7 +1,32 @@
+import { Metadata } from "next";
+import { getLocale } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import { Container, Typography, Box } from "@mui/material";
 import Breadcrumb from "@/components/Breadcrumb";
 import ContainerGradientNoPadding from "@/components/atoms/ContainerGradientNoPadding";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = (await getLocale()) as "es" | "en";
+
+  const title =
+    locale === "es"
+      ? "Política de Privacidad | Ghost Argentina"
+      : "Privacy Policy | Ghost Argentina";
+  const description =
+    locale === "es"
+      ? "Política de privacidad del fan site Ghost Argentina. Información sobre cómo manejamos tus datos."
+      : "Privacy policy for Ghost Argentina fan site. Information about how we handle your data.";
+
+  return {
+    title,
+    description,
+    robots: { index: false, follow: true },
+    alternates: {
+      canonical: "/privacidad",
+      languages: { es: "/privacidad", en: "/privacidad" },
+    },
+  };
+}
 
 export default function PrivacyPage() {
   const t = useTranslations("privacy");

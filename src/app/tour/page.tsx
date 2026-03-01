@@ -1,312 +1,118 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-"use client";
-
-import { useTranslations } from "next-intl";
-import { useLocale } from "next-intl";
-import { useState, useMemo } from "react";
-import {
-  Box,
-  Typography,
-  Container,
-  Card,
-  CardContent,
-  Grid,
-  Button,
-  CardActions,
-  Tabs,
-  Tab,
-  TextField,
-  IconButton,
-  InputAdornment,
-} from "@mui/material";
-import SearchIcon from "@mui/icons-material/Search";
-import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
-import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
-import Breadcrumb from "@/components/Breadcrumb";
-import PastShowsGrid from "@/components/PastShowsGrid";
+import { Metadata } from "next";
+import { getLocale } from "next-intl/server";
 import { tourDates } from "@/constants/tourDates";
-import ContainerGradientNoPadding from "@/components/atoms/ContainerGradientNoPadding";
-import RandomSectionBanner from "@/components/NewsBanner";
+import TourClient from "./TourClient";
 
-interface TabPanelProps {
-  children?: React.ReactNode;
-  index: number;
-  value: number;
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = (await getLocale()) as "es" | "en";
+
+  const title =
+    locale === "es"
+      ? "Gira Ghost 2024-2026 | Fechas de Conciertos"
+      : "Ghost Tour 2024-2026 | Concert Dates";
+  const description =
+    locale === "es"
+      ? "Fechas de conciertos de Ghost en 2024, 2025 y 2026. Tour mundial, próximos shows, locaciones y entradas."
+      : "Ghost concert dates 2024, 2025 and 2026. World tour, upcoming shows, venues and tickets.";
+
+  const keywords = [
+    "Ghost", "tour", "gira", "conciertos", "concerts",
+    "Ghost tour 2024", "Ghost tour 2025", "Ghost tour 2026",
+    "Ghost shows", "Ghost live", "Ghost Argentina",
+    "fechas de conciertos", "concert dates", "tour dates",
+    "theatrical rock", "pop metal", "Ghost band",
+    "Tobias Forge", "Ghost band Argentina",
+    "entradas Ghost", "Ghost tickets", "Ghost latinoamérica",
+  ].join(", ");
+
+  return {
+    title,
+    description,
+    keywords,
+    openGraph: {
+      title,
+      description,
+      url: "/tour",
+      siteName: "Ghost Fan Site",
+      locale: locale === "es" ? "es_ES" : "en_US",
+      type: "website",
+    },
+    twitter: {
+      card: "summary",
+      title,
+      description,
+    },
+    alternates: {
+      canonical: "/tour",
+      languages: { es: "/tour", en: "/tour" },
+    },
+    robots: { index: true, follow: true },
+  };
 }
 
-function TabPanel(props: TabPanelProps) {
-  const { children, value, index, ...other } = props;
+export default async function TourPage() {
+  const locale = (await getLocale()) as "es" | "en";
 
-  return (
-    <div
-      role="tabpanel"
-      hidden={value !== index}
-      id={`tour-tabpanel-${index}`}
-      aria-labelledby={`tour-tab-${index}`}
-      {...other}
-    >
-      {value === index && <Box sx={{ py: 3 }}>{children}</Box>}
-    </div>
-  );
-}
-
-export default function TourPage() {
-  const t = useTranslations("tour");
-  const tb = useTranslations("breadcrumb");
-  const locale = useLocale();
-  const [activeTab, setActiveTab] = useState(0);
-  const [searchQuery, setSearchQuery] = useState("");
-  const [sortOrder, setSortOrder] = useState<"asc" | "desc">("asc");
-
-  const handleTabChange = (event: React.SyntheticEvent, newValue: number) => {
-    setActiveTab(newValue);
-    setSearchQuery(""); // Limpiar búsqueda al cambiar de tab
-  };
-
-  const toggleSortOrder = () => {
-    setSortOrder((prev) => (prev === "asc" ? "desc" : "asc"));
-  };
-
-  // Obtener fecha actual
+  // Generar JSON-LD EventSeries con próximos conciertos
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
-  // Función para filtrar conciertos por búsqueda
-  const filterConcerts = (concerts: typeof tourDates, query: string) => {
-    if (!query.trim()) return concerts;
+  const upcomingShows = tourDates
+    .filter((show) => new Date(show.date) >= today)
+    .slice(0, 10); // Top 10 próximos
 
-    const lowerQuery = query.toLowerCase();
-    return concerts.filter(
-      (show) =>
-        show.city.toLowerCase().includes(lowerQuery) ||
-        show.venue.toLowerCase().includes(lowerQuery) ||
-        show.country.toLowerCase().includes(lowerQuery),
-    );
+  const eventJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "EventSeries",
+    name: locale === "es" ? "Gira Ghost 2024-2026" : "Ghost Tour 2024-2026",
+    description:
+      locale === "es"
+        ? "Tour mundial de Ghost con fechas en Argentina y Latinoamérica"
+        : "Ghost world tour with dates in Argentina and Latin America",
+    organizer: {
+      "@type": "Organization",
+      name: "Ghost",
+      url: "https://ghostsweden.com",
+    },
+    event: upcomingShows.map((show) => ({
+      "@type": "Event",
+      name: `Ghost @ ${show.venue}`,
+      description: `Ghost concert in ${show.city}, ${show.country}`,
+      startDate: new Date(show.date).toISOString(),
+      endDate: new Date(show.date).toISOString(),
+      eventStatus: "https://schema.org/EventScheduled",
+      eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+      location: {
+        "@type": "Place",
+        name: show.venue,
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: show.city,
+          addressCountry: show.country,
+        },
+      },
+      offers: {
+        "@type": "Offer",
+        url: show.ticketLink,
+        price: "0",
+        priceCurrency: "USD",
+        availability: "https://schema.org/PreOrder",
+      },
+      performer: {
+        "@type": "MusicGroup",
+        name: "Ghost",
+        url: "https://ghostsweden.com",
+      },
+    })),
   };
-
-  // Función para ordenar conciertos
-  const sortConcerts = (concerts: typeof tourDates, order: "asc" | "desc") => {
-    return [...concerts].sort((a, b) => {
-      const dateA = new Date(a.date).getTime();
-      const dateB = new Date(b.date).getTime();
-      return order === "asc" ? dateA - dateB : dateB - dateA;
-    });
-  };
-
-  // Filtrar y ordenar conciertos próximos
-  const upcomingConcerts = useMemo(() => {
-    const upcoming = tourDates.filter((show) => new Date(show.date) >= today);
-    const filtered = filterConcerts(upcoming, searchQuery);
-    return sortConcerts(filtered, sortOrder);
-  }, [searchQuery, sortOrder, today]);
-
-  // Filtrar y ordenar conciertos pasados
-  const pastConcerts = useMemo(() => {
-    const past = tourDates.filter((show) => new Date(show.date) < today);
-    const filtered = filterConcerts(past, searchQuery);
-    return sortConcerts(filtered, sortOrder);
-  }, [searchQuery, sortOrder]);
-
-  const renderConcerts = (concerts: typeof tourDates) => (
-    <Grid container spacing={3}>
-      {concerts.map((show, index) => (
-        <Grid key={index} size={{ xs: 12, md: 6, lg: 4 }}>
-          <Card
-            sx={{
-              height: "100%",
-              transition: "transform 0.2s",
-              "&:hover": {
-                transform: "translateY(-4px)",
-                boxShadow: 4,
-              },
-            }}
-          >
-            <CardContent>
-              <Typography
-                variant="h6"
-                component="h3"
-                gutterBottom
-                color="primary"
-              >
-                {new Date(show.date).toLocaleDateString(
-                  locale === "es" ? "es-ES" : "en-US",
-                  {
-                    day: "numeric",
-                    month: "long",
-                    year: "numeric",
-                  },
-                )}
-              </Typography>
-              <Typography variant="h5" gutterBottom>
-                {show.city}
-              </Typography>
-              <Typography variant="body1" color="text.secondary" gutterBottom>
-                {show.venue}
-              </Typography>
-              <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
-                {show.country}
-              </Typography>
-            </CardContent>
-
-            <CardActions sx={{ p: 2, pt: 0 }}>
-              <Button
-                variant="contained"
-                color="primary"
-                fullWidth
-                href={show.ticketLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                sx={{
-                  textTransform: "uppercase",
-                  fontWeight: 600,
-                  py: 1.5,
-                }}
-              >
-                {t("buyTickets")}
-              </Button>
-            </CardActions>
-          </Card>
-        </Grid>
-      ))}
-    </Grid>
-  );
 
   return (
-    <ContainerGradientNoPadding>
-      <Box pt={{ xs: 2, md: 4 }} px={{ xs: 2, md: 0 }} pb={{ xs: 0, md: 0 }}>
-        <Breadcrumb items={[{ label: tb("tour") }]} />
-      </Box>
-      <Container maxWidth={false} sx={{ maxWidth: 1440, mx: "auto", py: 4 }}>
-        <Box sx={{ textAlign: "center", mb: 4 }}>
-          <Typography
-            variant="h1"
-            component="h1"
-            gutterBottom
-            sx={{ fontSize: { xs: 28, md: 56 }, fontWeight: 700 }}
-          >
-            {t("title")}
-          </Typography>
-          <Typography
-            variant="h5"
-            color="text.secondary"
-            sx={{ mb: 4, fontSize: { xs: 18, md: 24 } }}
-          >
-            {t("subtitle")}
-          </Typography>
-        </Box>
-
-        <Box sx={{ borderBottom: 1, borderColor: "divider", mb: 3 }}>
-          <Tabs
-            value={activeTab}
-            onChange={handleTabChange}
-            aria-label="tour tabs"
-            variant="scrollable"
-            scrollButtons="auto"
-            allowScrollButtonsMobile
-            sx={{
-              "& .MuiTab-root": {
-                fontSize: { xs: "0.9rem", md: "1.1rem" },
-                fontWeight: 600,
-                textTransform: "uppercase",
-                px: { xs: 2, md: 4 },
-              },
-            }}
-          >
-            <Tab
-              label={`${t("upcoming")} (${upcomingConcerts.length})`}
-              id="tour-tab-0"
-              aria-controls="tour-tabpanel-0"
-            />
-            <Tab
-              label={t("past")}
-              id="tour-tab-1"
-              aria-controls="tour-tabpanel-1"
-            />
-          </Tabs>
-        </Box>
-
-        {/* Buscador y botón de ordenamiento - solo para próximos shows */}
-        {activeTab === 0 && (
-          <Box
-            sx={{
-              display: "flex",
-              gap: 1.5,
-              mb: 3,
-              alignItems: "center",
-            }}
-          >
-            <TextField
-              fullWidth
-              placeholder={
-                locale === "es"
-                  ? "Buscar por ciudad, venue o país..."
-                  : "Search by city, venue or country..."
-              }
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              InputProps={{
-                startAdornment: (
-                  <InputAdornment position="start">
-                    <SearchIcon />
-                  </InputAdornment>
-                ),
-              }}
-              sx={{ flexGrow: 1 }}
-            />
-            <IconButton
-              onClick={toggleSortOrder}
-              color="primary"
-              sx={{
-                border: 1,
-                borderColor: "primary.main",
-                minWidth: 48,
-                height: 48,
-                "&:hover": {
-                  backgroundColor: "primary.main",
-                  color: "white",
-                },
-              }}
-              title={
-                locale === "es"
-                  ? sortOrder === "asc"
-                    ? "Ordenar descendente"
-                    : "Ordenar ascendente"
-                  : sortOrder === "asc"
-                    ? "Sort descending"
-                    : "Sort ascending"
-              }
-            >
-              {sortOrder === "asc" ? (
-                <ArrowUpwardIcon />
-              ) : (
-                <ArrowDownwardIcon />
-              )}
-            </IconButton>
-          </Box>
-        )}
-
-        <TabPanel value={activeTab} index={0}>
-          {upcomingConcerts.length > 0 ? (
-            renderConcerts(upcomingConcerts)
-          ) : (
-            <Box sx={{ textAlign: "center", py: 6 }}>
-              <Typography variant="h6" color="text.secondary">
-                {locale === "es"
-                  ? "No hay próximos conciertos programados"
-                  : "No upcoming concerts scheduled"}
-              </Typography>
-            </Box>
-          )}
-        </TabPanel>
-
-        <TabPanel value={activeTab} index={1}>
-          <PastShowsGrid />
-        </TabPanel>
-
-        <Box sx={{ textAlign: "center", mt: 2 }}>
-          <RandomSectionBanner currentSection="tour" />
-        </Box>
-      </Container>
-    </ContainerGradientNoPadding>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(eventJsonLd) }}
+      />
+      <TourClient />
+    </>
   );
 }

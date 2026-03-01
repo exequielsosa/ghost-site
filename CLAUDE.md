@@ -219,12 +219,28 @@ PRODUCTION_URL
 - ✅ Build verificado: compila sin errores
 - Resultado: página con estética gótica pero manteniendo claridad de lectura
 
+**SEO Audit Exhaustivo y Fixes (01 Mar 2026)**
+- ✅ Auditoría completa de SEO/metadata (sitemap, robots, layout, todas las pages)
+- ✅ **Prioridad 1 (críticos)**: layout.tsx JSON-LD corregido (Ghost: 2006, Linköping, genre teatral)
+- ✅ **Prioridad 2 (importantes)**: title/description optimizados (~60/160 chars), keywords deduplicados
+- ✅ **Prioridad 3 (mejoras)**:
+  - tour/page.tsx → TourClient.tsx + server wrapper con generateMetadata + JSON-LD EventSeries
+  - faq/page.tsx → FAQClient.tsx + server wrapper con JSON-LD server-side
+  - songs/page.tsx typo "Meeaning" + "thrash metal"→"theatrical rock"
+- ✅ **Prioridad 4 (opcionales)**:
+  - privacidad/page.tsx + terminos/page.tsx → generateMetadata + robots noindex
+  - RSS feed: `/api/feed/route.ts` con últimas 50 noticias (link en layout.tsx)
+- Documentación: `memory/seo-audit-2026-03-01.md` con plan detallado
+
 ### Pendiente
 
 **Configuración de servicios**
 - [ ] Configurar GitHub Secrets para el Action diario de scraping
 - [ ] Agregar env vars en Vercel: `KV_REST_API_URL`, `KV_REST_API_TOKEN`, `KV_REST_API_READ_ONLY_TOKEN`, `SETLISTFM_API_KEY`, `GHOST_MBID` (para que aparezcan las cards de shows)
 - [ ] Crear cuentas fan de Ghost en redes sociales → descomentar social media step en el Action
+
+**SEO — Pendiente**
+- [ ] `/noticias/page.tsx` — server wrapper (complejo: datos dinámicos, JSON-LD mixto)
 
 **Contenido y multimedia**
 - [ ] Reescribir/actualizar contenido con datos reales de Ghost:

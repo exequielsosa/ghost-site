@@ -1,7 +1,32 @@
+import { Metadata } from "next";
+import { getLocale } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import { Container, Typography, Box } from "@mui/material";
 import ContainerGradientNoPadding from "@/components/atoms/ContainerGradientNoPadding";
 import Breadcrumb from "@/components/Breadcrumb";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = (await getLocale()) as "es" | "en";
+
+  const title =
+    locale === "es"
+      ? "Términos y Condiciones | Ghost Argentina"
+      : "Terms and Conditions | Ghost Argentina";
+  const description =
+    locale === "es"
+      ? "Términos y condiciones del fan site Ghost Argentina. Condiciones de uso del sitio web."
+      : "Terms and conditions for Ghost Argentina fan site. Website usage terms.";
+
+  return {
+    title,
+    description,
+    robots: { index: false, follow: true },
+    alternates: {
+      canonical: "/terminos",
+      languages: { es: "/terminos", en: "/terminos" },
+    },
+  };
+}
 
 export default function TermsPage() {
   const t = useTranslations("terms");

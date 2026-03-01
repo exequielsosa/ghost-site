@@ -346,6 +346,14 @@ export default async function RootLayout({
           }}
         />
 
+        {/* RSS Feed */}
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="Ghost Argentina - Noticias"
+          href="https://ghostband.com.ar/api/feed"
+        />
+
         {/* Preconnect a recursos externos críticos */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
