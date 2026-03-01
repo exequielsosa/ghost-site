@@ -51,9 +51,43 @@ export async function generateMetadata({ params }: NewsPageProps) {
 
   const imageAlt = getSafeTranslation(article.imageAlt, locale, title);
 
+  // Generar keywords dinámicos basados en el título + keywords estáticos
+  const keywords = [
+    "Ghost",
+    "noticia",
+    "news",
+    "Ghost Argentina",
+    "Ghost noticias",
+    "Ghost news",
+    "últimas noticias Ghost",
+    "Ghost actualidad",
+    "Ghost breaking news",
+    "Tobias Forge",
+    "Papa Emeritus",
+    "Nameless Ghouls",
+    "Ghost band",
+    "theatrical rock",
+    "pop metal",
+    "Ghost tour",
+    "Ghost album",
+    "Ghost canciones",
+    "Ghost songs",
+    "Ghost eventos",
+    "Ghost events",
+    "Ghost Latinoamérica",
+    "Ghost Latin America",
+    "Ghost Spanish-speaking fans",
+    "Ghost en español",
+    ...title
+      .split(" ")
+      .filter((word) => word.length > 3 && !["Ghost", "news"].includes(word))
+      .slice(0, 5),
+  ].join(", ");
+
   return {
     title: `${title} | Ghost Argentina`,
     description: description,
+    keywords: keywords,
     other: {
       "fb:app_id": "894918050009208",
     },
