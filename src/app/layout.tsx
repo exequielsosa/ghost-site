@@ -129,7 +129,6 @@ export async function generateMetadata(): Promise<Metadata> {
       "Swedish band",
       "theatrical rock",
       "pop metal",
-      "theatrical rock",
       "theatrical metal",
       "Ghost official",
       "Ghost fan site",
@@ -145,15 +144,10 @@ export async function generateMetadata(): Promise<Metadata> {
       "Cardinal Copia",
       "Nameless Ghouls",
       "Ghost members",
-      "Ghost members",
       "ghouls Ghost",
       "Ghost tour 2024",
       "Ghost tour 2025",
       "Ghost tour 2026",
-      "theatrical rock",
-      "theatrical rock",
-      "pop metal",
-      "theatrical metal",
       "gothic rock",
       "melodic metal",
       "heavy rock",
@@ -166,10 +160,8 @@ export async function generateMetadata(): Promise<Metadata> {
       "Papa Emeritus III era",
       "Papa Emeritus IV era",
       "satanic rock",
-      "theatrical rock",
       "inverted Catholicism",
       "musical ritual",
-      "Ghost fan site",
       "Ghost Argentina fans",
       "Ghost community",
       "Ghost fandom",
@@ -177,11 +169,8 @@ export async function generateMetadata(): Promise<Metadata> {
       "latest Ghost news",
       "Ghost breaking news",
       "Ghost announcements",
-      "Ghost band",
-      "Ghost Swedish band",
       "Ghost music",
       "Ghost band members",
-      "Ghost official",
       "Ghost real members",
       "who is Ghost",
       "Ghost identity",
@@ -189,8 +178,6 @@ export async function generateMetadata(): Promise<Metadata> {
       "Tobias Forge Ghost",
       "Ghost founder",
       "Ghost mastermind",
-      "Ghost band",
-      "Ghost Swedish band",
       "Ghost theatrical rock",
       "Ghost Tobias Forge",
       "Ghost Papa Emeritus",
@@ -220,13 +207,13 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 
   const titleByLocale = {
-    es: "GHOST: Argentina 2026, Noticias, actualidad, shows, letras, discografía, bootlegs y adelantos del álbum final & gira 2026 Argentina / LATAM — Alice Cooper + King Diamond",
-    en: "GHOST: Argentina 2026, News, updates, shows, lyrics, discography, bootlegs and previews of the final album & 2026 tour Argentina / LATAM — Alice Cooper + King Diamond",
+    es: "Ghost Argentina | Noticias, Shows, Discografía y Letras",
+    en: "Ghost Argentina | News, Shows, Discography & Lyrics",
   };
 
   const descriptionByLocale = {
-    es: "Todo sobre GHOST: Argentina 2026, Noticias, actualidad, discografía, shows, letras, bootlegs y adelantos del álbum final 'Ghost' que se lanza el 23 de enero de 2026. Además, gira final en Argentina, Lima, Bogotá, Buenos Aires, São Paulo, Santiago y México. Historia completa de la banda sueca de rock teatral desde 2006 hasta 2025. Noticias, fechas de conciertos y adelantos exclusivos. Sitio no oficial de fans.",
-    en: "All about GHOST: Argentina 2026, News, updates, discography, shows, lyrics, bootlegs and previews of the final album 'Ghost' releasing on January 23, 2026. Plus, final tour in Argentina, Lima, Bogotá, Buenos Aires, São Paulo, Santiago and Mexico. Complete history of the Swedish theatrical rock band from 2006 to 2025. News, concert dates and exclusive previews. Unofficial fan site.",
+    es: "Fan site de Ghost en español. Noticias, gira 2026, discografía completa, letras, setlists y toda la historia de la banda sueca de rock teatral de Tobias Forge.",
+    en: "Ghost fan site in Spanish. News, 2026 tour, complete discography, lyrics, setlists and full history of Tobias Forge's Swedish theatrical rock band.",
   };
 
   return {
@@ -300,15 +287,14 @@ export default async function RootLayout({
               "@context": "https://schema.org",
               "@type": "MusicGroup",
               name: "Ghost",
-              genre: ["Heavy Metal", "Thrash Metal", "Speed Metal"],
-              foundingDate: "1983",
+              genre: ["Theatrical Rock", "Pop Metal", "Gothic Rock"],
+              foundingDate: "2006",
               foundingLocation: {
                 "@type": "Place",
                 address: {
                   "@type": "PostalAddress",
-                  addressLocality: "Los Angeles",
-                  addressRegion: "CA",
-                  addressCountry: "US",
+                  addressLocality: "Linköping",
+                  addressCountry: "SE",
                 },
               },
               member: [
@@ -345,11 +331,12 @@ export default async function RootLayout({
               ],
               url: "https://ghostband.com.ar",
               sameAs: [
-                "https://www.facebook.com/Ghost",
-                "https://twitter.com/Ghost",
-                "https://www.instagram.com/ghost",
-                "https://www.youtube.com/ghost",
-                "https://en.wikipedia.org/wiki/Ghost",
+                "https://www.facebook.com/thebandghost",
+                "https://twitter.com/thebandGHOST",
+                "https://www.instagram.com/thebandghost",
+                "https://www.youtube.com/@ghost",
+                "https://en.wikipedia.org/wiki/Ghost_(Swedish_band)",
+                "https://open.spotify.com/artist/1Qp56T7n950O3EGMsSl81D",
               ],
               description:
                 locale === "es"

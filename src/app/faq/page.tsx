@@ -1,119 +1,83 @@
-"use client";
-import { useTranslations } from "next-intl";
-import { Container, Typography, Box } from "@mui/material";
-import { useEffect } from "react";
-import Breadcrumb from "@/components/Breadcrumb";
-import ContainerGradientNoPadding from "@/components/atoms/ContainerGradientNoPadding";
+import { Metadata } from "next";
+import { getLocale, getTranslations } from "next-intl/server";
+import FAQClient from "./FAQClient";
 
-export default function FAQPage() {
-  const t = useTranslations("faq");
-  const tb = useTranslations("breadcrumb");
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = (await getLocale()) as "es" | "en";
 
-  useEffect(() => {
-    const faqJsonLd = {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: t("q1"),
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: t("a1"),
-          },
-        },
-        {
-          "@type": "Question",
-          name: t("q2"),
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: t("a2"),
-          },
-        },
-        {
-          "@type": "Question",
-          name: t("q3"),
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: t("a3"),
-          },
-        },
-      ],
-    };
-    const script = document.createElement("script");
-    script.type = "application/ld+json";
-    script.id = "faq-jsonld";
-    script.text = JSON.stringify(faqJsonLd);
-    document.head.appendChild(script);
-    return () => {
-      const el = document.getElementById("faq-jsonld");
-      if (el) document.head.removeChild(el);
-    };
-  }, [t]);
+  const title =
+    locale === "es"
+      ? "Preguntas Frecuentes | Ghost Argentina"
+      : "FAQ | Ghost Argentina";
+  const description =
+    locale === "es"
+      ? "Preguntas frecuentes sobre el fan site de Ghost Argentina. Información sobre la banda, gira, contacto y más."
+      : "Frequently asked questions about Ghost Argentina fan site. Band info, tour dates, contact and more.";
+
+  const keywords = [
+    "Ghost", "FAQ", "preguntas frecuentes", "Ghost Argentina",
+    "Ghost band", "Ghost fan site", "theatrical rock",
+    "Tobias Forge", "Papa Emeritus", "Nameless Ghouls",
+    "Ghost tour", "Ghost gira", "Ghost contacto",
+  ].join(", ");
+
+  return {
+    title,
+    description,
+    keywords,
+    openGraph: {
+      title,
+      description,
+      url: "/faq",
+      siteName: "Ghost Fan Site",
+      locale: locale === "es" ? "es_ES" : "en_US",
+      type: "website",
+    },
+    twitter: {
+      card: "summary",
+      title,
+      description,
+    },
+    alternates: {
+      canonical: "/faq",
+      languages: { es: "/faq", en: "/faq" },
+    },
+    robots: { index: true, follow: true },
+  };
+}
+
+export default async function FAQPage() {
+  const t = await getTranslations("faq");
+
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: t("q1"),
+        acceptedAnswer: { "@type": "Answer", text: t("a1") },
+      },
+      {
+        "@type": "Question",
+        name: t("q2"),
+        acceptedAnswer: { "@type": "Answer", text: t("a2") },
+      },
+      {
+        "@type": "Question",
+        name: t("q3"),
+        acceptedAnswer: { "@type": "Answer", text: t("a3") },
+      },
+    ],
+  };
+
   return (
-    <ContainerGradientNoPadding>
-      <Box pt={{ xs: 2, md: 4 }} px={{ xs: 2, md: 0 }} pb={{ xs: 0, md: 0 }}>
-        <Breadcrumb items={[{ label: tb("faq") }]} />
-      </Box>
-      <Container maxWidth={false} sx={{ maxWidth: 1440, mx: "auto", py: 4 }}>
-        <Typography
-          variant="h3"
-          component="h1"
-          gutterBottom
-          color="primary"
-          fontWeight={700}
-          sx={{ fontSize: { xs: "1.75rem", md: "3rem" } }}
-        >
-          {t("title")}
-        </Typography>
-        <Box sx={{ mt: 4 }}>
-          <Typography
-            variant="h6"
-            color="text.primary"
-            fontWeight={600}
-            sx={{ fontSize: { xs: "1.1rem", md: "1.25rem" } }}
-          >
-            {t("q1")}
-          </Typography>
-          <Typography
-            variant="body1"
-            color="text.secondary"
-            sx={{ mb: 3, fontSize: { xs: "0.9rem", md: "1rem" } }}
-          >
-            {t("a1")}
-          </Typography>
-          <Typography
-            variant="h6"
-            color="text.primary"
-            fontWeight={600}
-            sx={{ fontSize: { xs: "1.1rem", md: "1.25rem" } }}
-          >
-            {t("q2")}
-          </Typography>
-          <Typography
-            variant="body1"
-            color="text.secondary"
-            sx={{ mb: 3, fontSize: { xs: "0.9rem", md: "1rem" } }}
-          >
-            {t("a2")}
-          </Typography>
-          <Typography
-            variant="h6"
-            color="text.primary"
-            fontWeight={600}
-            sx={{ fontSize: { xs: "1.1rem", md: "1.25rem" } }}
-          >
-            {t("q3")}
-          </Typography>
-          <Typography
-            variant="body1"
-            color="text.secondary"
-            sx={{ mb: 3, fontSize: { xs: "0.9rem", md: "1rem" } }}
-          >
-            {t("a3")}
-          </Typography>
-        </Box>
-      </Container>
-    </ContainerGradientNoPadding>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+      <FAQClient />
+    </>
   );
 }
