@@ -21,6 +21,24 @@ import ContainerGradientNoPadding from "@/components/atoms/ContainerGradientNoPa
 import Breadcrumb from "@/components/Breadcrumb";
 import RandomSectionBanner from "@/components/NewsBanner";
 
+interface Member {
+  id: string;
+  name: string;
+  image: string;
+  fullName: BilingualText;
+  nickname?: BilingualText;
+  period: BilingualText;
+  instruments: { es: string[]; en: string[] };
+  role: BilingualText;
+  country: BilingualText;
+  biography: BilingualText;
+  albums?: string[];
+  otherProjects?: { es: string[]; en: string[] };
+  birthYear?: number | null;
+  deathYear?: number | null;
+  ghouls_era?: number;
+}
+
 interface PageProps {
   params: Promise<{
     memberId: string;
@@ -35,8 +53,8 @@ export default function MemberDetailPage({ params }: PageProps) {
   const currentLocale = locale as "es" | "en";
 
   // Search in current members first, then in ghouls
-  let member: any =
-    membersData.members[memberId as keyof typeof membersData.members];
+  let member: Member | undefined =
+    membersData.members[memberId as keyof typeof membersData.members] as Member;
 
   if (!member) {
     // Search in all ghouls eras
@@ -45,7 +63,7 @@ export default function MemberDetailPage({ params }: PageProps) {
       ...Object.values(ghoulsData.ghouls_era2 || {}),
       ...Object.values(ghoulsData.ghouls_era3 || {}),
     ];
-    member = allGhouls.find((g: any) => g.id === memberId);
+    member = allGhouls.find((g) => (g as Member).id === memberId) as Member | undefined;
   }
 
   if (!member) {
@@ -306,7 +324,7 @@ export default function MemberDetailPage({ params }: PageProps) {
                     <Box
                       sx={{ display: "flex", flexDirection: "column", gap: 1 }}
                     >
-                      {member.otherProjects[currentLocale]?.map(
+                      {member.otherProjects?.[currentLocale]?.map(
                         (project: string, index: number) => (
                           <Typography
                             key={index}
@@ -317,7 +335,7 @@ export default function MemberDetailPage({ params }: PageProps) {
                           </Typography>
                         ),
                       ) ||
-                        member.otherProjects.es?.map(
+                        member.otherProjects?.es?.map(
                           (project: string, index: number) => (
                             <Typography
                               key={index}

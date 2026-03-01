@@ -245,8 +245,9 @@ export default function SongDetailPage({ songId }: SongDetailPageProps) {
     );
 
   const isTop10 = top10Songs.includes(song.title);
-  const themeText = song.theme[instrumentKey];
+  const themeText = song.theme?.[instrumentKey as keyof typeof song.theme] ?? "";
   const timesPlayed = songsCounts[song.title] || 0;
+  const albumArtwork = (song.album as Record<string, unknown>).songArtwork as string | undefined;
 
   return (
     <ContainerGradientNoPadding>
@@ -394,7 +395,7 @@ export default function SongDetailPage({ songId }: SongDetailPageProps) {
             </Box>
 
             {/* Song Artwork */}
-            {song.album.songArtwork && (
+            {albumArtwork && (
               <Box sx={{ mt: 4, mb: 3 }}>
                 <Typography variant="subtitle1" sx={{ mb: 2, fontWeight: 600 }}>
                   {t("songArtwork")}
@@ -410,7 +411,7 @@ export default function SongDetailPage({ songId }: SongDetailPageProps) {
                     }}
                   >
                     <Image
-                      src={song.album.songArtwork}
+                      src={albumArtwork}
                       alt={`${song.title} artwork`}
                       fill
                       style={{ objectFit: "cover" }}

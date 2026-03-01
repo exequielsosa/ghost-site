@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = song.title;
   const album = song.album.title;
   const year = song.album.year;
-  const theme = locale === "es" ? song.theme.es : song.theme.en;
+  const theme = song.theme ? (locale === "es" ? song.theme.es : song.theme.en) : "";
   const description = `${title} (${year}) - ${album}. ${theme}`;
 
   const keywords = [

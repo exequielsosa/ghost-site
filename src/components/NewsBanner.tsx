@@ -81,8 +81,8 @@ const sections: Section[] = [
     route: "/historia",
     image: "/images/banners/history.png",
     adText: {
-      es: "La cronologia completa del legado: Linea de tiempo, hechos y mas",
-      en: "The complete chronology of the legacy: Timeline, facts and more",
+      es: "Todas las eras: Linea de tiempo, hechos y mas",
+      en: "All eras: Timeline, facts and more",
     },
   },
   {
@@ -91,8 +91,8 @@ const sections: Section[] = [
     route: "/miembros",
     image: "/images/banners/members.png",
     adText: {
-      es: "Profile a todos los miembros de Ghost, conoce a los musicos detras de la leyenda",
-      en: "Profile all Ghost members, meet the musicians behind the legend",
+      es: "Perfil de todos los miembros de Ghost, conoce a los musicos detras de los ghouls",
+      en: "Profile all Ghost members, meet the musicians behind the ghouls",
     },
   },
   {
@@ -101,8 +101,8 @@ const sections: Section[] = [
     route: "/papas",
     image: "/images/banners/lineup.png",
     adText: {
-      es: "Descubre todas las formaciones a lo largo de los años",
-      en: "Discover all the lineups throughout the years",
+      es: "Conoce a todos los papas a lo largo de los años",
+      en: "Meet all the popes throughout the years",
     },
   },
   {
@@ -121,18 +121,8 @@ const sections: Section[] = [
     route: "/entrevistas",
     image: "/images/banners/interviews.png",
     adText: {
-      es: "Lee y mira las entrevistas más interesantes a lo largo de los ultimos 40 años",
-      en: "Read the most interesting interviews throughout the last 40 years",
-    },
-  },
-  {
-    id: "bootlegs",
-    name: { es: "Bootlegs", en: "Bootlegs" },
-    route: "/bootlegs",
-    image: "/images/banners/bootlegs.png",
-    adText: {
-      es: "Descubre grabaciones no oficiales, tesoros escondidos para fans",
-      en: "Discover unofficial recordings, hidden treasures for fans",
+      es: "Lee y mira las entrevistas más interesantes a Tobias Forge",
+      en: "Read the most interesting interviews with Tobias Forge",
     },
   },
 ];
