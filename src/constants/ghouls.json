@@ -520,8 +520,8 @@
       "image": "/images/members/coss.jpg",
       "birthYear": null,
       "country": {
-        "es": "Desconocido",
-        "en": "Unknown"
+        "es": "Canadá",
+        "en": "Canada"
       },
       "ghouls_era": 2
     },
@@ -560,8 +560,8 @@
       "image": "/images/members/hayden.jpg",
       "birthYear": null,
       "country": {
-        "es": "Desconocido",
-        "en": "Unknown"
+        "es": "US",
+        "en": "US"
       },
       "ghouls_era": 2
     },
@@ -658,8 +658,8 @@
       "image": "/images/members/laura.jpg",
       "birthYear": null,
       "country": {
-        "es": "Desconocido",
-        "en": "Unknown"
+        "es": "US",
+        "en": "US"
       },
       "ghouls_era": 2
     },
@@ -836,8 +836,8 @@
       "image": "/images/members/olivia.jpg",
       "birthYear": null,
       "country": {
-        "es": "Desconocido",
-        "en": "Unknown"
+        "es": "US",
+        "en": "US"
       },
       "ghouls_era": 3
     },
@@ -876,21 +876,21 @@
       "image": "/images/members/randy.jpg",
       "birthYear": null,
       "country": {
-        "es": "Desconocido",
-        "en": "Unknown"
+        "es": "US",
+        "en": "US"
       },
       "ghouls_era": 3
     },
-    "nameless-ghoul-air-skeletour": {
-      "id": "nameless-ghoul-air-skeletour",
-      "name": "Desconocido",
+    "tim-cummins": {
+      "id": "tim-cummins",
+      "name": "Tim Cummins",
       "fullName": {
-        "es": "Desconocido",
-        "en": "Unknown"
+        "es": "Tim Cummins",
+        "en": "Tim Cummins"
       },
       "nickname": {
-        "es": "Air / Zac Baird (Ghoul del elemento Aire del Skeletour 2025; teclado)",
-        "en": "Air / Zac Baird (Air element Ghoul of the Skeletour 2025; keyboards)"
+        "es": "Air (Ghoul del elemento Aire del Skeletour 2025; teclado)",
+        "en": "Air (Air element Ghoul of the Skeletour 2025; keyboards)"
       },
       "period": {
         "es": "2025 – presente",
@@ -907,19 +907,21 @@
       "albums": ["Skeletá"],
       "otherProjects": {
         "es": [
-          "Desconocido / posiblemente Zac Baird según especulaciones del fandom"
+          " Antes de unirse a Ghost, Cummins era conocido por formar parte de la banda de rock/metal Twin Temple"
         ],
-        "en": ["Unknown / possibly Zac Baird according to fandom speculation"]
+        "en": [
+          "Before joining Ghost, Cummins was known for being part of the rock/metal band Twin Temple"
+        ]
       },
       "biography": {
         "es": "Teclista del Skeletour 2025; fotografiado por Getty Images como 'Nameless Ghoul Air', sin identidad pública confirmada.\n\nEl teclista del Skeletour 2025 es uno de los pocos miembros activos de Ghost cuya identidad real permanece sin confirmar públicamente. Getty Images lo catalogó directamente como 'Nameless Ghoul Air' en lugar de revelar su nombre, lo que indica que en el contexto del Skeletour mantuvo su anonimato de forma más estricta que los demás.\n\nAlgunos sectores del fandom especulan que podría tratarse de Zac Baird, un músico de estudio y sesión conocido en el ámbito del rock y el metal, aunque esto no ha sido confirmado oficialmente.\n\nSu rol en el Skeletour cubre la posición de teclista principal, una silla ocupada en eras anteriores por Mauro Rubino (era clásica), Laura Scarborough y Mad Gallica (era Prequelle/Impera).",
         "en": "Keyboardist of the Skeletour 2025; photographed by Getty Images as 'Nameless Ghoul Air', with no confirmed public identity.\n\nThe keyboardist of the Skeletour 2025 is one of the few active Ghost members whose real identity remains publicly unconfirmed. Getty Images catalogued them directly as 'Nameless Ghoul Air' rather than revealing their name, indicating that in the context of the Skeletour they maintained their anonymity more strictly than the others.\n\nSome sections of the fandom speculate that this could be Zac Baird, a studio and session musician known in the rock and metal sphere, though this has not been officially confirmed.\n\nTheir role in the Skeletour covers the main keyboard position, a chair previously held by Mauro Rubino (classic era), Laura Scarborough and Mad Gallica (Prequelle/Impera era)."
       },
-      "image": "/images/members/nameless3.jpg",
+      "image": "/images/members/timcummins.jpg",
       "birthYear": null,
       "country": {
-        "es": "Desconocido",
-        "en": "Unknown"
+        "es": "UK",
+        "en": "UK"
       },
       "ghouls_era": 3
     }
