@@ -61,7 +61,7 @@ export default function HeroHeader() {
           variant="body1"
           sx={{
             fontSize: { xs: "0.9rem", sm: "1.1rem", md: "1.25rem" },
-            color: "text.primary",
+            color: "#ffffff",
             fontFamily: "var(--font-crimson-text)",
             fontWeight: 300,
             letterSpacing: "0.02em",
@@ -136,7 +136,7 @@ export default function HeroHeader() {
                 <Typography
                   sx={{
                     fontSize: { xs: "0.75rem", md: "0.9rem" },
-                    color: "text.primary",
+                    color: "#ffffff",
                     textTransform: "uppercase",
                     letterSpacing: "0.08em",
                     fontWeight: 500,
