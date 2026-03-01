@@ -414,17 +414,17 @@
   "quickAccess": {
     "title": "Explora el Contenido",
     "discography": "Discografía",
-    "discographyCount": "17 álbumes",
+    "discographyCount": "8 álbumes",
     "songs": "Canciones",
-    "songsCount": "150+ canciones",
+    "songsCount": "80+ canciones",
     "videos": "Videos",
-    "videosCount": "50+ videos",
+    "videosCount": "20+ videos",
     "tour": "Tour 2026",
     "tourCount": "Fechas en vivo",
     "interviews": "Entrevistas",
     "interviewsCount": "Entrevistas exclusivas",
     "history": "Historia",
-    "historyCount": "40+ años"
+    "historyCount": "20+ años"
   },
   "topSongs": {
     "title": "Top 10 Canciones Más Tocadas en Vivo",
@@ -439,6 +439,14 @@
   },
   "heroIntro": {
     "description": "Bienvenido al sitio más completo de Ghost en español. Descubre toda la discografía, historia de la banda, shows en vivo, entrevistas exclusivas, letras de canciones y las últimas noticias sobre Dave Mustaine, Teemu Mäntysaari, James LoMenzo y Dirk Verbeuren."
+  },
+  "heroHeader": {
+    "welcome": "Bienvenido a Ghost. Todo sobre la banda sueca de rock teatral. Discografía completa, shows en vivo, noticias y la historia de Tobias Forge.",
+    "statsAlbums": "Álbumes",
+    "statsGrammys": "Grammy Awards",
+    "statsTours": "Gira Global",
+    "ctaNews": "Noticias",
+    "ctaDiscography": "Discografía"
   },
   "search": {
     "placeholder": "Buscar canciones, álbumes, shows, noticias...",

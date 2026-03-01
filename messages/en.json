@@ -414,17 +414,17 @@
   "quickAccess": {
     "title": "Explore Content",
     "discography": "Discography",
-    "discographyCount": "17 albums",
+    "discographyCount": "8 albums",
     "songs": "Songs",
-    "songsCount": "150+ songs",
+    "songsCount": "80+ songs",
     "videos": "Videos",
-    "videosCount": "50+ videos",
+    "videosCount": "20+ videos",
     "tour": "Tour 2026",
     "tourCount": "Live dates",
     "interviews": "Interviews",
     "interviewsCount": "Exclusive interviews",
     "history": "History",
-    "historyCount": "40+ years"
+    "historyCount": "20+ years"
   },
   "topSongs": {
     "title": "Top 10 Most Played Songs Live",
@@ -439,6 +439,14 @@
   },
   "heroIntro": {
     "description": "Welcome to the most complete Ghost site in Spanish. Discover the entire discography, band history, live shows, exclusive interviews, song lyrics and the latest news about Dave Mustaine, Teemu Mäntysaári, James LoMenzo and Dirk Verbeuren."
+  },
+  "heroHeader": {
+    "welcome": "Welcome to Ghost. Everything about the Swedish theatrical rock band. Complete discography, live shows, news and the story of Tobias Forge.",
+    "statsAlbums": "Albums",
+    "statsGrammys": "Grammy Awards",
+    "statsTours": "Global Tour",
+    "ctaNews": "News",
+    "ctaDiscography": "Discography"
   },
   "search": {
     "placeholder": "Search songs, albums, shows, news...",
