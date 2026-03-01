@@ -21,10 +21,10 @@ export default function HistoriaClient() {
 
   // Estadísticas interesantes
   const stats = [
-    { label: t("activeYears"), value: "43", detail: "1983-2026" },
-    { label: t("studioAlbums"), value: "17", detail: t("includingFinal") },
-    { label: t("lineupChanges"), value: "20+", detail: t("multipleEras") },
-    { label: t("worldwideSales"), value: "38M", detail: t("recordsSold") },
+    { label: t("activeYears"), value: "20", detail: "2006-2026" },
+    { label: t("studioAlbums"), value: "12", detail: t("includingFinal") },
+    { label: t("ghoulMembers"), value: "20+", detail: t("historicalGhouls") },
+    { label: t("socialReach"), value: "1M+", detail: t("followers") },
   ];
 
   return (
@@ -58,7 +58,7 @@ export default function HistoriaClient() {
                 left: 0,
                 right: 0,
                 bottom: 0,
-                background: 'url("/images/historia/vic_v2.webp")',
+                background: 'url("/images/historia/home.jpg")',
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 opacity: 0.3,
@@ -217,7 +217,7 @@ export default function HistoriaClient() {
           </Box>
 
           {/* Información adicional */}
-          <Box
+          {/* <Box
             sx={{
               borderRadius: { xs: 0, md: 4 },
               p: 4,
@@ -269,7 +269,7 @@ export default function HistoriaClient() {
                 {t("seeEnding")}
               </Button>
             </Box>
-          </Box>
+          </Box> */}
         </Box>
       </Box>
     </>

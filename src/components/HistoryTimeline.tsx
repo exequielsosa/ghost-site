@@ -212,8 +212,8 @@ export default function HistoryTimeline({
             .map(
               (chapter, index) =>
                 `${getChapterColor(chapter, index)} ${getChapterPosition(
-                  index
-                )}%`
+                  index,
+                )}%`,
             )
             .join(", ")})`,
           borderRadius: 2,
@@ -306,10 +306,11 @@ export default function HistoryTimeline({
                       size="small"
                       sx={{
                         backgroundColor: `${chapterColor}20`,
-                        color: chapterColor,
+                        color: theme.palette.text.primary,
                         fontWeight: 600,
                         fontSize: "0.6rem",
                         height: "18px",
+                        border: `1px solid ${chapterColor}40`,
                       }}
                     />
                   </Box>
@@ -333,14 +334,14 @@ export default function HistoryTimeline({
                     <Typography
                       variant="body2"
                       sx={{
-                        color: chapterColor,
-                        fontWeight: 500,
+                        color: theme.palette.text.secondary,
+                        fontWeight: 600,
                         fontSize: "0.7rem",
                         mb: 0.5,
                         fontStyle: "italic",
                       }}
                     >
-                      {getText(chapter.subtitle, locale)}
+                      {getText(chapter.subtitle, locale)}:
                     </Typography>
                   )}
 
@@ -371,9 +372,8 @@ export default function HistoryTimeline({
                       height: 0,
                       borderLeft: "8px solid transparent",
                       borderRight: "8px solid transparent",
-                      [index % 2 === 0
-                        ? "borderTop"
-                        : "borderBottom"]: `8px solid ${theme.palette.background.paper}`,
+                      [index % 2 === 0 ? "borderTop" : "borderBottom"]:
+                        `8px solid ${theme.palette.background.paper}`,
                     }}
                   />
                 </Box>

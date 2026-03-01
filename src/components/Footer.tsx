@@ -1,5 +1,12 @@
 "use client";
-import { Box, Container, Typography, Divider, Grid, IconButton } from "@mui/material";
+import {
+  Box,
+  Container,
+  Typography,
+  Divider,
+  Grid,
+  IconButton,
+} from "@mui/material";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import { useTranslations, useLocale } from "next-intl";
@@ -34,8 +41,7 @@ export default function Footer() {
       "@type": "SearchAction",
       target: {
         "@type": "EntryPoint",
-        urlTemplate:
-          "https://ghost-fan-site.com/search?q={search_term_string}",
+        urlTemplate: "https://ghost-fan-site.com/search?q={search_term_string}",
       },
       "query-input": "required name=search_term_string",
     },
@@ -304,7 +310,7 @@ export default function Footer() {
           >
             {t("disclaimer", { year: new Date().getFullYear() })}
           </Typography>
-          <Box sx={{ display: "flex", gap: 0.5 }}>
+          {/* <Box sx={{ display: "flex", gap: 0.5 }}>
             <IconButton
               component="a"
               href="https://www.facebook.com/profile.php?id=939019079302919"
@@ -327,7 +333,7 @@ export default function Footer() {
             >
               <InstagramIcon fontSize="small" />
             </IconButton>
-          </Box>
+          </Box> */}
         </Box>
 
         {/* Schema.org JSON-LD */}
