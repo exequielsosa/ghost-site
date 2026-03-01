@@ -30,7 +30,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: '/contacto', priority: 0.7, changeFreq: 'monthly' as const },
     { path: '/songs', priority: 0.9, changeFreq: 'monthly' as const },
     { path: '/shows', priority: 0.9, changeFreq: 'weekly' as const },
-    { path: '/discography/reviews', priority: 0.9, changeFreq: 'weekly' as const },
+    // { path: '/discography/reviews', priority: 0.9, changeFreq: 'weekly' as const },
   ];
   const sitemap: MetadataRoute.Sitemap = [];
 
@@ -182,18 +182,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }
 
   // Reviews dinámicas
-  if (Array.isArray(reviewsData)) {
-    reviewsData.forEach(review => {
-      if (review.id) {
-        sitemap.push({
-          url: `${base}/discography/reviews/${review.id}`,
-          lastModified: new Date(),
-          changeFrequency: 'monthly',
-          priority: 0.8,
-        });
-      }
-    });
-  }
+  // if (Array.isArray(reviewsData)) {
+  //   reviewsData.forEach(review => {
+  //     if (review.id) {
+  //       sitemap.push({
+  //         url: `${base}/discography/reviews/${review.id}`,
+  //         lastModified: new Date(),
+  //         changeFrequency: 'monthly',
+  //         priority: 0.8,
+  //       });
+  //     }
+  //   });
+  // }
 
   return sitemap;
 }

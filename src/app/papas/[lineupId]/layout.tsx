@@ -25,7 +25,7 @@ export async function generateMetadata({
 
   if (!lineup) {
     return {
-      title: locale === "en" ? "Lineup not found" : "Formación no encontrada",
+      title: locale === "en" ? "Pope not found" : "Papa no encontrado",
     };
   }
 
@@ -34,9 +34,7 @@ export async function generateMetadata({
   const description = lineup.description[lang] || lineup.description.es;
 
   return {
-    title: `${title} - ${
-      locale === "en" ? "Ghost Lineups" : "Formaciones Ghost"
-    }`,
+    title: `${title} - ${locale === "en" ? "Ghost Popes" : "Papas de Ghost"}`,
     description,
     openGraph: {
       title: `${title} - Ghost`,

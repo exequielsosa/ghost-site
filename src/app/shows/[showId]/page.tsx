@@ -69,7 +69,7 @@ export async function generateMetadata({
       publishedTime: show.date,
       images: [
         {
-          url: show.image || "/images/shows/1994.jpg",
+          url: show.image || "/images/banners/shows.png",
           width: 1200,
           height: 630,
           alt: `${title} - ${formatShowDate(show.date, locale)}`,
@@ -80,7 +80,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: fullTitle,
       description,
-      images: [show.image || "/images/shows/1994.jpg"],
+      images: [show.image || "/images/banners/shows.png"],
       creator: "@GhostFanSite",
     },
     alternates: {

@@ -17,42 +17,42 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 
   const descriptionByLocale = {
-    es: "Colección completa de DVDs de Ghost: videos musicales, documentales, conciertos en vivo y material exclusivo. Desde Rusted Pieces hasta sus últimos lanzamientos en formato audiovisual.",
-    en: "Complete collection of Ghost DVDs: music videos, documentaries, live concerts and exclusive material. From Rusted Pieces to their latest audiovisual releases.",
+    es: "Colección oficial de DVDs y películas de Ghost: el debut cinematográfico 'Rite Here Rite Now', conciertos en vivo, videos musicales y documentales del legendario acto de rock teatral sueco.",
+    en: "Official collection of Ghost DVDs and films: the cinematic debut 'Rite Here Rite Now', live concerts, music videos and documentaries from the legendary Swedish theatrical rock act.",
   };
 
   const keywordsByLocale = {
     es: [
       "Ghost DVDs",
-      "videos Ghost",
-      "Rusted Pieces",
-      "Exposure of a Dream",
+      "Rite Here Rite Now",
+      "Ceremony and Devotion",
       "conciertos Ghost",
-      "documentales metal",
-      "Dave Mustaine",
-      "thrash metal DVDs",
-      "videos musicales",
-      "Capitol Records",
-      "VHS Ghost",
+      "documentales rock teatral",
+      "videos musicales Ghost",
+      "Tobias Forge",
+      "rock teatral DVDs",
+      "película Ghost",
+      "Kia Forum",
+      "material exclusivo Ghost",
       "formato audiovisual",
-      "colección DVDs",
-      "material exclusivo",
+      "colección DVDs Ghost",
+      "cinematic debut",
     ],
     en: [
       "Ghost DVDs",
-      "Ghost videos",
-      "Rusted Pieces",
-      "Exposure of a Dream",
+      "Rite Here Rite Now",
+      "Ceremony and Devotion",
       "Ghost concerts",
-      "metal documentaries",
-      "Dave Mustaine",
-      "thrash metal DVDs",
-      "music videos",
-      "Capitol Records",
-      "Ghost VHS",
+      "theatrical rock documentaries",
+      "Ghost music videos",
+      "Tobias Forge",
+      "theatrical rock DVDs",
+      "Ghost film",
+      "Kia Forum",
+      "exclusive Ghost material",
       "audiovisual format",
-      "DVD collection",
-      "exclusive material",
+      "Ghost DVD collection",
+      "cinematic debut",
     ],
   };
 
@@ -107,7 +107,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "/og-dvds.jpg",
+          url: "/images/banners/dvd.png",
           width: 1200,
           height: 630,
           alt:
@@ -124,7 +124,7 @@ export async function generateMetadata(): Promise<Metadata> {
       description:
         descriptionByLocale[locale as keyof typeof descriptionByLocale] ||
         descriptionByLocale.es,
-      images: ["/og-dvds.jpg"],
+      images: ["/images/banners/dvd.png"],
       creator: "@GhostFanSite",
     },
   };
@@ -170,7 +170,7 @@ function generateStructuredData(locale: string) {
       creator: {
         "@type": "MusicGroup",
         name: "Ghost",
-        genre: "Thrash Metal",
+        genre: "Theatrical Rock",
       },
     }));
 
@@ -185,8 +185,8 @@ function generateStructuredData(locale: string) {
   };
 
   const aboutDescriptionByLocale = {
-    es: "Banda estadounidense de thrash metal formada en 1983 por Dave Mustaine",
-    en: "American thrash metal band formed in 1983 by Dave Mustaine",
+    es: "Banda sueca de rock teatral formada en 2006 por Tobias Forge, conocida por su combinación de rock pesado con elementos teatrales y pop accesible.",
+    en: "Swedish theatrical rock band formed in 2006 by Tobias Forge, known for their blend of heavy rock with theatrical elements and accessible pop.",
   };
 
   return {
@@ -210,8 +210,8 @@ function generateStructuredData(locale: string) {
     about: {
       "@type": "MusicGroup",
       name: "Ghost",
-      genre: "Thrash Metal",
-      foundingDate: "1983",
+      genre: "Theatrical Rock",
+      foundingDate: "2006",
       description:
         aboutDescriptionByLocale[
           locale as keyof typeof aboutDescriptionByLocale

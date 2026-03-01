@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, Typography, Button, Chip } from "@mui/material";
+import { Box, Typography, Chip } from "@mui/material";
 import HistoryTimeline from "@/components/HistoryTimeline";
 import historiaData from "@/constants/historia.json";
 import { HistoryData } from "@/types/historia";

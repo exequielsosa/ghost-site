@@ -49,8 +49,8 @@ export async function generateMetadata({
   const keywords = [
     `Ghost ${chapterTitle}`,
     `Historia ${chapter.period}`,
-    "Dave Mustaine",
-    "thrash metal",
+    "Tobias Forge",
+    "theatrical rock",
     chapterTitle.toLowerCase(),
     ...chapter.sections.flatMap((section) =>
       section.title ? [getText(section.title, locale)] : [],
@@ -76,7 +76,7 @@ export async function generateMetadata({
           ]
         : [
             {
-              url: "/images/historia/ghost-default-chapter.jpg",
+              url: "/images/banners/history.png",
               width: 1200,
               height: 630,
               alt: `${chapterTitle} - ${t("ghostHistory")}`,
@@ -89,7 +89,7 @@ export async function generateMetadata({
       description: chapterSummary,
       images: chapter.coverImage
         ? [chapter.coverImage.src]
-        : ["/images/historia/ghost-default-chapter.jpg"],
+        : ["/images/banners/history.png"],
     },
     alternates: {
       canonical: `/historia/${chapter.slug}`,
@@ -129,20 +129,19 @@ export default async function CapituloPage({ params }: PageProps) {
     "@type": "Article",
     headline: `${chapterTitle} (${chapter.period})`,
     description: chapterSummary,
-    image:
-      chapter.coverImage?.src ||
-      "/images/historia/ghost-default-chapter.jpg",
+    image: chapter.coverImage?.src || "/images/banners/history.png",
     author: {
       "@type": "Organization",
       name: "Ghost",
-      url: "https://ghost.com",
+      url: "https://ghostband.com.ar",
     },
     publisher: {
       "@type": "Organization",
       name: "Ghost Official",
+      url: "https://ghostband.com.ar",
       logo: {
         "@type": "ImageObject",
-        url: "/images/ghost-logo.png",
+        url: "/images/pagelogo.jpg",
       },
     },
     datePublished: "2025-01-01T00:00:00.000Z",
@@ -151,16 +150,15 @@ export default async function CapituloPage({ params }: PageProps) {
     keywords: [
       `Ghost ${chapter.title}`,
       `Historia ${chapter.period}`,
-      "thrash metal",
-      "Dave Mustaine",
+      "Tobias Forge",
+      "theatrical rock",
     ].join(", "),
     about: {
       "@type": "MusicGroup",
       name: "Ghost",
-      genre: "Thrash Metal",
-      foundingDate: "1983",
-      description:
-        "Banda estadounidense de thrash metal fundada por Dave Mustaine",
+      genre: "Theatrical Rock",
+      foundingDate: "2006",
+      description: "Banda sueca de rock teatral fundada por Tobias Forge",
     },
     mainEntity: {
       "@type": "CreativeWork",
@@ -168,7 +166,7 @@ export default async function CapituloPage({ params }: PageProps) {
       description: chapter.summary,
       creator: {
         "@type": "Person",
-        name: "Dave Mustaine",
+        name: "Tobias Forge",
         jobTitle: "Fundador y líder de Ghost",
       },
     },

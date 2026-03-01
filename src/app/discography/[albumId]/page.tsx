@@ -65,7 +65,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       album.title,
       album.year.toString(),
       "album",
-      "thrash metal",
+      "Theatrical Rock",
       "metal",
       ...(album.producers || []),
     ],

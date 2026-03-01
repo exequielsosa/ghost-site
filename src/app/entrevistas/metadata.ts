@@ -2,21 +2,21 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Entrevistas | Ghost",
-  description: "Colección completa de entrevistas a los miembros de Ghost a lo largo de su historia. Desde los inicios en 1983 hasta la actualidad, accede a conversaciones exclusivas, declaraciones históricas y momentos únicos de Dave Mustaine, David Ellefson y todos los integrantes de la banda.",
+  description: "Colección completa de entrevistas a los miembros de Ghost a lo largo de su historia. Desde los inicios en 2006 hasta la actualidad, accede a conversaciones exclusivas, declaraciones históricas y momentos únicos de Tobias Forge, Papa Emeritus y todos los integrantes de la banda.",
   keywords: [
     "Ghost entrevistas",
-    "Dave Mustaine entrevista",
-    "David Ellefson entrevista", 
+    "Tobias Forge entrevista",
+    "Papa Emeritus entrevista",
     "Ghost interviews",
-    "thrash metal entrevistas",
+    "theatrical rock entrevistas",
     "metal interviews",
-    "Marty Friedman entrevista",
-    "Nick Menza entrevista",
-    "Kiko Loureiro entrevista",
-    "Dirk Verbeuren entrevista",
-    "James LoMenzo entrevista",
-    "Teemu Mäntysaari entrevista",
-    "entrevistas históricas metal",
+    "Nameless Ghouls entrevista",
+    "Ghost band members interview",
+    "rock teatral entrevistas",
+    "pop metal interviews",
+    "Ghost historia entrevista",
+    "banda Ghost declaraciones",
+    "entrevistas históricas rock",
     "declaraciones Ghost",
   ],
   openGraph: {
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/entrevistas/rp1992.jpg",
+        url: "/images/banners/interviews.png",
         width: 1200,
         height: 630,
         alt: "Entrevistas de Ghost - Colección completa",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Entrevistas | Ghost",
     description: "Colección completa de entrevistas a los miembros de Ghost a lo largo de su historia.",
-    images: ["/images/entrevistas/rp1992.jpg"],
+    images: ["/images/banners/interviews.png"],
     creator: "@GhostFanSite",
   },
   alternates: {

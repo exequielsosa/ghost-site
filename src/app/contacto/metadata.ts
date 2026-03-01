@@ -24,7 +24,7 @@ export async function generateMetadata(): Promise<Metadata> {
       locale: locale === "es" ? "es_AR" : "en_US",
       images: [
         {
-          url: "/images/ghost-ghost.jpg",
+          url: "/images/pagelogo.jpg",
           width: 1200,
           height: 630,
           alt: "Ghost Contacto",

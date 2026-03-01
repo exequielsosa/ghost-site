@@ -72,7 +72,7 @@ export async function generateMetadata({
       images: [
         {
           url:
-            interview.content?.cover_image || "/images/entrevistas/rp1992.jpg",
+            interview.content?.cover_image || "/images/banners/interviews.png",
           width: 1200,
           height: 630,
           alt: `${title} - ${mediaName} ${year}`,
@@ -85,7 +85,7 @@ export async function generateMetadata({
       description,
       images: interview.content?.cover_image
         ? [interview.content.cover_image]
-        : ["/images/entrevistas/rp1992.jpg"],
+        : ["/images/banners/interviews.png"],
       creator: "@GhostFanSite",
     },
     alternates: {

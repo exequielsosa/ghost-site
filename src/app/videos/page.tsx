@@ -18,42 +18,66 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 
   const descriptionByLocale = {
-    es: "Colección completa de videos musicales oficiales de Ghost: desde Peace Sells hasta sus últimos éxitos. Videoclips, performances en vivo y contenido exclusivo de la legendaria banda de thrash metal.",
-    en: "Complete collection of official Ghost music videos: from Peace Sells to their latest hits. Music videos, live performances and exclusive content from the legendary thrash metal band.",
+    es: "Colección completa de videos musicales oficiales de Ghost: desde Cirice hasta sus últimos éxitos. Videoclips, performances en vivo y contenido exclusivo de la legendaria banda de rock teatral sueca.",
+    en: "Complete collection of official Ghost music videos: from Cirice to their latest hits. Music videos, live performances and exclusive content from the legendary Swedish theatrical rock band.",
   };
 
   const keywordsByLocale = {
     es: [
       "Ghost videos",
       "videoclips Ghost",
-      "Peace Sells video",
-      "Symphony of Destruction",
-      "Hangar 18",
-      "thrash metal videos",
-      "Dave Mustaine",
-      "música metal",
-      "videos oficiales",
+      "Cirice video",
+      "Rats video",
+      "Mary On A Cross",
+      "theatrical rock videos",
+      "Tobias Forge",
+      "rock teatral",
+      "videos oficiales Ghost",
       "performances en vivo",
-      "Wake Up Dead",
-      "Sweating Bullets",
-      "Trust",
-      "A Tout Le Monde",
+      "Spillways video",
+      "Square Hammer",
+      "Kiss The Go-Goat",
+      "Dance Macabre",
+      "Mary On A Cross video",
+      "Umbra video",
+      "Hunter's Moon video",
+      "Cirice video",
+      "Rats video",
+      "Mary on a Cross video",
+      "Square Hammer video",
+      "Dance Macabre video",
+      "videoclip Ghost",
+      "video oficial Ghost",
+      "Ghost MTV",
+      "Ghost YouTube",
     ],
     en: [
       "Ghost videos",
       "Ghost music videos",
-      "Peace Sells video",
-      "Symphony of Destruction",
-      "Hangar 18",
-      "thrash metal videos",
-      "Dave Mustaine",
-      "metal music",
-      "official videos",
+      "Cirice video",
+      "Rats video",
+      "Mary On A Cross",
+      "theatrical rock videos",
+      "Tobias Forge",
+      "pop metal",
+      "official Ghost videos",
       "live performances",
-      "Wake Up Dead",
-      "Sweating Bullets",
-      "Trust",
-      "A Tout Le Monde",
+      "Spillways video",
+      "Square Hammer",
+      "Kiss The Go-Goat",
+      "Dance Macabre",
+      "Mary On A Cross video",
+      "Umbra video",
+      "Hunter's Moon video",
+      "Cirice video",
+      "Rats video",
+      "Mary on a Cross video",
+      "Square Hammer video",
+      "Dance Macabre video",
+      "videoclip Ghost",
+      "video oficial Ghost",
+      "Ghost MTV",
+      "Ghost YouTube",
     ],
   };
 
@@ -93,7 +117,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "/og-videos.jpg",
+          url: "/images/banners/videos.png",
           width: 1200,
           height: 630,
           alt:
@@ -110,7 +134,7 @@ export async function generateMetadata(): Promise<Metadata> {
       description:
         descriptionByLocale[locale as keyof typeof descriptionByLocale] ||
         descriptionByLocale.es,
-      images: ["/og-videos.jpg"],
+      images: ["/images/banners/videos.png"],
       creator: "@GhostFanSite",
     },
     robots: {
@@ -147,7 +171,7 @@ function generateStructuredData(locale: string) {
     creator: {
       "@type": "MusicGroup",
       name: "Ghost",
-      genre: "Thrash Metal",
+      genre: "Theatrical Rock",
     },
   }));
 
@@ -162,8 +186,8 @@ function generateStructuredData(locale: string) {
   };
 
   const aboutDescriptionByLocale = {
-    es: "Banda estadounidense de thrash metal formada en 1983 por Dave Mustaine",
-    en: "American thrash metal band formed in 1983 by Dave Mustaine",
+    es: "Banda sueca de rock teatral formada en 2006 por Tobias Forge, conocida por su combinación de rock pesado con elementos teatrales y pop accesible.",
+    en: "Swedish theatrical rock band formed in 2006 by Tobias Forge, known for their blend of heavy rock with theatrical elements and accessible pop.",
   };
 
   return {
@@ -187,8 +211,8 @@ function generateStructuredData(locale: string) {
     about: {
       "@type": "MusicGroup",
       name: "Ghost",
-      genre: "Thrash Metal",
-      foundingDate: "1983",
+      genre: "Theatrical Rock",
+      foundingDate: "2006",
       description:
         aboutDescriptionByLocale[
           locale as keyof typeof aboutDescriptionByLocale

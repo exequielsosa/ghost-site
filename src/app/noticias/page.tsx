@@ -95,7 +95,7 @@ export default function NoticiasPage() {
       name: "Ghost Argentina",
       logo: {
         "@type": "ImageObject",
-        url: "https://ghostband.com.ar/logo-ghost.png",
+        url: "https://ghostband.com.ar/images/banners/news.png",
       },
     },
     mainEntity: {

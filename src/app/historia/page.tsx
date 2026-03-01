@@ -16,7 +16,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "article",
       images: [
         {
-          url: "/images/historia/ghost-timeline-hero.jpg",
+          url: "/images/banners/history.png",
           width: 1200,
           height: 630,
           alt: t("imageAlt"),
@@ -27,7 +27,7 @@ export async function generateMetadata(): Promise<Metadata> {
       card: "summary_large_image",
       title: `${t("title")} | Ghost`,
       description: t("description"),
-      images: ["/images/historia/ghost-timeline-hero.jpg"],
+      images: ["/images/banners/history.png"],
     },
     alternates: {
       canonical: "/historia",
