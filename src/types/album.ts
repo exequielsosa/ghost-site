@@ -25,6 +25,11 @@ export type Track = {
   lyrics?: string; // Letras de la canción (opcional)
 };
 
+export type Pope = {
+  name: string;
+  image: string; // /images/popes/...
+};
+
 export type Album = {
   id: string;                 // slug único
   title: string;
@@ -36,6 +41,7 @@ export type Album = {
   musicians?: Musician[];     // Formación del álbum
   streaming?: StreamingLinks;
   tracks?: Track[];
+  pope?: Pope;                // Papa/era del álbum
   isUpcoming?: boolean;       // para el disco nuevo
   releaseDate?: string;       // "2026-01-23" si isUpcoming
 };

@@ -290,6 +290,70 @@ export default function AlbumDetail({ album }: AlbumDetailProps) {
           </Box>
         )}
 
+        {/* Papa del álbum */}
+        {album.pope && (
+          <Box sx={{ mt: 6 }}>
+            <Typography
+              variant="h4"
+              component="h2"
+              sx={{ mb: 3, fontWeight: 700 }}
+            >
+              {t("era") || "Era"}
+            </Typography>
+
+            <Box sx={{ maxWidth: 280 }}>
+              <Link
+                href={`/papas/${slugify(album.pope.name)}-era`}
+                passHref
+                legacyBehavior
+              >
+                <Card
+                  component="a"
+                  sx={{
+                    textDecoration: "none",
+                    cursor: "pointer",
+                    transition:
+                      "transform 0.2s ease, box-shadow 0.2s ease",
+                    "&:hover": {
+                      transform: "translateY(-4px)",
+                      boxShadow: 3,
+                    },
+                  }}
+                >
+                  <Box
+                    sx={{
+                      position: "relative",
+                      width: "100%",
+                      paddingTop: "100%",
+                      overflow: "hidden",
+                      borderRadius: 1,
+                    }}
+                  >
+                    <Image
+                      src={album.pope.image}
+                      alt={album.pope.name}
+                      fill
+                      style={{ objectFit: "cover" }}
+                    />
+                  </Box>
+                  <CardContent sx={{ textAlign: "center", p: 2 }}>
+                    <Typography
+                      variant="body1"
+                      component="h3"
+                      sx={{
+                        fontWeight: 600,
+                        color: "text.primary",
+                      }}
+                    >
+                      {album.pope.name}
+                    </Typography>
+                  </CardContent>
+                </Card>
+              </Link>
+            </Box>
+          </Box>
+        )}
+
         {/* Lista de canciones */}
         {album.tracks && album.tracks.length > 0 && (
           <Box sx={{ mt: 6 }}>
