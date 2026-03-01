@@ -57,7 +57,6 @@ export default function Footer() {
     live: [
       { href: "/tour", label: t("tour") },
       { href: "/shows", label: t("shows") },
-      { href: "/bootlegs", label: t("bootlegs") },
     ],
     info: [
       { href: "/noticias", label: t("news") },
