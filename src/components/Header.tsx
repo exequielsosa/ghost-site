@@ -138,7 +138,7 @@ export default function Header() {
                   sx={{
                     position: "relative",
                     width: { xs: "150px", sm: "200px" },
-                    height: { xs: "35px", sm: "112px" },
+                    height: { xs: "45px", sm: "112px" },
                   }}
                 >
                   <Image
@@ -371,8 +371,8 @@ export default function Header() {
               <Image
                 src="/images/ghost-logo.png"
                 alt="Ghost"
-                width={150}
-                height={50}
+                width={85}
+                height={45}
               />
             </Box>
 

@@ -20,6 +20,7 @@ export default function HeroHeader() {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundAttachment: "scroll",
+        borderRadius: 1,
         "&::before": {
           content: '""',
           position: "absolute",
