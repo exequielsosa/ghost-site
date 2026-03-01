@@ -80,7 +80,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "/images/banners/members.png",
+          url: "/images/banners/members.jpg",
           width: 1200,
           height: 630,
           alt:
@@ -94,7 +94,7 @@ export async function generateMetadata(): Promise<Metadata> {
       card: "summary_large_image",
       title,
       description,
-      images: ["/images/banners/members.png"],
+      images: ["/images/banners/members.jpg"],
       creator: "@GhostFanSite",
     },
     alternates: {

@@ -102,7 +102,7 @@ export async function generateMetadata(): Promise<Metadata> {
       locale: locale === "es" ? "es_AR" : "en_US",
       images: [
         {
-          url: "/images/banners/tour.png",
+          url: "/images/banners/tour.jpg",
           width: 1200,
           height: 630,
           alt: "Ghost Tour 2026",

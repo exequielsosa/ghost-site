@@ -188,7 +188,7 @@ export default async function NoticiaPage({ params }: NewsPageProps) {
       url: "https://ghostband.com.ar",
       logo: {
         "@type": "ImageObject",
-        url: "https://ghostband.com.ar/images/banners/news.png",
+        url: "https://ghostband.com.ar/images/banners/news.jpg",
         width: 600,
         height: 60,
       },
@@ -210,7 +210,7 @@ export default async function NoticiaPage({ params }: NewsPageProps) {
           }
         : {
             "@type": "ImageObject",
-            url: "https://ghostband.com.ar/images/banners/news.png",
+            url: "https://ghostband.com.ar/images/banners/news.jpg",
           },
     url: `https://ghostband.com.ar/noticias/${article.id}`,
     mainEntityOfPage: {

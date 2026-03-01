@@ -18,7 +18,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://ghostband.com.ar/images/banners/news.png",
+          url: "https://ghostband.com.ar/images/banners/news.jpg",
           width: 1200,
           height: 630,
           alt: "Ghost",
@@ -29,7 +29,7 @@ export async function generateMetadata(): Promise<Metadata> {
       card: "summary_large_image",
       title: t("pageTitle"),
       description: t("pageDescription"),
-      images: ["https://ghostband.com.ar/images/banners/news.png"],
+      images: ["https://ghostband.com.ar/images/banners/news.jpg"],
     },
     alternates: {
       canonical: "https://ghostband.com.ar/noticias",

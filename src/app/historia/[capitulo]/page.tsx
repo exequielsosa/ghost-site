@@ -76,7 +76,7 @@ export async function generateMetadata({
           ]
         : [
             {
-              url: "/images/banners/history.png",
+              url: "/images/banners/history.jpg",
               width: 1200,
               height: 630,
               alt: `${chapterTitle} - ${t("ghostHistory")}`,
@@ -89,7 +89,7 @@ export async function generateMetadata({
       description: chapterSummary,
       images: chapter.coverImage
         ? [chapter.coverImage.src]
-        : ["/images/banners/history.png"],
+        : ["/images/banners/history.jpg"],
     },
     alternates: {
       canonical: `/historia/${chapter.slug}`,
@@ -129,7 +129,7 @@ export default async function CapituloPage({ params }: PageProps) {
     "@type": "Article",
     headline: `${chapterTitle} (${chapter.period})`,
     description: chapterSummary,
-    image: chapter.coverImage?.src || "/images/banners/history.png",
+    image: chapter.coverImage?.src || "/images/banners/history.jpg",
     author: {
       "@type": "Organization",
       name: "Ghost",

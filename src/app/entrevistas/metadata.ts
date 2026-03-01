@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/banners/interviews.png",
+        url: "/images/banners/interviews.jpg",
         width: 1200,
         height: 630,
         alt: "Entrevistas de Ghost - Colección completa",
@@ -78,7 +78,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Entrevistas | Ghost",
     description: "Colección completa de entrevistas a los miembros de Ghost a lo largo de su historia.",
-    images: ["/images/banners/interviews.png"],
+    images: ["/images/banners/interviews.jpg"],
     creator: "@GhostFanSite",
   },
   alternates: {

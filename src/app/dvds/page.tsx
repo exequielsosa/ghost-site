@@ -107,7 +107,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "/images/banners/dvd.png",
+          url: "/images/banners/dvd.jpg",
           width: 1200,
           height: 630,
           alt:
@@ -124,7 +124,7 @@ export async function generateMetadata(): Promise<Metadata> {
       description:
         descriptionByLocale[locale as keyof typeof descriptionByLocale] ||
         descriptionByLocale.es,
-      images: ["/images/banners/dvd.png"],
+      images: ["/images/banners/dvd.jpg"],
       creator: "@GhostFanSite",
     },
   };

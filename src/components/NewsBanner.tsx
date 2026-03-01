@@ -19,7 +19,7 @@ const sections: Section[] = [
     id: "discography",
     name: { es: "Discografía", en: "Discography" },
     route: "/discography",
-    image: "/images/banners/discography.png",
+    image: "/images/banners/discography.jpg",
     adText: {
       es: "Explora el legado: Albumes de Estudio, en vivo, compilaciones y más",
       en: "Explore the legacy: Studio albums, live albums, compilations and more",
@@ -29,7 +29,7 @@ const sections: Section[] = [
     id: "news",
     name: { es: "Noticias", en: "News" },
     route: "/noticias",
-    image: "/images/banners/news.png",
+    image: "/images/banners/news.jpg",
     adText: {
       es: "Mantente al día con las últimas novedades sobre Ghost",
       en: "Stay up to date with the latest news about Ghost",
@@ -39,7 +39,7 @@ const sections: Section[] = [
     id: "tour",
     name: { es: "Tour", en: "Tour" },
     route: "/tour",
-    image: "/images/banners/tour.png",
+    image: "/images/banners/tour.jpg",
     adText: {
       es: "Conoce las próximas fechas de la gira y el detalle de todos los shows de los ultimos 40 años",
       en: "Discover upcoming tour dates and details of all shows from the last 40 years",
@@ -49,7 +49,7 @@ const sections: Section[] = [
     id: "songs",
     name: { es: "Canciones", en: "Songs" },
     route: "/songs",
-    image: "/images/banners/songs.png",
+    image: "/images/banners/songs.jpg",
     adText: {
       es: "Descubre todas las canciones de Ghost, letras, analisis, veces tocadas en vivo y mas!",
       en: "Discover all Ghost songs, lyrics, analysis, live play counts and more!",
@@ -59,7 +59,7 @@ const sections: Section[] = [
     id: "dvds",
     name: { es: "DVDs", en: "DVDs" },
     route: "/dvds",
-    image: "/images/banners/dvd.png",
+    image: "/images/banners/dvd.jpg",
     adText: {
       es: "Revive los mejores conciertos en video, documentales y mucho mas!",
       en: "Relive the best concerts on video, documentaries and much more!",
@@ -69,7 +69,7 @@ const sections: Section[] = [
     id: "videos",
     name: { es: "Videos", en: "Videos" },
     route: "/videos",
-    image: "/images/banners/videos.png",
+    image: "/images/banners/videos.jpg",
     adText: {
       es: "Mira todos los videoclips oficiales",
       en: "Watch all the official music videos",
@@ -79,7 +79,7 @@ const sections: Section[] = [
     id: "history",
     name: { es: "Historia", en: "History" },
     route: "/historia",
-    image: "/images/banners/history.png",
+    image: "/images/banners/history.jpg",
     adText: {
       es: "Todas las eras: Linea de tiempo, hechos y mas",
       en: "All eras: Timeline, facts and more",
@@ -89,7 +89,7 @@ const sections: Section[] = [
     id: "members",
     name: { es: "Miembros", en: "Members" },
     route: "/miembros",
-    image: "/images/banners/members.png",
+    image: "/images/banners/members.jpg",
     adText: {
       es: "Perfil de todos los miembros de Ghost, conoce a los musicos detras de los ghouls",
       en: "Profile all Ghost members, meet the musicians behind the ghouls",
@@ -99,7 +99,7 @@ const sections: Section[] = [
     id: "lineups",
     name: { es: "Papas", en: "Popes" },
     route: "/papas",
-    image: "/images/banners/lineup.png",
+    image: "/images/banners/lineup.jpg",
     adText: {
       es: "Conoce a todos los papas a lo largo de los años",
       en: "Meet all the popes throughout the years",
@@ -109,7 +109,7 @@ const sections: Section[] = [
     id: "shows",
     name: { es: "Shows", en: "Shows" },
     route: "/shows",
-    image: "/images/banners/shows.png",
+    image: "/images/banners/shows.jpg",
     adText: {
       es: "Revive todos los conciertos históricos a lo largo de los años y formaciones",
       en: "Relive all the historic concerts throughout the years and lineups",
@@ -119,7 +119,7 @@ const sections: Section[] = [
     id: "interviews",
     name: { es: "Entrevistas", en: "Interviews" },
     route: "/entrevistas",
-    image: "/images/banners/interviews.png",
+    image: "/images/banners/interviews.jpg",
     adText: {
       es: "Lee y mira las entrevistas más interesantes a Tobias Forge",
       en: "Read the most interesting interviews with Tobias Forge",
