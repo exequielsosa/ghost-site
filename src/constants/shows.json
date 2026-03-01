@@ -27,7 +27,7 @@
     ],
     "setlistUrl": "",
     "youtube": "https://www.youtube.com/watch?v=cUKYEK3ZuYM&list=RDcUKYEK3ZuYM&start_radio=1",
-    "image": "/images/shows/1988.webp"
+    "image": "/images/shows/rir2013.webp"
   },
   {
     "id": "deathfest-ix-2011",
@@ -53,7 +53,7 @@
     ],
     "setlistUrl": "",
     "youtube": "https://www.youtube.com/watch?v=0zBrVeYSQ_4&list=RD0zBrVeYSQ_4&start_radio=1",
-    "image": "/images/shows/1988.webp"
+    "image": "/images/shows/DSC_6908-768x506.jpg"
   },
   {
     "id": "download-festival-2013",
@@ -83,7 +83,7 @@
     ],
     "setlistUrl": "",
     "youtube": "https://www.youtube.com/watch?v=cUKYEK3ZuYM&list=RDcUKYEK3ZuYM&start_radio=1",
-    "image": "/images/shows/1988.webp"
+    "image": "/images/shows/Ghost---Download-2011-007.avif"
   },
   {
     "id": "vorterix-argentina-2014",
@@ -118,7 +118,7 @@
     ],
     "setlistUrl": "",
     "youtube": "https://www.youtube.com/watch?v=cy6hzUoOxbg&list=RDcy6hzUoOxbg&start_radio=1",
-    "image": "/images/shows/1988.webp"
+    "image": "/images/shows/227be8f2da7456621ce59addf0818cea.jpg"
   },
   {
     "id": "leeds-festival-2015",
@@ -144,7 +144,7 @@
     ],
     "setlistUrl": "",
     "youtube": "https://www.youtube.com/watch?v=LUkhoAy5zrQ&list=RDLUkhoAy5zrQ&start_radio=1",
-    "image": "/images/shows/1988.webp"
+    "image": "/images/shows/hq720.jpg"
   },
   {
     "id": "hellfest-2016",
@@ -173,7 +173,7 @@
     ],
     "setlistUrl": "",
     "youtube": "https://www.youtube.com/watch?v=0g5WachoVp8&list=RD0g5WachoVp8&start_radio=1&t=65s",
-    "image": "/images/shows/1988.webp"
+    "image": "/images/shows/R-10532284-1499364043-3355.jpg"
   },
   {
     "id": "maximus-festival-2017",
@@ -198,7 +198,7 @@
     ],
     "setlistUrl": "",
     "youtube": "https://www.youtube.com/watch?v=h_W4MTC3EWo&list=RDh_W4MTC3EWo&start_radio=1",
-    "image": "/images/shows/1988.webp"
+    "image": "/images/shows/3bf8a173543094c7616fcf29b909cdc5.jpg"
   },
   {
     "id": "volkshaus-festival-2017",
@@ -233,7 +233,7 @@
     ],
     "setlistUrl": "",
     "youtube": "https://www.youtube.com/watch?v=A-FflPTyx8Y&list=RDA-FflPTyx8Y&start_radio=1",
-    "image": "/images/shows/1988.webp"
+    "image": "/images/shows/Ghost-Tour-2017-Europe-1024x538.jpg"
   },
   {
     "id": "louisville-palace-2018",
@@ -279,13 +279,13 @@
     ],
     "setlistUrl": "",
     "youtube": "https://www.youtube.com/watch?v=A-FflPTyx8Y&list=RDA-FflPTyx8Y&start_radio=1",
-    "image": "/images/shows/1988.webp"
+    "image": "/images/shows/ghost-live-at-kfc-yum-center-in-louisville-kentucky-us-07-v0-z3ogj4zim5ff1.jpg"
   },
   {
     "id": "the-ultimate-tour-named-death-2019",
     "date": "2019-12-17",
     "city": "Luxembourg",
-    "venue": "The Ultimate Tour Named Death 2019 ",
+    "venue": "The Ultimate Tour Named Death 2019",
     "country": "Luxembourg",
     "era": "Era IV — Cardinal Copia / Papa Emeritus IV",
     "linkEra": "cardinal-copia-papa-iv",
@@ -318,13 +318,13 @@
     ],
     "setlistUrl": "",
     "youtube": "https://www.youtube.com/watch?v=wnsrsBZ39Cc&list=RDwnsrsBZ39Cc&start_radio=1&t=29s",
-    "image": "/images/shows/1988.webp"
+    "image": "/images/shows/ghost.jpg"
   },
   {
     "id": "mexico-2020",
     "date": "2020-03-11",
     "city": "Mexico City",
-    "venue": "Arena Ciudad de Mexico",
+    "venue": "Palacio de los Deportes",
     "country": "Mexico",
     "era": "Era IV — Cardinal Copia / Papa Emeritus IV",
     "linkEra": "cardinal-copia-papa-iv",
@@ -354,7 +354,7 @@
     ],
     "setlistUrl": "",
     "youtube": "https://www.youtube.com/watch?v=V0sgi9sWFec&list=RDV0sgi9sWFec&start_radio=1",
-    "image": "/images/shows/1988.webp"
+    "image": "/images/shows/Ghost_Palacio-de-los-Deportes-2020.jpg"
   },
   {
     "id": "san-diego-2022",
@@ -391,6 +391,6 @@
     ],
     "setlistUrl": "",
     "youtube": "https://www.youtube.com/watch?v=rLS6n0DvSdY&list=RDrLS6n0DvSdY&start_radio=1&t=1059s",
-    "image": "/images/shows/1988.webp"
+    "image": "/images/shows/0826-SanDiego-Ghost-750x400-1.jpg"
   }
 ]
