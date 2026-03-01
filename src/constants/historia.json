@@ -33,7 +33,7 @@
       "color": "#4A235A",
       "icon": "🕯️",
       "coverImage": {
-        "src": "/images/historia/davemetallica.jpg",
+        "src": "/images/historia/Papa_Forge_Ghost.webp",
         "alt": "Tobias Forge, fundador de Ghost",
         "position": "background",
         "layout": "parallax"
@@ -52,7 +52,7 @@
           "layout": "text-with-images",
           "images": [
             {
-              "src": "/images/historia/davemetallica.jpg",
+              "src": "/images/historia/tobiasyoung.jpg",
               "alt": "Tobias Forge en sus primeros años",
               "position": "right",
               "layout": "float",
@@ -77,11 +77,11 @@
           "layout": "text-with-images",
           "images": [
             {
-              "src": "/images/historia/metallicamust.jpg",
+              "src": "/images/historia/ghost2011.webp",
               "alt": "El concepto visual de Ghost tomó forma antes de los primeros shows",
-              "position": "left",
+              "position": "center",
               "layout": "float",
-              "size": "medium",
+              "size": "full",
               "caption": {
                 "es": "El concepto de Ghost: papa, ghoul, y misterio absoluto",
                 "en": "The Ghost concept: pope, ghoul, and absolute mystery"
@@ -112,7 +112,7 @@
       "color": "#8B0000",
       "icon": "⛪",
       "coverImage": {
-        "src": "/images/historia/daves.jpg",
+        "src": "/images/historia/papa-emeritus-one.jpg",
         "alt": "Papa Emeritus I sobre el escenario",
         "position": "background",
         "layout": "parallax"
@@ -131,11 +131,11 @@
           "layout": "text-with-images",
           "images": [
             {
-              "src": "/images/historia/daves.jpg",
+              "src": "/images/albums/opus-eponymous.jpg",
               "alt": "Ghost - Opus Eponymous",
               "position": "right",
-              "layout": "float",
-              "size": "medium",
+              "layout": "gallery",
+              "size": "large",
               "caption": {
                 "es": "Opus Eponymous (2010): el debut que sacudió el mundo del metal",
                 "en": "Opus Eponymous (2010): the debut that shook the metal world"
@@ -156,11 +156,11 @@
           "layout": "text-with-images",
           "images": [
             {
-              "src": "/images/historia/metallicamust.jpg",
+              "src": "/images/historia/Ghost-8.webp",
               "alt": "Papa Emeritus I en el escenario",
-              "position": "left",
-              "layout": "float",
-              "size": "medium",
+              "position": "full",
+              "layout": "gallery",
+              "size": "large",
               "caption": {
                 "es": "Papa Emeritus I: el primer pontífice de Ghost llevó la banda a los escenarios internacionales",
                 "en": "Papa Emeritus I: the first Ghost pontiff took the band to international stages"
@@ -191,7 +191,7 @@
       "color": "#B8860B",
       "icon": "✝️",
       "coverImage": {
-        "src": "/images/historia/davemetallica.jpg",
+        "src": "/images/historia/Papa_Emeritus_II.webp",
         "alt": "Papa Emeritus II sobre el escenario",
         "position": "background",
         "layout": "parallax"
@@ -210,11 +210,11 @@
           "layout": "text-with-images",
           "images": [
             {
-              "src": "/images/historia/davemetallica.jpg",
+              "src": "/images/albums/infestissumam.jpg",
               "alt": "Ghost - Infestissumam",
               "position": "right",
-              "layout": "float",
-              "size": "medium",
+              "layout": "gallery",
+              "size": "large",
               "caption": {
                 "es": "Infestissumam (2013): primer #1 en Suecia, producido con Dave Grohl como aliado",
                 "en": "Infestissumam (2013): first #1 in Sweden, with Dave Grohl as an ally"
@@ -235,11 +235,11 @@
           "layout": "text-with-images",
           "images": [
             {
-              "src": "/images/historia/metallicamust.jpg",
+              "src": "/images/historia/ghost-1e018c2029f54c3dbf6f0354e4d39b6d.jpg",
               "alt": "Ghost recoge el Grammy 2016",
-              "position": "left",
-              "layout": "float",
-              "size": "medium",
+              "position": "center",
+              "layout": "gallery",
+              "size": "large",
               "caption": {
                 "es": "Meliora (2015) y \"Cirice\": el Grammy que consagró a Ghost ante el mundo",
                 "en": "Meliora (2015) and \"Cirice\": the Grammy that established Ghost before the world"
@@ -270,7 +270,7 @@
       "color": "#1B3A6B",
       "icon": "🏆",
       "coverImage": {
-        "src": "/images/historia/daves.jpg",
+        "src": "/images/historia/ghost-papa-emeritusiii.jpg",
         "alt": "Papa Emeritus III sobre el escenario",
         "position": "background",
         "layout": "parallax"
@@ -289,11 +289,11 @@
           "layout": "text-with-images",
           "images": [
             {
-              "src": "/images/historia/daves.jpg",
+              "src": "/images/albums/popestar.jpg",
               "alt": "Ghost - Popestar EP",
               "position": "right",
-              "layout": "float",
-              "size": "medium",
+              "layout": "gallery",
+              "size": "large",
               "caption": {
                 "es": "\"Square Hammer\" (2016): el primer #1 en radio rock de EE.UU.",
                 "en": "\"Square Hammer\" (2016): the first US rock radio #1"
@@ -314,11 +314,11 @@
           "layout": "text-with-images",
           "images": [
             {
-              "src": "/images/historia/metallicamust.jpg",
+              "src": "/images/historia/tobias-forge.jpg",
               "alt": "Tobias Forge identificado como el líder de Ghost",
-              "position": "left",
-              "layout": "float",
-              "size": "medium",
+              "position": "full",
+              "layout": "gallery",
+              "size": "full",
               "caption": {
                 "es": "2017: el mundo conoció el nombre real del hombre detrás de los papas",
                 "en": "2017: the world learned the real name of the man behind the popes"
@@ -349,7 +349,7 @@
       "color": "#8B1A1A",
       "icon": "🎭",
       "coverImage": {
-        "src": "/images/historia/davemetallica.jpg",
+        "src": "/images/historia/MG_0024s-2.jpg",
         "alt": "Cardinal Copia / Papa Emeritus IV sobre el escenario",
         "position": "background",
         "layout": "parallax"
@@ -368,11 +368,11 @@
           "layout": "text-with-images",
           "images": [
             {
-              "src": "/images/historia/davemetallica.jpg",
+              "src": "/images/albums/prequelle.jpg",
               "alt": "Cardinal Copia - Prequelle era",
               "position": "right",
-              "layout": "float",
-              "size": "medium",
+              "layout": "gallery",
+              "size": "large",
               "caption": {
                 "es": "Prequelle (2018): la era de la Peste Negra y el ascenso masivo de Ghost",
                 "en": "Prequelle (2018): the Black Death era and Ghost's massive rise"
@@ -393,11 +393,11 @@
           "layout": "text-with-images",
           "images": [
             {
-              "src": "/images/historia/metallicamust.jpg",
+              "src": "/images/historia/attachment-ghost_tobias_forge_2022.webp",
               "alt": "Papa Emeritus IV en el escenario",
-              "position": "left",
-              "layout": "float",
-              "size": "medium",
+              "position": "center",
+              "layout": "gallery",
+              "size": "full",
               "caption": {
                 "es": "\"Mary on a Cross\" (2019/2022): mil millones de escuchas y una nueva generación de fans",
                 "en": "\"Mary on a Cross\" (2019/2022): a billion streams and a new generation of fans"
@@ -418,11 +418,11 @@
           "layout": "text-with-images",
           "images": [
             {
-              "src": "/images/historia/daves.jpg",
+              "src": "/images/albums/impera.jpg",
               "alt": "Ghost - Impera era",
-              "position": "right",
-              "layout": "float",
-              "size": "medium",
+              "position": "center",
+              "layout": "",
+              "size": "full",
               "caption": {
                 "es": "Impera (2022): #1 en cuatro países y la gira de arenas más grande de Ghost",
                 "en": "Impera (2022): #1 in four countries and Ghost's biggest arena tour"
@@ -453,7 +453,7 @@
       "color": "#C0A030",
       "icon": "💀",
       "coverImage": {
-        "src": "/images/historia/davemetallica.jpg",
+        "src": "/images/historia/Ghost-3.jpg",
         "alt": "Papa V Perpetua — la nueva era de Ghost",
         "position": "background",
         "layout": "parallax"
@@ -472,11 +472,11 @@
           "layout": "text-with-images",
           "images": [
             {
-              "src": "/images/historia/davemetallica.jpg",
+              "src": "/images/historia/sY42BSU7Vq2uHGHMD9BpxN.jpg",
               "alt": "Papa V Perpetua - nueva era de Ghost",
               "position": "right",
-              "layout": "float",
-              "size": "medium",
+              "layout": "gallery",
+              "size": "large",
               "caption": {
                 "es": "Papa V Perpetua: el más reciente sucesor en la saga papal de Ghost",
                 "en": "Papa V Perpetua: the latest successor in Ghost's papal saga"
@@ -497,11 +497,11 @@
           "layout": "text-with-images",
           "images": [
             {
-              "src": "/images/historia/metallicamust.jpg",
+              "src": "/images/historia/ghost-number-1-skeleta.jpg",
               "alt": "Ghost - Skeletá era",
-              "position": "left",
-              "layout": "float",
-              "size": "medium",
+              "position": "full",
+              "layout": "gallery",
+              "size": "large",
               "caption": {
                 "es": "Skeletá (2025): debut histórico en el #1 del Billboard 200",
                 "en": "Skeletá (2025): historic debut at #1 on the Billboard 200"

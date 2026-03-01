@@ -25,7 +25,7 @@ export default function HistoryNavigation({
   const t = useTranslations("history");
 
   const currentIndex = allChapters.findIndex(
-    (ch) => ch.slug === currentChapter.slug
+    (ch) => ch.slug === currentChapter.slug,
   );
   const progress = ((currentIndex + 1) / allChapters.length) * 100;
 
@@ -119,7 +119,7 @@ export default function HistoryNavigation({
         }}
       >
         {/* Botón anterior */}
-        {currentChapter.id === "origenes" ? (
+        {currentChapter.id === "papa-emeritus-i" ? (
           <Box></Box>
         ) : (
           <Button
@@ -162,7 +162,7 @@ export default function HistoryNavigation({
 
         {/* Botón siguiente */}
 
-        {currentChapter.id === "actualidad-despedida" ? (
+        {currentChapter.id === "papa-v-perpetua" ? (
           <Box></Box>
         ) : (
           <Button
