@@ -1,22 +1,22 @@
 [
   {
-    "id": "bootlegs-section-launch",
+    "id": "popes-section-launch",
     "title": {
-      "es": "Nueva Sección: Bootlegs",
-      "en": "New Section: Bootlegs"
+      "es": "Nueva Sección: Papas",
+      "en": "New Section: Popes"
     },
     "description": {
-      "es": "Explora los bootlegs más legendarios de Ghost: setlists completos y momentos históricos de todas las épocas. Ire actualizando constantemente.",
-      "en": "Explore Ghost's most legendary bootlegs: complete setlists and historic moments of all eras. I will be constantly updating."
+      "es": "Conoce a todos los papas de Ghost, su lore y su historia. Estaré actualizando constantemente.",
+      "en": "Get to know all the popes of Ghost, their lore and history. I will be constantly updating it."
     },
-    "imageUrl": "/images/site-updates/bootleg.png",
-    "linkUrl": "/bootlegs",
+    "imageUrl": "/images/banners/lineup.png",
+    "linkUrl": "/papas",
     "linkText": {
-      "es": "Explorar Bootlegs",
-      "en": "Explore Bootlegs"
+      "es": "Explorar Papas",
+      "en": "Explore Popes"
     },
-    "publishedDate": "2026-01-02",
-    "updatedDate": "2026-01-02",
+    "publishedDate": "2026-03-01",
+    "updatedDate": "2026-03-01",
     "active": true
   },
   {
@@ -29,14 +29,14 @@
       "es": "Explora los conciertos más legendarios de Ghost: setlists completos, videos y momentos históricos de todas las épocas.",
       "en": "Explore Ghost's most legendary concerts: complete setlists, videos and historic moments of all eras."
     },
-    "imageUrl": "/images/site-updates/shows.png",
+    "imageUrl": "/images/banners/shows.png",
     "linkUrl": "/shows",
     "linkText": {
       "es": "Explorar Shows",
       "en": "Explore Shows"
     },
-    "publishedDate": "2026-01-01",
-    "updatedDate": "2026-01-01",
+    "publishedDate": "2026-03-01",
+    "updatedDate": "2026-03-01",
     "active": true
   },
   {
@@ -49,7 +49,7 @@
       "es": "Se mejoro con estadisticas la seccion de canciones. Ahora puedes ver cuantas veces se toco cada cancion en vivo.",
       "en": "The songs section has been improved with statistics. Now you can see how many times each song was played live."
     },
-    "imageUrl": "/images/site-updates/songs.jpg",
+    "imageUrl": "/images/banners/songs.png",
     "linkUrl": "/songs",
     "linkText": {
       "es": "Explorar Canciones",
@@ -69,7 +69,7 @@
       "es": "Nuevas fechas agregadas y mejoras funcionales en la sección de gira. Encuentra fácilmente los próximos conciertos de Ghost.",
       "en": "New dates added and functional improvements in the tour section. Easily find Ghost's upcoming concerts."
     },
-    "imageUrl": "/images/site-updates/tour.png",
+    "imageUrl": "/images/banners/tour.png",
     "linkUrl": "/tour",
     "linkText": {
       "es": "Ver Fechas",
@@ -89,7 +89,7 @@
       "es": "Mejoramos nuestra sección de noticias para mantenerte al día con las últimas novedades de Ghost. En nuestra home veras las últimas cinco y en Noticias veras todo el historico",
       "en": "We have improved our news section to keep you up to date with the latest Ghost news. On our homepage, you will see the latest five, and in News, you will see the entire history."
     },
-    "imageUrl": "/images/site-updates/news.jpg",
+    "imageUrl": "/images/banners/news.png",
     "linkUrl": "/noticias",
     "linkText": {
       "es": "Ver Noticias",
