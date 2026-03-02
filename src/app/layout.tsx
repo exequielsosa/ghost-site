@@ -379,7 +379,7 @@ export default async function RootLayout({
               <Header />
               <main style={{ flex: 1 }}>
                 {children}
-                <GoogleAnalytics gaId="G-3MT8DZR057" />
+                <GoogleAnalytics gaId="G-V58LT08HV9" />
               </main>
               <Footer />
             </ThemeRegistry>
