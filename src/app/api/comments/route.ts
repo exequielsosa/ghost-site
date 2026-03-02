@@ -92,6 +92,7 @@ export async function GET(req: Request) {
   }
 
   // 3) ir a Supabase (RLS ya filtra published, igual dejo el filtro explícito)
+  console.log("[DEBUG GET] Buscando comentarios:", { pageType, pageId, limit, offset });
   const { data, error } = await supabase
     .from("comments")
     .select("id,page_type,page_id,name,content,created_at")
@@ -101,7 +102,10 @@ export async function GET(req: Request) {
     .order("created_at", { ascending: false })
     .range(offset, offset + limit - 1);
 
+  console.log("[DEBUG GET] Resultado de Supabase:", { data, error });
+
   if (error) {
+    console.error("[DEBUG GET ERROR]", error);
     return NextResponse.json({ error: error.message }, { status: 500 });
   }
 
