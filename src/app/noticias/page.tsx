@@ -50,7 +50,10 @@ export default function NoticiasPage() {
   const groupedByMonth = useMemo(() => {
     const groups = new Map<string, NewsArticle[]>();
     sortedNews.forEach((article) => {
-      const date = new Date(article.publishedDate);
+      const normalized = /^\d{4}-\d{2}-\d{2}$/.test(article.publishedDate)
+        ? `${article.publishedDate}T12:00:00`
+        : article.publishedDate;
+      const date = new Date(normalized);
       const key = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(
         2,
         "0",

@@ -10,7 +10,7 @@ import Link from "next/link";
 import RandomSectionBanner from "@/components/NewsBanner";
 import { CommentsSection } from "@/components/CommentsSection";
 import { getAllNews, getNewsById } from "@/lib/supabase";
-import { getSafeTranslation } from "@/utils/safeContent";
+import { getSafeTranslation, formatSafeDate } from "@/utils/safeContent";
 
 interface NewsPageProps {
   params: Promise<{
@@ -163,11 +163,7 @@ export default async function NoticiaPage({ params }: NewsPageProps) {
 
   const imageAlt = getSafeTranslation(article.imageAlt, locale, title);
 
-  // Formatear fecha
-  const formattedDate = new Date(article.publishedDate).toLocaleDateString(
-    locale === "es" ? "es-ES" : "en-US",
-    { year: "numeric", month: "long", day: "numeric" },
-  );
+  const formattedDate = formatSafeDate(article.publishedDate, locale);
 
   // JSON-LD para SEO
   const jsonLd = {

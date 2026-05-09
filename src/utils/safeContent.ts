@@ -46,9 +46,15 @@ export function getSafeDate(dateString: string | undefined | null): string {
     return new Date().toISOString();
   }
 
-  const date = new Date(dateString);
-  
-  // Verificar que es una fecha válida
+  // Fechas YYYY-MM-DD sin hora se interpretan como UTC medianoche, causando
+  // desfase de un día en timezones negativos (ej: Argentina GMT-3).
+  // Forzar mediodía local para evitar el problema.
+  const normalized = /^\d{4}-\d{2}-\d{2}$/.test(dateString)
+    ? `${dateString}T12:00:00`
+    : dateString;
+
+  const date = new Date(normalized);
+
   if (isNaN(date.getTime())) {
     console.warn(`Invalid date: ${dateString}, using current date`);
     return new Date().toISOString();
