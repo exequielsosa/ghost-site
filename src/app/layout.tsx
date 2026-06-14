@@ -7,6 +7,7 @@ import ThemeRegistry from "@/theme/ThemeRegistry";
 import { ColorModeProvider } from "@/theme/useColorMode";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ScrollToTopButton from "@/components/ScrollToTopButton";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 const cormorant = Cormorant({
@@ -382,6 +383,7 @@ export default async function RootLayout({
                 <GoogleAnalytics gaId="G-V58LT08HV9" />
               </main>
               <Footer />
+              <ScrollToTopButton />
             </ThemeRegistry>
           </ColorModeProvider>
         </NextIntlClientProvider>
