@@ -228,6 +228,9 @@ export async function generateMetadata(): Promise<Metadata> {
       keywordsByLocale.es,
     authors: [{ name: "Exequiel Sosa" }],
     metadataBase: new URL("https://ghostband.com.ar"),
+    icons: {
+      icon: "/favicon.ico",
+    },
     openGraph: {
       title:
         titleByLocale[locale as keyof typeof titleByLocale] || titleByLocale.es,
