@@ -3,7 +3,7 @@ import { z } from "zod";
 
 /**
  * Cliente de Groq AI para procesamiento de noticias
- * Modelo: Llama 3.1 70B Versatile
+ * Modelo: GPT-OSS-120B (reasoning model)
  * Con retry logic y validación estricta
  */
 
@@ -167,7 +167,7 @@ Responde ÚNICAMENTE con un objeto JSON válido (sin markdown, sin \`\`\`json):
     // Usar retry con backoff para llamada a Groq
     const parsed = await retryWithBackoff(async () => {
       const completion = await groq.chat.completions.create({
-        model: "llama-3.3-70b-versatile",
+        model: "openai/gpt-oss-120b",
         messages: [
           {
             role: "user",
@@ -257,7 +257,7 @@ Responde ÚNICAMENTE con un objeto JSON:
 
   try {
     const completion = await groq.chat.completions.create({
-      model: "llama-3.3-70b-versatile",
+      model: "openai/gpt-oss-120b",
       messages: [
         {
           role: "user",
@@ -265,7 +265,8 @@ Responde ÚNICAMENTE con un objeto JSON:
         },
       ],
       temperature: 0.1, // Muy determinista para filtrado
-      max_tokens: 100,
+      max_tokens: 500,
+      reasoning_effort: "low", // Razonamiento mínimo para filtro simple
       response_format: { type: "json_object" },
     });
 
