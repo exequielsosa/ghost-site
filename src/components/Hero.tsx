@@ -15,7 +15,10 @@ import RandomSectionBanner from "./NewsBanner";
 import SiteUpdatesBanner from "./SiteUpdatesBanner";
 import siteUpdatesData from "@/constants/site-updates.json";
 import LastShowsCards from "./LastShowsCards";
-import HeroHeader from "./HeroHeader";
+import HeroTabs from "./HeroTabs";
+// HeroHeader reemplazado por HeroTabs (ver render abajo). Se conserva el import
+// comentado por si se quiere volver al hero de imagen estática.
+// import HeroHeader from "./HeroHeader";
 // import FeaturedReviewBanner from "./FeaturedReviewBanner";
 // import ArgentinaConcertBanner from "./ArgentinaConcertBanner";
 // import { slugify } from "@/utils/slugify";
@@ -33,7 +36,8 @@ export default function Hero({ latestNews }: { latestNews: NewsArticle[] }) {
         maxWidth={false}
         sx={{ maxWidth: 1440, mx: "auto", px: { xs: 2, sm: 3 } }}
       >
-        <HeroHeader />
+        {/* <HeroHeader /> */}
+        <HeroTabs />
 
         {/* Banner de concierto en Argentina */}
         {/* <Box mt={4}>

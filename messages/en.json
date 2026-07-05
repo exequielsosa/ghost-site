@@ -142,10 +142,9 @@
     "activeYears": "Active years",
     "studioAlbums": "Studio albums",
     "ghoulMembers": "Historical Ghouls",
-    "socialReach": "Social reach",
-    "includingFinal": "Including the final",
+    "grammy": "Grammy",
+    "grammyDetail": "Best Metal Performance (2016)",
     "historicalGhouls": "Across the eras",
-    "followers": "Followers",
     "interactiveTimeline": "Interactive Timeline",
     "timelineDescription": "Explore two decades of history through our interactive timeline. Click on any period to learn the details.",
     "epicChapters": "6 Epic chapters",
@@ -439,6 +438,59 @@
   },
   "heroIntro": {
     "description": "Welcome to the most complete Ghost site in Spanish. Discover the entire discography, band history, live shows, exclusive interviews, song lyrics and the latest news about Dave Mustaine, Teemu Mäntysaári, James LoMenzo and Dirk Verbeuren."
+  },
+  "heroTabs": {
+    "title": "Ghost: News, discography, history and lyrics",
+    "subtitle": "Everything about Ghost, Tobias Forge's Swedish theatrical rock band: complete discography, history, translated lyrics and the Papa Emeritus eras.",
+    "tabs": {
+      "presentation": "Overview",
+      "news": "News",
+      "history": "History",
+      "songs": "Songs",
+      "popes": "Popes",
+      "members": "Members"
+    },
+    "content": {
+      "presentation": "Ghost is the Swedish theatrical rock band created by Tobias Forge in 2006 in Linköping. Behind the masks of Papa Emeritus, Cardinal Copia and Papa V Perpetua, it blends pop melodies, occult aesthetics and a unique stage show that took the band from Swedish clubs to a Grammy win and festival headline slots around the world.",
+      "presentationSections": "Secciones: News, Discography, DVDs, History, Popes and lineups, Members, Interviews, Videos and Song lyrics with Spanish translation.",
+      "news": "Stay up to date with the latest Ghost news: new albums, tours, Papa V Perpetua appearances and everything surrounding Tobias Forge and his Nameless Ghouls.",
+      "history": "From their debut with Opus Eponymous (2010) to Skeleta (2025), trace Ghost's evolution through its eras and its iconic Papa Emeritus characters.",
+      "songs": "Explore Ghost's lyrics with Spanish translation, meaning and context: from anthems like Cirice and Square Hammer to cult classics Ritual and Year Zero.",
+      "popes": "Discover Ghost's papal lineage: Papa Emeritus I, II, III and IV, Cardinal Copia and Papa V Perpetua, each with their own era, aesthetic and associated discography.",
+      "members": "Meet the musicians behind the masks: Tobias Forge, founder and creative mind of Ghost, alongside the Nameless Ghouls who accompanied him in every lineup since 2010."
+    },
+    "stats": {
+      "songs": "Songs",
+      "albums": "Albums",
+      "eras": "Eras / Popes",
+      "years": "Years active",
+      "newsWeeklyTitle": "Weekly",
+      "newsWeekly": "Weekly updates",
+      "newsGhost": "Dedicated to Ghost",
+      "activeYears": "Years active",
+      "studioAlbums": "Studio albums",
+      "historicGhouls": "Historic Ghouls",
+      "grammy": "Grammy"
+    },
+    "buttons": {
+      "viewNews": "View news",
+      "viewHistory": "View history",
+      "viewSongs": "View songs",
+      "viewPopes": "View popes",
+      "viewMembers": "View members"
+    },
+    "topSongs": "Top 5 live songs",
+    "timesPlayed": "times played",
+    "featuredPopes": "Papal lineage",
+    "featuredMembers": "Featured members",
+    "imageAlt": {
+      "presentation": "Ghost live: Papa Emeritus and the Nameless Ghouls on stage",
+      "news": "Latest Ghost and Tobias Forge news",
+      "history": "Ghost history: from Opus Eponymous to Skeleta",
+      "songs": "Ghost lyrics and songs with Spanish translation",
+      "popes": "Ghost's papal lineage: Papa Emeritus, Cardinal Copia and Papa V Perpetua",
+      "members": "Ghost members: Tobias Forge and the Nameless Ghouls"
+    }
   },
   "heroHeader": {
     "welcome": "Welcome to Ghost. Everything about the Swedish theatrical rock band. Complete discography, live shows, news and the story of Tobias Forge.",

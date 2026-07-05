@@ -1,10 +1,11 @@
 "use client";
 
 import { Breadcrumbs, Link, Typography, Container } from "@mui/material";
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 import HomeIcon from "@mui/icons-material/Home";
 import NextLink from "next/link";
+import { usePathname } from "next/navigation";
 
 interface BreadcrumbItem {
   label: string;
@@ -17,25 +18,32 @@ interface BreadcrumbProps {
 
 export default function Breadcrumb({ items }: BreadcrumbProps) {
   const t = useTranslations("breadcrumb");
-  const locale = useLocale();
+  const pathname = usePathname();
 
   // Generar datos estructurados JSON-LD para SEO
   const generateSchemaMarkup = () => {
     const baseUrl = "https://ghostband.com.ar";
-    const localePrefix = locale === "es" ? "" : `/${locale}`;
 
     const itemListElement = [
       {
         "@type": "ListItem",
         position: 1,
         name: t("home"),
-        item: `${baseUrl}${localePrefix}`,
+        item: baseUrl,
       },
       ...items.map((item, index) => {
         const position = index + 2;
+        const isLast = index === items.length - 1;
+        // El sitio no usa rutas con prefijo de idioma (/en, /es): el locale se
+        // resuelve por cookie, no por URL. El último item (página actual) no
+        // trae href porque no es un link, así que usamos la ruta real actual
+        // (pathname) para que el BreadcrumbList siempre tenga "item" en todos
+        // sus elementos, incluido el último.
         const itemUrl = item.href
-          ? `${baseUrl}${localePrefix}${item.href}`
-          : null;
+          ? `${baseUrl}${item.href}`
+          : isLast
+            ? `${baseUrl}${pathname}`
+            : null;
 
         return {
           "@type": "ListItem",

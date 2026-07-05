@@ -22,9 +22,9 @@ export default function HistoriaClient() {
   // Estadísticas interesantes
   const stats = [
     { label: t("activeYears"), value: "20", detail: "2006-2026" },
-    { label: t("studioAlbums"), value: "12", detail: t("includingFinal") },
+    { label: t("studioAlbums"), value: "6", detail: "" },
     { label: t("ghoulMembers"), value: "20+", detail: t("historicalGhouls") },
-    { label: t("socialReach"), value: "1M+", detail: t("followers") },
+    { label: t("grammy"), value: "1", detail: t("grammyDetail") },
   ];
 
   return (

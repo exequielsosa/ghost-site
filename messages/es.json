@@ -142,10 +142,9 @@
     "activeYears": "Años activos",
     "studioAlbums": "Álbumes de estudio",
     "ghoulMembers": "Ghouls históricos",
-    "socialReach": "Alcance social",
-    "includingFinal": "Incluyendo el final",
+    "grammy": "Grammy",
+    "grammyDetail": "Mejor Interpretación Metal (2016)",
     "historicalGhouls": "A lo largo de las eras",
-    "followers": "Seguidores",
     "interactiveTimeline": "Timeline Interactivo",
     "timelineDescription": "Explora dos décadas de historia a través de nuestro timeline interactivo. Haz clic en cualquier período para conocer los detalles.",
     "epicChapters": "6 Capítulos épicos",
@@ -439,6 +438,59 @@
   },
   "heroIntro": {
     "description": "Bienvenido al sitio más completo de Ghost en español. Descubre toda la discografía, historia de la banda, shows en vivo, entrevistas exclusivas, letras de canciones y las últimas noticias sobre Dave Mustaine, Teemu Mäntysaari, James LoMenzo y Dirk Verbeuren."
+  },
+  "heroTabs": {
+    "title": "Ghost: Noticias, discografía, historia y letras",
+    "subtitle": "Todo sobre Ghost, la banda sueca de rock teatral de Tobias Forge: discografía completa, historia, letras traducidas y las eras de Papa Emeritus.",
+    "tabs": {
+      "presentation": "Presentación",
+      "news": "Noticias",
+      "history": "Historia",
+      "songs": "Canciones",
+      "popes": "Papas",
+      "members": "Miembros"
+    },
+    "content": {
+      "presentation": "Ghost es la banda sueca de rock teatral creada por Tobias Forge en 2006 en Linköping. Bajo las máscaras de Papa Emeritus, Cardinal Copia y Papa V Perpetua, combina melodías pop, estética ocultista y una puesta en escena única que la llevó de los clubes suecos a ganar un Grammy y encabezar festivales en todo el mundo.",
+      "presentationSections": "Secciones: Noticias, Discografía, DVDs, Historia, Papas y formaciones, Miembros, Entrevistas, Videos y Letras de canciones con traducción al español.",
+      "news": "Mantente al día con las últimas noticias de Ghost: nuevos álbumes, giras, apariciones de Papa V Perpetua y todo lo que rodea a Tobias Forge y sus Nameless Ghouls.",
+      "history": "Desde su debut con Opus Eponymous (2010) hasta Skeleta (2025), repasa la evolución de Ghost a través de sus eras y sus icónicos personajes de Papa Emeritus.",
+      "songs": "Explora las letras de Ghost con traducción al español, su significado y contexto: de himnos como Cirice y Square Hammer a los clásicos de culto Ritual y Year Zero.",
+      "popes": "Descubre la línea de papados de Ghost: Papa Emeritus I, II, III y IV, Cardinal Copia y Papa V Perpetua, cada uno con su propia era, estética y discografía asociada.",
+      "members": "Conoce a los músicos detrás de las máscaras: Tobias Forge, fundador y mente creativa de Ghost, junto a los Nameless Ghouls que lo acompañaron en cada formación desde 2010."
+    },
+    "stats": {
+      "songs": "Canciones",
+      "albums": "Álbumes",
+      "eras": "Eras / Papas",
+      "years": "Años de carrera",
+      "newsWeeklyTitle": "Semanal",
+      "newsWeekly": "Actualizaciones semanales",
+      "newsGhost": "Dedicado a Ghost",
+      "activeYears": "Años activos",
+      "studioAlbums": "Álbumes de estudio",
+      "historicGhouls": "Ghouls históricos",
+      "grammy": "Grammy"
+    },
+    "buttons": {
+      "viewNews": "Ver noticias",
+      "viewHistory": "Ver historia",
+      "viewSongs": "Ver canciones",
+      "viewPopes": "Ver papas",
+      "viewMembers": "Ver miembros"
+    },
+    "topSongs": "Top 5 canciones en vivo",
+    "timesPlayed": "veces tocada",
+    "featuredPopes": "Línea de papados",
+    "featuredMembers": "Miembros destacados",
+    "imageAlt": {
+      "presentation": "Ghost en vivo: Papa Emeritus y los Nameless Ghouls en el escenario",
+      "news": "Últimas noticias de Ghost y Tobias Forge",
+      "history": "Historia de Ghost: de Opus Eponymous a Skeleta",
+      "songs": "Letras y canciones de Ghost con traducción al español",
+      "popes": "Línea de papados de Ghost: Papa Emeritus, Cardinal Copia y Papa V Perpetua",
+      "members": "Miembros de Ghost: Tobias Forge y los Nameless Ghouls"
+    }
   },
   "heroHeader": {
     "welcome": "Bienvenido a Ghost. Todo sobre la banda sueca de rock teatral. Discografía completa, shows en vivo, noticias y la historia de Tobias Forge.",
