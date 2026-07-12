@@ -1,7 +1,7 @@
 "use client";
 
 import { Box, Typography } from "@mui/material";
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { useLocale } from "next-intl";
 import Image from "next/image";
 import { useMemo } from "react";
@@ -134,7 +134,6 @@ interface RandomSectionBannerProps {
 export default function RandomSectionBanner({
   currentSection,
 }: RandomSectionBannerProps) {
-  const router = useRouter();
   const locale = useLocale() as "es" | "en";
 
   // Filtrar la sección actual y seleccionar una aleatoria
@@ -143,10 +142,6 @@ export default function RandomSectionBanner({
     const randomIndex = Math.floor(Math.random() * availableSections.length);
     return availableSections[randomIndex];
   }, [currentSection]);
-
-  const handleClick = () => {
-    router.push(randomSection.route);
-  };
 
   return (
     <Box
@@ -157,10 +152,12 @@ export default function RandomSectionBanner({
       }}
     >
       <Box
-        onClick={handleClick}
+        component={Link}
+        href={randomSection.route}
         sx={{
           position: "relative",
           width: "100%",
+          display: "block",
           cursor: "pointer",
           overflow: "hidden",
           borderRadius: 2,

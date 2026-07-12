@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 import {
   Container,
   Typography,
@@ -184,7 +185,12 @@ export default function SongsListPage() {
             {top10Songs.map((item, index) => (
               <Grid size={{ xs: 12, sm: 6, md: 6, lg: 4 }} key={item.title}>
                 <Card
+                  component={Link}
+                  href={`/songs/${item.song!.id}`}
                   sx={{
+                    display: "block",
+                    textDecoration: "none",
+                    color: "inherit",
                     cursor: "pointer",
                     transition: "transform 0.2s, box-shadow 0.2s",
                     border: "1px solid",
@@ -194,10 +200,6 @@ export default function SongsListPage() {
                       boxShadow: 3,
                     },
                   }}
-                  onClick={() =>
-                    item.song &&
-                    (window.location.href = `/songs/${item.song.id}`)
-                  }
                 >
                   <CardContent>
                     <Box display="flex" alignItems="center" gap={2}>
@@ -319,12 +321,14 @@ export default function SongsListPage() {
                     <TableRow
                       key={song.id}
                       hover
-                      sx={{ cursor: "pointer", height: 55 }}
-                      onClick={() =>
-                        (window.location.href = `/songs/${song.id}`)
-                      }
+                      sx={{ cursor: "pointer", height: 55, position: "relative" }}
                     >
                       <TableCell>
+                        <Link
+                          href={`/songs/${song.id}`}
+                          aria-label={song.title}
+                          style={{ position: "absolute", inset: 0 }}
+                        />
                         <Box display="flex" alignItems="center" gap={1}>
                           <Typography fontWeight={500}>
                             {song.title}
@@ -370,11 +374,7 @@ export default function SongsListPage() {
               {album.songs.map((song) => (
                 <Grid size={{ xs: 12, sm: 6 }} key={song.id}>
                   <Card>
-                    <CardActionArea
-                      onClick={() =>
-                        (window.location.href = `/songs/${song.id}`)
-                      }
-                    >
+                    <CardActionArea component={Link} href={`/songs/${song.id}`}>
                       <CardContent>
                         <Box display="flex" alignItems="center" gap={1} mb={1}>
                           <Typography variant="h6" fontWeight={600}>

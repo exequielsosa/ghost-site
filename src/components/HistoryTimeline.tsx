@@ -10,7 +10,7 @@ import {
   useMediaQuery,
 } from "@mui/material";
 import { HistoryChapter, getText } from "@/types/historia";
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { useState } from "react";
 import { useLocale } from "next-intl";
 
@@ -24,15 +24,10 @@ export default function HistoryTimeline({
   currentChapter,
 }: HistoryTimelineProps) {
   const theme = useTheme();
-  const router = useRouter();
   const locale = useLocale() as "es" | "en";
   const [hoveredChapter, setHoveredChapter] = useState<string | null>(null);
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("lg"));
   const isVerySmallScreen = useMediaQuery("(max-width:600px)");
-
-  const handleChapterClick = (chapterSlug: string) => {
-    router.push(`/historia/${chapterSlug}`);
-  };
 
   const getChapterPosition = (index: number) => {
     const totalChapters = chapters.length;
@@ -62,6 +57,8 @@ export default function HistoryTimeline({
     return (
       <Box
         key={chapter.id}
+        component={Link}
+        href={`/historia/${chapter.slug}`}
         sx={{
           backgroundColor: theme.palette.background.paper,
           borderRadius: 2,
@@ -77,12 +74,13 @@ export default function HistoryTimeline({
           height: "100%",
           display: "flex",
           flexDirection: "column",
+          textDecoration: "none",
+          color: "inherit",
           "&:hover": {
             transform: "translateY(-2px)",
             boxShadow: `0 8px 25px ${chapterColor}40`,
           },
         }}
-        onClick={() => handleChapterClick(chapter.slug)}
         onMouseEnter={() => setHoveredChapter(chapter.slug)}
         onMouseLeave={() => setHoveredChapter(null)}
       >
@@ -242,6 +240,9 @@ export default function HistoryTimeline({
             >
               {/* Punto del timeline */}
               <Box
+                component={Link}
+                href={`/historia/${chapter.slug}`}
+                aria-label={getText(chapter.title, locale)}
                 sx={{
                   width: isActive ? 20 : isHovered ? 16 : 12,
                   height: isActive ? 20 : isHovered ? 16 : 12,
@@ -254,25 +255,30 @@ export default function HistoryTimeline({
                   cursor: "pointer",
                   transition: "all 0.3s ease",
                   position: "relative",
+                  display: "block",
                   zIndex: 3,
                   "&:hover": {
                     transform: "scale(1.2)",
                     boxShadow: `0 0 25px ${chapterColor}70`,
                   },
                 }}
-                onClick={() => handleChapterClick(chapter.slug)}
                 onMouseEnter={() => setHoveredChapter(chapter.slug)}
                 onMouseLeave={() => setHoveredChapter(null)}
               />
 
               {/* Tarjeta de información */}
               <Box
+                component={Link}
+                href={`/historia/${chapter.slug}`}
                 sx={{
                   position: "absolute",
                   top: index % 2 === 0 ? "-140px" : "70px",
                   left: "50%",
                   transform: "translateX(-50%)",
                   width: "260px",
+                  display: "block",
+                  textDecoration: "none",
+                  color: "inherit",
                   opacity: isHovered || isActive ? 1 : 0.7,
                   transition: "all 0.3s ease",
                   border: "1px solid rgba(255,255,255,0.2)",
@@ -283,7 +289,6 @@ export default function HistoryTimeline({
                     transform: "translateX(-50%) translateY(-2px)",
                   },
                 }}
-                onClick={() => handleChapterClick(chapter.slug)}
                 onMouseEnter={() => setHoveredChapter(chapter.slug)}
                 onMouseLeave={() => setHoveredChapter(null)}
               >
