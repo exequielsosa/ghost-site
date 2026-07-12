@@ -4,7 +4,14 @@ import { Breadcrumbs, Link, Typography, Container } from "@mui/material";
 import { useTranslations } from "next-intl";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 import HomeIcon from "@mui/icons-material/Home";
-import NextLink from "next/link";
+import { Link as LocaleLink } from "@/i18n/navigation";
+// OJO: usePathname acá es a propósito el de next/navigation, NO el de
+// @/i18n/navigation. El de next-intl devuelve la ruta sin el prefijo de
+// locale (ej. siempre "/miembros", nunca "/es/miembros") — pero acá se
+// necesita la URL real y completa de la página actual para que el "item"
+// del último elemento del BreadcrumbList (JSON-LD) autoreferencie la URL
+// correcta en cada idioma. Si se migra al de next-intl, el JSON-LD de la
+// versión en español queda apuntando a la URL en inglés (sin /es).
 import { usePathname } from "next/navigation";
 
 interface BreadcrumbItem {
@@ -34,11 +41,10 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
       ...items.map((item, index) => {
         const position = index + 2;
         const isLast = index === items.length - 1;
-        // El sitio no usa rutas con prefijo de idioma (/en, /es): el locale se
-        // resuelve por cookie, no por URL. El último item (página actual) no
-        // trae href porque no es un link, así que usamos la ruta real actual
-        // (pathname) para que el BreadcrumbList siempre tenga "item" en todos
-        // sus elementos, incluido el último.
+        // El último item (página actual) no trae href porque no es un link,
+        // así que usamos la ruta real actual (pathname, con el prefijo /es
+        // incluido cuando corresponde) para que el BreadcrumbList siempre
+        // tenga "item" en todos sus elementos, incluido el último.
         const itemUrl = item.href
           ? `${baseUrl}${item.href}`
           : isLast
@@ -92,7 +98,7 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
         >
           {/* Home */}
           <Link
-            component={NextLink}
+            component={LocaleLink}
             href="/"
             underline="hover"
             color="inherit"
@@ -142,7 +148,7 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
             return (
               <Link
                 key={index}
-                component={NextLink}
+                component={LocaleLink}
                 href={item.href || "#"}
                 underline="hover"
                 color="inherit"

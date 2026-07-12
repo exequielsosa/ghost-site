@@ -1,0 +1,43 @@
+import membersData from "@/constants/members.json";
+import { Metadata } from "next";
+import { getLocale } from "next-intl/server";
+import { i18nAlternates } from "@/utils/i18nAlternates";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ memberId: string }>;
+}): Promise<Metadata> {
+  const { memberId } = await params;
+  const locale = await getLocale();
+  const members = membersData.members;
+  const member = members[memberId as keyof typeof members];
+
+  if (!member) {
+    return {
+      title: locale === "en" ? "Member not found" : "Miembro no encontrado",
+    };
+  }
+
+  const lang = (locale === "en" ? "en" : "es") as "es" | "en";
+  const title = member.name;
+  const fullName = member.fullName?.[lang] || member.fullName?.es || "";
+  const description = member.biography?.[lang] || member.biography?.es || "";
+
+  return {
+    title: `${title} (${fullName}) - ${
+      locale === "en" ? "Ghost Member" : "Miembro de Ghost"
+    }`,
+    description,
+    openGraph: {
+      title: `${title} - Ghost`,
+      description,
+      images: [member.image],
+    },
+    alternates: i18nAlternates(`/miembros/${memberId}`, locale),
+  };
+}
+
+export default function MemberLayout(props: unknown) {
+  return <>{(props as { children: React.ReactNode }).children}</>;
+}

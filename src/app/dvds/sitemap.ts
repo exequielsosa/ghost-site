@@ -9,41 +9,39 @@ interface DVDDataItem {
   release_year?: number;
 }
 
+const baseUrl = 'https://ghostband.com.ar'
+
+function bilingualEntries(
+  path: string,
+  entry: { changeFrequency: NonNullable<MetadataRoute.Sitemap[number]['changeFrequency']>; priority: number },
+): MetadataRoute.Sitemap {
+  const enUrl = `${baseUrl}${path}`
+  const esUrl = `${baseUrl}/es${path}`
+  const languages = { en: enUrl, es: esUrl }
+
+  return [
+    { url: enUrl, lastModified: new Date(), alternates: { languages }, ...entry },
+    { url: esUrl, lastModified: new Date(), alternates: { languages }, ...entry },
+  ]
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://ghostband.com.ar'
-  
   // Página principal de DVDs
-  const dvdsPage = {
-    url: `${baseUrl}/dvds`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
+  const dvdsPage = bilingualEntries('/dvds', {
+    changeFrequency: 'weekly',
     priority: 0.8,
-    alternates: {
-      languages: {
-        es: `${baseUrl}/dvds`,
-        en: `${baseUrl}/dvds`,
-      },
-    },
-  }
+  })
 
   // Páginas individuales de DVDs
   const dvdPages = (dvdsData as DVDDataItem[])
     .filter((item) => item.title || item.album_title)
-    .map((dvd) => {
+    .flatMap((dvd) => {
       const slug = generateDVDSlug(dvd.title || dvd.album_title)
-      return {
-        url: `${baseUrl}/dvds/${slug}`,
-        lastModified: new Date(),
-        changeFrequency: 'monthly' as const,
+      return bilingualEntries(`/dvds/${slug}`, {
+        changeFrequency: 'monthly',
         priority: 0.6,
-        alternates: {
-          languages: {
-            es: `${baseUrl}/dvds/${slug}`,
-            en: `${baseUrl}/dvds/${slug}`,
-          },
-        },
-      }
+      })
     })
 
-  return [dvdsPage, ...dvdPages]
+  return [...dvdsPage, ...dvdPages]
 }

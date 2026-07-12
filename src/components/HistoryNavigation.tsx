@@ -3,7 +3,7 @@
 import { Box, Button, Typography, useTheme } from "@mui/material";
 import { ArrowBack, ArrowForward } from "@mui/icons-material";
 import { HistoryChapter, getText } from "@/types/historia";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { useLocale, useTranslations } from "next-intl";
 
 interface HistoryNavigationProps {

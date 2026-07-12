@@ -1,27 +1,18 @@
-import {getRequestConfig} from 'next-intl/server';
-import {headers} from 'next/headers';
- 
-export default getRequestConfig(async () => {
-  // Detectar idioma del navegador
-  const headersList = await headers();
-  const acceptLanguage = headersList.get('accept-language') || '';
-  
-  // Default inglés, cambiar a español si se detecta
-  let locale = 'en';
-  if (acceptLanguage.includes('es')) {
-    locale = 'es';
-  }
-  
-  // Revisar si hay preferencia guardada en cookie
-  const cookieHeader = headersList.get('cookie') || '';
-  if (cookieHeader.includes('NEXT_LOCALE=es')) {
-    locale = 'es';
-  } else if (cookieHeader.includes('NEXT_LOCALE=en')) {
-    locale = 'en';
-  }
- 
+import { hasLocale } from "next-intl";
+import { getRequestConfig } from "next-intl/server";
+import { routing } from "./routing";
+
+export default getRequestConfig(async ({ requestLocale }) => {
+  // El locale ya lo resolvió el middleware a partir del segmento [locale] de
+  // la URL (no del accept-language/cookie, que es lo que rompía la
+  // indexación: la misma URL servía contenido distinto según el navegador).
+  const requested = await requestLocale;
+  const locale = hasLocale(routing.locales, requested)
+    ? requested
+    : routing.defaultLocale;
+
   return {
     locale,
-    messages: (await import(`../../messages/${locale}.json`)).default
+    messages: (await import(`../../messages/${locale}.json`)).default,
   };
 });
