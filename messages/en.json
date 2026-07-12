@@ -10,8 +10,8 @@
   },
   "songs": {
     "title": "Songs",
-    "songsListTitle": "Songs list",
-    "songsListDescription": "Explore all Ghost songs, with lyrics, musicians and details for each track.",
+    "songsListTitle": "All Ghost Songs by Album",
+    "songsListDescription": "All 81 Ghost songs organized by album, with lyrics, musicians and times played live.",
     "search": "Search song, album, year, musician, writer...",
     "duration": "Duration",
     "track": "Track number",
@@ -286,7 +286,7 @@
     "info": "Information",
     "news": "News",
     "legal": "Legal",
-    "seoDescription": "Ghost is a pioneering thrash metal band founded by Dave Mustaine in 1983. This fan site compiles the complete Ghost discography, including classic albums like Rust in Peace, Peace Sells... but Who's Buying?, and Countdown to Extinction. Explore the band's history, biographies of legendary members like Marty Friedman, Nick Menza, and David Ellefson, plus the current lineup featuring James LoMenzo, Dirk Verbeuren, and Teemu Mäntysaari. Find concert dates, live show setlists, bootlegs, official music videos, exclusive interviews, and the latest news about world tours and new releases.",
+    "seoDescription": "Ghost is a Swedish theatrical rock/metal band founded by Tobias Forge in Linköping in 2006. This fan site compiles the complete Ghost discography, including albums like Opus Eponymous, Meliora, Prequelle, Impera, and Skeletá. Explore the band's history, the eras of Papa Emeritus (I-IV), Cardinal Copia and Papa V Perpetua, plus the Nameless Ghouls who accompany Tobias Forge. Find show dates, live setlists, official music videos, exclusive interviews, and the latest news about tours and new releases.",
     "sitemap": "Site Map",
     "followFacebook": "Follow us on Facebook",
     "followInstagram": "Follow us on Instagram"
@@ -294,7 +294,9 @@
   "videos": {
     "title": "Videos",
     "subtitle": "Official music videos, live performances and exclusive Ghost content",
-    "comment": "Are we missing any videos? Which are your favorites? Leave us your comment!"
+    "comment": "Are we missing any videos? Which are your favorites? Leave us your comment!",
+    "backToVideos": "Back to all videos",
+    "moreVideos": "More Ghost videos"
   },
   "dvds": {
     "title": "DVDs",

@@ -6,7 +6,10 @@ export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
   const t = await getTranslations("lineups");
 
-  const title = `${t("title")} | Ghost`;
+  const title =
+    locale === "es"
+      ? "Los Papas de Ghost: Papa Emeritus I-IV y Cardinal Copia explicados"
+      : "The Popes of Ghost: Papa Emeritus I-IV & Cardinal Copia Explained";
   const description = t("subtitle");
   const keywords = [
     "Ghost",

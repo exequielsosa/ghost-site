@@ -1,9 +1,11 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { Box } from "@mui/material";
+import { Box, Typography, Card, CardActionArea } from "@mui/material";
+import Link from "next/link";
 import HistoryChapterComponent from "@/components/HistoryChapter";
 import HistoryNavigation from "@/components/HistoryNavigation";
 import historiaData from "@/constants/historia.json";
+import interviewsData from "@/constants/interviews.json";
 import { getTranslations, getLocale } from "next-intl/server";
 import ContainerGradientNoPadding from "../../../components/atoms/ContainerGradientNoPadding";
 import Breadcrumb from "@/components/Breadcrumb";
@@ -14,6 +16,30 @@ import {
   getPreviousChapter,
   getText,
 } from "@/types/historia";
+import {
+  Interview,
+  generateInterviewSlug,
+  getInterviewTitle,
+} from "@/types/interview";
+
+// Entrevistas cuyo año cae dentro del rango del capítulo. El último capítulo
+// (era actual) queda sin tope superior, para no perder entrevistas más
+// recientes que la fecha de cierre declarada en historia.json.
+function getRelatedInterviews(
+  chapter: HistoryData["chapters"][number],
+  allChapters: HistoryData["chapters"]
+): Interview[] {
+  const isLatestChapter =
+    chapter.yearEnd === Math.max(...allChapters.map((c) => c.yearEnd));
+
+  return (interviewsData as Interview[]).filter((interview) => {
+    const year = new Date(interview.date).getFullYear();
+    return (
+      year >= chapter.yearStart &&
+      (isLatestChapter || year <= chapter.yearEnd)
+    );
+  });
+}
 
 interface PageProps {
   params: Promise<{ capitulo: string }>;
@@ -122,6 +148,7 @@ export default async function CapituloPage({ params }: PageProps) {
 
   const previousChapter = getPreviousChapter(data.chapters, capitulo);
   const nextChapter = getNextChapter(data.chapters, capitulo);
+  const relatedInterviews = getRelatedInterviews(chapter, data.chapters);
 
   // JSON-LD Structured Data
   const jsonLd = {
@@ -202,6 +229,52 @@ export default async function CapituloPage({ params }: PageProps) {
             width="100%"
           >
             <HistoryChapterComponent chapter={chapter} />
+
+            {relatedInterviews.length > 0 && (
+              <Box sx={{ mt: 6 }}>
+                <Typography
+                  component="h2"
+                  variant="h5"
+                  sx={{ fontWeight: 700, mb: 2 }}
+                >
+                  {locale === "es"
+                    ? "Entrevistas de esta era"
+                    : "Interviews from this era"}
+                </Typography>
+                <Box
+                  sx={{
+                    display: "grid",
+                    gridTemplateColumns: {
+                      xs: "1fr",
+                      sm: "repeat(2, 1fr)",
+                      md: "repeat(3, 1fr)",
+                    },
+                    gap: 2,
+                  }}
+                >
+                  {relatedInterviews.map((interview) => (
+                    <Card key={interview.id} variant="outlined">
+                      <CardActionArea
+                        component={Link}
+                        href={`/entrevistas/${generateInterviewSlug(interview.id)}`}
+                        sx={{ p: 2, height: "100%" }}
+                      >
+                        <Typography
+                          variant="body1"
+                          sx={{ fontWeight: 600, mb: 0.5 }}
+                        >
+                          {getInterviewTitle(interview, locale)}
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                          {interview.media.name} ·{" "}
+                          {new Date(interview.date).getFullYear()}
+                        </Typography>
+                      </CardActionArea>
+                    </Card>
+                  ))}
+                </Box>
+              </Box>
+            )}
           </Box>
         </Box>
       </ContainerGradientNoPadding>

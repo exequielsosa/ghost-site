@@ -10,7 +10,10 @@ export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
   const t = await getTranslations("lineups");
 
-  const title = `${t("members")} | Ghost`;
+  const title =
+    locale === "es"
+      ? "Miembros de Ghost: Tobias Forge y los Nameless Ghouls"
+      : "Ghost Band Members: Tobias Forge & the Nameless Ghouls";
   const description = t("membersSubtitle");
   const keywords = [
     "Ghost",

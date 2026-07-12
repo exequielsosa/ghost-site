@@ -35,6 +35,20 @@ interface MemberDataType {
   [key: string]: unknown;
 }
 
+// Nombre corto del personaje por lineup (lineup.title trae el título largo
+// tipo "El Papado de Papa Emeritus III"), para la oración explícita que
+// responde "quién interpreta a este personaje" — pregunta frecuente en
+// búsquedas que el lore narrativo de longDescription no contesta de forma
+// directa.
+const characterNameByLineupId: Record<string, { es: string; en: string }> = {
+  "papa-emeritus-i-era": { es: "Papa Emeritus I", en: "Papa Emeritus I" },
+  "papa-emeritus-ii-era": { es: "Papa Emeritus II", en: "Papa Emeritus II" },
+  "papa-emeritus-iii-era": { es: "Papa Emeritus III", en: "Papa Emeritus III" },
+  "cardinal-copia-era": { es: "Cardinal Copia", en: "Cardinal Copia" },
+  "papa-emeritus-iv-era": { es: "Papa Emeritus IV", en: "Papa Emeritus IV" },
+  "papa-v-perpetua-era": { es: "Papa V Perpetua", en: "Papa V Perpetua" },
+};
+
 export default function LineupDetailPage({ params }: PageProps) {
   const { lineupId } = use(params);
   const t = useTranslations("lineups");
@@ -123,6 +137,28 @@ export default function LineupDetailPage({ params }: PageProps) {
               /> */}
               </Box>
             </Box>
+
+            <Typography
+              variant="body1"
+              sx={{ fontWeight: 600, mb: 2 }}
+            >
+              {(() => {
+                const characterName =
+                  characterNameByLineupId[lineup.id]?.[currentLocale] ||
+                  getLocalizedText(lineup.title);
+                const isCurrentEra = lineup.yearEnd == null;
+
+                if (currentLocale === "es") {
+                  return isCurrentEra
+                    ? `Como todos los papados de Ghost, ${characterName} es interpretado por Tobias Forge, fundador y frontman de la banda.`
+                    : `Como todos los papados de Ghost, ${characterName} fue interpretado por Tobias Forge, fundador y frontman de la banda.`;
+                }
+
+                return isCurrentEra
+                  ? `Like all of Ghost's papacies, ${characterName} is portrayed by Tobias Forge, the band's founder and frontman.`
+                  : `Like all of Ghost's papacies, ${characterName} was portrayed by Tobias Forge, the band's founder and frontman.`;
+              })()}
+            </Typography>
 
             <Typography
               variant="h6"

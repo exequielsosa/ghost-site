@@ -2,17 +2,14 @@
 
 import { Box, Card, CardContent, Typography, IconButton } from "@mui/material";
 import { PlayArrow } from "@mui/icons-material";
-import { useState } from "react";
 import { useLocale } from "next-intl";
+import Link from "next/link";
 import type { Video } from "@/types/video";
+import { generateVideoSlug } from "@/types/video";
+import { getYouTubeVideoId } from "@/types/show";
 
 interface VideoCardProps {
   video: Video;
-}
-
-function getYouTubeVideoId(url: string): string | null {
-  const match = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\n?#]+)/);
-  return match ? match[1] : null;
 }
 
 function getVideoDescription(
@@ -23,14 +20,10 @@ function getVideoDescription(
 }
 
 export default function VideoCard({ video }: VideoCardProps) {
-  const [isPlaying, setIsPlaying] = useState(false);
   const locale = useLocale();
   const videoId = getYouTubeVideoId(video.youtube);
   const description = getVideoDescription(video.description, locale);
-
-  const handlePlay = () => {
-    setIsPlaying(true);
-  };
+  const watchHref = `/videos/${generateVideoSlug(video.title)}`;
 
   if (!videoId) {
     return null;
@@ -53,91 +46,63 @@ export default function VideoCard({ video }: VideoCardProps) {
         },
       }}
     >
-      {/* Video Player */}
+      {/* Miniatura -> lleva a la watch page (/videos/[slug]), donde el
+          iframe real está en el HTML server-rendered para que Google lo
+          indexe. */}
       <Box
+        component={Link}
+        href={watchHref}
         sx={{
           position: "relative",
           width: "100%",
           paddingTop: "56.25%", // 16:9 aspect ratio
           backgroundColor: "black",
+          display: "block",
         }}
       >
-        {!isPlaying ? (
-          <>
-            {/* Thumbnail */}
-            <Box
-              component="img"
-              src={`https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`}
-              alt={`Miniatura del video ${video.title} de Ghost (${video.year})`}
-              itemProp="thumbnailUrl"
-              loading="lazy"
-              sx={{
-                position: "absolute",
-                top: 0,
-                left: 0,
-                width: "100%",
-                height: "100%",
-                objectFit: "cover",
-                cursor: "pointer",
-              }}
-              onClick={handlePlay}
-              onKeyDown={(e) => {
-                if (e.key === "Enter" || e.key === " ") {
-                  e.preventDefault();
-                  handlePlay();
-                }
-              }}
-              tabIndex={0}
-              role="button"
-            />
-            {/* Play Button Overlay */}
-            <Box
-              sx={{
-                position: "absolute",
-                top: "50%",
-                left: "50%",
-                transform: "translate(-50%, -50%)",
-                zIndex: 1,
-              }}
-            >
-              <IconButton
-                onClick={handlePlay}
-                aria-label={`Reproducir video ${video.title}`}
-                sx={{
-                  backgroundColor: "rgba(0, 0, 0, 0.7)",
-                  color: "white",
-                  width: 64,
-                  height: 64,
-                  "&:hover": {
-                    backgroundColor: "rgba(0, 0, 0, 0.9)",
-                    transform: "scale(1.1)",
-                  },
-                  transition: "all 0.3s ease",
-                }}
-              >
-                <PlayArrow sx={{ fontSize: 32 }} />
-              </IconButton>
-            </Box>
-          </>
-        ) : (
-          /* YouTube Embed */
-          <Box
-            component="iframe"
-            src={`https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`}
-            title={`Video: ${video.title} - Ghost (${video.year})`}
-            itemProp="embedUrl"
+        <Box
+          component="img"
+          src={`https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`}
+          alt={`Miniatura del video ${video.title} de Ghost (${video.year})`}
+          itemProp="thumbnailUrl"
+          loading="lazy"
+          sx={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+          }}
+        />
+        {/* Play Button Overlay */}
+        <Box
+          sx={{
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+            zIndex: 1,
+          }}
+        >
+          <IconButton
+            component="span"
+            aria-label={`Ver video ${video.title}`}
             sx={{
-              position: "absolute",
-              top: 0,
-              left: 0,
-              width: "100%",
-              height: "100%",
-              border: "none",
+              backgroundColor: "rgba(0, 0, 0, 0.7)",
+              color: "white",
+              width: 64,
+              height: 64,
+              "&:hover": {
+                backgroundColor: "rgba(0, 0, 0, 0.9)",
+                transform: "scale(1.1)",
+              },
+              transition: "all 0.3s ease",
             }}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          />
-        )}
+          >
+            <PlayArrow sx={{ fontSize: 32 }} />
+          </IconButton>
+        </Box>
       </Box>
 
       {/* Content */}
@@ -149,11 +114,15 @@ export default function VideoCard({ video }: VideoCardProps) {
           gutterBottom
           sx={{
             fontWeight: "bold",
-            color: "text.primary",
             mb: 1,
           }}
         >
-          {video.title}
+          <Link
+            href={watchHref}
+            style={{ color: "inherit", textDecoration: "none" }}
+          >
+            {video.title}
+          </Link>
         </Typography>
 
         <Typography
@@ -185,7 +154,7 @@ export default function VideoCard({ video }: VideoCardProps) {
         {/* Metadatos ocultos para SEO */}
         <meta itemProp="contentUrl" content={video.youtube} />
         <meta itemProp="duration" content="PT3M30S" />
-        <meta itemProp="genre" content="Thrash Metal" />
+        <meta itemProp="genre" content="Theatrical Rock" />
         <div
           itemProp="creator"
           itemScope

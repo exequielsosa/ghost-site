@@ -16,13 +16,13 @@ export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
 
   const titleByLocale = {
-    es: "Discografía Completa de Ghost | 8 Álbumes de Estudio + En Vivo y Covers",
-    en: "Complete Ghost Discography | 8 Studio Albums + Live & Covers",
+    es: "Discografía Completa de Ghost | 6 Álbumes de Estudio + En Vivo y Covers",
+    en: "Complete Ghost Discography | 6 Studio Albums + Live & Covers",
   };
 
   const descriptionByLocale = {
-    es: "Discografía completa de Ghost (2010-2025): 8 álbumes de estudio desde Opus Eponymous hasta Skeletá. Incluye álbumes en vivo, EPs y covers. Información detallada, productores, Papas Emeritus y enlaces a streaming.",
-    en: "Complete Ghost discography (2010-2025): 8 studio albums from Opus Eponymous to Skeletá. Includes live albums, EPs and covers. Detailed information, producers, Papa Emeritus eras and streaming links.",
+    es: "Discografía completa de Ghost (2010-2025): 6 álbumes de estudio desde Opus Eponymous hasta Skeletá. Incluye álbumes en vivo, EPs y covers. Información detallada, productores, Papas Emeritus y enlaces a streaming.",
+    en: "Complete Ghost discography (2010-2025): 6 studio albums from Opus Eponymous to Skeletá. Includes live albums, EPs and covers. Detailed information, producers, Papa Emeritus eras and streaming links.",
   };
 
   const keywordsByLocale = {
@@ -65,7 +65,7 @@ export async function generateMetadata(): Promise<Metadata> {
       "álbum final Ghost",
       "último álbum Ghost",
       "discografía Ghost",
-      "8 álbumes Ghost",
+      "6 álbumes Ghost",
       "álbumes de estudio",
       "Ceremony and Devotion",
       "Rite Here Rite Now",
@@ -115,7 +115,7 @@ export async function generateMetadata(): Promise<Metadata> {
       "final album Ghost",
       "last album Ghost",
       "discography Ghost",
-      "8 albums Ghost",
+      "6 albums Ghost",
       "studio albums",
       "Ceremony and Devotion",
       "Rite Here Rite Now",
@@ -164,8 +164,8 @@ export async function generateMetadata(): Promise<Metadata> {
           height: 630,
           alt:
             locale === "es"
-              ? "Discografía de Ghost - 8 álbumes de estudio desde Opus Eponymous hasta Skeletá"
-              : "Ghost Discography - 8 studio albums from Opus Eponymous to Skeletá",
+              ? "Discografía de Ghost - 6 álbumes de estudio desde Opus Eponymous hasta Skeletá"
+              : "Ghost Discography - 6 studio albums from Opus Eponymous to Skeletá",
         },
       ],
     },

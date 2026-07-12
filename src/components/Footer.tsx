@@ -21,9 +21,9 @@ export default function Footer() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Ghost Fan Site",
-    url: "https://ghost-fan-site.com",
+    url: "https://ghostband.com.ar",
     description: t("seoDescription"),
-    logo: "https://ghost-fan-site.com/images/logo.png",
+    logo: "https://ghostband.com.ar/images/ghost-logo.png",
     sameAs: [
       "https://www.facebook.com/profile.php?id=939019079302919",
       "https://www.instagram.com/ghost_arg_fan/",
@@ -34,14 +34,14 @@ export default function Footer() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "Ghost Fan Site",
-    url: "https://ghost-fan-site.com",
+    url: "https://ghostband.com.ar",
     description: t("seoDescription"),
     inLanguage: locale,
     potentialAction: {
       "@type": "SearchAction",
       target: {
         "@type": "EntryPoint",
-        urlTemplate: "https://ghost-fan-site.com/search?q={search_term_string}",
+        urlTemplate: "https://ghostband.com.ar/search?q={search_term_string}",
       },
       "query-input": "required name=search_term_string",
     },

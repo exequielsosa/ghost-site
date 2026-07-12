@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const title =
     locale === "es"
       ? "Gira Ghost 2024-2026 | Fechas de Conciertos"
-      : "Ghost Tour 2024-2026 | Concert Dates";
+      : "Ghost Tour 2024-2026 | Tour Dates";
   const description =
     locale === "es"
       ? "Fechas de conciertos de Ghost en 2024, 2025 y 2026. Tour mundial, próximos shows, locaciones y entradas."
@@ -78,6 +78,7 @@ export default async function TourPage() {
       "@type": "Event",
       name: `Ghost @ ${show.venue}`,
       description: `Ghost concert in ${show.city}, ${show.country}`,
+      image: "https://ghostband.com.ar/images/banners/tour.jpg",
       startDate: new Date(show.date).toISOString(),
       endDate: new Date(show.date).toISOString(),
       eventStatus: "https://schema.org/EventScheduled",
@@ -97,6 +98,7 @@ export default async function TourPage() {
         price: "0",
         priceCurrency: "USD",
         availability: "https://schema.org/PreOrder",
+        validFrom: new Date(show.date).toISOString(),
       },
       performer: {
         "@type": "MusicGroup",

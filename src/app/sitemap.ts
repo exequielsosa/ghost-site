@@ -8,7 +8,9 @@ import historiaData from '@/constants/historia.json';
 import interviewsData from '@/constants/interviews.json';
 import showsData from '@/constants/shows.json';
 import reviewsData from '@/constants/reviews.json';
+import videosData from '@/constants/videos.json';
 import { generateInterviewSlug } from '@/types/interview';
+import { generateVideoSlug } from '@/types/video';
 import { getAllNews } from '@/lib/supabase';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -153,6 +155,21 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       if (slug) {
         sitemap.push({
           url: `${base}/shows/${slug}`,
+          lastModified: new Date(),
+          changeFrequency: 'monthly',
+          priority: 0.7,
+        });
+      }
+    });
+  }
+
+  // Videos dinámicos
+  if (Array.isArray(videosData)) {
+    videosData.forEach(video => {
+      const slug = generateVideoSlug(video.title);
+      if (slug) {
+        sitemap.push({
+          url: `${base}/videos/${slug}`,
           lastModified: new Date(),
           changeFrequency: 'monthly',
           priority: 0.7,

@@ -10,8 +10,8 @@
   },
   "songs": {
     "title": "Canciones",
-    "songsListTitle": "Listado de canciones",
-    "songsListDescription": "Explora todas las canciones de Ghost, con letras, músicos y detalles de cada tema.",
+    "songsListTitle": "Todas las Canciones de Ghost por Álbum",
+    "songsListDescription": "Las 81 canciones de Ghost organizadas por álbum, con letras, músicos y veces tocadas en vivo.",
     "search": "Buscar canción, disco, año, músico, autor...",
     "duration": "Duración",
     "track": "N° de pista",
@@ -286,7 +286,7 @@
     "info": "Información",
     "news": "Noticias",
     "legal": "Legal",
-    "seoDescription": "Ghost es una banda pionera del thrash metal fundada por Dave Mustaine en 1983. Este sitio de fans reúne la discografía completa de Ghost, incluyendo álbumes clásicos como Rust in Peace, Peace Sells... but Who's Buying?, y Countdown to Extinction. Explora la historia de la banda, biografías de miembros legendarios como Marty Friedman, Nick Menza y David Ellefson, además de la formación actual con James LoMenzo, Dirk Verbeuren y Teemu Mäntysaari. Encuentra fechas de conciertos, setlists de shows en vivo, bootlegs, videoclips oficiales, entrevistas exclusivas y las últimas noticias sobre giras mundiales y nuevos lanzamientos.",
+    "seoDescription": "Ghost es una banda sueca de rock/metal teatral fundada por Tobias Forge en Linköping en 2006. Este sitio de fans reúne la discografía completa de Ghost, incluyendo álbumes como Opus Eponymous, Meliora, Prequelle, Impera y Skeletá. Explora la historia de la banda, las eras de Papa Emeritus (I-IV), Cardinal Copia y Papa V Perpetua, además de los Nameless Ghouls que acompañan a Tobias Forge. Encuentra fechas de shows, setlists en vivo, videoclips oficiales, entrevistas exclusivas y las últimas noticias sobre giras y nuevos lanzamientos.",
     "sitemap": "Mapa del Sitio",
     "followFacebook": "Seguinos en Facebook",
     "followInstagram": "Seguinos en Instagram"
@@ -294,7 +294,9 @@
   "videos": {
     "title": "Videos",
     "subtitle": "Videoclips oficiales, performances en vivo y contenido exclusivo de Ghost",
-    "comment": "¿Nos falta algun video?, ¿Cuales son tus favoritos?, ¡Déjanos tu comentario!"
+    "comment": "¿Nos falta algun video?, ¿Cuales son tus favoritos?, ¡Déjanos tu comentario!",
+    "backToVideos": "Volver a todos los videos",
+    "moreVideos": "Más videos de Ghost"
   },
   "dvds": {
     "title": "DVDs",
