@@ -10,7 +10,7 @@ import {
   useMediaQuery,
 } from "@mui/material";
 import { HistoryChapter, getText } from "@/types/historia";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { useState } from "react";
 import { useLocale } from "next-intl";
 
