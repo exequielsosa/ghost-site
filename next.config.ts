@@ -137,6 +137,15 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'theprp.com',
       },
+      // NME (nueva fuente)
+      {
+        protocol: 'https',
+        hostname: '*.nme.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'nme.com',
+      },
       // Mariskal Rock (medio español)
       {
         protocol: 'https',

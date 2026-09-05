@@ -93,12 +93,13 @@ export default function AlbumDetail({ album }: AlbumDetailProps) {
       "@context": "https://schema.org",
       "@type": "MusicAlbum",
       name: album.title,
+      url: `https://ghostband.com.ar${locale === "es" ? "/es" : ""}/discography/${album.id}`,
       byArtist: {
         "@type": "MusicGroup",
         name: "Ghost",
       },
       datePublished: album.releaseDate || `${album.year}-01-01`,
-      genre: ["Heavy Metal", "Thrash Metal"],
+      genre: ["Theatrical Rock", "Pop Metal", "Gothic Rock"],
       image: `https://ghostband.com.ar${album.cover}`,
       ...(album.label && { recordLabel: album.label }),
       ...(album.producers &&
@@ -126,7 +127,7 @@ export default function AlbumDetail({ album }: AlbumDetailProps) {
           numTracks: album.tracks.length,
         }),
     };
-  }, [album]);
+  }, [album, locale]);
 
   return (
     <ContainerGradientNoPadding>
