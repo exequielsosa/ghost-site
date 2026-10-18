@@ -5,7 +5,6 @@ export interface BilingualText {
 }
 
 // Featured Article types
-export * from "./featured-article";
 
 // Review types
 export * from "./review";

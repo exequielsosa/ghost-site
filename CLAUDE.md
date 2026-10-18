@@ -123,6 +123,20 @@ PRODUCTION_URL
 
 ## Estado actual
 
+### Completado (18 Oct 2026) — Limpieza de mantenimiento
+- ✅ Key real de `NEWS_API_KEY` reemplazada por placeholder en `docs/example-curl.md` (⚠️ sigue en el historial de git)
+- ✅ Código muerto eliminado: `CommentsSection.new.tsx`, `AlbumTeasers.tsx`, `Countdown.tsx`, `FeaturedArticle.tsx` (+ su JSON y type), `GoogleAnalytics.tsx`, `lib/gemini.ts`, `scripts/test-gemini.js`, dependencia `@google/generative-ai`
+- ✅ Raíz ordenada: briefs → `docs/briefs/`; I18N, QUICK_START, SUPABASE_MIGRATION, GHOST_KEYWORDS, example-curl → `docs/`; borrado `biref-tabs.md` (vacío); `*.jbf` en `.gitignore`
+
+### Pendiente (detectado 18 Oct 2026)
+- [ ] 🚨 **Rotar `NEWS_API_KEY`** (expuesta en historial de git, repo público) → `.env`, Vercel y GitHub Secret
+- [ ] GA ID hardcodeado `G-V58LT08HV9` en `src/app/[locale]/layout.tsx` — verificar de qué sitio es / usar `NEXT_PUBLIC_GA_ID`
+- [ ] Unificar `src/scripts/` en `scripts/` + agregar scripts npm (`sync:setlists`, `fix:songs`, `validate:i18n`)
+- [ ] Sacar `src/data/shows.raw.json` (1.8 MB) de git
+- [ ] Centralizar lógica setlist.fm (`last-show`, `show`, `tour` routes) en `src/lib/setlistfm.ts` y eliminar `any`
+- [ ] `Header.tsx`: strings hardcodeados (`aria-label` "Cambiar tema"/"Cambiar idioma", `alt`) → next-intl
+- [ ] Partir `HeroTabs.tsx` (1156 líneas) y `Header.tsx` (desktop/drawer)
+
 ### Completado (28 Feb 2026)
 
 **Sincronización de setlist.fm — Ghost (28 Feb)**
