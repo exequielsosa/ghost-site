@@ -1,6 +1,6 @@
 curl -X POST http://localhost:3000/api/news/create \
   -H "Content-Type: application/json" \
-  -H "X-API-Key: d6406fdb53e2b408aa0381b6dba095c5c17aff77b31dbafdc6d66dc00a933716" \
+  -H "X-API-Key: TU_NEWS_API_KEY" \
   -d '{
     "id": "ghost-dystopia-tour-2026",
     "title_es": "Ghost anuncia nueva gira mundial Dystopia 2026",
