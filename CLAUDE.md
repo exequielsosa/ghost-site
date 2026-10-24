@@ -123,7 +123,7 @@ PRODUCTION_URL
 
 ## Estado actual
 
-### En rama `fix/egress-supabase` (24 Oct 2026) — Egress de Supabase
+### Completado (24 Oct 2026) — Egress de Supabase (PR #3, en producción)
 - Diagnóstico y plan: [`docs/briefs/BRIEF-EGRESS-SUPABASE.md`](docs/briefs/BRIEF-EGRESS-SUPABASE.md). La org vieja de Supabase (megadeth + Santa) quedó restringida por egress; ghost tenía el mismo código (~425 KB de Supabase por página vista).
 - ✅ `src/lib/news.ts` → `unstable_cache` con tag `news` (1 h). **Todo acceso a noticias pasa por acá, nunca por `@/lib/supabase` directo** (el layout es dinámico por `cookies()`, así que `export const revalidate` no alcanza). `/api/news/create` invalida el tag.
 - ✅ `/noticias` → server component; UI en `src/components/NoticiasPageClient.tsx` (conserva el fix de fechas `YYYY-MM-DD` → `T12:00:00`)
@@ -131,7 +131,9 @@ PRODUCTION_URL
 - ✅ `/api/feed` (el RSS del `<link rel="alternate">`) → 50 últimas del cache + `s-maxage=3600` (antes la CDN no lo cacheaba). `/feed.xml` → cache.
 - ✅ Comentarios: se agrega el item del POST (la CDN cachea el GET 60 s). `robots.ts` bloquea crawlers de IA. `@vercel/analytics` en el layout.
 - ✅ Verificado con `next start` + logger de fetch: 110 cargas = 0 consultas a Supabase
-- [ ] Después del merge, en Vercel: Analytics → Enable; Firewall → regla User Agent contains `meta-externalagent` → Deny (nunca por ASN 32934). La API de firewall da 404 hasta inicializarlo desde el dashboard.
+- ✅ Producción verificada: ningún chunk del cliente referencia Supabase, `/api/feed` y `/api/news/search` salen de la CDN (HIT), 33/33 noticias en el HTML de `/noticias`, fechas sin corrimiento, id con doble guión → 200, id inexistente → 404
+- ✅ Vercel: Web Analytics activo (`/_vercel/insights/script.js` → 200) y regla de firewall `Bloquear meta-externalagent` (User Agent contains → Deny). Verificado con curl: meta-externalagent → 403 (también en `/_next/image`); facebookexternalhit, Googlebot y navegador → 200. **Nunca bloquear por ASN 32934** (corta las previews de FB/IG). La API de firewall da 404 hasta inicializarlo desde el dashboard.
+- [ ] `PGRST116` en `/[locale]/noticias/[id]` (~18 en 7 días): `getNewsById` usa `.single()` y loguea error cuando el id no existe (el usuario ve el 404 correcto). Cambiar a `.maybeSingle()` limpia el log. Decidido dejarlo por ahora.
 - [ ] Ubicar en qué cuenta/org de Supabase está `exozntnfmaeqikmjjgxz` y revisar Usage → Egress
 - Nota: en ghost `description` es el texto completo (~3 KB por idioma), así que `/api/news/search` pesa ~186 KB sin comprimir (sale de la CDN, no de Supabase). Recortarlo cambiaría lo que encuentra el buscador.
 
