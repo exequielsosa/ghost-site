@@ -10,6 +10,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { Analytics } from "@vercel/analytics/next";
 import { routing } from "@/i18n/routing";
 import { i18nAlternates } from "@/utils/i18nAlternates";
 
@@ -395,6 +396,7 @@ export default async function RootLayout({
               <main style={{ flex: 1 }}>
                 {children}
                 <GoogleAnalytics gaId="G-V58LT08HV9" />
+                <Analytics />
               </main>
               <Footer />
               <ScrollToTopButton />

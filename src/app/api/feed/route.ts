@@ -1,18 +1,10 @@
-import { getAllNews } from "@/lib/supabase";
+import { getLatestNewsCached } from "@/lib/news";
 
 export async function GET() {
   try {
-    const newsData = await getAllNews();
-
-    // Sort by date descending (newest first)
-    const sortedNews = [...newsData].sort(
-      (a, b) =>
-        new Date(b.publishedDate).getTime() -
-        new Date(a.publishedDate).getTime()
-    );
-
-    // Limit to 50 latest items
-    const recentNews = sortedNews.slice(0, 50);
+    // Las 50 últimas (ya vienen ordenadas por fecha desc) desde el cache de
+    // datos (lib/news.ts): antes cada lector de RSS bajaba todas las noticias.
+    const recentNews = await getLatestNewsCached(50);
 
     // Generate RSS XML
     const rssItems = recentNews
@@ -57,7 +49,8 @@ export async function GET() {
     return new Response(rss, {
       headers: {
         "Content-Type": "application/rss+xml; charset=utf-8",
-        "Cache-Control": "public, max-age=3600",
+        // s-maxage para que la CDN lo cachee (max-age solo cachea en el cliente)
+        "Cache-Control": "public, s-maxage=3600, stale-while-revalidate=86400",
       },
     });
   } catch (error) {

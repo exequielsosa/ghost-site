@@ -1,12 +1,10 @@
 export const revalidate = 300;
 
 import Hero from "@/components/Hero";
-import { getAllNews } from "@/lib/supabase";
+import { getLatestNewsCached } from "@/lib/news";
 
 export default async function HomePage() {
-  const news = await getAllNews();
-  const latestNews = news
-    .sort((a, b) => new Date(b.publishedDate).getTime() - new Date(a.publishedDate).getTime())
-    .slice(0, 5);
+  // Solo las 5 últimas, desde el cache de datos (ver lib/news.ts).
+  const latestNews = await getLatestNewsCached(5);
   return <Hero latestNews={latestNews} />;
 }

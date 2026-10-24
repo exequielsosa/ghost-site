@@ -11,7 +11,7 @@ import videosData from '@/constants/videos.json';
 import { generateInterviewSlug } from '@/types/interview';
 import { generateVideoSlug } from '@/types/video';
 import { generateDVDSlug } from '@/types/dvd';
-import { getAllNews } from '@/lib/supabase';
+import { getNewsIndexCached } from '@/lib/news';
 
 const base = 'https://ghostband.com.ar';
 
@@ -188,12 +188,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // generateInterviewSlug: esa función colapsa guiones dobles, y un id real
   // con doble guión generaría una URL que no matchea ninguna noticia (404).
   try {
-    const newsData = await getAllNews();
+    const newsData = await getNewsIndexCached();
     if (Array.isArray(newsData)) {
       newsData.forEach(news => {
         if (news.id) {
           pushBilingual(sitemap, `/noticias/${news.id}`, {
-            lastModified: new Date(news.publishedDate || new Date()),
+            lastModified: new Date(news.published_date),
             changeFrequency: 'weekly',
             priority: 0.8,
           });
