@@ -123,6 +123,18 @@ PRODUCTION_URL
 
 ## Estado actual
 
+### En rama `fix/egress-supabase` (24 Oct 2026) — Egress de Supabase
+- Diagnóstico y plan: [`docs/briefs/BRIEF-EGRESS-SUPABASE.md`](docs/briefs/BRIEF-EGRESS-SUPABASE.md). La org vieja de Supabase (megadeth + Santa) quedó restringida por egress; ghost tenía el mismo código (~425 KB de Supabase por página vista).
+- ✅ `src/lib/news.ts` → `unstable_cache` con tag `news` (1 h). **Todo acceso a noticias pasa por acá, nunca por `@/lib/supabase` directo** (el layout es dinámico por `cookies()`, así que `export const revalidate` no alcanza). `/api/news/create` invalida el tag.
+- ✅ `/noticias` → server component; UI en `src/components/NoticiasPageClient.tsx` (conserva el fix de fechas `YYYY-MM-DD` → `T12:00:00`)
+- ✅ `SearchModal` → `/api/news/search` recién al abrirse. Home → 5 últimas. Sitemap y `generateStaticParams` → solo `id` + `published_date`
+- ✅ `/api/feed` (el RSS del `<link rel="alternate">`) → 50 últimas del cache + `s-maxage=3600` (antes la CDN no lo cacheaba). `/feed.xml` → cache.
+- ✅ Comentarios: se agrega el item del POST (la CDN cachea el GET 60 s). `robots.ts` bloquea crawlers de IA. `@vercel/analytics` en el layout.
+- ✅ Verificado con `next start` + logger de fetch: 110 cargas = 0 consultas a Supabase
+- [ ] Después del merge, en Vercel: Analytics → Enable; Firewall → regla User Agent contains `meta-externalagent` → Deny (nunca por ASN 32934). La API de firewall da 404 hasta inicializarlo desde el dashboard.
+- [ ] Ubicar en qué cuenta/org de Supabase está `exozntnfmaeqikmjjgxz` y revisar Usage → Egress
+- Nota: en ghost `description` es el texto completo (~3 KB por idioma), así que `/api/news/search` pesa ~186 KB sin comprimir (sale de la CDN, no de Supabase). Recortarlo cambiaría lo que encuentra el buscador.
+
 ### Completado (18 Oct 2026) — Limpieza de mantenimiento
 - ✅ Key real de `NEWS_API_KEY` reemplazada por placeholder en `docs/example-curl.md` (⚠️ sigue en el historial de git)
 - ✅ Código muerto eliminado: `CommentsSection.new.tsx`, `AlbumTeasers.tsx`, `Countdown.tsx`, `FeaturedArticle.tsx` (+ su JSON y type), `GoogleAnalytics.tsx`, `lib/gemini.ts`, `scripts/test-gemini.js`, dependencia `@google/generative-ai`

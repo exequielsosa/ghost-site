@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useCallback, useEffect } from "react";
+import { useState, useMemo, useCallback, useEffect, useRef } from "react";
 import {
   Dialog,
   DialogContent,
@@ -25,8 +25,9 @@ import epsData from "@/constants/eps.json";
 import showsData from "@/constants/shows.json";
 import membersData from "@/constants/members.json";
 import interviewsData from "@/constants/interviews.json";
-import { getAllNews } from "@/lib/supabase";
 import { NewsArticle } from "@/types/news";
+
+type SearchNewsItem = Pick<NewsArticle, "id" | "title" | "description">;
 
 interface SearchModalProps {
   open: boolean;
@@ -42,22 +43,33 @@ function songNameToUrl(songName: string): string {
 
 export default function SearchModal({ open, onClose }: SearchModalProps) {
   const [query, setQuery] = useState("");
-  const [newsData, setNewsData] = useState<NewsArticle[]>([]);
+  const [newsData, setNewsData] = useState<SearchNewsItem[]>([]);
   const t = useTranslations("search");
   const locale = useLocale() as "es" | "en";
 
-  // Cargar noticias desde Supabase
+  // Cargar noticias recién la primera vez que se abre el buscador.
+  // El modal está montado en el Header de todas las páginas: cargarlas al montar
+  // hacía que cada visita descargara todas las noticias (egress de Supabase).
+  // Vienen de /api/news/search (cache de datos + CDN), no de Supabase directo.
+  const newsRequested = useRef(false);
   useEffect(() => {
+    if (!open || newsRequested.current) return;
+    newsRequested.current = true;
+
     async function loadNews() {
       try {
-        const data = await getAllNews();
+        const res = await fetch("/api/news/search");
+        const data: SearchNewsItem[] = res.ok ? await res.json() : [];
         setNewsData(data);
+        // Si falla o viene vacío: permitir reintento al reabrir
+        if (data.length === 0) newsRequested.current = false;
       } catch (error) {
         console.error("Error loading news for search:", error);
+        newsRequested.current = false;
       }
     }
     loadNews();
-  }, []);
+  }, [open]);
 
   const searchResults = useMemo(() => {
     if (query.trim().length < 2) {
@@ -139,7 +151,7 @@ export default function SearchModal({ open, onClose }: SearchModalProps) {
       .slice(0, 5);
 
     return { songs, albums, shows, news, members, interviews };
-  }, [query, locale]);
+  }, [query, locale, newsData]);
 
   const handleClose = useCallback(() => {
     setQuery("");
